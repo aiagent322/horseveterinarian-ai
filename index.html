@@ -1,13 +1,552 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HorseVeterinarian.AI – Equine Veterinary Resource</title>
-  <meta name="description" content="HorseVeterinarian.AI – Your trusted source for equine veterinary questions, answers, and resources.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0D3B2E">
+<meta name="format-detection" content="telephone=no, address=no, date=no, email=no">
+<title>HorseVeterinarian.AI — Equine Health Knowledge Resource</title>
+<meta name="description" content="The most comprehensive equine veterinary knowledge resource for horse owners — conditions, preventive care, emergency guides, and educational Q&A. From Bridle & Bit.">
+<link rel="canonical" href="https://horseveterinarian.ai/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="HorseVeterinarian.AI — Equine Health Knowledge Resource">
+<meta property="og:description" content="Equine health education for horse owners — common conditions, preventive care protocols, emergency guides, and 200+ answered questions. A Bridle & Bit resource.">
+<meta property="og:url" content="https://horseveterinarian.ai/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://horseveterinarian.ai/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<style>
+/* MOBILE-FIRST — defaults target ~380px */
+:root{
+  --forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;
+  --teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;
+  --sage:#4A8C6A;--sage-light:#E6F2EC;--sage-dark:#2D6B4A;
+  --gold:#C9983A;--gold-light:#F5E8CC;--gold-pale:#FFF8EE;
+  --ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;
+  --rust:#B85A2A;--rust-light:#F5E6DF;
+  --steel:#1A6FA3;--steel-light:#E8F4FD;
+  --alert:#8B1A1A;--alert-light:#FDF0F0;
+  --white:#FFFFFF;
+  --border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);
+  --shadow-sm:0 1px 3px rgba(5,28,21,0.07);--shadow-md:0 4px 16px rgba(5,28,21,0.09);--shadow-lg:0 8px 32px rgba(5,28,21,0.13);
+  --radius:10px;--radius-lg:14px;--transition:0.2s ease;--tap:44px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.55;min-height:100vh;min-height:100dvh;-webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip}
+
+.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:var(--white);padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none;font-size:0.9rem}
+.skip-link:focus{left:0;top:0}
+
+/* DISCLAIMER BANNER */
+.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px max(14px,env(safe-area-inset-right)) 9px max(14px,env(safe-area-inset-left));text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600;line-height:1.4}
+.disclaimer-bar a{color:var(--teal);text-decoration:underline}
+
+/* TOPBAR */
+.topbar{background:linear-gradient(135deg,var(--forest-deeper) 0%,var(--forest-dark) 100%);padding:11px max(14px,env(safe-area-inset-right)) 11px max(14px,env(safe-area-inset-left));padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
+.topbar-brand{display:flex;align-items:center;gap:10px;min-width:0}
+.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);letter-spacing:-0.01em;text-decoration:none;white-space:nowrap;line-height:1.2}
+.topbar-logo span{color:#5DE8B8}
+.topbar-divider{display:none}
+.topbar-tagline{display:none}
+.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
+
+/* HERO */
+.hero-banner{background:linear-gradient(160deg,var(--forest-deeper) 0%,var(--forest-dark) 45%,#0A3028 100%);padding:30px max(16px,env(safe-area-inset-right)) 26px max(16px,env(safe-area-inset-left));text-align:center;position:relative;overflow:visible}
+.hero-banner::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231A6B5A' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");pointer-events:none}
+.hero-title{font-family:'Playfair Display',serif;font-size:1.75rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px;position:relative}
+.hero-title em{color:#5DE8B8;font-style:italic}
+.hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:580px;margin:0 auto;line-height:1.6;position:relative;overflow-wrap:break-word}
+.hero-disclaimer{display:inline-flex;align-items:center;gap:6px;margin-top:14px;background:rgba(201,152,58,0.15);border:1px solid rgba(201,152,58,0.3);border-radius:20px;padding:6px 14px;font-size:0.75rem;font-weight:700;color:var(--gold-light);letter-spacing:0.02em;position:relative}
+
+/* STAT BAR */
+.stat-bar{background:var(--forest-dark);border-bottom:2px solid var(--teal-light);padding:10px max(16px,env(safe-area-inset-right));display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.stat-bar::-webkit-scrollbar{display:none}
+.stat-item{display:flex;flex-direction:column;align-items:center;padding:4px 18px;border-right:1px solid rgba(26,107,90,0.25);flex-shrink:0;min-width:80px}
+.stat-item:last-child{border-right:none}
+.stat-num{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:#5DE8B8;line-height:1}
+.stat-label{font-size:0.68rem;color:rgba(255,255,255,0.55);text-transform:uppercase;letter-spacing:0.05em;margin-top:2px;white-space:nowrap}
+
+/* SITE NAV */
+.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:var(--topbar-h,54px);z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;overflow-y:visible;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}
+.site-nav-inner::-webkit-scrollbar{display:none}
+.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s,background 0.18s;letter-spacing:0.01em}
+.sn-link:hover{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.04)}
+.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.06)}
+.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
+
+/* Conditions dropdown */
+.sn-drop{position:relative;display:flex;align-items:stretch;flex-shrink:0}
+.sn-drop-btn{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);background:none;border:none;border-bottom:3px solid transparent;border-top:3px solid transparent;white-space:nowrap;cursor:pointer;font-family:inherit;letter-spacing:0.01em;transition:color 0.18s,border-color 0.18s,background 0.18s}
+.sn-drop-btn:hover{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.04)}
+.sn-drop.open .sn-drop-btn{color:#5DE8B8;border-bottom-color:var(--teal-light)}
+.sn-drop-panel{display:none;position:absolute;top:100%;left:0;min-width:220px;background:var(--forest-deeper);border:1px solid rgba(255,255,255,0.12);border-top:2px solid var(--teal-light);border-radius:0 0 var(--radius) var(--radius);box-shadow:0 8px 24px rgba(0,0,0,0.4);z-index:200;padding:4px 0}
+.sn-drop:hover .sn-drop-panel,.sn-drop:focus-within .sn-drop-panel,.sn-drop.open .sn-drop-panel{display:block}
+.sn-drop-link{display:flex;align-items:center;padding:10px 18px;font-size:0.83rem;font-weight:600;color:rgba(255,255,255,0.78);text-decoration:none;transition:background 0.15s,color 0.15s;border-bottom:1px solid rgba(255,255,255,0.06)}
+.sn-drop-link:last-child{border-bottom:none}
+.sn-drop-link:hover{background:var(--teal);color:#fff}
+
+/* CARDS */
+.cards-wrap{max-width:1100px;margin:0 auto;padding:20px 12px 12px}
+.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin-bottom:12px;padding-left:2px}
+.cards-hero{display:flex;flex-direction:column;gap:12px;margin-bottom:20px}
+.cards-grid{display:flex;flex-direction:column;gap:12px;margin-bottom:24px}
+
+.card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px 18px;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:var(--transition);position:relative;overflow:hidden;will-change:transform}
+.card:active{transform:scale(0.98);box-shadow:none}
+.card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:var(--radius-lg) 0 0 var(--radius-lg);transition:var(--transition)}
+.card-badge{display:inline-flex;align-items:center;align-self:flex-start;font-size:0.7rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:4px 11px;border-radius:14px;margin-bottom:10px;min-height:28px}
+.card-title{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--ink);line-height:1.2;margin-bottom:6px;transition:var(--transition);overflow-wrap:break-word;word-break:break-word}
+.card-hero .card-title{font-size:1.25rem}
+.card-desc{font-size:0.86rem;color:var(--ink-muted);line-height:1.55;flex:1;overflow-wrap:break-word}
+.card-hero .card-desc{font-size:0.9rem}
+.card-arrow{margin-top:14px;font-size:0.84rem;font-weight:700;color:var(--teal);transition:var(--transition)}
+
+/* Card color themes */
+.card.c-conditions::before{background:var(--alert)}
+.card.c-conditions .card-badge{background:var(--alert-light);color:var(--alert);border:1px solid rgba(139,26,26,0.2)}
+.card.c-preventive::before{background:var(--sage)}
+.card.c-preventive .card-badge{background:var(--sage-light);color:var(--sage-dark);border:1px solid rgba(74,140,106,0.2)}
+.card.c-emergency::before{background:var(--rust)}
+.card.c-emergency .card-badge{background:var(--rust-light);color:var(--rust);border:1px solid rgba(184,90,42,0.2)}
+.card.c-life::before{background:var(--teal)}
+.card.c-life .card-badge{background:var(--teal-pale);color:var(--teal);border:1px solid rgba(26,107,90,0.2)}
+.card.c-systems::before{background:var(--steel)}
+.card.c-systems .card-badge{background:var(--steel-light);color:var(--steel);border:1px solid rgba(26,111,163,0.2)}
+.card.c-disciplines::before{background:var(--gold)}
+.card.c-disciplines .card-badge{background:var(--gold-light);color:#7A5A10;border:1px solid rgba(201,152,58,0.25)}
+.card.c-faq::before{background:var(--forest)}
+.card.c-faq .card-badge{background:var(--teal-pale);color:var(--forest);border:1px solid rgba(13,59,46,0.2)}
+
+/* INTRO STRIP */
+.intro-strip{background:#E8F5F0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:20px max(16px,env(safe-area-inset-right))}
+.intro-inner{max-width:760px;margin:0 auto;text-align:center}
+.intro-inner h2{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:900;color:var(--ink);margin-bottom:8px}
+.intro-inner p{font-size:0.88rem;color:var(--ink-soft);line-height:1.65}
+
+/* QUICK TIPS */
+.tips-strip{max-width:1100px;margin:0 auto 8px;padding:0 12px}
+.tips-grid{display:grid;grid-template-columns:1fr;gap:10px}
+.tip-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:16px;display:flex;gap:14px;align-items:flex-start}
+.tip-icon{font-size:1.4rem;flex-shrink:0;line-height:1;margin-top:2px}
+.tip-body{}
+.tip-title{font-weight:700;font-size:0.88rem;color:var(--ink);margin-bottom:3px}
+.tip-text{font-size:0.82rem;color:var(--ink-muted);line-height:1.5}
+
+/* VIDEOS STRIP */
+.videos-strip{max-width:1100px;margin:0 auto 30px;padding:0 12px}
+.videos-section{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;overflow:hidden}
+.featured-videos{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:16px}
+.featured-video{background:#E8F5F0;border-radius:var(--radius-lg);overflow:hidden;border:1px solid var(--border)}
+.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.video-frame iframe,.video-frame .vid-facade{position:absolute;top:0;left:0;width:100%;height:100%;border:0;border-radius:var(--radius-lg) var(--radius-lg) 0 0}
+.vid-facade{cursor:pointer;overflow:hidden}
+.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
+.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28);transition:background 0.2s}
+.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
+.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
+.video-label{padding:12px 14px}
+.video-cat{display:inline-flex;align-items:center;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:6px}
+.video-text{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:3px}
+.video-by{font-size:0.75rem;color:var(--ink-muted);font-weight:600}
+.view-all-videos{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:11px 20px;background:var(--forest-deeper);color:var(--cream);text-decoration:none;border-radius:20px;font-weight:700;font-size:0.88rem;transition:var(--transition);min-height:44px;width:100%}
+.view-all-videos:hover{background:var(--forest-dark);transform:translateY(-2px)}
+
+/* DISCLAIMER BLOCK */
+.disclaimer-block{max-width:1100px;margin:0 auto 20px;padding:0 12px}
+.disclaimer-inner{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:16px 18px}
+.disclaimer-inner h3{font-size:0.85rem;font-weight:700;color:#5A4010;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.04em}
+.disclaimer-inner p{font-size:0.82rem;color:#7A5820;line-height:1.6}
+.disclaimer-inner a{color:var(--teal);text-decoration:underline}
+
+/* CTA */
+.cta-strip{max-width:1100px;margin:20px auto 30px;padding:0 12px}
+.cta-box{background:var(--forest-deeper);border-radius:var(--radius-lg);padding:24px 20px;text-align:center}
+.cta-box h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--cream);margin-bottom:8px}
+.cta-box p{color:rgba(255,255,255,0.65);font-size:0.86rem;margin-bottom:16px;max-width:440px;margin-left:auto;margin-right:auto;overflow-wrap:break-word}
+.cta-btns{display:flex;flex-direction:column;gap:10px}
+.cta-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 24px;background:var(--teal-light);color:var(--white);text-decoration:none;border-radius:25px;font-weight:700;font-size:0.88rem;transition:var(--transition);min-height:var(--tap)}
+.cta-btn.secondary{background:rgba(255,255,255,0.1);color:#5DE8B8;border:1px solid rgba(93,232,184,0.25)}
+
+/* FOOTER */
+footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px max(16px,env(safe-area-inset-right)) calc(24px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+footer a{color:#5DE8B8;text-decoration:none;display:inline-flex;align-items:center;padding:6px 4px;min-height:44px}
+footer a:hover{text-decoration:underline}
+.footer-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);margin-bottom:8px}
+.footer-logo span{color:#5DE8B8}
+.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 16px;margin:12px 0}
+.footer-disclaimer{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.74rem;color:rgba(255,255,255,0.4);max-width:680px;margin-left:auto;margin-right:auto;line-height:1.6}
+
+/* HOVER — pointer devices only */
+@media(hover:hover){
+  .card:hover{box-shadow:var(--shadow-lg);transform:translateY(-3px);border-color:var(--border-strong)}
+  .card:hover .card-title{color:var(--forest)}
+  .card:hover .card-arrow{transform:translateX(4px);color:var(--forest)}
+  .cta-btn:hover{background:var(--teal);transform:translateY(-1px)}
+  .cta-btn.secondary:hover{background:rgba(255,255,255,0.18)}
+}
+
+/* TABLET 768px+ */
+@media(min-width:768px){
+  .bb-logo-link{display:flex}
+  .topbar{padding:14px 20px}
+  .topbar-logo{font-size:1.35rem}
+  .topbar-divider{display:block;width:1px;height:32px;background:rgba(255,255,255,0.2)}
+  .topbar-tagline{display:block;font-size:0.78rem;color:rgba(255,255,255,0.75);font-weight:500;line-height:1.4}
+  .hero-banner{padding:44px 24px 40px}
+  .hero-title{font-size:2.3rem;margin-bottom:12px}
+  .hero-sub{font-size:0.96rem}
+  .cards-wrap{padding:32px 16px 20px}
+  .cards-hero{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:20px}
+  .cards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:40px}
+  .card{padding:26px 22px}
+  .tips-grid{grid-template-columns:repeat(2,1fr)}
+  .featured-videos{grid-template-columns:repeat(2,1fr);gap:18px}
+  .view-all-videos{width:auto}
+  .cta-strip{margin:20px auto 40px;padding:0 16px}
+  .cta-box{padding:32px}
+  .cta-box h3{font-size:1.3rem}
+  .cta-btns{flex-direction:row;justify-content:center;gap:12px;flex-wrap:wrap}
+  footer{padding:32px 20px calc(32px + env(safe-area-inset-bottom));font-size:0.82rem}
+  .intro-strip{padding:28px 24px}
+  .intro-inner h2{font-size:1.4rem}
+  .intro-inner p{font-size:0.92rem}
+}
+
+/* DESKTOP 1024px+ */
+@media(min-width:1024px){
+  .hero-banner{padding:52px 24px 48px}
+  .hero-title{font-size:clamp(2rem,6vw,3.2rem);line-height:1.05}
+  .cards-wrap{padding:36px 16px 20px}
+  .cards-grid{grid-template-columns:repeat(3,1fr)}
+  .tips-grid{grid-template-columns:repeat(4,1fr)}
+  .tips-strip{padding:0 16px}
+}
+
+:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+</style>
 </head>
 <body>
-  <h1>HorseVeterinarian.AI</h1>
-  <p>Coming soon — equine veterinary Q&amp;A directory.</p>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="disclaimer-bar" role="note">
+  ⚕️ Educational resource only — not a substitute for professional veterinary care. Always consult a licensed equine veterinarian for diagnosis and treatment. <a href="/find-a-vet/">Find an Equine Vet →</a>
+</div>
+
+<header>
+<div class="topbar">
+  <div style="display:flex;align-items:center;gap:10px;min-width:0;flex:1">
+    <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
+    <div class="topbar-divider"></div>
+    <div class="topbar-tagline">Equine health education — a public resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener" style="color:#5DE8B8;text-decoration:none;">Bridle &amp; Bit Magazine</a></div>
+  </div>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+  </a>
+</div>
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="site-nav-inner">
+    <div class="sn-drop" id="sn-conditions">
+      <button class="sn-drop-btn" aria-expanded="false" aria-haspopup="true">Conditions ▾</button>
+      <div class="sn-drop-panel" role="menu">
+        <a href="/conditions/colic/" class="sn-drop-link">Colic</a>
+        <a href="/conditions/laminitis/" class="sn-drop-link">Laminitis</a>
+        <a href="/conditions/navicular/" class="sn-drop-link">Navicular Syndrome</a>
+        <a href="/conditions/ulcers/" class="sn-drop-link">Gastric Ulcers</a>
+        <a href="/conditions/kissing-spine/" class="sn-drop-link">Kissing Spine</a>
+        <a href="/conditions/strangles/" class="sn-drop-link">Strangles</a>
+        <a href="/conditions/epm/" class="sn-drop-link">EPM</a>
+        <a href="/conditions/cushings/" class="sn-drop-link">Cushing's / PPID</a>
+        <a href="/conditions/heaves/" class="sn-drop-link">Heaves / RAO</a>
+        <a href="/conditions/thrush/" class="sn-drop-link">Thrush</a>
+        <a href="/conditions/rain-rot/" class="sn-drop-link">Rain Rot</a>
+        <a href="/conditions/pigeon-fever/" class="sn-drop-link">Pigeon Fever</a>
+        <a href="/conditions/" class="sn-drop-link" style="color:#5DE8B8;font-weight:700">All 15 Conditions →</a>
+      </div>
+    </div>
+    <div class="sn-div" aria-hidden="true"></div>
+    <a href="/preventive-care/" class="sn-link">Preventive Care</a>
+    <a href="/emergency/" class="sn-link">Emergency Guide</a>
+    <a href="/life-stages/" class="sn-link">Life Stages</a>
+    <a href="/body-systems/" class="sn-link">Body Systems</a>
+    <div class="sn-div" aria-hidden="true"></div>
+    <a href="/disciplines/" class="sn-link">By Discipline</a>
+    <div class="sn-div" aria-hidden="true"></div>
+    <a href="/faq/" class="sn-link">FAQ</a>
+    <a href="/glossary/" class="sn-link">Glossary</a>
+    <a href="/videos/" class="sn-link">Videos</a>
+    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+  </div>
+</nav>
+</header>
+
+<div class="hero-banner">
+  <h1 class="hero-title">The Equine <em>Veterinary</em> Knowledge Resource</h1>
+  <p class="hero-sub">Comprehensive, educational guides on equine health conditions, preventive care, emergency response, and the questions horse owners ask most — built for the horse community by Bridle &amp; Bit Magazine.</p>
+  <div class="hero-disclaimer">⚕️ Educational only — not a substitute for your licensed equine veterinarian</div>
+</div>
+
+<div class="stat-bar" role="region" aria-label="Site highlights">
+  <div class="stat-item"><div class="stat-num">15</div><div class="stat-label">Conditions Covered</div></div>
+  <div class="stat-item"><div class="stat-num">50+</div><div class="stat-label">Pages of Content</div></div>
+  <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">Q&amp;A Answered</div></div>
+  <div class="stat-item"><div class="stat-num">7</div><div class="stat-label">Body Systems</div></div>
+  <div class="stat-item"><div class="stat-num">Free</div><div class="stat-label">Always</div></div>
+</div>
+
+<div class="intro-strip">
+  <div class="intro-inner">
+    <h2>Equine Health Education for Every Horse Owner</h2>
+    <p>Understanding equine health doesn't require a veterinary degree — but it does require good information. This resource provides educational guides on common conditions, signs that may indicate a problem, preventive care protocols, and what to discuss with your licensed equine veterinarian. We do not diagnose, prescribe, or replace professional veterinary care.</p>
+  </div>
+</div>
+
+<div class="cards-wrap" id="main-content" role="main">
+  <div class="section-label">Core Resources</div>
+  <div class="cards-hero">
+    <a href="conditions/index.html" class="card card-hero c-conditions">
+      <div class="card-badge">🏥 15 Conditions</div>
+      <div class="card-title">Common Equine Conditions</div>
+      <div class="card-desc">In-depth educational guides on colic, laminitis, navicular, gastric ulcers, kissing spine, strangles, EPM, Cushing's, heaves, and more — signs to watch for, how vets approach each condition, and management considerations for horse owners.</div>
+      <div class="card-arrow">Explore All Conditions →</div>
+    </a>
+    <a href="preventive-care/index.html" class="card card-hero c-preventive">
+      <div class="card-badge">✅ Stay Ahead</div>
+      <div class="card-title">Preventive Care Protocols</div>
+      <div class="card-desc">Vaccination schedules, deworming programs, dental care, annual exam checklists, and biosecurity practices — the foundational health calendar every horse owner should know, built on AAEP guidelines and established equine veterinary science.</div>
+      <div class="card-arrow">Build Your Health Plan →</div>
+    </a>
+  </div>
+
+  <div class="section-label">Knowledge Sections</div>
+  <div class="cards-grid">
+    <a href="emergency/index.html" class="card c-emergency">
+      <div class="card-badge">🚨 Act Fast</div>
+      <div class="card-title">Emergency Guide</div>
+      <div class="card-desc">Colic emergencies, wound management, eye injuries, choke, and lacerations — what to do in the minutes before your vet arrives. Signs that require an immediate call, and how to communicate clearly with your veterinarian.</div>
+      <div class="card-arrow">Emergency Protocols →</div>
+    </a>
+    <a href="life-stages/index.html" class="card c-life">
+      <div class="card-badge">🐴 Every Stage</div>
+      <div class="card-title">Life Stages</div>
+      <div class="card-desc">Health priorities change throughout a horse's life — from foal care and vaccination timing through the young performance horse, breeding mare, stallion health, and the special needs of the senior horse.</div>
+      <div class="card-arrow">By Life Stage →</div>
+    </a>
+    <a href="body-systems/index.html" class="card c-systems">
+      <div class="card-badge">🔬 How It Works</div>
+      <div class="card-title">Body Systems</div>
+      <div class="card-desc">Educational deep dives into the equine digestive, musculoskeletal, respiratory, reproductive, neurological, ocular, and dermatological systems — understanding how each system works helps you recognize when something is wrong.</div>
+      <div class="card-arrow">Explore Body Systems →</div>
+    </a>
+    <a href="disciplines/index.html" class="card c-disciplines">
+      <div class="card-badge">🏆 By Discipline</div>
+      <div class="card-title">Discipline-Specific Health</div>
+      <div class="card-desc">Reining horses, cutting horses, barrel racers, rope horses, dressage horses, and endurance horses each face distinct health demands. Understand the athletic stresses specific to your horse's discipline.</div>
+      <div class="card-arrow">By Discipline →</div>
+    </a>
+    <a href="faq/index.html" class="card c-faq">
+      <div class="card-badge">❓ Real Questions</div>
+      <div class="card-title">Horse Owner FAQ</div>
+      <div class="card-desc">More than 200 real questions from horse owners answered — when to call the vet, what signs matter, how to read lab results, what vaccinations are core vs. risk-based, and much more from our Bridle &amp; Bit Q&amp;A database.</div>
+      <div class="card-arrow">Read the FAQ →</div>
+    </a>
+    <a href="glossary/index.html" class="card c-systems">
+      <div class="card-badge">📖 Reference</div>
+      <div class="card-title">Equine Veterinary Glossary</div>
+      <div class="card-desc">150+ veterinary terms defined in plain language — conditions, diagnostic procedures, medications, anatomical structures, and the terminology you'll hear in a vet visit. Searchable A–Z reference.</div>
+      <div class="card-arrow">Browse Glossary →</div>
+    </a>
+  </div>
+
+  <div class="section-label">Quick Reference</div>
+  <div class="tips-strip">
+    <div class="tips-grid">
+      <div class="tip-card">
+        <div class="tip-icon">📞</div>
+        <div class="tip-body">
+          <div class="tip-title">Call Your Vet When in Doubt</div>
+          <div class="tip-text">The cost of a phone call is always less than the cost of waiting too long. Your veterinarian would rather hear from you early than late.</div>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🌡️</div>
+        <div class="tip-body">
+          <div class="tip-title">Know Your Horse's Normals</div>
+          <div class="tip-text">Healthy adult horse: temperature 99–101.5°F, pulse 28–44 bpm, respiration 8–16 breaths/min. Know these numbers before something goes wrong.</div>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">📅</div>
+        <div class="tip-body">
+          <div class="tip-title">Core Vaccines Annually</div>
+          <div class="tip-text">AAEP core vaccines for all horses include Eastern/Western Encephalomyelitis, Tetanus, West Nile Virus, and Rabies. Talk to your vet about risk-based vaccines for your region.</div>
+        </div>
+      </div>
+      <div class="tip-card">
+        <div class="tip-icon">🔍</div>
+        <div class="tip-body">
+          <div class="tip-title">Daily Observation Is Preventive Care</div>
+          <div class="tip-text">The horse owner who watches their horse every day catches problems earlier than any scheduled exam. Changes in manure, appetite, water intake, and movement are the first signals.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="disclaimer-block">
+  <div class="disclaimer-inner">
+    <h3>Important — Educational Resource Only</h3>
+    <p>HorseVeterinarian.AI is an educational knowledge base produced by Bridle &amp; Bit Magazine. The information on this site is intended to help horse owners understand equine health topics, not to diagnose medical conditions or prescribe treatment. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener">Arizona State Veterinary Medical Examining Board</a>. Always consult a licensed equine veterinarian for diagnosis, treatment, and any health decisions affecting your horse. <a href="/find-a-vet/">Find an equine vet in your area →</a></p>
+  </div>
+</div>
+
+<div class="videos-strip">
+  <div class="section-label">Learn by Watching</div>
+  <div class="videos-section">
+    <div class="featured-videos">
+      <div class="featured-video">
+        <div class="video-frame">
+          <div class="vid-facade" data-vid="bTl1_AUdXpE" data-title="What to Expect in a Lameness Exam" role="button" tabindex="0" aria-label="Play: What to Expect in a Lameness Exam">
+            <img src="https://img.youtube.com/vi/bTl1_AUdXpE/hqdefault.jpg" alt="What to Expect in a Lameness Exam" loading="lazy" decoding="async">
+            <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+          </div>
+        </div>
+        <div class="video-label">
+          <span class="video-cat">🦴 Lameness</span>
+          <div class="video-text">What to Expect in a Lameness Exam</div>
+          <div class="video-by">Monty Roberts / HandsOnGloves</div>
+        </div>
+      </div>
+      <div class="featured-video">
+        <div class="video-frame">
+          <div class="vid-facade" data-vid="ZNZ69BNo7FQ" data-title="Pain Treating Laminitis and Sable Island Horses" role="button" tabindex="0" aria-label="Play: Pain Treating Laminitis">
+            <img src="https://img.youtube.com/vi/ZNZ69BNo7FQ/hqdefault.jpg" alt="Pain Treating Laminitis" loading="lazy" decoding="async">
+            <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+          </div>
+        </div>
+        <div class="video-label">
+          <span class="video-cat">🏥 Laminitis</span>
+          <div class="video-text">Pain Management for Laminitis</div>
+          <div class="video-by">Monty Roberts University</div>
+        </div>
+      </div>
+      <div class="featured-video">
+        <div class="video-frame">
+          <div class="vid-facade" data-vid="fBihWe0bKf8" data-title="Giving a Foal Their First Vaccinations" role="button" tabindex="0" aria-label="Play: Giving a Foal Their First Vaccinations">
+            <img src="https://img.youtube.com/vi/fBihWe0bKf8/hqdefault.jpg" alt="Giving a Foal Their First Vaccinations" loading="lazy" decoding="async">
+            <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+          </div>
+        </div>
+        <div class="video-label">
+          <span class="video-cat">💉 Vaccinations</span>
+          <div class="video-text">Giving a Foal Their First Vaccinations</div>
+          <div class="video-by">Warwick Schiller</div>
+        </div>
+      </div>
+      <div class="featured-video">
+        <div class="video-frame">
+          <div class="vid-facade" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care: Your Annual Health Checklist" role="button" tabindex="0" aria-label="Play: Annual Health Checklist">
+            <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care Annual Health Checklist" loading="lazy" decoding="async">
+            <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+          </div>
+        </div>
+        <div class="video-label">
+          <span class="video-cat">📋 Preventive Care</span>
+          <div class="video-text">Proactive Horse Care: Annual Health Checklist</div>
+          <div class="video-by">Julie Goodnight</div>
+        </div>
+      </div>
+    </div>
+    <a href="videos/index.html" class="view-all-videos">View All Videos →</a>
+  </div>
+</div>
+
+<div class="cta-strip">
+  <div class="cta-box">
+    <h3>Part of the Bridle &amp; Bit Network</h3>
+    <p>HorseVeterinarian.AI is a free public resource from Bridle &amp; Bit Magazine — Arizona's premier equestrian publication since 1978. Explore our full network of horse care, training, and industry resources.</p>
+    <div class="cta-btns">
+      <a href="https://www.bridleandbit.com" target="_blank" rel="noopener" class="cta-btn">Visit Bridle &amp; Bit Magazine</a>
+      <a href="https://horsefarrier.net" target="_blank" rel="noopener" class="cta-btn secondary">HorseFarrier.net</a>
+      <a href="https://horsetrainer.ai" target="_blank" rel="noopener" class="cta-btn secondary">HorseTrainer.AI</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
+  <div style="margin-bottom:10px;">Equine Health Knowledge Resource</div>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="/conditions/">Conditions</a>
+    <a href="/preventive-care/">Preventive Care</a>
+    <a href="/emergency/">Emergency Guide</a>
+    <a href="/life-stages/">Life Stages</a>
+    <a href="/body-systems/">Body Systems</a>
+    <a href="/disciplines/">By Discipline</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/glossary/">Glossary</a>
+    <a href="/videos/">Videos</a>
+    <a href="/find-a-vet/">Find a Vet</a>
+  </nav>
+  <div>A public resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
+  <div class="footer-disclaimer">This site provides educational information only and is not a substitute for professional veterinary care. Always consult a licensed equine veterinarian for diagnosis and treatment of any health condition affecting your horse. HorseVeterinarian.AI does not practice veterinary medicine.</div>
+  <div style="margin-top:8px;color:rgba(255,255,255,0.3);font-size:0.75rem;">&copy; 2026 HorseVeterinarian.AI · Bridle &amp; Bit Magazine. All rights reserved.</div>
+</footer>
+
+<script>
+(function(){
+  // Conditions dropdown toggle
+  var drop = document.getElementById('sn-conditions');
+  var btn = drop && drop.querySelector('.sn-drop-btn');
+  if(btn && drop){
+    btn.addEventListener('click',function(){
+      var isOpen = drop.classList.toggle('open');
+      btn.setAttribute('aria-expanded', isOpen);
+      btn.textContent = isOpen ? 'Conditions ▴' : 'Conditions ▾';
+    });
+    drop.addEventListener('focusout',function(e){
+      if(!drop.contains(e.relatedTarget)){
+        drop.classList.remove('open');
+        btn.setAttribute('aria-expanded',false);
+        btn.textContent='Conditions ▾';
+      }
+    });
+    document.addEventListener('click',function(e){
+      if(!drop.contains(e.target)){
+        drop.classList.remove('open');
+        btn.setAttribute('aria-expanded',false);
+        btn.textContent='Conditions ▾';
+      }
+    });
+  }
+})();
+</script>
+<script>
+document.querySelectorAll('.vid-facade').forEach(function(f){
+  f.addEventListener('click',function(){
+    var id=f.dataset.vid; var t=f.dataset.title;
+    var iframe=document.createElement('iframe');
+    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
+    iframe.title=t; iframe.allowFullscreen=true;
+    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
+    iframe.referrerPolicy='strict-origin-when-cross-origin';
+    f.innerHTML=''; f.appendChild(iframe); f.style.cursor='default';
+  });
+  f.addEventListener('keydown',function(e){
+    if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}
+  });
+});
+</script>
 </body>
 </html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0D3B2E">
+<title>Common Equine Conditions — HorseVeterinarian.AI</title>
+<meta name="description" content="Educational guides on 15 common equine health conditions — colic, laminitis, navicular, ulcers, kissing spine, strangles, EPM, Cushing's, and more. For horse owners.">
+<link rel="canonical" href="https://horseveterinarian.ai/conditions/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Common Equine Conditions — HorseVeterinarian.AI">
+<meta property="og:description" content="Educational guides on 15 common equine health conditions for horse owners.">
+<meta property="og:url" content="https://horseveterinarian.ai/conditions/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<style>
+:root{
+  --forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;
+  --teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;
+  --sage:#4A8C6A;--sage-light:#E6F2EC;--sage-dark:#2D6B4A;
+  --gold:#C9983A;--gold-light:#F5E8CC;--gold-pale:#FFF8EE;
+  --ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;
+  --rust:#B85A2A;--rust-light:#F5E6DF;
+  --alert:#8B1A1A;--alert-light:#FDF0F0;
+  --white:#FFFFFF;
+  --border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);
+  --shadow-md:0 4px 16px rgba(5,28,21,0.09);--shadow-lg:0 8px 32px rgba(5,28,21,0.13);
+  --radius:10px;--radius-lg:14px;--transition:0.2s ease;--tap:44px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.55;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:var(--white);padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none;font-size:0.9rem}
+.skip-link:focus{left:0;top:0}
+.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600;line-height:1.4}
+.disclaimer-bar a{color:var(--teal);text-decoration:underline}
+.topbar{background:linear-gradient(135deg,var(--forest-deeper) 0%,var(--forest-dark) 100%);padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
+.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);letter-spacing:-0.01em;text-decoration:none;white-space:nowrap;line-height:1.2}
+.topbar-logo span{color:#5DE8B8}
+.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
+.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:var(--topbar-h,54px);z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}
+.site-nav-inner::-webkit-scrollbar{display:none}
+.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s,background 0.18s;letter-spacing:0.01em}
+.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
+.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
+
+/* PAGE HERO */
+.page-hero{background:linear-gradient(135deg,var(--alert) 0%,#6B1010 100%);padding:30px 16px 26px;text-align:center}
+.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.12);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 14px;border-radius:20px;margin-bottom:10px}
+.page-hero h1{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
+.page-hero p{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:560px;margin:0 auto;line-height:1.6}
+
+/* CONDITIONS GRID */
+.conditions-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 40px}
+.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin-bottom:14px;padding-left:2px}
+.conditions-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-bottom:32px}
+
+.cond-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px 16px;text-decoration:none;color:inherit;display:flex;gap:14px;align-items:flex-start;transition:var(--transition);position:relative;overflow:hidden}
+.cond-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--alert);border-radius:var(--radius-lg) 0 0 var(--radius-lg)}
+.cond-card-icon{font-size:1.8rem;flex-shrink:0;line-height:1;width:42px;text-align:center}
+.cond-card-body{flex:1;min-width:0}
+.cond-card-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:4px;line-height:1.2}
+.cond-card-desc{font-size:0.82rem;color:var(--ink-muted);line-height:1.5;overflow-wrap:break-word}
+.cond-card-tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.cond-tag{font-size:0.67rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;padding:2px 8px;border-radius:8px;background:var(--alert-light);color:var(--alert)}
+.cond-tag.urgent{background:#FFF3E0;color:#8B4010}
+.cond-tag.chronic{background:var(--teal-pale);color:var(--forest)}
+.cond-tag.infectious{background:#F3E8FF;color:#5A1A8B}
+.cond-card-arrow{font-size:0.82rem;font-weight:700;color:var(--teal);margin-top:10px;display:block}
+
+/* DISCLAIMER BLOCK */
+.disclaimer-block{max-width:1100px;margin:0 auto 30px;padding:0 12px}
+.disclaimer-inner{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:16px 18px}
+.disclaimer-inner h3{font-size:0.85rem;font-weight:700;color:#5A4010;margin-bottom:5px;text-transform:uppercase;letter-spacing:0.04em}
+.disclaimer-inner p{font-size:0.82rem;color:#7A5820;line-height:1.6}
+.disclaimer-inner a{color:var(--teal);text-decoration:underline}
+
+footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+footer a{color:#5DE8B8;text-decoration:none}
+.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}
+.footer-logo span{color:#5DE8B8}
+.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+
+@media(hover:hover){
+  .cond-card:hover{box-shadow:var(--shadow-lg);transform:translateY(-2px);border-color:var(--border-strong)}
+  .cond-card:hover .cond-card-title{color:var(--alert)}
+}
+@media(min-width:768px){
+  .bb-logo-link{display:flex}
+  .topbar{padding:14px 20px}
+  .topbar-logo{font-size:1.35rem}
+  .page-hero{padding:44px 24px 40px}
+  .page-hero h1{font-size:2.4rem}
+  .conditions-grid{grid-template-columns:repeat(2,1fr)}
+  .conditions-wrap{padding:32px 16px 48px}
+}
+@media(min-width:1024px){
+  .conditions-grid{grid-template-columns:repeat(3,1fr)}
+  .page-hero h1{font-size:2.8rem}
+}
+:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian for diagnosis and treatment. <a href="/find-a-vet/">Find a Vet →</a></div>
+<header>
+<div class="topbar">
+  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+  </a>
+</div>
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="site-nav-inner">
+    <a href="/" class="sn-link">Home</a>
+    <a href="/conditions/" class="sn-link active">Conditions</a>
+    <div class="sn-div"></div>
+    <a href="/preventive-care/" class="sn-link">Preventive Care</a>
+    <a href="/emergency/" class="sn-link">Emergency Guide</a>
+    <a href="/life-stages/" class="sn-link">Life Stages</a>
+    <a href="/body-systems/" class="sn-link">Body Systems</a>
+    <div class="sn-div"></div>
+    <a href="/disciplines/" class="sn-link">By Discipline</a>
+    <a href="/faq/" class="sn-link">FAQ</a>
+    <a href="/glossary/" class="sn-link">Glossary</a>
+    <a href="/videos/" class="sn-link">Videos</a>
+    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+  </div>
+</nav>
+</header>
+
+<div class="page-hero">
+  <div class="page-hero-eyebrow">Educational Resource</div>
+  <h1>Common Equine Health Conditions</h1>
+  <p>Educational guides covering 15 of the most significant equine health conditions — signs that may indicate a problem, how veterinarians typically approach each condition, and management considerations for horse owners.</p>
+</div>
+
+<div class="conditions-wrap" id="main-content" role="main">
+  <div class="disclaimer-block">
+    <div class="disclaimer-inner">
+      <h3>Educational Information Only</h3>
+      <p>The guides below describe educational information about equine health conditions. They are not intended to diagnose your horse or replace the judgment of a licensed equine veterinarian. If you believe your horse may have any of the conditions described, contact your veterinarian promptly. <a href="/find-a-vet/">Find an equine vet →</a></p>
+    </div>
+  </div>
+
+  <div class="section-label">Digestive &amp; Metabolic</div>
+  <div class="conditions-grid">
+    <a href="/conditions/colic/" class="cond-card">
+      <div class="cond-card-icon">🤕</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Colic</div>
+        <div class="cond-card-desc">Abdominal pain is the most common veterinary emergency in horses. Educational guide covering types, signs, risk factors, and what to do while waiting for your vet.</div>
+        <div class="cond-card-tags"><span class="cond-tag urgent">Potential Emergency</span><span class="cond-tag">Digestive</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/ulcers/" class="cond-card">
+      <div class="cond-card-icon">🔥</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Gastric Ulcers (EGUS)</div>
+        <div class="cond-card-desc">Equine Gastric Ulcer Syndrome affects a significant proportion of performance horses. Signs are often subtle — poor performance, attitude changes, reluctance to work, and mild recurrent colic.</div>
+        <div class="cond-card-tags"><span class="cond-tag chronic">Chronic</span><span class="cond-tag">Digestive</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/cushings/" class="cond-card">
+      <div class="cond-card-icon">🧪</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Cushing's Disease (PPID)</div>
+        <div class="cond-card-desc">Pituitary Pars Intermedia Dysfunction is the most common endocrine disorder in older horses. Long curly coat, muscle wasting, laminitis susceptibility, and increased drinking are characteristic signs.</div>
+        <div class="cond-card-tags"><span class="cond-tag chronic">Chronic</span><span class="cond-tag">Endocrine</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-label">Musculoskeletal</div>
+  <div class="conditions-grid">
+    <a href="/conditions/laminitis/" class="cond-card">
+      <div class="cond-card-icon">🦶</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Laminitis &amp; Founder</div>
+        <div class="cond-card-desc">Inflammation of the sensitive laminae within the hoof capsule — one of the most serious and potentially career-ending conditions in horses. Understanding triggers and early signs is critical for every horse owner.</div>
+        <div class="cond-card-tags"><span class="cond-tag urgent">Serious</span><span class="cond-tag">Musculoskeletal</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/navicular/" class="cond-card">
+      <div class="cond-card-icon">🦴</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Navicular Syndrome</div>
+        <div class="cond-card-desc">Palmar foot pain involving the navicular bone and associated structures is a leading cause of forelimb lameness in performance horses. A complex, progressive condition with many management options.</div>
+        <div class="cond-card-tags"><span class="cond-tag chronic">Chronic</span><span class="cond-tag">Lameness</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/kissing-spine/" class="cond-card">
+      <div class="cond-card-icon">🔗</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Kissing Spine (Overriding Dorsal Spinous Processes)</div>
+        <div class="cond-card-desc">When the spinous processes of the thoracic vertebrae come into contact or overlap, the resulting back pain can affect performance, attitude, and willingness to work in ways that are easy to misattribute to training issues.</div>
+        <div class="cond-card-tags"><span class="cond-tag chronic">Chronic</span><span class="cond-tag">Back / Spine</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-label">Infectious &amp; Respiratory</div>
+  <div class="conditions-grid">
+    <a href="/conditions/strangles/" class="cond-card">
+      <div class="cond-card-icon">🦠</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Strangles</div>
+        <div class="cond-card-desc">Streptococcus equi infection causing lymph node abscessation and fever — among the most contagious equine diseases. Biosecurity during outbreaks is critical to limit spread through a barn or event.</div>
+        <div class="cond-card-tags"><span class="cond-tag infectious">Infectious</span><span class="cond-tag urgent">Contagious</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/heaves/" class="cond-card">
+      <div class="cond-card-icon">💨</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Heaves / RAO (Recurrent Airway Obstruction)</div>
+        <div class="cond-card-desc">Chronic lower airway disease similar to asthma in humans — triggered by dust, mold, and poor air quality. A leading cause of exercise intolerance and coughing in stabled horses.</div>
+        <div class="cond-card-tags"><span class="cond-tag chronic">Chronic</span><span class="cond-tag">Respiratory</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/epm/" class="cond-card">
+      <div class="cond-card-icon">🧠</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">EPM (Equine Protozoal Myeloencephalitis)</div>
+        <div class="cond-card-desc">A neurological disease caused by the parasite Sarcocystis neurona, transmitted through possum feces. Signs include incoordination, muscle atrophy, and weakness — often asymmetric. Diagnosis and treatment require a veterinarian.</div>
+        <div class="cond-card-tags"><span class="cond-tag urgent">Serious</span><span class="cond-tag">Neurological</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/pigeon-fever/" class="cond-card">
+      <div class="cond-card-icon">🐦</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Pigeon Fever</div>
+        <div class="cond-card-desc">Corynebacterium pseudotuberculosis infection — common in the American West and Southwest — causes abscess formation on the chest, abdomen, or internally. A veterinary diagnosis guides appropriate treatment.</div>
+        <div class="cond-card-tags"><span class="cond-tag infectious">Bacterial</span><span class="cond-tag">Regional / Southwest</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/ehv/" class="cond-card">
+      <div class="cond-card-icon">⚠️</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Equine Herpesvirus (EHV)</div>
+        <div class="cond-card-desc">EHV-1 and EHV-4 are common equine respiratory pathogens. EHV-1 can cause abortion in mares and, in its neurologic form (EHM), serious myeloencephalopathy. Vaccination and biosecurity are key management tools.</div>
+        <div class="cond-card-tags"><span class="cond-tag infectious">Viral</span><span class="cond-tag urgent">Reportable</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="section-label">Skin, Hoof &amp; External</div>
+  <div class="conditions-grid">
+    <a href="/conditions/thrush/" class="cond-card">
+      <div class="cond-card-icon">🦶</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Thrush</div>
+        <div class="cond-card-desc">Bacterial infection of the frog and sulci — a common, highly preventable hoof condition. Recognizable by black discharge and foul odor in the grooves of the frog. Daily hoof care is the primary prevention.</div>
+        <div class="cond-card-tags"><span class="cond-tag">Preventable</span><span class="cond-tag">Hoof</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/rain-rot/" class="cond-card">
+      <div class="cond-card-icon">🌧️</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Rain Rot (Dermatophilosis)</div>
+        <div class="cond-card-desc">Dermatophilus congolensis infection of the skin — produces crusting, matted hair, and scab formation, typically along the topline, rump, and lower legs. Moisture, skin trauma, and compromised immune status are risk factors.</div>
+        <div class="cond-card-tags"><span class="cond-tag infectious">Bacterial</span><span class="cond-tag">Skin</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/bot-flies/" class="cond-card">
+      <div class="cond-card-icon">🪲</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Bot Flies (Gasterophilus)</div>
+        <div class="cond-card-desc">Bot fly larvae are a common internal parasite of horses in North America. Eggs are deposited on the hair coat; horses ingest the larvae during grooming. An important target in strategic deworming programs.</div>
+        <div class="cond-card-tags"><span class="cond-tag">Parasite</span><span class="cond-tag">Preventable</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+    <a href="/conditions/quarter-crack/" class="cond-card">
+      <div class="cond-card-icon">⚡</div>
+      <div class="cond-card-body">
+        <div class="cond-card-title">Quarter Crack</div>
+        <div class="cond-card-desc">Vertical fissures in the hoof wall — common in performance horses, often caused by imbalance, trauma, or nutritional deficiency. Severity ranges from superficial to deep cracks involving sensitive structures requiring farrier and veterinary collaboration.</div>
+        <div class="cond-card-tags"><span class="cond-tag">Hoof</span><span class="cond-tag">Performance</span></div>
+        <span class="cond-card-arrow">Read the Guide →</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="footer-nav" aria-label="Footer navigation">
+    <a href="/">Home</a>
+    <a href="/conditions/">Conditions</a>
+    <a href="/preventive-care/">Preventive Care</a>
+    <a href="/emergency/">Emergency Guide</a>
+    <a href="/faq/">FAQ</a>
+    <a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
+  </nav>
+  <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
+  <div style="margin-top:12px;color:rgba(255,255,255,0.35);font-size:0.74rem;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian for diagnosis and treatment.</div>
+  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+</footer>
+</body>
+</html>
