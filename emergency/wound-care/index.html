@@ -2,219 +2,364 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
-<title>Wound Care &amp; First Aid | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: wound care &amp; first aid — for horse owners. Not a substitute for veterinary care.">
+<title>Wound Care &amp; Equine First Aid | HorseVeterinarian.AI</title>
+<meta name="description" content="Equine wound care and first aid — assessing severity, hemorrhage control, joint wound recognition, when to call immediately vs. same day, what not to do, and first aid kit essentials.">
 <link rel="canonical" href="https://horseveterinarian.ai/emergency/wound-care/">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Wound Care &amp; Equine First Aid | HorseVeterinarian.AI">
+<meta property="og:description" content="Equine wound care and first aid — assessing severity, hemorrhage control, joint wound recognition, when to call immediately vs. same day, what not to do, and first aid kit essentials.">
+<meta property="og:url" content="https://horseveterinarian.ai/emergency/wound-care/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
-body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
-a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
-.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
-.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
-.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
-.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
-.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
-.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
-.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
-.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
-.page-hero{padding:28px 16px 24px;background:linear-gradient(135deg,#5A1A1A 0%,#300808 100%)}
-.breadcrumb{font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:10px}.breadcrumb a{color:rgba(255,255,255,0.65);text-decoration:none}.breadcrumb a:hover{color:#5DE8B8}
-.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
-.page-hero h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
-.page-hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:600px;line-height:1.6}
-.content-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
-.quick-facts{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;margin-bottom:20px}
-.quick-facts h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.84rem}.fact-row:last-child{border-bottom:none}
-.fact-label{font-weight:700;color:var(--ink-muted);min-width:110px;flex-shrink:0}.fact-value{color:var(--ink-soft)}
-.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.alert-box ul{padding-left:16px;font-size:0.84rem;color:#5A1A1A;line-height:1.7}
-.action-box{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.action-box h3{font-size:0.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.action-box ol{padding-left:18px;font-size:0.84rem;color:#5A3A08;line-height:1.75}
-.info-box{background:var(--teal-pale);border:1px solid rgba(26,107,90,0.2);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.info-box h3{font-size:0.88rem;font-weight:700;color:var(--forest);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.info-box ul{padding-left:16px;font-size:0.84rem;color:var(--ink-soft);line-height:1.7}
-.article-body h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--ink);margin:24px 0 10px;line-height:1.2}
-.article-body h3{font-size:1rem;font-weight:700;color:var(--forest);margin:18px 0 7px}
-.article-body p{font-size:0.92rem;color:var(--ink-soft);line-height:1.7;margin-bottom:14px}
-.article-body ul{padding-left:20px;font-size:0.9rem;color:var(--ink-soft);line-height:1.75;margin-bottom:14px}
-.article-body li{margin-bottom:3px}
-.article-video{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:18px}
-.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
-.vid-facade,.video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vid-facade{cursor:pointer;overflow:hidden}
-.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
-.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28)}.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
-.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
-.video-caption{padding:12px 14px;border-top:1px solid var(--border)}
-.video-cat-tag{display:inline-block;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:5px}
-.video-title-label{font-family:'Playfair Display',serif;font-size:0.92rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:2px}
-.video-by{font-size:0.74rem;color:var(--ink-muted);font-weight:600}
-.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin:28px 0 12px;padding-left:2px}
-.related-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.related-link{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--transition)}.related-link:hover{border-color:var(--border-strong);background:var(--teal-pale)}
-.related-link-title{font-size:0.88rem;font-weight:700;color:var(--ink)}.related-link-arrow{font-size:0.9rem;color:var(--teal)}
-.sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:16px}
-.sidebar-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);margin-bottom:10px;border-bottom:2px solid var(--border);padding-bottom:8px}
-.sidebar-card a{color:var(--teal);font-size:0.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--border)}.sidebar-card a:last-child{border-bottom:none}.sidebar-card a:hover{color:var(--forest);text-decoration:underline}
-.sidebar-vet{background:var(--forest);border-radius:var(--radius-lg);padding:18px;text-align:center;margin-bottom:16px}
-.sidebar-vet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--cream);margin-bottom:6px}
-.sidebar-vet p{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.5;margin-bottom:12px}
-.sidebar-vet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--forest-deeper);font-weight:700;font-size:0.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}
-.sidebar-vet a:hover{background:var(--teal-light);color:#fff}
-footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
+.qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
+.qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
+.fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
+.vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
+.vfa img{width:100%;height:100%;object-fit:cover;display:block}
+.vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
-.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.footer-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.73rem;color:rgba(255,255,255,0.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 36px}.page-hero h1{font-size:2.3rem}.related-grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.content-wrap{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
-:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ In any emergency, call your veterinarian first. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
-<div class="topbar">
-  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
-    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="site-nav" aria-label="Main navigation">
-  <div class="site-nav-inner">
-    <a href="/" class="sn-link">Home</a>
-    <a href="/conditions/" class="sn-link ">Conditions</a>
-    <div class="sn-div"></div>
-    <a href="/preventive-care/" class="sn-link ">Preventive Care</a>
-    <a href="/emergency/" class="sn-link active">Emergency Guide</a>
-    <a href="/life-stages/" class="sn-link ">Life Stages</a>
-    <a href="/body-systems/" class="sn-link ">Body Systems</a>
-    <div class="sn-div"></div>
-    <a href="/disciplines/" class="sn-link ">By Discipline</a>
-    <a href="/faq/" class="sn-link ">FAQ</a>
-    <a href="/glossary/" class="sn-link ">Glossary</a>
-    <a href="/videos/" class="sn-link">Videos</a>
-    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl">Preventive Care</a>
+    <a href="/emergency/" class="sl active">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl">Find a Vet</a>
   </div>
 </nav>
 </header>
-<div class="page-hero">
-  <div class="breadcrumb"><a href="/">Home</a> › <a href="/emergency/">Emergency</a> › Wound Care &amp; First Aid</div>
-  <div class="page-hero-eyebrow">🩹 While Awaiting Your Vet</div>
-  <h1>Wound Care &amp; First Aid</h1>
-  <p class="page-hero-sub">When you call about a wound, be prepared to describe: location precisely and proximity to joints or tendons; size and depth as best assessed; character of bleeding (oozing vs. spurting); whether tendons, bone, or joint fluid are visible; how the wound occurred; and the horse's current lameness level.</p>
+<div class="ph" style="background:linear-gradient(135deg,#5A1A1A 0%,#300808 100%)">
+  <div class="bc"><a href="/">Home</a> › <a href="/emergency/">Emergency Guide</a> › Wound Care &amp; Equine First Aid</div>
+  <div class="ey">🩹 Common Trauma · Time-Sensitive</div>
+  <h1>Wound Care &amp; Equine First Aid</h1>
+  <p class="phs">Not all wounds are equal, and the most dangerous are rarely the most dramatic. A small puncture wound over a joint is a potential life-threatening emergency; a large laceration over a muscle body may be safely managed with appropriate first aid while awaiting a same-day vet visit. Understanding this distinction — and knowing what to do in the minutes before your vet arrives — can save your horse's life or career.</p>
 </div>
-<div class="content-wrap" id="main-content">
-  <main class="main-col" role="main">
-    <div class="quick-facts"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fact-label">First action</span><span class="fact-value">Call your vet for any wound near a joint, deep, actively bleeding, or potentially needing sutures</span></div>
-<div class="fact-row"><span class="fact-label">Time matters</span><span class="fact-value">Wounds sutured within 6–8 hours of injury heal significantly better than those sutured later</span></div>
-<div class="fact-row"><span class="fact-label">Joint proximity</span><span class="fact-value">Any wound near a joint is a potential emergency — joint infections are life-threatening</span></div>
-<div class="fact-row"><span class="fact-label">Your role</span><span class="fact-value">Control bleeding, protect the wound, and provide accurate information to your vet</span></div>
-<div class="fact-row"><span class="fact-label">Do NOT</span><span class="fact-value">Probe wounds, apply caustic substances, or assume minor appearance means minor significance</span></div></div>
-    <div class="alert-box"><h3>⚠️ Wounds Requiring Immediate Veterinary Contact</h3><ul><li>Any wound over or near a joint — knee, fetlock, hock, stifle, coffin joint area</li>
-<li>Wounds with visible tendon, bone, or joint fluid</li>
-<li>Arterial bleeding — spurting, bright red blood that does not slow with pressure</li>
-<li>Puncture wounds to the foot, chest, or abdomen</li>
-<li>Eye lacerations or injuries</li>
-<li>Any wound gaping more than 1 cm and likely needing sutures</li>
-<li>Wounds caused by impalement or suspected foreign body</li></ul></div>
-    <div class="article-body"><h2>Wound Assessment — What to Tell Your Vet</h2>
-<p>When you call about a wound, be prepared to describe: location precisely and proximity to joints or tendons; size and depth as best assessed; character of bleeding (oozing vs. spurting); whether tendons, bone, or joint fluid are visible; how the wound occurred; and the horse's current lameness level.</p>
-<p>The most dangerous wounds are those communicating with a synovial structure — joint, tendon sheath, or bursa. A septic joint can destroy articular cartilage within 24–48 hours. Location is everything in wound assessment.</p>
-<h3>First Aid While Contacting Your Vet</h3>
-<ul>
-<li>Control bleeding with direct pressure using a clean cloth — maintain pressure 5+ minutes without lifting</li>
-<li>Do not probe the wound or attempt to determine depth</li>
-<li>Gently rinse with clean water or saline once bleeding is controlled — avoid harsh antiseptics in the wound</li>
-<li>Cover with a clean bandage to protect while awaiting the vet</li>
-<li>Restrict the horse's movement if tendon or joint involvement is possible</li>
+<div class="cw" id="mc">
+  <main role="main">
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Most critical factor</span><span class="fv">Location, not size — a small wound over a joint is more urgent than a large wound over a muscle</span></div>
+<div class="fr"><span class="fl">Joint wound urgency</span><span class="fv">Any wound over or near a joint is a potential emergency — joint infections destroy cartilage within 24–48 hours</span></div>
+<div class="fr"><span class="fl">Suture window</span><span class="fv">Wounds sutured within 6 hours of injury heal significantly better than those sutured later — do not delay calling</span></div>
+<div class="fr"><span class="fl">Hemorrhage control</span><span class="fv">Direct firm pressure for 5+ uninterrupted minutes — the single most effective first aid measure</span></div>
+<div class="fr"><span class="fl">Synovial fluid</span><span class="fv">Clear, slightly viscous fluid draining from a wound near a joint = call immediately; do not probe or rinse aggressively</span></div>
+<div class="fr"><span class="fl">Tetanus risk</span><span class="fv">Any wound is a tetanus risk — confirm vaccination status is current; your vet may recommend a booster</span></div>
+<div class="fr"><span class="fl">Do NOT</span><span class="fv">Probe the wound; apply hydrogen peroxide inside the wound; remove impaled objects; use caustic wound sprays without vet guidance</span></div>
+</div>
+    <div class="abox"><h3>🚨 Call Your Vet Immediately — These Wounds Cannot Wait</h3><ul><li>Any wound over or within 2 inches of a joint — knee, fetlock, hock, stifle, hip, coffin joint, elbow</li>
+<li>Clear, slightly viscous fluid (synovial fluid) draining from a wound near a joint — joint capsule may be penetrated</li>
+<li>Wounds with visible tendon (white, glistening cord-like tissue), bone, or joint capsule</li>
+<li>Arterial hemorrhage — bright red blood pulsing or spurting with the heartbeat</li>
+<li>Puncture wounds to the foot, chest, or abdomen — these require immediate evaluation regardless of size</li>
+<li>Eye lacerations or wounds near the eye</li>
+<li>Any wound gaping more than 1–2 cm that may need sutures for proper closure</li>
+<li>Wounds on the lower limb at the back of the pastern or fetlock — DDFT and tendon sheath region</li>
+</ul></div>
+    <div class="ab"><h2>The Most Important Rule: Location Determines Urgency</h2>
+<p>When assessing an equine wound, the first question is always location — specifically, is this wound over or near a joint, tendon sheath, or bursa? These synovial structures contain fluid, have minimal blood supply, and create an ideal environment for bacterial proliferation. A synovial structure infection (septic arthritis, septic tenosynovitis) can destroy articular cartilage and tendon tissue within 24–48 hours. A condition easily treated with early joint lavage can require repeated surgeries — or result in permanent lameness — if delayed even 12–24 hours.</p>
+<p>The practical implication: before assessing wound size, depth, or bleeding, identify the anatomical location. A wound the size of your thumbnail over the fetlock joint requires an immediate call; a wound twice that size over the gluteal muscle mass can be managed with appropriate first aid while scheduling a same-day visit.</p>
+<table class="dtable"><thead><tr><th>Wound Location</th><th>Urgency Level</th><th>Why</th><th>Action</th></tr></thead><tbody><tr><td><strong>Over or near a joint (knee, hock, fetlock, stifle, coffin, elbow, hip)</strong></td><td>Immediate emergency</td><td>Synovial structure penetration risk; joint infection = 24–48hr cartilage destruction</td><td>Call vet immediately; do not probe; apply clean bandage</td></tr>
+<tr><td><strong>Over a tendon sheath (back of pastern/fetlock, DDFT region)</strong></td><td>Immediate emergency</td><td>Tendon sheath infection; permanent lameness risk</td><td>Call vet immediately; immobilize</td></tr>
+<tr><td><strong>Foot puncture (sole, frog, heel)</strong></td><td>Immediate to same-day depending on depth and location</td><td>Coffin joint, navicular bursa, and DDFT proximity in foot</td><td>Call vet; do not remove embedded object</td></tr>
+<tr><td><strong>Lower limb (cannon, pastern) — muscle/skin only</strong></td><td>Same day</td><td>Suture window; infection risk</td><td>Call for same-day appointment</td></tr>
+<tr><td><strong>Upper limb / body — muscle or skin</strong></td><td>Same day or urgent depending on depth</td><td>Suture window; possible deeper structure involvement</td><td>Call for same-day or evaluate depth</td></tr>
+<tr><td><strong>Face and eyelid</strong></td><td>Same day — potentially immediate if eye involved</td><td>Cosmetic importance; eye proximity; complex anatomical structures</td><td>Call for same-day; eye involvement = immediate</td></tr>
+<tr><td><strong>Coronary band laceration</strong></td><td>Same day</td><td>Disrupts hoof wall growth; permanent hoof abnormality if not managed well</td><td>Call for same-day</td></tr>
+</tbody></table>
+<h2>Recognizing Synovial Fluid — The Critical Sign</h2>
+<p>Synovial fluid — the lubricating fluid in joints, tendon sheaths, and bursae — has a characteristic appearance that every horse owner should be able to recognize. It is clear to very pale yellow, and slightly viscous — sometimes described as resembling raw egg white or light corn syrup. It does not look like blood, pus, or serous wound fluid.</p>
+<p>If you see this fluid draining from a wound near a joint or along a tendon sheath, the structure has been penetrated. Stop all wound cleaning and probing immediately. Apply the cleanest bandage material you have, do not change or disturb it, and call your veterinarian as an emergency. The penetrated structure needs to be identified and lavaged (flushed) by your vet as soon as possible — this is not a situation for home management.</p>
+<h2>Hemorrhage Control — What Actually Works</h2>
+<p>Arterial hemorrhage — bright red blood pulsing with the heartbeat — is the only immediately life-threatening hemorrhage scenario in horses. Venous hemorrhage (dark red, steady flow) and capillary bleeding (slow ooze) are less immediately dangerous but still require management. The appropriate response to all three is the same: firm, direct, uninterrupted pressure.</p>
+<table class="dtable"><thead><tr><th>Hemorrhage Type</th><th>Appearance</th><th>Urgency</th><th>First Aid</th></tr></thead><tbody><tr><td><strong>Arterial</strong></td><td>Bright red; pulsing or spurting with heartbeat</td><td>Immediate emergency</td><td>Firm direct pressure with cleanest material available; maintain pressure 5+ minutes without lifting; call vet immediately</td></tr>
+<tr><td><strong>Venous</strong></td><td>Dark red; steady continuous flow</td><td>Urgent</td><td>Direct pressure for 5+ minutes without lifting; call vet for same-day or emergency depending on volume</td></tr>
+<tr><td><strong>Capillary</strong></td><td>Slow ooze; small volume; from superficial tissue</td><td>Non-urgent</td><td>Gentle rinse; clean bandage; monitor; call vet if wound may need sutures</td></tr>
+<tr><td><strong>Arterial + joint proximity</strong></td><td>Any of the above near a joint</td><td>Immediate emergency</td><td>Pressure first; do not delay calling vet to manage bleeding — these are concurrent emergencies</td></tr>
+</tbody></table>
+<h3>Hemorrhage Control Technique</h3><ul>
+<li>Apply the cleanest material readily available — a clean cloth, gauze pads, or in a pinch, any absorbent material</li>
+<li>Apply firm, direct pressure over the wound — press firmly and hold</li>
+<li>Maintain pressure for a minimum of 5 uninterrupted minutes without lifting to check — lifting before clot formation restarts bleeding</li>
+<li>If blood soaks through the first material, add another layer on top — do not remove the first layer (removes the clot forming beneath it)</li>
+<li>If a bandage is available, apply a pressure bandage over the material and secure — this frees your hands to call the vet</li>
+<li>Arterial hemorrhage from a limb: a tourniquet above the wound is a last resort if pressure alone cannot control bleeding; release every 10–15 minutes</li>
+</ul>
+<h2>Wound Cleaning — What to Do and What Not to Do</h2>
+<p>Wound cleaning is an important part of first aid — but it must be done correctly. Several common instincts are actually counterproductive and can worsen outcomes.</p>
+<h3>Appropriate Wound Cleaning</h3><ul>
+<li>Copious gentle rinsing with clean water is the most effective wound cleaning measure — use a gentle stream, not a pressure jet that drives bacteria deeper</li>
+<li>Saline solution (1 teaspoon salt per liter of water) or dilute chlorhexidine (0.05% — 1 tablespoon of 2% solution per gallon of water) are appropriate wound rinse solutions</li>
+<li>Remove visible surface debris gently with gauze — do not aggressively scrub the wound bed</li>
+<li>Cover the clean wound with a non-stick dressing before bandaging</li>
+</ul>
+<h3>Do NOT Do These</h3><ul>
+<li>Do NOT use hydrogen peroxide inside the wound — it is cytotoxic (kills the healing cells) and has no antibacterial advantage over saline</li>
+<li>Do NOT use undiluted betadine (full strength) inside a wound — dilute to a pale tea color (1:10 dilution) for wound use</li>
+<li>Do NOT probe the wound with fingers, sticks, or instruments to determine depth — you drive bacteria deeper and potentially into synovial structures</li>
+<li>Do NOT apply antibiotic ointments, wound sprays, or fly repellent to open wounds without veterinary guidance — many delay healing or mask important signs</li>
+<li>Do NOT attempt to suture the wound yourself — improper closure traps bacteria and creates a far worse outcome than leaving it open for professional closure</li>
+<li>Do NOT remove impaled objects — stabilize them in place and let the vet remove them surgically with appropriate preparation</li>
+</ul>
+<h2>Bandaging — When and How</h2>
+<p>Wound bandaging serves several purposes: protecting the wound from contamination, maintaining a moist healing environment, controlling swelling, and in the case of pressure bandaging, controlling hemorrhage. The level of bandaging appropriate depends on wound location and severity.</p>
+<table class="dtable"><thead><tr><th>Bandage Type</th><th>When Used</th><th>Application</th><th>Caution</th></tr></thead><tbody><tr><td><strong>Pressure bandage</strong></td><td>Hemorrhage control from limb wounds</td><td>Multiple layers of padding over wound material; firm elastic wrap over padding</td><td>Do not apply so tightly that you compromise circulation; loosen if limb becomes cold below bandage</td></tr>
+<tr><td><strong>Non-stick wound dressing + stable wrap</strong></td><td>Most limb wound first aid</td><td>Non-stick pad over wound; roll cotton or quilted pad; vetrap or stretch bandage; boot or standing wrap</td><td>Change under veterinary guidance; do not leave wet bandages in place</td></tr>
+<tr><td><strong>Wet-to-dry dressing</strong></td><td>Contaminated wounds with debris</td><td>Saline-moistened gauze against wound; dry layers outside; changes debrided wound each time dressing is changed</td><td>Requires veterinary direction; painful when dry; done as part of wound management plan</td></tr>
+<tr><td><strong>No bandage</strong></td><td>Face and upper body wounds where bandaging is impractical</td><td>Keep clean; fly protection; monitor</td><td>Call vet — these wounds may still need treatment even if bandaging is difficult</td></tr>
+</tbody></table>
+<h2>Tetanus — Confirm Current Vaccination</h2>
+<p>Any wound is a tetanus risk. Clostridium tetani spores are present in soil, manure, and the environment — they require only an anaerobic wound environment to germinate and produce the potent neurotoxin that causes tetanus. Horses are among the most susceptible species to tetanus, and the disease is almost invariably fatal once signs appear.</p>
+<p>If your horse's tetanus vaccination is current (within 12 months), inform your veterinarian when you call about a wound — they may still recommend a booster if the wound is heavily contaminated, puncture-type, or particularly high-risk. If vaccination status is unknown or lapsed, a tetanus toxoid and possibly tetanus antitoxin should be administered as soon as possible.</p>
+<h2>Your Equine First Aid Kit — What to Have Ready</h2>
+<p>A well-stocked first aid kit should be accessible at all times — not in the tack room behind locked equipment, not in the trailer parked in the back field. Every minute spent searching for supplies during an emergency is a minute not spent on the horse.</p>
+<h3>Essential First Aid Supplies</h3><ul>
+<li>Bandage scissors (blunt-tipped) — essential for cutting bandage material safely near the horse</li>
+<li>Non-stick wound dressings (Telfa pads or equivalent) — do not adhere to the wound</li>
+<li>Rolled gauze (Kerlix or similar) — primary bandage layer</li>
+<li>Self-adhesive bandage (Vetrap or similar) — outer bandage layer</li>
+<li>Standing wraps (2–3) and quilted leg pads — for pressure and supportive bandaging</li>
+<li>Clean towels or cloths — hemorrhage control and wound cleaning</li>
+<li>Saline solution or clean water supply — wound rinsing</li>
+<li>Dilute chlorhexidine solution (0.05%) — antiseptic rinse</li>
+<li>Digital thermometer — vital signs</li>
+<li>Stethoscope — heart rate and gut sounds</li>
+<li>Latex or nitrile examination gloves</li>
+<li>Flashlight or headlamp</li>
+<li>Vet wrap (multiple colors — useful for marking pressure bandages)</li>
+<li>Your veterinarian's emergency contact prominently displayed — not buried in your phone</li>
 </ul>
 </div>
-    <div class="action-box"><h3>✅ Wound First Aid Steps</h3><ol><li><strong>Control bleeding</strong> with firm direct pressure using the cleanest material available</li>
-<li><strong>Call your vet</strong> — describe location, size, depth, bleeding character, and lameness level</li>
-<li><strong>Gently rinse</strong> with clean water or saline once bleeding slows — do not scrub</li>
-<li><strong>Cover loosely</strong> with a clean bandage to protect from contamination</li>
-<li><strong>Restrict movement</strong> if joint involvement is possible</li>
-<li><strong>Do not apply</strong> wound sprays, ointments, or caustic substances without vet guidance</li></ol></div>
-    <div class="info-box"><h3>📋 First Aid Kit Essentials</h3><ul><li>Bandage scissors and non-stick wound dressings</li>
-<li>Rolled gauze and self-adhesive bandage (Vetrap)</li>
-<li>Standing wraps and quilts</li>
-<li>Clean towels and saline solution</li>
-<li>Dilute chlorhexidine (1:40 dilution) for surface cleaning</li>
-<li>Your veterinarian's emergency contact number prominently displayed</li></ul></div>
-    <div class="article-video">
-      <div class="video-frame">
-        <div class="vid-facade" data-vid="2lzIik8ywlc" data-title="Equine First Aid Basics" role="button" tabindex="0" aria-label="Play: Equine First Aid Basics">
-          <img src="https://img.youtube.com/vi/2lzIik8ywlc/hqdefault.jpg" alt="Equine First Aid Basics" loading="lazy" decoding="async">
-          <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="video-caption">
-        <span class="video-cat-tag">🩹 First Aid</span>
-        <div class="video-title-label">Equine First Aid Basics</div>
-        <div class="video-by">Julie Goodnight / Redmond</div>
-      </div>
-    </div>
-    <div class="section-label">Related Topics</div>
-    <div class="related-grid"><a href="/emergency/colic-emergency/" class="related-link"><span class="related-link-title">Colic Emergency</span><span class="related-link-arrow">→</span></a>
-<a href="/emergency/lacerations/" class="related-link"><span class="related-link-title">Lacerations</span><span class="related-link-arrow">→</span></a>
-<a href="/emergency/eye-injury/" class="related-link"><span class="related-link-title">Eye Injuries</span><span class="related-link-arrow">→</span></a>
-<a href="/find-a-vet/" class="related-link"><span class="related-link-title">Find an Equine Vet</span><span class="related-link-arrow">→</span></a>
-<a href="/faq/" class="related-link"><span class="related-link-title">FAQ</span><span class="related-link-arrow">→</span></a>
-<a href="/preventive-care/" class="related-link"><span class="related-link-title">Preventive Care</span><span class="related-link-arrow">→</span></a></div>
+    <div class="acbox"><h3>✅ Wound Emergency Checklist — In Order</h3><ol><li><strong>Step 1: Assess location first.</strong> Is this wound near a joint, tendon sheath, or other synovial structure? If yes — call your vet immediately before proceeding.</li>
+<li><strong>Step 2: Control hemorrhage.</strong> Firm direct pressure with the cleanest available material. Hold 5+ minutes without lifting. Apply pressure bandage if available.</li>
+<li><strong>Step 3: Call your veterinarian.</strong> Describe location precisely (which limb, which surface, anatomical region), wound size and depth as best assessed, bleeding character, and whether you can see tendon or joint structures.</li>
+<li><strong>Step 4: Gently rinse with clean water or saline</strong> once bleeding is controlled — do not probe, do not use full-strength products.</li>
+<li><strong>Step 5: Cover with a clean non-stick dressing</strong> and secure with available bandage material to protect from contamination and further trauma.</li>
+<li><strong>Step 6: Restrict movement</strong> if a synovial structure may be involved — keep the horse as still as possible.</li>
+<li><strong>Step 7: Follow your vet's specific instructions</strong> when they call back — they may give different guidance based on your description.</li>
+</ol></div>
+    <div class="ibox"><h3>📋 After the Emergency — Wound Management Discussion Points</h3><ul><li>What constitutes a suturable wound for this injury — your vet determines based on location, wound age, contamination, and tissue condition</li>
+<li>Bandaging protocol — frequency of changes, what to look for, and when to call if the wound worsens</li>
+<li>Tetanus vaccination status — update if lapsed; discuss booster for high-risk wounds</li>
+<li>Signs of wound infection to monitor: increasing heat, swelling, discharge, odor, or lameness in days 2–7 after treatment</li>
+<li>Return to work timeline based on wound type and location — tendon and joint region wounds have much longer recovery windows</li>
+<li>Second-intention healing vs. re-evaluation — some wounds are managed open; others are reassessed for delayed closure</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>Based on the location, depth, and findings, how urgent is this wound on a scale of 'come now' to 'see you at my next appointment'?</li>
+<li>Is there any concern about synovial structure involvement that changes the urgency or treatment approach?</li>
+<li>What specific bandaging protocol do you want me to follow between now and the next visit?</li>
+<li>What signs should prompt me to call you before the scheduled recheck?</li>
+<li>Is this horse's tetanus vaccination current, and does this wound warrant a booster?</li>
+<li>What is the expected healing timeline for this wound, and when can I resume normal work?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="2lzIik8ywlc" data-title="Equine First Aid Basics"
+         role="button" tabindex="0" aria-label="Play: Equine First Aid Basics">
+      <img src="https://img.youtube.com/vi/2lzIik8ywlc/hqdefault.jpg" alt="Equine First Aid Basics" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🩹 First Aid</span>
+    <div class="vtit">Equine First Aid Basics</div><div class="vby">Julie Goodnight / Redmond</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/emergency/colic-emergency/" class="rlink"><span>Colic Emergency</span><span>→</span></a>
+<a href="/emergency/lacerations/" class="rlink"><span>Lacerations & Deep Wounds</span><span>→</span></a>
+<a href="/emergency/eye-injury/" class="rlink"><span>Eye Injuries</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Tetanus Vaccination</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+<a href="/faq/" class="rlink"><span>Horse Owner FAQ</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sidebar-vet">
+    <div class="svet">
       <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
+      <p>Know your vet's emergency number before you need it. Save it in your phone today.</p>
       <a href="/find-a-vet/">Find a Vet Near You →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Conditions</h3>
-      <a href="/conditions/colic/">Colic</a>
+    <div class="sc">
+      <h3>Emergency Guides</h3>
+      <a href="/emergency/colic-emergency/">Colic Emergency</a>
+      <a href="/emergency/wound-care/">Wound Care &amp; First Aid</a>
+      <a href="/emergency/eye-injury/">Eye Injuries</a>
+      <a href="/emergency/choke/">Choke</a>
+      <a href="/emergency/lacerations/">Lacerations &amp; Deep Wounds</a>
+      <a href="/emergency/">All Emergency Guides →</a>
+    </div>
+    <div class="sc">
+      <h3>Related Conditions</h3>
+      <a href="/conditions/colic/">Colic — Full Guide</a>
       <a href="/conditions/laminitis/">Laminitis</a>
-      <a href="/conditions/ulcers/">Gastric Ulcers</a>
       <a href="/conditions/strangles/">Strangles</a>
-      <a href="/conditions/cushings/">Cushing's / PPID</a>
+      <a href="/conditions/epm/">EPM (Neurological)</a>
       <a href="/conditions/">All 15 Conditions →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Quick Links</h3>
-      <a href="/preventive-care/">Preventive Care</a>
-      <a href="/emergency/">Emergency Guide</a>
-      <a href="/faq/">FAQ</a>
-      <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
+    <div class="sc">
+      <h3>Preventive Care</h3>
+      <a href="/preventive-care/vaccinations/">Vaccinations</a>
+      <a href="/preventive-care/biosecurity/">Biosecurity</a>
+      <a href="/preventive-care/annual-exam/">Annual Exam</a>
+      <a href="/preventive-care/">All Preventive Care →</a>
     </div>
   </aside>
 </div>
 <footer>
-  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="footer-nav">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
-    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="footer-disclaimer">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. © 2026 HorseVeterinarian.AI · Bridle &amp; Bit Magazine. All rights reserved.</div>
 </footer>
 <script>
-document.querySelectorAll('.vid-facade').forEach(function(f){
+document.querySelectorAll('.vfa').forEach(function(f){
   f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
 </script>
-</body>
-</html>
+</body></html>

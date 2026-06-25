@@ -2,237 +2,375 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>Colic Emergency Protocol | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: colic emergency protocol — for horse owners. Not a substitute for veterinary care.">
+<meta name="description" content="What to do during a colic emergency — severity assessment, vital signs, when to call your vet immediately, what not to do, and how to prepare for the vet's arrival. Educational guide from Bridle & Bit.">
 <link rel="canonical" href="https://horseveterinarian.ai/emergency/colic-emergency/">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Colic Emergency Protocol | HorseVeterinarian.AI">
+<meta property="og:description" content="What to do during a colic emergency — severity assessment, vital signs, when to call your vet immediately, what not to do, and how to prepare for the vet's arrival. Educational guide from Bridle & Bit.">
+<meta property="og:url" content="https://horseveterinarian.ai/emergency/colic-emergency/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
-body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
-a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
-.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
-.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
-.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
-.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
-.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
-.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
-.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
-.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
-.page-hero{padding:28px 16px 24px;background:linear-gradient(135deg,#6B1010 0%,#3A0808 100%)}
-.breadcrumb{font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:10px}.breadcrumb a{color:rgba(255,255,255,0.65);text-decoration:none}.breadcrumb a:hover{color:#5DE8B8}
-.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
-.page-hero h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
-.page-hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:600px;line-height:1.6}
-.content-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
-.quick-facts{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;margin-bottom:20px}
-.quick-facts h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.84rem}.fact-row:last-child{border-bottom:none}
-.fact-label{font-weight:700;color:var(--ink-muted);min-width:110px;flex-shrink:0}.fact-value{color:var(--ink-soft)}
-.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.alert-box ul{padding-left:16px;font-size:0.84rem;color:#5A1A1A;line-height:1.7}
-.action-box{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.action-box h3{font-size:0.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.action-box ol{padding-left:18px;font-size:0.84rem;color:#5A3A08;line-height:1.75}
-.info-box{background:var(--teal-pale);border:1px solid rgba(26,107,90,0.2);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.info-box h3{font-size:0.88rem;font-weight:700;color:var(--forest);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.info-box ul{padding-left:16px;font-size:0.84rem;color:var(--ink-soft);line-height:1.7}
-.article-body h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--ink);margin:24px 0 10px;line-height:1.2}
-.article-body h3{font-size:1rem;font-weight:700;color:var(--forest);margin:18px 0 7px}
-.article-body p{font-size:0.92rem;color:var(--ink-soft);line-height:1.7;margin-bottom:14px}
-.article-body ul{padding-left:20px;font-size:0.9rem;color:var(--ink-soft);line-height:1.75;margin-bottom:14px}
-.article-body li{margin-bottom:3px}
-.article-video{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:18px}
-.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
-.vid-facade,.video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vid-facade{cursor:pointer;overflow:hidden}
-.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
-.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28)}.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
-.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
-.video-caption{padding:12px 14px;border-top:1px solid var(--border)}
-.video-cat-tag{display:inline-block;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:5px}
-.video-title-label{font-family:'Playfair Display',serif;font-size:0.92rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:2px}
-.video-by{font-size:0.74rem;color:var(--ink-muted);font-weight:600}
-.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin:28px 0 12px;padding-left:2px}
-.related-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.related-link{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--transition)}.related-link:hover{border-color:var(--border-strong);background:var(--teal-pale)}
-.related-link-title{font-size:0.88rem;font-weight:700;color:var(--ink)}.related-link-arrow{font-size:0.9rem;color:var(--teal)}
-.sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:16px}
-.sidebar-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);margin-bottom:10px;border-bottom:2px solid var(--border);padding-bottom:8px}
-.sidebar-card a{color:var(--teal);font-size:0.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--border)}.sidebar-card a:last-child{border-bottom:none}.sidebar-card a:hover{color:var(--forest);text-decoration:underline}
-.sidebar-vet{background:var(--forest);border-radius:var(--radius-lg);padding:18px;text-align:center;margin-bottom:16px}
-.sidebar-vet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--cream);margin-bottom:6px}
-.sidebar-vet p{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.5;margin-bottom:12px}
-.sidebar-vet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--forest-deeper);font-weight:700;font-size:0.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}
-.sidebar-vet a:hover{background:var(--teal-light);color:#fff}
-footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
+.qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
+.qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
+.fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
+.vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
+.vfa img{width:100%;height:100%;object-fit:cover;display:block}
+.vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
-.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.footer-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.73rem;color:rgba(255,255,255,0.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 36px}.page-hero h1{font-size:2.3rem}.related-grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.content-wrap{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
-:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ In any emergency, call your veterinarian first. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
-<div class="topbar">
-  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
-    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="site-nav" aria-label="Main navigation">
-  <div class="site-nav-inner">
-    <a href="/" class="sn-link">Home</a>
-    <a href="/conditions/" class="sn-link ">Conditions</a>
-    <div class="sn-div"></div>
-    <a href="/preventive-care/" class="sn-link ">Preventive Care</a>
-    <a href="/emergency/" class="sn-link active">Emergency Guide</a>
-    <a href="/life-stages/" class="sn-link ">Life Stages</a>
-    <a href="/body-systems/" class="sn-link ">Body Systems</a>
-    <div class="sn-div"></div>
-    <a href="/disciplines/" class="sn-link ">By Discipline</a>
-    <a href="/faq/" class="sn-link ">FAQ</a>
-    <a href="/glossary/" class="sn-link ">Glossary</a>
-    <a href="/videos/" class="sn-link">Videos</a>
-    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl">Preventive Care</a>
+    <a href="/emergency/" class="sl active">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl">Find a Vet</a>
   </div>
 </nav>
 </header>
-<div class="page-hero">
-  <div class="breadcrumb"><a href="/">Home</a> › <a href="/emergency/">Emergency</a> › Colic Emergency Protocol</div>
-  <div class="page-hero-eyebrow">🚨 Act Immediately</div>
+<div class="ph" style="background:linear-gradient(135deg,#6B1010 0%,#3A0808 100%)">
+  <div class="bc"><a href="/">Home</a> › <a href="/emergency/">Emergency Guide</a> › Colic Emergency Protocol</div>
+  <div class="ey">🚨 Most Common Equine Emergency · Act Now</div>
   <h1>Colic Emergency Protocol</h1>
-  <p class="page-hero-sub">When you recognize colic signs, your first action is to call your veterinarian. Everything else is secondary to that call. Your vet will ask specific questions and give tailored instructions.</p>
+  <p class="phs">Colic is the most common cause of emergency veterinary calls in horses. How you respond in the first minutes — what you observe, what you communicate to your vet, and what you do or don't do with the horse — directly affects the outcome. This guide prepares you for the moment before your vet arrives.</p>
 </div>
-<div class="content-wrap" id="main-content">
-  <main class="main-col" role="main">
-    <div class="quick-facts"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fact-label">First action</span><span class="fact-value">Call your veterinarian immediately — do not delay</span></div>
-<div class="fact-row"><span class="fact-label">Always call for</span><span class="fact-value">Violent rolling, heart rate >60, abnormal gum color, abdominal distension, signs persisting >30 min</span></div>
-<div class="fact-row"><span class="fact-label">While waiting</span><span class="fact-value">Remove feed, allow water unless vet instructs otherwise, keep calm, monitor vitals</span></div>
-<div class="fact-row"><span class="fact-label">Do NOT</span><span class="fact-value">Administer medications without vet guidance — masking signs complicates diagnosis</span></div>
-<div class="fact-row"><span class="fact-label">Be ready</span><span class="fact-value">Have a trailer available in case emergency transport to a hospital is needed</span></div></div>
-    <div class="alert-box"><h3>⚠️ Call Your Vet NOW — Do Not Wait If You See</h3><ul><li>Violent, uncontrollable rolling or throwing body to the ground</li>
-<li>Heart rate above 60 beats per minute at rest</li>
-<li>Gum color that is pale, white, gray, or dark brick red</li>
-<li>Visible abdominal distension or bloating</li>
-<li>Absence of gut sounds in all four quadrants</li>
-<li>Profuse sweating without exercise</li>
-<li>Any colic signs persisting longer than 30 minutes despite monitoring</li></ul></div>
-    <div class="article-body"><h2>The Colic Emergency: First 10 Minutes</h2>
-<p>When you recognize colic signs, your first action is to call your veterinarian. Everything else is secondary to that call. Your vet will ask specific questions and give tailored instructions.</p>
-<p>Information you communicate in the first minutes directly affects the speed and appropriateness of the response. Know how to check vital signs before you need to. Normal adult horse heart rate is 28–44 bpm; above 60 at rest is serious.</p>
-<h3>Information Your Vet Will Ask For</h3>
-<ul>
-<li>Heart rate — count 15 seconds × 4; stethoscope behind left elbow or pulse at jaw</li>
-<li>Gum color — healthy is pink and moist; pale, white, gray, brick red, or purple are all abnormal</li>
-<li>Gut sounds — listen to all four quadrants; complete absence is significant</li>
-<li>Manure — when last passed, what consistency</li>
-<li>Feed and water intake in the last 24–48 hours</li>
-<li>Whether the horse has rolled, how violently, and current behavior</li>
+<div class="cw" id="mc">
+  <main role="main">
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">First action</span><span class="fv">Call your veterinarian immediately — before anything else</span></div>
+<div class="fr"><span class="fl">Surgical emergency rate</span><span class="fv">Approximately 10–15% of colic cases require surgery — the signs that indicate surgical need can change within hours</span></div>
+<div class="fr"><span class="fl">Vital signs to report</span><span class="fv">Heart rate (normal 28–44 bpm), gum color (normal: pink and moist), gut sounds (all 4 quadrants), last manure passage</span></div>
+<div class="fr"><span class="fl">Immediate removal</span><span class="fv">Remove all feed access immediately; water generally remains available unless vet instructs otherwise</span></div>
+<div class="fr"><span class="fl">Do NOT</span><span class="fv">Administer Banamine or any medication without specific veterinary instruction for this episode</span></div>
+<div class="fr"><span class="fl">Trailer readiness</span><span class="fv">Have a trailer available and accessible — surgical referral can happen at any hour</span></div>
+<div class="fr"><span class="fl">Time sensitivity</span><span class="fv">Outcomes improve significantly with early intervention — do not wait to see if it resolves on its own</span></div>
+</div>
+    <div class="abox"><h3>🚨 Call Your Vet NOW — These Signs Cannot Wait</h3><ul><li>Violent, uncontrollable rolling or throwing the body to the ground repeatedly</li>
+<li>Heart rate above 60 beats per minute at rest — a serious indicator of pain or cardiovascular compromise</li>
+<li>Gum color that is pale, white, gray, dark brick red, or purple — abnormal color indicates circulatory compromise</li>
+<li>Complete absence of gut sounds in all four quadrants of the abdomen</li>
+<li>Visible abdominal distension — the belly appears bloated or asymmetric</li>
+<li>Profuse sweating without any physical exertion</li>
+<li>Any colic signs that persist beyond 30 minutes without improvement</li>
+<li>A horse that was colicking, seemed to improve briefly, then worsened — this pattern can indicate intestinal rupture</li>
+</ul></div>
+    <div class="ab"><h2>Before the Call — Know Your Horse's Normals</h2>
+<p>The most important preparation for a colic emergency happens long before any emergency occurs: knowing your horse's individual normal vital signs. The ranges listed below are population averages — your horse may have a resting heart rate consistently at 36 bpm or consistently at 42 bpm. Knowing their specific normal makes a deviation immediately recognizable.</p>
+<p>Take your horse's vital signs during a calm, healthy moment and write them in a location accessible during an emergency (barn bulletin board, phone note, in the halter bag). The 2 minutes it takes to do this now could be the difference between recognizing an early problem and missing it.</p>
+<table class="dtable"><thead><tr><th>Vital Sign</th><th>Normal Range</th><th>How to Measure</th><th>Abnormal Colic Sign</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>28–44 bpm at rest</td><td>Stethoscope behind left elbow; or digital artery at medial fetlock — count 15 sec × 4</td><td>Above 60 bpm: serious. Above 80 bpm: critical</td></tr>
+<tr><td><strong>Gum color</strong></td><td>Salmon pink to pink; moist</td><td>Lift the upper lip and examine the mucous membrane</td><td>Pale, white, gray, brick red, purple — all abnormal</td></tr>
+<tr><td><strong>Capillary refill time</strong></td><td>< 2 seconds</td><td>Press firm on gum with thumb for 2 seconds; release; count seconds to return to pink</td><td>3+ seconds: circulatory compromise</td></tr>
+<tr><td><strong>Gut sounds</strong></td><td>Active gurgles, splashes in all 4 quadrants</td><td>Stethoscope to each of 4 locations: upper and lower left flank, upper and lower right flank</td><td>Absent in 1–4 quadrants: concern; absent all 4: serious</td></tr>
+<tr><td><strong>Respiratory rate</strong></td><td>8–16 breaths/min at rest</td><td>Count flank movements for 30 seconds × 2</td><td>Elevated RR indicates pain or metabolic compromise</td></tr>
+<tr><td><strong>Manure</strong></td><td>Horse should defecate 8–12 times/day</td><td>Track passage since last observation</td><td>No manure in 8+ hours or very dry, small piles: concern</td></tr>
+</tbody></table>
+<h2>The Call — What Your Vet Needs to Know</h2>
+<p>When you call your veterinarian about a colic, the information you provide in the first 60 seconds determines how they triage the call, what they bring, and how fast they come. Have these answers ready before you dial — it is worth taking 2 minutes to check vitals before calling rather than calling with no information.</p>
+<table class="dtable"><thead><tr><th>Information</th><th>Why the Vet Needs It</th><th>Collect Before Calling</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>Most reliable single indicator of pain severity and cardiovascular status</td><td>Count now: 15 sec × 4</td></tr>
+<tr><td><strong>Gum color and CRT</strong></td><td>Indicates circulatory compromise</td><td>Lift lip and check now</td></tr>
+<tr><td><strong>Gut sounds</strong></td><td>Absent sounds suggest ileus or displacement</td><td>Listen to all 4 quadrants now</td></tr>
+<tr><td><strong>Last manure — when and what</strong></td><td>Absence or change suggests obstruction; diarrhea suggests enteritis</td><td>When did you last see manure? What did it look like?</td></tr>
+<tr><td><strong>Duration of signs</strong></td><td>How long the episode has been going</td><td>When did you first notice something wrong?</td></tr>
+<tr><td><strong>Diet/management changes</strong></td><td>Grain overload, new hay, pasture access, stress</td><td>Any changes in last 48–72 hours?</td></tr>
+<tr><td><strong>What the horse is doing</strong></td><td>Helps vet assess severity over phone</td><td>Is the horse rolling? Standing? Pawing? Quiet?</td></tr>
+<tr><td><strong>Prior colic history</strong></td><td>Horses with prior surgical colic have higher recurrence risk</td><td>Any prior episodes? Any prior surgery?</td></tr>
+</tbody></table>
+<h2>Severity Assessment — Medical vs. Surgical Colic</h2>
+<p>Your veterinarian assesses colic severity through examination and determines whether the case can be managed medically (nasogastric tube, fluids, analgesics) or requires surgical referral. Understanding the factors that suggest surgical need helps owners appreciate why certain signs require urgency.</p>
+<table class="dtable"><thead><tr><th>Sign / Finding</th><th>Medical Colic Indicator</th><th>Surgical Colic Indicator</th></tr></thead><tbody><tr><td><strong>Pain level</strong></td><td>Mild to moderate; responds to analgesics</td><td>Severe, uncontrollable; persists despite medication</td></tr>
+<tr><td><strong>Heart rate</strong></td><td>< 60 bpm</td><td>60–80+ bpm; worsening over time</td></tr>
+<tr><td><strong>Gum color</strong></td><td>Normal pink</td><td>Pale, gray, brick red, or toxic line</td></tr>
+<tr><td><strong>Gut sounds</strong></td><td>Present in some quadrants</td><td>Absent in all 4 quadrants</td></tr>
+<tr><td><strong>Gastric reflux (vet finding)</strong></td><td>Absent or minimal</td><td>Large volume reflux: small intestinal obstruction likely</td></tr>
+<tr><td><strong>Rectal palpation (vet finding)</strong></td><td>Normal findings or identifiable impaction</td><td>Distended loops of small intestine; tight band across the colon; absent colon</td></tr>
+<tr><td><strong>Response to treatment</strong></td><td>Improves within 30–60 min of medication</td><td>Minimal or no improvement; pain returns rapidly</td></tr>
+<tr><td><strong>Duration</strong></td><td>< 4–6 hours</td><td>Prolonged or worsening despite treatment</td></tr>
+<tr><td><strong>Abdominal distension</strong></td><td>None or mild</td><td>Progressive; visible from across stall</td></tr>
+</tbody></table>
+<h2>What To Do While Waiting — and What Not To Do</h2>
+<p>Your veterinarian will give specific instructions for your horse's situation. The following represents general educational guidance — always follow your vet's directions over any general resource.</p>
+<h3>DO — General Educational Guidance</h3><ul>
+<li><strong>Remove all feed.</strong> Hay, grain, and any feed bucket access should be removed immediately.</li>
+<li><strong>Allow water</strong> unless your vet specifically instructs otherwise.</li>
+<li><strong>Keep the horse in a safe environment</strong> — deeply bedded stall or a safe paddock where rolling injury risk is minimized.</li>
+<li><strong>Monitor continuously.</strong> Note changes in heart rate, gum color, gut sounds, and behavior every 15–20 minutes and report to your vet.</li>
+<li><strong>Prepare your trailer.</strong> Hook up and have it accessible; surgical referral can be advised at any point.</li>
+<li><strong>Stay calm.</strong> Your stress communicates to the horse and increases their agitation.</li>
 </ul>
-<h2>While Awaiting Your Veterinarian</h2>
-<p>Following your vet's specific instructions, these general principles apply.</p>
-<h3>Do</h3>
-<ul>
-<li>Keep the horse in a safe space where rolling injury is minimized</li>
-<li>Remove access to feed — water generally remains unless vet says otherwise</li>
-<li>Stay calm — your anxiety transmits to the horse</li>
-<li>Monitor and record vital signs every 15–20 minutes</li>
-<li>Prepare a trailer in case transport is advised</li>
+<h3>DO NOT — Common Mistakes That Worsen Outcomes</h3><ul>
+<li><strong>Do not administer Banamine (flunixin meglumine) without specific veterinary instruction for this episode.</strong> Masking pain with analgesics can delay recognition of a worsening or surgical situation; dosing errors cause right dorsal colitis.</li>
+<li><strong>Do not walk the horse for extended periods</strong> without vet guidance — walking is appropriate for mild spasmodic colic but contraindicated for certain displacement and torsion types where walking can worsen the position.</li>
+<li><strong>Do not give mineral oil by mouth</strong> — aspiration pneumonia risk; let your vet administer via nasogastric tube if indicated.</li>
+<li><strong>Do not attempt to prevent rolling</strong> — a horse in severe pain cannot be safely restrained from rolling, and you will be injured; focus on reducing injury risk from the environment instead.</li>
+<li><strong>Do not wait 2–3 hours to see if it improves</strong> before calling your vet — call first, always.</li>
 </ul>
-<h3>Do NOT</h3>
-<ul>
-<li>Administer any medication including Banamine without specific veterinary instruction</li>
-<li>Forcibly prevent rolling — dangerous to you and ineffective</li>
-<li>Walk for extended periods without vet guidance — contraindicated in some colic types</li>
-<li>Delay calling while trying home remedies</li>
-<li>Leave a severely colicky horse unobserved</li>
+<h2>If Surgical Referral Is Advised</h2>
+<p>When your veterinarian recommends referral to an equine surgical facility, time is the critical factor. Large colon volvulus (torsion) survival rates decline measurably with each hour between onset and surgical intervention. Small intestinal strangulation can produce irreversible intestinal necrosis within 4–6 hours of blood supply compromise.</p>
+<p>Know the location and drive time to your nearest equine surgical facility before any emergency — not during one. Call the hospital immediately when your vet advises referral; they will prepare the surgery team while you are in transit. Your vet will communicate with the hospital about your horse's status.</p>
+<table class="dtable"><thead><tr><th>Colic Type</th><th>Time Sensitivity</th><th>Surgical Window Notes</th></tr></thead><tbody><tr><td><strong>Large colon volvulus (torsion)</strong></td><td>Highest — hours matter</td><td>Survival rates decline significantly >4 hours from onset; >6–8 hrs survival very poor</td></tr>
+<tr><td><strong>Small intestinal volvulus/strangulation</strong></td><td>Highest</td><td>Intestinal necrosis begins within hours; resection length and viability determine survival</td></tr>
+<tr><td><strong>Nephrosplenic entrapment (left dorsal displacement)</strong></td><td>Moderate — can try medical/rolling first</td><td>Some resolve with jogging, Buscopan, or controlled rolling under anesthesia before surgery</td></tr>
+<tr><td><strong>Right dorsal displacement</strong></td><td>Moderate</td><td>May attempt medical management; surgery if not responding</td></tr>
+<tr><td><strong>Large colon impaction</strong></td><td>Lower — usually medical</td><td>Surgery rarely needed but indicated if medical management fails after 24–48 hrs</td></tr>
+<tr><td><strong>Cecal impaction</strong></td><td>Moderate to high</td><td>Can deteriorate rapidly; lower threshold for surgery than large colon impaction</td></tr>
+</tbody></table>
+<h2>Colic Prevention — The Best Emergency Is the One That Doesn't Happen</h2>
+<p>No management program eliminates colic risk entirely, but the evidence-based practices below consistently reduce incidence. These are practical management strategies to discuss with your veterinarian at your next wellness visit.</p>
+<h3>Evidence-Based Colic Risk Reduction</h3><ul>
+<li>Provide continuous or near-continuous forage access — long periods without forage disrupt hindgut motility and microbial balance</li>
+<li>Ensure consistent fresh water at all times — dehydration is the primary driver of impaction colic; in cold weather, heated tanks encourage adequate intake</li>
+<li>Make all dietary changes gradually — minimum 7–14 days for any feed type or quantity transition</li>
+<li>Feed off the ground in sandy areas (Arizona) — mats or raised feeders prevent sand accumulation in the large colon</li>
+<li>Maintain regular exercise and turnout — consistent activity supports normal gut motility</li>
+<li>Strategic deworming based on fecal egg counts — parasite burden affects gut health and motility</li>
+<li>Regular dental care — adequate chewing is the first step of healthy digestion</li>
+<li>Minimize stress events — transportation, competition, and social disruption increase colic risk</li>
+</ul>
+<h2>First Aid Kit for Colic Emergencies</h2>
+<p>Having the right items immediately accessible during a colic episode reduces the time spent searching and improves the quality of information you can give your veterinarian.</p>
+<h3>What to Have Ready</h3><ul>
+<li>Stethoscope — for listening to gut sounds and measuring heart rate</li>
+<li>Digital thermometer — for measuring rectal temperature if vet requests</li>
+<li>Watch or phone timer — for timing vital sign measurements</li>
+<li>Clean flashlight or headlamp — for examining gum color in a dark stall</li>
+<li>Your veterinarian's emergency contact number — saved in your phone AND posted in the barn</li>
+<li>Nearest equine surgical hospital address and phone number — posted in the barn</li>
+<li>A notepad or phone notes — to record vitals, timing, and changes to report to the vet</li>
+<li>Trailer hooked up or hookup materials readily accessible</li>
 </ul>
 </div>
-    <div class="action-box"><h3>✅ Colic Emergency Checklist</h3><ol><li><strong>Step 1:</strong> Call your vet immediately. Have the number programmed and accessible.</li>
-<li><strong>Step 2:</strong> Check heart rate, gum color, and gut sounds — report findings to your vet.</li>
-<li><strong>Step 3:</strong> Remove all feed. Do not restrict water unless instructed.</li>
-<li><strong>Step 4:</strong> Secure the horse safely in a deeply bedded stall or safe paddock.</li>
-<li><strong>Step 5:</strong> Monitor continuously and record vital sign changes every 15–20 minutes.</li>
-<li><strong>Step 6:</strong> Prepare your trailer in case your vet advises transport to a surgical facility.</li></ol></div>
-    <div class="info-box"><h3>📋 Pre-Emergency Preparation</h3><ul><li>Know your horse's normal heart rate, gut sounds, and gum color — check during health</li>
-<li>Have your vet's emergency number programmed before you ever need it</li>
-<li>Know the location of the nearest equine referral hospital and drive time</li>
-<li>Keep a stethoscope and thermometer in your barn first aid kit</li>
-<li>Have a functional, accessible trailer — not the time to discover a flat tire</li></ul></div>
-    <div class="article-video">
-      <div class="video-frame">
-        <div class="vid-facade" data-vid="TQ0uSbCfHAc" data-title="Colic Prevention — Parasite Control and Management" role="button" tabindex="0" aria-label="Play: Colic Prevention — Parasite Control and Management">
-          <img src="https://img.youtube.com/vi/TQ0uSbCfHAc/hqdefault.jpg" alt="Colic Prevention — Parasite Control and Management" loading="lazy" decoding="async">
-          <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="video-caption">
-        <span class="video-cat-tag">🚨 Emergency</span>
-        <div class="video-title-label">Colic Prevention — Parasite Control and Management</div>
-        <div class="video-by">Monty Roberts University</div>
-      </div>
-    </div>
-    <div class="section-label">Related Topics</div>
-    <div class="related-grid"><a href="/conditions/colic/" class="related-link"><span class="related-link-title">Full Colic Education Guide</span><span class="related-link-arrow">→</span></a>
-<a href="/emergency/wound-care/" class="related-link"><span class="related-link-title">Wound Care</span><span class="related-link-arrow">→</span></a>
-<a href="/emergency/choke/" class="related-link"><span class="related-link-title">Choke</span><span class="related-link-arrow">→</span></a>
-<a href="/preventive-care/" class="related-link"><span class="related-link-title">Preventive Care</span><span class="related-link-arrow">→</span></a>
-<a href="/find-a-vet/" class="related-link"><span class="related-link-title">Find an Equine Vet</span><span class="related-link-arrow">→</span></a>
-<a href="/faq/" class="related-link"><span class="related-link-title">Horse Owner FAQ</span><span class="related-link-arrow">→</span></a></div>
+    <div class="acbox"><h3>✅ Colic Emergency Checklist — In Order</h3><ol><li><strong>Step 1: Check the basics immediately.</strong> Heart rate, gum color, gut sounds in all 4 quadrants, last manure. 2 minutes — do it before calling.</li>
+<li><strong>Step 2: Call your veterinarian.</strong> Report what you found. Describe what the horse is doing. Have duration, diet history, and prior episode history ready.</li>
+<li><strong>Step 3: Remove all feed.</strong> Every hay flake, every bucket. Water stays unless your vet says otherwise.</li>
+<li><strong>Step 4: Secure the horse safely.</strong> A deeply bedded stall or a safe enclosed paddock reduces rolling injury. Remove hazards.</li>
+<li><strong>Step 5: Monitor continuously.</strong> Recheck vitals every 15–20 minutes. Write down the numbers and times. Report changes when your vet calls back.</li>
+<li><strong>Step 6: Hook up your trailer.</strong> Do this while monitoring. If your vet advises referral, every minute of preparation time already spent helps.</li>
+<li><strong>Step 7: Follow your vet's instructions exactly.</strong> If they tell you to walk, walk. If they tell you to keep the horse still, keep it still. Their guidance supersedes this guide.</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Pre-Emergency Preparation — Do This Today</h3><ul><li>Save your vet's emergency line in your phone AND post it in the barn — multiple locations, multiple people</li>
+<li>Know your nearest equine surgical facility and drive time — the time to find this out is not at 2am during a colic</li>
+<li>Take your horse's resting vital signs during health — post them in the stall or barn aisle</li>
+<li>Have a stethoscope in your first aid kit and know how to use it — practice during calm moments</li>
+<li>Keep your trailer in working condition and accessible — electrical, tires, lights, floor — check annually</li>
+<li>Discuss Banamine protocols with your vet at the next wellness visit — get clear instructions for your specific horse before an emergency requires a decision</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What are this horse's individual risk factors for colic, and what management changes would you recommend?</li>
+<li>Given that this episode occurred, what does the exam tell you about the type and cause?</li>
+<li>Under what specific circumstances should I give Banamine before calling you, and at what dose?</li>
+<li>At what point during a colic episode should I skip monitoring and go directly to the referral hospital?</li>
+<li>What is the nearest equine surgical facility you work with, and what is the appropriate protocol for referral?</li>
+<li>Are there any post-colic management changes you recommend based on what we found today?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="TQ0uSbCfHAc" data-title="Healthy Parasite Control — A Colic Prevention Factor"
+         role="button" tabindex="0" aria-label="Play: Healthy Parasite Control — A Colic Prevention Factor">
+      <img src="https://img.youtube.com/vi/TQ0uSbCfHAc/hqdefault.jpg" alt="Healthy Parasite Control — A Colic Prevention Factor" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🚨 Colic Prevention</span>
+    <div class="vtit">Healthy Parasite Control — A Colic Prevention Factor</div><div class="vby">Monty Roberts University / AERC</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/conditions/colic/" class="rlink"><span>Full Colic Educational Guide</span><span>→</span></a>
+<a href="/emergency/wound-care/" class="rlink"><span>Wound Care & First Aid</span><span>→</span></a>
+<a href="/emergency/choke/" class="rlink"><span>Choke</span><span>→</span></a>
+<a href="/preventive-care/deworming/" class="rlink"><span>Deworming Programs</span><span>→</span></a>
+<a href="/body-systems/digestive/" class="rlink"><span>The Equine Digestive System</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sidebar-vet">
+    <div class="svet">
       <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
+      <p>Know your vet's emergency number before you need it. Save it in your phone today.</p>
       <a href="/find-a-vet/">Find a Vet Near You →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Conditions</h3>
-      <a href="/conditions/colic/">Colic</a>
+    <div class="sc">
+      <h3>Emergency Guides</h3>
+      <a href="/emergency/colic-emergency/">Colic Emergency</a>
+      <a href="/emergency/wound-care/">Wound Care &amp; First Aid</a>
+      <a href="/emergency/eye-injury/">Eye Injuries</a>
+      <a href="/emergency/choke/">Choke</a>
+      <a href="/emergency/lacerations/">Lacerations &amp; Deep Wounds</a>
+      <a href="/emergency/">All Emergency Guides →</a>
+    </div>
+    <div class="sc">
+      <h3>Related Conditions</h3>
+      <a href="/conditions/colic/">Colic — Full Guide</a>
       <a href="/conditions/laminitis/">Laminitis</a>
-      <a href="/conditions/ulcers/">Gastric Ulcers</a>
       <a href="/conditions/strangles/">Strangles</a>
-      <a href="/conditions/cushings/">Cushing's / PPID</a>
+      <a href="/conditions/epm/">EPM (Neurological)</a>
       <a href="/conditions/">All 15 Conditions →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Quick Links</h3>
-      <a href="/preventive-care/">Preventive Care</a>
-      <a href="/emergency/">Emergency Guide</a>
-      <a href="/faq/">FAQ</a>
-      <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
+    <div class="sc">
+      <h3>Preventive Care</h3>
+      <a href="/preventive-care/vaccinations/">Vaccinations</a>
+      <a href="/preventive-care/biosecurity/">Biosecurity</a>
+      <a href="/preventive-care/annual-exam/">Annual Exam</a>
+      <a href="/preventive-care/">All Preventive Care →</a>
     </div>
   </aside>
 </div>
 <footer>
-  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="footer-nav">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
-    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="footer-disclaimer">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. © 2026 HorseVeterinarian.AI · Bridle &amp; Bit Magazine. All rights reserved.</div>
 </footer>
 <script>
-document.querySelectorAll('.vid-facade').forEach(function(f){
+document.querySelectorAll('.vfa').forEach(function(f){
   f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
 </script>
-</body>
-</html>
+</body></html>
