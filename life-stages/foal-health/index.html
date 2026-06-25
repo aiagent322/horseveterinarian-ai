@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -209,10 +209,10 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="ab"><h2>Colostrum and Passive Transfer — The Foundation of Foal Immunity</h2>
 <p>The equine placenta does not allow immunoglobulin transfer from mare to foal during gestation — unlike humans and many other mammals. The foal is born with essentially no circulating antibodies. All initial immune protection must come from colostrum — the first milk produced by the mare — which contains concentrated immunoglobulins (primarily IgG) as well as cytokines, growth factors, and antibacterial proteins.</p>
 <p>The foal's intestinal wall contains specialized cells (enterocytes) capable of absorbing intact immunoglobulin molecules into the bloodstream — but only for a limited window after birth. These cells gradually close as the gut matures, a process called gut closure that is complete within approximately 12–18 hours. After closure, the foal can still consume colostrum for nutritional benefit, but can no longer absorb the antibodies it contains. A foal that fails to receive adequate colostrum within this window has Failure of Passive Transfer (FPT) — a preventable condition that dramatically increases susceptibility to life-threatening infection.</p>
-<table class="dtable"><thead><tr><th>IgG Level (mg/dL) at 18–24 hrs</th><th>Classification</th><th>Clinical Risk</th><th>Recommended Action</th></tr></thead><tbody><tr><td><strong>>800</strong></td><td>Adequate passive transfer</td><td>Normal immune protection</td><td>Continue monitoring; standard care</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>IgG Level (mg/dL) at 18–24 hrs</th><th>Classification</th><th>Clinical Risk</th><th>Recommended Action</th></tr></thead><tbody><tr><td><strong>>800</strong></td><td>Adequate passive transfer</td><td>Normal immune protection</td><td>Continue monitoring; standard care</td></tr>
 <tr><td><strong>400–800</strong></td><td>Partial FPT</td><td>Increased susceptibility, particularly if in high-pathogen environment</td><td>Consult vet; consider plasma transfusion especially if foal is unwell or environment is high-risk</td></tr>
 <tr><td><strong><400</strong></td><td>Complete FPT</td><td>High risk of life-threatening septicemia, joint ill, pneumonia</td><td>Plasma transfusion required; intensive monitoring; immediate veterinary management</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h3>Maximizing Colostrum Transfer</h3><ul>
 <li>Confirm the foal is nursing effectively — not just approaching the mare, but actually latching, suckling, and swallowing (you'll see the throat move and the tail pump)</li>
 <li>Colostrum quality matters as much as quantity — measure with a Brix refractometer (>23% Brix = good quality) if available, especially from first-foaling mares or mares that leaked milk before foaling</li>
@@ -221,13 +221,13 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 </ul>
 <h2>The First Week — Monitoring Milestones</h2>
 <p>Beyond colostrum, the first week of a foal's life involves several predictable milestones and a number of potential problems. Knowing what to expect makes early detection of abnormalities easier.</p>
-<table class="dtable"><thead><tr><th>Milestone</th><th>Expected Timing</th><th>What to Watch For</th><th>Action if Abnormal</th></tr></thead><tbody><tr><td><strong>Meconium passage</strong></td><td>First 12–24 hours</td><td>Dark, tarry black-brown feces — first stool in the GI tract</td><td>Foal straining > 30 min without passage: call vet; may need enema</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Milestone</th><th>Expected Timing</th><th>What to Watch For</th><th>Action if Abnormal</th></tr></thead><tbody><tr><td><strong>Meconium passage</strong></td><td>First 12–24 hours</td><td>Dark, tarry black-brown feces — first stool in the GI tract</td><td>Foal straining > 30 min without passage: call vet; may need enema</td></tr>
 <tr><td><strong>Transitional milk diarrhea</strong></td><td>Days 5–12 (foal heat diarrhea)</td><td>Mild yellow-green diarrhea when mare cycles; foal remains bright and nursing</td><td>Monitor; keep perineum clean; call vet if profuse, severe, or foal is depressed</td></tr>
 <tr><td><strong>Umbilical stump drying</strong></td><td>Days 3–7</td><td>Cord dries and falls off</td><td>Warm, enlarged, or painful navel: navel ill; call vet immediately</td></tr>
 <tr><td><strong>Normal weight gain</strong></td><td>~1–2 kg/day in first weeks</td><td>Foal should look increasingly robust; ribs should not be visibly prominent after first few days</td><td>Failure to gain or weight loss: assess nursing, vet evaluation</td></tr>
 <tr><td><strong>Joint appearance</strong></td><td>Throughout first month</td><td>All joints should be the same size and temperature; foal should move freely and comfortably</td><td>Any joint enlargement, heat, or lameness: emergency veterinary call</td></tr>
 <tr><td><strong>Eye appearance</strong></td><td>Birth through first week</td><td>Eyes clear, open, normal position; no corneal cloudiness</td><td>Entropion (eyelid turning inward) common in premature foals; need vet correction immediately</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Neonatal Emergencies — What Can't Wait</h2>
 <p>Several conditions in the neonatal period are true emergencies requiring immediate veterinary attention. Early recognition and rapid veterinary intervention dramatically improve outcomes for all of them.</p>
 <h3>Neonatal Septicemia</h3><ul>
@@ -252,12 +252,12 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 </ul>
 <h2>Vaccination and Deworming for Foals</h2>
 <p>Foal vaccination and deworming protocols differ significantly from adult horses — both because of residual maternal antibodies that interfere with vaccination and because of different parasite risks in young horses.</p>
-<table class="dtable"><thead><tr><th>Age</th><th>Vaccination</th><th>Deworming</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Birth–3 months</strong></td><td>None (maternal antibodies interfere with vaccine response)</td><td>None routinely in first 4–6 weeks</td><td>Neonatal care focus; dam's vaccination status determines foal's early protection</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Age</th><th>Vaccination</th><th>Deworming</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Birth–3 months</strong></td><td>None (maternal antibodies interfere with vaccine response)</td><td>None routinely in first 4–6 weeks</td><td>Neonatal care focus; dam's vaccination status determines foal's early protection</td></tr>
 <tr><td><strong>3–4 months (unvaccinated dam)</strong></td><td>Begin primary series early — core vaccines</td><td>Fecal egg count + target Parascaris with appropriate product</td><td>Start earlier if dam was not vaccinated; Parascaris risk begins when grazing starts</td></tr>
 <tr><td><strong>4–6 months (vaccinated dam)</strong></td><td>Begin primary series — core vaccines + risk-based</td><td>FEC; pyrantel or fenbendazole for Parascaris (check ivermectin resistance)</td><td>Maternal antibodies waning; primary vaccination series</td></tr>
 <tr><td><strong>6–12 months</strong></td><td>Complete primary series; boosters as directed by vet</td><td>Continue FEC-based deworming; target Parascaris until ~18 months</td><td>Transitioning to adult parasite risk profile</td></tr>
 <tr><td><strong>12–18 months</strong></td><td>Annual boosters; adult vaccination schedule</td><td>FEC-based; transition to adult strongyle management</td><td>Parascaris risk decreasing; adult strongyle risk increasing</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h3>Parascaris — The Foal's Primary Parasite Concern</h3><ul>
 <li>Parascaris equorum (large roundworms) is the primary parasite concern in horses under 18 months old, not cyathostomins (small strongyles) as in adult horses</li>
 <li>Parascaris has widespread ivermectin resistance — do not rely on ivermectin as the primary Parascaris treatment in foals</li>

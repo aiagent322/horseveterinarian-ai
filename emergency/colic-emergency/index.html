@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -212,16 +212,16 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="ab"><h2>Before the Call — Know Your Horse's Normals</h2>
 <p>The most important preparation for a colic emergency happens long before any emergency occurs: knowing your horse's individual normal vital signs. The ranges listed below are population averages — your horse may have a resting heart rate consistently at 36 bpm or consistently at 42 bpm. Knowing their specific normal makes a deviation immediately recognizable.</p>
 <p>Take your horse's vital signs during a calm, healthy moment and write them in a location accessible during an emergency (barn bulletin board, phone note, in the halter bag). The 2 minutes it takes to do this now could be the difference between recognizing an early problem and missing it.</p>
-<table class="dtable"><thead><tr><th>Vital Sign</th><th>Normal Range</th><th>How to Measure</th><th>Abnormal Colic Sign</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>28–44 bpm at rest</td><td>Stethoscope behind left elbow; or digital artery at medial fetlock — count 15 sec × 4</td><td>Above 60 bpm: serious. Above 80 bpm: critical</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Vital Sign</th><th>Normal Range</th><th>How to Measure</th><th>Abnormal Colic Sign</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>28–44 bpm at rest</td><td>Stethoscope behind left elbow; or digital artery at medial fetlock — count 15 sec × 4</td><td>Above 60 bpm: serious. Above 80 bpm: critical</td></tr>
 <tr><td><strong>Gum color</strong></td><td>Salmon pink to pink; moist</td><td>Lift the upper lip and examine the mucous membrane</td><td>Pale, white, gray, brick red, purple — all abnormal</td></tr>
 <tr><td><strong>Capillary refill time</strong></td><td>< 2 seconds</td><td>Press firm on gum with thumb for 2 seconds; release; count seconds to return to pink</td><td>3+ seconds: circulatory compromise</td></tr>
 <tr><td><strong>Gut sounds</strong></td><td>Active gurgles, splashes in all 4 quadrants</td><td>Stethoscope to each of 4 locations: upper and lower left flank, upper and lower right flank</td><td>Absent in 1–4 quadrants: concern; absent all 4: serious</td></tr>
 <tr><td><strong>Respiratory rate</strong></td><td>8–16 breaths/min at rest</td><td>Count flank movements for 30 seconds × 2</td><td>Elevated RR indicates pain or metabolic compromise</td></tr>
 <tr><td><strong>Manure</strong></td><td>Horse should defecate 8–12 times/day</td><td>Track passage since last observation</td><td>No manure in 8+ hours or very dry, small piles: concern</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>The Call — What Your Vet Needs to Know</h2>
 <p>When you call your veterinarian about a colic, the information you provide in the first 60 seconds determines how they triage the call, what they bring, and how fast they come. Have these answers ready before you dial — it is worth taking 2 minutes to check vitals before calling rather than calling with no information.</p>
-<table class="dtable"><thead><tr><th>Information</th><th>Why the Vet Needs It</th><th>Collect Before Calling</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>Most reliable single indicator of pain severity and cardiovascular status</td><td>Count now: 15 sec × 4</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Information</th><th>Why the Vet Needs It</th><th>Collect Before Calling</th></tr></thead><tbody><tr><td><strong>Heart rate</strong></td><td>Most reliable single indicator of pain severity and cardiovascular status</td><td>Count now: 15 sec × 4</td></tr>
 <tr><td><strong>Gum color and CRT</strong></td><td>Indicates circulatory compromise</td><td>Lift lip and check now</td></tr>
 <tr><td><strong>Gut sounds</strong></td><td>Absent sounds suggest ileus or displacement</td><td>Listen to all 4 quadrants now</td></tr>
 <tr><td><strong>Last manure — when and what</strong></td><td>Absence or change suggests obstruction; diarrhea suggests enteritis</td><td>When did you last see manure? What did it look like?</td></tr>
@@ -229,10 +229,10 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 <tr><td><strong>Diet/management changes</strong></td><td>Grain overload, new hay, pasture access, stress</td><td>Any changes in last 48–72 hours?</td></tr>
 <tr><td><strong>What the horse is doing</strong></td><td>Helps vet assess severity over phone</td><td>Is the horse rolling? Standing? Pawing? Quiet?</td></tr>
 <tr><td><strong>Prior colic history</strong></td><td>Horses with prior surgical colic have higher recurrence risk</td><td>Any prior episodes? Any prior surgery?</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Severity Assessment — Medical vs. Surgical Colic</h2>
 <p>Your veterinarian assesses colic severity through examination and determines whether the case can be managed medically (nasogastric tube, fluids, analgesics) or requires surgical referral. Understanding the factors that suggest surgical need helps owners appreciate why certain signs require urgency.</p>
-<table class="dtable"><thead><tr><th>Sign / Finding</th><th>Medical Colic Indicator</th><th>Surgical Colic Indicator</th></tr></thead><tbody><tr><td><strong>Pain level</strong></td><td>Mild to moderate; responds to analgesics</td><td>Severe, uncontrollable; persists despite medication</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Sign / Finding</th><th>Medical Colic Indicator</th><th>Surgical Colic Indicator</th></tr></thead><tbody><tr><td><strong>Pain level</strong></td><td>Mild to moderate; responds to analgesics</td><td>Severe, uncontrollable; persists despite medication</td></tr>
 <tr><td><strong>Heart rate</strong></td><td>< 60 bpm</td><td>60–80+ bpm; worsening over time</td></tr>
 <tr><td><strong>Gum color</strong></td><td>Normal pink</td><td>Pale, gray, brick red, or toxic line</td></tr>
 <tr><td><strong>Gut sounds</strong></td><td>Present in some quadrants</td><td>Absent in all 4 quadrants</td></tr>
@@ -241,7 +241,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 <tr><td><strong>Response to treatment</strong></td><td>Improves within 30–60 min of medication</td><td>Minimal or no improvement; pain returns rapidly</td></tr>
 <tr><td><strong>Duration</strong></td><td>< 4–6 hours</td><td>Prolonged or worsening despite treatment</td></tr>
 <tr><td><strong>Abdominal distension</strong></td><td>None or mild</td><td>Progressive; visible from across stall</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>What To Do While Waiting — and What Not To Do</h2>
 <p>Your veterinarian will give specific instructions for your horse's situation. The following represents general educational guidance — always follow your vet's directions over any general resource.</p>
 <h3>DO — General Educational Guidance</h3><ul>
@@ -262,13 +262,13 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 <h2>If Surgical Referral Is Advised</h2>
 <p>When your veterinarian recommends referral to an equine surgical facility, time is the critical factor. Large colon volvulus (torsion) survival rates decline measurably with each hour between onset and surgical intervention. Small intestinal strangulation can produce irreversible intestinal necrosis within 4–6 hours of blood supply compromise.</p>
 <p>Know the location and drive time to your nearest equine surgical facility before any emergency — not during one. Call the hospital immediately when your vet advises referral; they will prepare the surgery team while you are in transit. Your vet will communicate with the hospital about your horse's status.</p>
-<table class="dtable"><thead><tr><th>Colic Type</th><th>Time Sensitivity</th><th>Surgical Window Notes</th></tr></thead><tbody><tr><td><strong>Large colon volvulus (torsion)</strong></td><td>Highest — hours matter</td><td>Survival rates decline significantly >4 hours from onset; >6–8 hrs survival very poor</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Colic Type</th><th>Time Sensitivity</th><th>Surgical Window Notes</th></tr></thead><tbody><tr><td><strong>Large colon volvulus (torsion)</strong></td><td>Highest — hours matter</td><td>Survival rates decline significantly >4 hours from onset; >6–8 hrs survival very poor</td></tr>
 <tr><td><strong>Small intestinal volvulus/strangulation</strong></td><td>Highest</td><td>Intestinal necrosis begins within hours; resection length and viability determine survival</td></tr>
 <tr><td><strong>Nephrosplenic entrapment (left dorsal displacement)</strong></td><td>Moderate — can try medical/rolling first</td><td>Some resolve with jogging, Buscopan, or controlled rolling under anesthesia before surgery</td></tr>
 <tr><td><strong>Right dorsal displacement</strong></td><td>Moderate</td><td>May attempt medical management; surgery if not responding</td></tr>
 <tr><td><strong>Large colon impaction</strong></td><td>Lower — usually medical</td><td>Surgery rarely needed but indicated if medical management fails after 24–48 hrs</td></tr>
 <tr><td><strong>Cecal impaction</strong></td><td>Moderate to high</td><td>Can deteriorate rapidly; lower threshold for surgery than large colon impaction</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Colic Prevention — The Best Emergency Is the One That Doesn't Happen</h2>
 <p>No management program eliminates colic risk entirely, but the evidence-based practices below consistently reduce incidence. These are practical management strategies to discuss with your veterinarian at your next wellness visit.</p>
 <h3>Evidence-Based Colic Risk Reduction</h3><ul>

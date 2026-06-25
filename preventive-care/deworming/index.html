@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -213,28 +213,28 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 <h2>Fecal Egg Counts — The Diagnostic Foundation of Modern Deworming</h2>
 <p>The fecal egg count (FEC) is a laboratory test that quantifies the number of parasite eggs in a gram of fresh manure. The McMaster flotation technique is the most widely used — a weighed manure sample is mixed with a flotation solution, and eggs visible under the microscope are counted. Results are expressed as eggs per gram (EPG).</p>
 <p>FEC results categorize horses as low shedders (< 200 EPG), moderate shedders (200–500 EPG), or high shedders (> 500 EPG). This categorization drives treatment decisions. A low shedder may need only one treatment per year — or none beyond the annual bot treatment. A high shedder may need treatment two to four times per year.</p>
-<table class="dtable"><thead><tr><th>Shedding Category</th><th>FEC Result</th><th>General Management</th><th>Treatment Frequency</th></tr></thead><tbody><tr><td><strong>Low shedder</strong></td><td>< 200 EPG</td><td>Natural resistance or immunity — do not over-treat</td><td>1–2 treatments/year (fall bot treatment + possibly one spring)</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Shedding Category</th><th>FEC Result</th><th>General Management</th><th>Treatment Frequency</th></tr></thead><tbody><tr><td><strong>Low shedder</strong></td><td>< 200 EPG</td><td>Natural resistance or immunity — do not over-treat</td><td>1–2 treatments/year (fall bot treatment + possibly one spring)</td></tr>
 <tr><td><strong>Moderate shedder</strong></td><td>200–500 EPG</td><td>Some treatment needed; monitor closely</td><td>2 treatments/year typically</td></tr>
 <tr><td><strong>High shedder</strong></td><td>> 500 EPG</td><td>Significant parasite burden; treat and recheck</td><td>2–4 treatments/year; recheck FEC after treatment</td></tr>
 <tr><td><strong>FECRT follow-up</strong></td><td>Check 10–14 days post-treatment</td><td>Confirms treatment efficacy; detects resistance</td><td>Any time treatment is given to a high shedder</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>What FECs Do and Don't Detect</h2>
 <p>Standard McMaster FEC detects the eggs of cyathostomins (small strongyles), large strongyles, and ascarids (roundworms in young horses). These are the most clinically significant parasites in adult horses. However, FECs do NOT detect all important equine parasites — which is why targeted supplemental management is needed for bots and tapeworms.</p>
-<table class="dtable"><thead><tr><th>Parasite</th><th>FEC Detection</th><th>Management Approach</th><th>Product</th></tr></thead><tbody><tr><td><strong>Cyathostomins (small strongyles)</strong></td><td>Yes — standard McMaster FEC</td><td>FEC-based targeted treatment</td><td>Ivermectin, moxidectin, fenbendazole (check efficacy with FECRT)</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Parasite</th><th>FEC Detection</th><th>Management Approach</th><th>Product</th></tr></thead><tbody><tr><td><strong>Cyathostomins (small strongyles)</strong></td><td>Yes — standard McMaster FEC</td><td>FEC-based targeted treatment</td><td>Ivermectin, moxidectin, fenbendazole (check efficacy with FECRT)</td></tr>
 <tr><td><strong>Large strongyles (S. vulgaris)</strong></td><td>Yes — standard McMaster FEC</td><td>Same FEC-based approach; ivermectin highly effective</td><td>Ivermectin, moxidectin</td></tr>
 <tr><td><strong>Parascaris equorum (roundworms)</strong></td><td>Yes — in foals and young horses</td><td>Foal-specific protocol under 18 months; pyrantel or fenbendazole (ivermectin resistance widespread in Parascaris)</td><td>Pyrantel, fenbendazole; NOT ivermectin as primary for Parascaris</td></tr>
 <tr><td><strong>Gasterophilus (bot flies)</strong></td><td>NO — not detected on standard FEC</td><td>Annual post-frost treatment — all horses regardless of FEC</td><td>Ivermectin or moxidectin</td></tr>
 <tr><td><strong>Anoplocephala (tapeworms)</strong></td><td>NO — eggs passed intermittently, detected poorly</td><td>Annual praziquantel treatment; salivary ELISA test available</td><td>Praziquantel (in combination products or standalone)</td></tr>
 <tr><td><strong>Encysted small strongyles (L3/L4)</strong></td><td>NO — encysted larvae produce no eggs</td><td>Treatment consideration for newly acquired horses or history of anthelmintic-naive periods</td><td>Moxidectin (5-day fenbendazole course has variable efficacy)</td></tr>
 <tr><td><strong>Pinworms (Oxyuris equi)</strong></td><td>Inconsistent — eggs deposited around anus, not in feces</td><td>Diagnosis by anal tape test; treat with pyrantel or ivermectin</td><td>Pyrantel tartrate, ivermectin</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Anthelmintic Drug Classes — What's Available and What Works</h2>
 <p>Three primary drug classes are available for equine internal parasite control. Understanding their differences, coverage spectra, and resistance profiles allows more informed conversations with your veterinarian about product selection.</p>
-<table class="dtable"><thead><tr><th>Drug Class</th><th>Products</th><th>Primary Targets</th><th>Resistance Status</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Macrocyclic lactones</strong></td><td>Ivermectin (Equimax, Zimecterin); Moxidectin (Quest)</td><td>Strongyles, ascarids, pinworms, bots, Habronema; moxidectin also targets encysted cyathostomins</td><td>Ivermectin resistance confirmed in Parascaris; emerging in some strongyle populations</td><td>Moxidectin is longer-acting (superior persistence); do not use in foals <4 months</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Drug Class</th><th>Products</th><th>Primary Targets</th><th>Resistance Status</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Macrocyclic lactones</strong></td><td>Ivermectin (Equimax, Zimecterin); Moxidectin (Quest)</td><td>Strongyles, ascarids, pinworms, bots, Habronema; moxidectin also targets encysted cyathostomins</td><td>Ivermectin resistance confirmed in Parascaris; emerging in some strongyle populations</td><td>Moxidectin is longer-acting (superior persistence); do not use in foals <4 months</td></tr>
 <tr><td><strong>Benzimidazoles</strong></td><td>Fenbendazole (Panacur, Safeguard); Oxibendazole</td><td>Strongyles, ascarids, pinworms; 5-day fenbendazole course targets encysted larvae</td><td>Widespread resistance in cyathostomins — always confirm efficacy with FECRT before relying on this class</td><td>FECRT essential; resistance often >50% in many herds</td></tr>
 <tr><td><strong>Pyrimidines</strong></td><td>Pyrantel (Strongid)</td><td>Strongyles, ascarids, tapeworms (double dose)</td><td>Some resistance documented; less severe than benzimidazole resistance currently</td><td>Daily low-dose pyrantel (Strongid C) is a continuous option for some horses</td></tr>
 <tr><td><strong>Praziquantel</strong></td><td>Equimax (with ivermectin); Zimecterin Gold (with ivermectin); standalone products</td><td>Tapeworms (Anoplocephala) — not effective against strongyles</td><td>No resistance documented</td><td>No resistance after decades of use; combine with macrocyclic lactone for broad-spectrum fall treatment</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>The Annual Bot Fly Protocol — A Non-FEC Exception</h2>
 <p>Bot fly larvae (Gasterophilus species) are not detected by standard fecal egg counts and therefore fall outside the targeted selective treatment framework. However, they do require annual management. The recommended protocol is straightforward: administer ivermectin or moxidectin once annually, timed after the first killing frost (or after the end of bot fly season in year-round warm climates).</p>
 <p>This post-frost timing ensures that all bot fly eggs deposited during the season have been ingested and migrated to the stomach — so a single treatment eliminates the maximum possible larval burden. Treatment given during active fly season (while new eggs are still being deposited and ingested) leaves late-season larvae behind.</p>
@@ -246,12 +246,12 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 </ul>
 <h2>Building a Complete Annual Program</h2>
 <p>A complete strategic parasite management program addresses strongyles (FEC-based), bot flies (targeted annual), and tapeworms (annual praziquantel). The following framework is a starting point — your veterinarian customizes it for your herd.</p>
-<table class="dtable"><thead><tr><th>Time</th><th>Action</th><th>All Horses</th><th>Horses Per FEC Result</th></tr></thead><tbody><tr><td><strong>Early spring (Feb–Mar)</strong></td><td>FEC for all horses</td><td>Identify shedder categories for the year</td><td>Treat high shedders (>500 EPG) with most effective available product</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Time</th><th>Action</th><th>All Horses</th><th>Horses Per FEC Result</th></tr></thead><tbody><tr><td><strong>Early spring (Feb–Mar)</strong></td><td>FEC for all horses</td><td>Identify shedder categories for the year</td><td>Treat high shedders (>500 EPG) with most effective available product</td></tr>
 <tr><td><strong>Spring (Apr–May)</strong></td><td>FECRT on treated horses</td><td>Check 10–14 days post-treatment</td><td>Confirm >95% reduction — investigate resistance if not achieved</td></tr>
 <tr><td><strong>Mid-season (Jul–Aug)</strong></td><td>FEC recheck for high shedders</td><td>—</td><td>High shedders may need mid-season treatment based on recheck</td></tr>
 <tr><td><strong>Fall (Sep–Oct)</strong></td><td>FEC for all horses</td><td>Identify end-of-season shedder status</td><td>Treat moderate/high shedders before bot treatment</td></tr>
 <tr><td><strong>Post-frost (Oct–Dec)</strong></td><td>Annual bot + tapeworm treatment</td><td>ALL horses — ivermectin or moxidectin + praziquantel</td><td>Include all horses regardless of FEC status — bots are not FEC-detectable</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
     <div class="acbox"><h3>✅ Starting a FEC-Based Deworming Program</h3><ol><li><strong>Contact your veterinarian</strong> to discuss establishing a fecal egg count program — most equine practices can process FEC samples or direct you to a laboratory</li>
 <li><strong>Collect FEC samples</strong> for all horses in your herd this spring — fresh manure, golf ball size, from the center of a pile, refrigerate if not submitting same day</li>

@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -224,7 +224,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
       <h2>Signs by Category — Recognizing EGUS in Your Horse</h2>
       <p>Gastric ulcer signs are notably non-specific — none of them alone is diagnostic, and horses with serious ulceration may show only subtle changes while horses with mild ulcers may appear dramatically uncomfortable. This is why the pattern of signs across multiple categories is more meaningful than any single sign.</p>
 
-      <table class="dtable">
+      <div class="table-scroll"><table class="dtable">
         <thead><tr><th>Category</th><th>Signs That May Indicate EGUS</th><th>Notes</th></tr></thead>
         <tbody>
           <tr><td><strong>Performance</strong></td><td>Declining times or scores; reluctance to collect; loss of impulsion; early rate; not completing the pattern</td><td>Often the most objectively measurable change in competition horses</td></tr>
@@ -233,7 +233,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
           <tr><td><strong>Physical appearance</strong></td><td>Weight loss despite adequate feed; poor body condition; rough, dull coat; poor topline</td><td>More common with chronic significant ulceration</td></tr>
           <tr><td><strong>Foal-specific</strong></td><td>Lying on back; salivating excessively; grinding teeth; poor nursing; diarrhea; pot-bellied appearance</td><td>Foals may have higher prevalence and more dramatic signs</td></tr>
         </tbody>
-      </table>
+      </table></div>
 
       <h2>The Diagnostic Process — Why Gastroscopy Is Required</h2>
       <p>Gastroscopy — passage of a 3-meter flexible endoscope through the horse's nostril, down the esophagus, and into the stomach — is the only way to definitively diagnose EGUS, determine which region is affected, and grade severity. No blood test, urine test, or clinical exam can replace it.</p>

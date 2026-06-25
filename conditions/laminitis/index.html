@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -249,7 +249,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
       <h2>The Three Stages of Laminitis</h2>
       <p>Veterinarians commonly describe laminitis in three clinical stages. Understanding these terms helps horse owners communicate more clearly with their veterinarian and understand what a diagnosis means.</p>
 
-      <table class="dtable">
+      <div class="table-scroll"><table class="dtable">
         <thead>
           <tr><th>Stage</th><th>Timing</th><th>What Is Happening</th><th>Clinical Signs</th><th>What This Means</th></tr>
         </thead>
@@ -276,7 +276,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
             <td>Long-term management — monthly radiographs, therapeutic shoeing, underlying disease management</td>
           </tr>
         </tbody>
-      </table>
+      </table></div>
 
       <h2>Recognizing Signs of Laminitis</h2>
       <p>Laminitis has a characteristic set of signs that experienced horse owners learn to recognize. Early recognition — before the condition progresses from developmental to acute — dramatically improves outcomes. Know your horse's normal so you can detect abnormal.</p>

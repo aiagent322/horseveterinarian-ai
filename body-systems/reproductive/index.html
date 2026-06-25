@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -209,12 +209,12 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="ab"><h2>The Mare's Estrous Cycle — Physiology and Practical Implications</h2>
 <p>The equine estrous cycle averages 21 days and is regulated by the interplay of pituitary gonadotropins (FSH, LH) and ovarian steroids (estrogen, progesterone). During the follicular phase (estrus, approximately 5–7 days), a dominant follicle develops under FSH drive and produces estrogen, which causes behavioral heat. LH surge triggers ovulation, typically 24–48 hours before the end of behavioral heat. During the luteal phase (diestrus, approximately 14 days), the corpus luteum produces progesterone, suppressing behavioral estrus.</p>
 <p>The practical implication: breeding at random within 'heat' does not optimize conception rates. Breeding timed to the period 24–48 hours before ovulation — identified by rectal palpation and ultrasound monitoring of follicle size — produces significantly better results, particularly for transported semen where the timing window is narrow.</p>
-<table class="dtable"><thead><tr><th>Phase</th><th>Duration</th><th>Hormonal Driver</th><th>What You May Observe</th><th>Optimal Breeding Window</th></tr></thead><tbody><tr><td><strong>Estrus (heat)</strong></td><td>5–7 days</td><td>Rising estrogen from dominant follicle</td><td>Receptive to stallion; squatting; frequent urination; relaxed vulva</td><td>Days 3–5 of estrus, or 24–48 hrs before confirmed ovulation</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Phase</th><th>Duration</th><th>Hormonal Driver</th><th>What You May Observe</th><th>Optimal Breeding Window</th></tr></thead><tbody><tr><td><strong>Estrus (heat)</strong></td><td>5–7 days</td><td>Rising estrogen from dominant follicle</td><td>Receptive to stallion; squatting; frequent urination; relaxed vulva</td><td>Days 3–5 of estrus, or 24–48 hrs before confirmed ovulation</td></tr>
 <tr><td><strong>Ovulation</strong></td><td>~36 hrs from LH surge</td><td>LH surge</td><td>Behavioral heat ending or mare becoming less receptive</td><td>At or within 12 hrs of confirmed ovulation for AI</td></tr>
 <tr><td><strong>Early diestrus</strong></td><td>Days 1–5 post-ovulation</td><td>Rising progesterone from CL</td><td>Mare rejecting stallion (squeal, kick, threat)</td><td>Not indicated</td></tr>
 <tr><td><strong>Diestrus</strong></td><td>Days 5–16</td><td>Progesterone dominant</td><td>No receptivity to stallion</td><td>Not indicated</td></tr>
 <tr><td><strong>Late diestrus / transition</strong></td><td>Days 16–21</td><td>Progesterone declining; PGF2α luteolysis</td><td>Variable behavior as transition begins</td><td>Not optimal</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Seasonal Anestrus and Photoperiod Management</h2>
 <p>Mares are seasonally polyestrous — the reproductive system is activated by increasing day length (long days) and suppressed by decreasing day length (short days). In the Northern Hemisphere, mares typically cycle from approximately April through October; they enter anestrus (no ovarian activity) in winter and transition back to cyclicity in spring.</p>
 <p>The spring transition is the most challenging period for breeding management — mares are transitioning from anestrus to normal cyclicity through a period of irregular, prolonged, and sometimes behaviorally indeterminate cycles. Artificial lighting — simulating a longer photoperiod from December 1 — advances this transition, allowing mares to reach normal cyclicity earlier in the calendar year.</p>
@@ -227,19 +227,19 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 </ul>
 <h2>Pregnancy Monitoring — Key Veterinary Checkpoints</h2>
 <p>Pregnancy monitoring in horses follows a structured schedule designed to confirm conception, identify problems at the earliest possible point, and plan appropriately for foaling.</p>
-<table class="dtable"><thead><tr><th>Checkpoint</th><th>Timing</th><th>Method</th><th>Purpose</th></tr></thead><tbody><tr><td><strong>Early pregnancy check</strong></td><td>Day 14–16 post-ovulation</td><td>Transrectal ultrasound</td><td>Confirm embryonic vesicle; detect twins; earliest intervention point</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Checkpoint</th><th>Timing</th><th>Method</th><th>Purpose</th></tr></thead><tbody><tr><td><strong>Early pregnancy check</strong></td><td>Day 14–16 post-ovulation</td><td>Transrectal ultrasound</td><td>Confirm embryonic vesicle; detect twins; earliest intervention point</td></tr>
 <tr><td><strong>Heartbeat confirmation</strong></td><td>Day 25–28</td><td>Transrectal ultrasound</td><td>Confirm fetal heartbeat; confirms viable pregnancy</td></tr>
 <tr><td><strong>Twin reduction (if twins)</strong></td><td>By day 14–30</td><td>Manual crushing or endoscopic aspiration</td><td>Equine uterus cannot support twins; early reduction is far more successful than later attempts</td></tr>
 <tr><td><strong>Fetal sexing (optional)</strong></td><td>Day 60–70</td><td>Transrectal ultrasound</td><td>High accuracy window for genital tubercle sexing</td></tr>
 <tr><td><strong>Mid-pregnancy check</strong></td><td>Day 90–100+</td><td>Transrectal or transabdominal ultrasound</td><td>Confirm ongoing pregnancy; assess fetal development</td></tr>
 <tr><td><strong>Pre-foaling assessment</strong></td><td>2–4 weeks pre-foaling</td><td>Physical exam, udder assessment, colostrum quality</td><td>Ensure foaling preparation is appropriate; identify any concerns</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Parturition — Normal Foaling Stages</h2>
 <p>Understanding normal foaling stages allows horse owners to recognize when intervention may be needed. Most mares foal at night with minimal assistance required. The active delivery (Stage 2) is the critical monitoring window.</p>
-<table class="dtable"><thead><tr><th>Stage</th><th>Duration</th><th>What Happens</th><th>When to Call Vet</th></tr></thead><tbody><tr><td><strong>Stage 1 — Preparatory</strong></td><td>1–4 hours</td><td>Uterine contractions; restlessness; sweating; colic signs; intermittent lying and rising</td><td>Not needed unless signs are extreme or Stage 1 exceeds 4 hours without progressing</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Stage</th><th>Duration</th><th>What Happens</th><th>When to Call Vet</th></tr></thead><tbody><tr><td><strong>Stage 1 — Preparatory</strong></td><td>1–4 hours</td><td>Uterine contractions; restlessness; sweating; colic signs; intermittent lying and rising</td><td>Not needed unless signs are extreme or Stage 1 exceeds 4 hours without progressing</td></tr>
 <tr><td><strong>Stage 2 — Active delivery</strong></td><td>20–30 minutes</td><td>Amnion ruptures; active straining; foal delivered forelegs and head first</td><td>If foal not delivered within 30 minutes of amnion rupturing — call immediately; dystocia</td></tr>
 <tr><td><strong>Stage 3 — Placental expulsion</strong></td><td>1–3 hours</td><td>Placenta passes; mare may show mild colic signs</td><td>If placenta not passed within 3 hours — call vet; retained placenta is a serious emergency</td></tr>
-</tbody></table>
+</tbody></table></div>
 </div>
     <div class="acbox"><h3>✅ Reproductive Health Program — Mares and Stallions</h3><ol><li><strong>Pre-breeding exam 4–6 weeks before</strong> planned breeding — culture, ultrasound, conformation assessment</li>
 <li><strong>Start artificial lighting December 1</strong> if early-season breeding is planned — response takes 60–90 days</li>

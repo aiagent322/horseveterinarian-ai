@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -209,7 +209,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="ab"><h2>Neurological vs. Orthopedic — The Clinical Distinction</h2>
 <p>One of the most common diagnostic challenges is distinguishing a neurological gait abnormality from an orthopedic one. Both can produce abnormal movement, reluctance to move, and apparent weakness. Several clinical features help differentiate them.</p>
 <p>The key distinguishing feature of neurological gait is ataxia — the horse placing its feet in abnormal positions relative to where they should be, not simply avoiding weight-bearing. An orthopedic lameness produces a horse that moves carefully to protect a painful structure; a neurological problem produces a horse that cannot accurately control where its feet go.</p>
-<table class="dtable"><thead><tr><th>Feature</th><th>Orthopedic Lameness</th><th>Neurological Condition</th></tr></thead><tbody><tr><td><strong>Primary mechanism</strong></td><td>Pain avoidance</td><td>Loss of proprioception and/or motor control</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Feature</th><th>Orthopedic Lameness</th><th>Neurological Condition</th></tr></thead><tbody><tr><td><strong>Primary mechanism</strong></td><td>Pain avoidance</td><td>Loss of proprioception and/or motor control</td></tr>
 <tr><td><strong>Limb placement</strong></td><td>Careful, protective</td><td>Abnormal — wide-based, cross-stepping, stumbling</td></tr>
 <tr><td><strong>Head elevation effect</strong></td><td>May worsen if forelimb</td><td>Typically worsens neurological signs — ataxia increases with head elevation</td></tr>
 <tr><td><strong>Circles</strong></td><td>Often worse on circle — consistent pattern</td><td>Worse on circle; may 'fall in' or 'drift out'; loses the circle</td></tr>
@@ -217,16 +217,16 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 <tr><td><strong>Asymmetry</strong></td><td>Consistent limb preference</td><td>May be asymmetric (EPM) or symmetric (CVSM)</td></tr>
 <tr><td><strong>Muscle wasting</strong></td><td>Disuse atrophy over time</td><td>May be neurogenic atrophy — more rapid, more focal</td></tr>
 <tr><td><strong>Response to nerve block</strong></td><td>Lameness improves with analgesia</td><td>Does NOT improve with perineural analgesia</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>AAEP Neurological Grading Scale</h2>
 <p>The AAEP 5-grade neurological grading scale provides a standardized framework for assessing severity and tracking change over time. Knowing this scale allows horse owners to describe what they observe in terms their veterinarian can immediately interpret.</p>
-<table class="dtable"><thead><tr><th>Grade</th><th>Description</th><th>What You See</th><th>Handler Safety</th></tr></thead><tbody><tr><td><strong>0</strong></td><td>Normal</td><td>No detectable gait abnormality</td><td>Normal</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Grade</th><th>Description</th><th>What You See</th><th>Handler Safety</th></tr></thead><tbody><tr><td><strong>0</strong></td><td>Normal</td><td>No detectable gait abnormality</td><td>Normal</td></tr>
 <tr><td><strong>1</strong></td><td>Barely perceptible deficit</td><td>Subtle ataxia detectable only with manipulation (head elevation, tight circles, slopes)</td><td>Safe</td></tr>
 <tr><td><strong>2</strong></td><td>Mild deficit</td><td>Ataxia detectable at normal gaits; worse with manipulation</td><td>Generally safe; monitor</td></tr>
 <tr><td><strong>3</strong></td><td>Moderate deficit</td><td>Ataxia prominent at normal gaits; stumbles spontaneously; may fall with manipulation</td><td>Caution — do not ride; handler at risk</td></tr>
 <tr><td><strong>4</strong></td><td>Severe deficit</td><td>Stumbles spontaneously; falls with circling or inclines; near recumbent possible</td><td>High risk — significant injury risk to horse and handler</td></tr>
 <tr><td><strong>5</strong></td><td>Recumbent</td><td>Cannot or will not rise; recumbent</td><td>Emergency — human safety concern; do not attempt to force standing</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>EPM — Equine Protozoal Myeloencephalitis</h2>
 <p>EPM is caused by Sarcocystis neurona, a protozoan parasite whose definitive host is the Virginia opossum (Didelphis virginiana). Opossums shed sporocysts in their feces, which can contaminate hay, grain, and water sources accessed by horses. When horses ingest sporocysts, the protozoa can invade the central nervous system and cause focal or multifocal damage — producing the characteristic asymmetric neurological signs.</p>
 <p>Diagnosis is complicated by the high background seropositivity in North America — many horses have antibody titers indicating exposure without clinical disease. Definitive diagnosis combines clinical scoring, exclusion of other neurological conditions, serum and ideally CSF antibody testing, and response to treatment. Three FDA-approved antiprotozoal protocols exist (ponazuril, diclazuril, sulfadiazine-pyrimethamine).</p>

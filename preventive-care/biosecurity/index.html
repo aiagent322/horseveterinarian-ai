@@ -89,7 +89,7 @@ a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
 .ab li{margin-bottom:5px}
 .ab strong{color:var(--I)}
 /* TABLES */
-.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;background:var(--W);border:1px solid var(--B)}.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:var(--r);margin:16px 0 20px}
 .dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
 .dtable tr:last-child td{border-bottom:none}
@@ -210,25 +210,25 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="ab"><h2>The Core Principle: Layered Biosecurity</h2>
 <p>Effective biosecurity is not a single measure — it is a layered system where multiple overlapping protocols each reduce the probability of disease introduction or spread. No single measure is foolproof; the combination of quarantine, temperature monitoring, equipment protocols, and personnel hygiene creates a system that reliably protects horse populations.</p>
 <p>The analogy to human public health is apt: handwashing alone doesn't prevent all disease transmission, but combined with vaccination, respiratory precautions, and avoiding sick contacts, the aggregate protection is significant. The same principle applies to equine facilities.</p>
-<table class="dtable"><thead><tr><th>Layer</th><th>Protocol</th><th>When Applied</th><th>Cost</th></tr></thead><tbody><tr><td><strong>New horse quarantine</strong></td><td>21+ days isolation before herd contact</td><td>Every new horse arriving from any outside location</td><td>Low cost; extremely high impact</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Layer</th><th>Protocol</th><th>When Applied</th><th>Cost</th></tr></thead><tbody><tr><td><strong>New horse quarantine</strong></td><td>21+ days isolation before herd contact</td><td>Every new horse arriving from any outside location</td><td>Low cost; extremely high impact</td></tr>
 <tr><td><strong>Event return monitoring</strong></td><td>Temperature BID for 14 days; no immediate herd contact</td><td>After every event, sale, clinic, or boarding elsewhere</td><td>Minutes per day; potentially disease-preventing</td></tr>
 <tr><td><strong>Equipment isolation</strong></td><td>Dedicated tools for each horse or management group; no sharing</td><td>Routine operations; heightened during any suspected disease</td><td>Equipment cost only</td></tr>
 <tr><td><strong>Personnel hygiene</strong></td><td>Hand washing; clothing change; footwear disinfection between farms</td><td>Between facilities; during any active disease situation</td><td>Minutes; low cost supplies</td></tr>
 <tr><td><strong>Visitor protocol</strong></td><td>Biosecurity questionnaire; disinfection before horse contact</td><td>All visitors; especially from other facilities</td><td>Conversation cost only</td></tr>
 <tr><td><strong>Environmental disinfection</strong></td><td>Clean + disinfect stalls and equipment after disease exposure</td><td>After any confirmed infectious case or quarantine period</td><td>Time + disinfectant cost</td></tr>
 <tr><td><strong>Vaccination</strong></td><td>Core vaccines for all; risk-based per situation</td><td>Ongoing preventive protocol</td><td>Annual cost; highest ROI in prevention</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>New Horse Quarantine — The Most Important Protocol</h2>
 <p>New horse quarantine is the single most important biosecurity measure at any equine facility. Every horse arriving from outside the property — regardless of apparent health at arrival, regardless of the source reputation, regardless of how long the horse has been known to you — should be isolated from resident horses for a minimum of 21 days.</p>
 <p>The 21-day period covers the incubation period for most equine infectious diseases. A horse incubating Strangles or EHV can appear completely healthy at arrival and develop clinical signs within 3–14 days. Without quarantine, that horse has already contaminated the water sources, fencing, and shared airspace of the resident population before anyone knows there's a problem.</p>
-<table class="dtable"><thead><tr><th>Quarantine Element</th><th>Minimum Standard</th><th>Best Practice</th></tr></thead><tbody><tr><td><strong>Physical separation</strong></td><td>Different stall from resident horses</td><td>Different barn or paddock; no shared airspace</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Quarantine Element</th><th>Minimum Standard</th><th>Best Practice</th></tr></thead><tbody><tr><td><strong>Physical separation</strong></td><td>Different stall from resident horses</td><td>Different barn or paddock; no shared airspace</td></tr>
 <tr><td><strong>Duration</strong></td><td>21 days</td><td>28–30 days for highest-risk arrivals (from sales, racing, large boarding facilities)</td></tr>
 <tr><td><strong>Temperature monitoring</strong></td><td>Daily</td><td>Twice daily (morning and evening)</td></tr>
 <tr><td><strong>Equipment</strong></td><td>Separate bucket, halter, grooming tools</td><td>Dedicated personnel if possible</td></tr>
 <tr><td><strong>Veterinary examination</strong></td><td>On arrival if possible</td><td>Bloodwork, Coggins review, full physical exam at arrival</td></tr>
 <tr><td><strong>Vaccination verification</strong></td><td>Review records</td><td>Update vaccinations that are not current</td></tr>
 <tr><td><strong>Introduction to herd</strong></td><td>After quarantine period with no signs</td><td>Gradual introduction; watch for signs in first week post-integration</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Event Return Protocol — The Most Consistently Neglected Measure</h2>
 <p>The return from events, sales, and clinics is the most common source of infectious disease introduction to private horse facilities — and event return monitoring is the most consistently neglected biosecurity measure. Horses at events share airspace with dozens to hundreds of horses of unknown health status. The incubation period for most equine respiratory diseases is 3–14 days. A horse that was exposed at a show on Saturday may not show signs until the following Wednesday.</p>
 <p>The standard event return protocol is straightforward: temperature monitoring twice daily (morning and evening) for 14 days after return. A fever above 101.5°F before other signs appear is the window to isolate the horse before it contaminates the rest of the facility. Waiting for nasal discharge and cough — which many owners use as the trigger for concern — means days of active disease spread have already occurred.</p>
@@ -241,22 +241,22 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 </ul>
 <h2>Equipment and Personnel Biosecurity</h2>
 <p>Infectious agents are carried on hands, clothing, boots, equipment, tack, and vehicles as efficiently as they are transmitted directly between horses. A single handler moving from an infected horse to a healthy horse — without hand washing or clothing change — can transmit Strangles or EHV directly.</p>
-<table class="dtable"><thead><tr><th>Vector</th><th>Disease Risk</th><th>Protocol</th></tr></thead><tbody><tr><td><strong>Halters and lead ropes</strong></td><td>Strangles (S. equi on fabric); EHV</td><td>Dedicated or disinfected between horses; no sharing during active disease</td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Vector</th><th>Disease Risk</th><th>Protocol</th></tr></thead><tbody><tr><td><strong>Halters and lead ropes</strong></td><td>Strangles (S. equi on fabric); EHV</td><td>Dedicated or disinfected between horses; no sharing during active disease</td></tr>
 <tr><td><strong>Grooming tools</strong></td><td>Ringworm (fungal); rain rot (D. congolensis); pinworms</td><td>Do not share between horses; disinfect regularly; dedicated tools for at-risk horses</td></tr>
 <tr><td><strong>Water buckets</strong></td><td>Strangles; EHV; Influenza; Salmonella</td><td>Do not share between horses; clean and disinfect between horses</td></tr>
 <tr><td><strong>Tack (bits, nosebands)</strong></td><td>Any pathogen that spreads via saliva or nasal secretions</td><td>Disinfect bits between horses especially at events</td></tr>
 <tr><td><strong>Handler hands</strong></td><td>Any pathogen spread by direct contact</td><td>Wash hands between horses; hand sanitizer when washing not practical</td></tr>
 <tr><td><strong>Handler clothing/footwear</strong></td><td>Strangles; EHV; ringworm; Salmonella</td><td>Change outer clothing or use disposable coveralls when moving between disease-positive and negative groups</td></tr>
 <tr><td><strong>Vehicles and trailers</strong></td><td>Any pathogen persisting on surfaces</td><td>Clean and disinfect after transporting sick horses; allow to dry before reuse</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Disinfection — Products and Application</h2>
 <p>Disinfection requires two steps: physical cleaning to remove organic matter (manure, mucus, feed material), followed by application of a chemical disinfectant. Skipping the cleaning step renders most disinfectants ineffective — organic matter physically protects pathogens and chemically neutralizes many disinfectant products.</p>
-<table class="dtable"><thead><tr><th>Disinfectant</th><th>Effective Against</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>Dilute bleach (sodium hypochlorite 1:32–1:50)</strong></td><td>Bacteria, viruses, fungi</td><td>Inexpensive; widely available; fast-acting</td><td>Inactivated by organic matter; corrosive; unstable</td><td></td></tr>
+<div class="table-scroll"><table class="dtable"><thead><tr><th>Disinfectant</th><th>Effective Against</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>Dilute bleach (sodium hypochlorite 1:32–1:50)</strong></td><td>Bacteria, viruses, fungi</td><td>Inexpensive; widely available; fast-acting</td><td>Inactivated by organic matter; corrosive; unstable</td><td></td></tr>
 <tr><td><strong>Quaternary ammonium compounds (Roccal-D, Tek-Trol)</strong></td><td>Bacteria, some viruses</td><td>Stable; residual activity; less corrosive than bleach</td><td>Less effective against non-enveloped viruses; organic matter sensitive</td></tr>
 <tr><td><strong>Accelerated hydrogen peroxide (Virkon S, Rescue)</strong></td><td>Bacteria, viruses, fungi, spores</td><td>Broad spectrum; relatively safe; environmentally friendly</td><td>Higher cost; some organic matter sensitivity</td></tr>
 <tr><td><strong>Chlorhexidine (Nolvasan)</strong></td><td>Bacteria, some viruses</td><td>Good skin and wound disinfection; residual activity</td><td>Less effective against non-enveloped viruses</td></tr>
 <tr><td><strong>Lime sulfur</strong></td><td>Fungal conditions (ringworm, rain rot)</td><td>Effective topical; inexpensive</td><td>Odor; stains; not a general facility disinfectant</td></tr>
-</tbody></table>
+</tbody></table></div>
 <h2>Outbreak Response — When Disease Is Already Present</h2>
 <p>When an infectious disease is suspected or confirmed at a facility, the response must be immediate and systematic. The following represents general educational guidance — your veterinarian directs specific protocols for your situation.</p>
 <h3>Immediate Response Steps</h3><ul>
