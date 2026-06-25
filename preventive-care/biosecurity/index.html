@@ -2,228 +2,372 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
-<title>Biosecurity Protocols | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: biosecurity protocols — for horse owners. Not a substitute for veterinary care.">
+<title>Biosecurity Protocols for Horse Facilities | HorseVeterinarian.AI</title>
+<meta name="description" content="Equine biosecurity protocols — new horse quarantine, event return monitoring, disinfection, handler protocols, outbreak response, and facility design considerations for preventing infectious disease spread.">
 <link rel="canonical" href="https://horseveterinarian.ai/preventive-care/biosecurity/">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Biosecurity Protocols for Horse Facilities | HorseVeterinarian.AI">
+<meta property="og:description" content="Equine biosecurity protocols — new horse quarantine, event return monitoring, disinfection, handler protocols, outbreak response, and facility design considerations for preventing infectious disease spread.">
+<meta property="og:url" content="https://horseveterinarian.ai/preventive-care/biosecurity/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
-body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
-a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
-.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
-.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
-.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
-.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
-.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
-.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
-.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
-.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
-.page-hero{padding:28px 16px 24px;background:linear-gradient(135deg,#3A1A0A 0%,#200E04 100%)}
-.breadcrumb{font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:10px}.breadcrumb a{color:rgba(255,255,255,0.65);text-decoration:none}.breadcrumb a:hover{color:#5DE8B8}
-.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
-.page-hero h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
-.page-hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:600px;line-height:1.6}
-.content-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
-.quick-facts{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;margin-bottom:20px}
-.quick-facts h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.84rem}.fact-row:last-child{border-bottom:none}
-.fact-label{font-weight:700;color:var(--ink-muted);min-width:110px;flex-shrink:0}.fact-value{color:var(--ink-soft)}
-.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.alert-box ul{padding-left:16px;font-size:0.84rem;color:#5A1A1A;line-height:1.7}
-.action-box{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.action-box h3{font-size:0.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.action-box ol{padding-left:18px;font-size:0.84rem;color:#5A3A08;line-height:1.75}
-.info-box{background:var(--teal-pale);border:1px solid rgba(26,107,90,0.2);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.info-box h3{font-size:0.88rem;font-weight:700;color:var(--forest);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.info-box ul{padding-left:16px;font-size:0.84rem;color:var(--ink-soft);line-height:1.7}
-.article-body h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--ink);margin:24px 0 10px;line-height:1.2}
-.article-body h3{font-size:1rem;font-weight:700;color:var(--forest);margin:18px 0 7px}
-.article-body p{font-size:0.92rem;color:var(--ink-soft);line-height:1.7;margin-bottom:14px}
-.article-body ul{padding-left:20px;font-size:0.9rem;color:var(--ink-soft);line-height:1.75;margin-bottom:14px}
-.article-body li{margin-bottom:3px}
-.article-video{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:18px}
-.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
-.vid-facade,.video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vid-facade{cursor:pointer;overflow:hidden}
-.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
-.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28)}.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
-.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
-.video-caption{padding:12px 14px;border-top:1px solid var(--border)}
-.video-cat-tag{display:inline-block;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:5px}
-.video-title-label{font-family:'Playfair Display',serif;font-size:0.92rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:2px}
-.video-by{font-size:0.74rem;color:var(--ink-muted);font-weight:600}
-.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin:28px 0 12px;padding-left:2px}
-.related-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.related-link{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--transition)}.related-link:hover{border-color:var(--border-strong);background:var(--teal-pale)}
-.related-link-title{font-size:0.88rem;font-weight:700;color:var(--ink)}.related-link-arrow{font-size:0.9rem;color:var(--teal)}
-.sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:16px}
-.sidebar-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);margin-bottom:10px;border-bottom:2px solid var(--border);padding-bottom:8px}
-.sidebar-card a{color:var(--teal);font-size:0.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--border)}.sidebar-card a:last-child{border-bottom:none}.sidebar-card a:hover{color:var(--forest);text-decoration:underline}
-.sidebar-vet{background:var(--forest);border-radius:var(--radius-lg);padding:18px;text-align:center;margin-bottom:16px}
-.sidebar-vet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--cream);margin-bottom:6px}
-.sidebar-vet p{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.5;margin-bottom:12px}
-.sidebar-vet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--forest-deeper);font-weight:700;font-size:0.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}
-.sidebar-vet a:hover{background:var(--teal-light);color:#fff}
-footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
+.qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
+.qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
+.fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
+.vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
+.vfa img{width:100%;height:100%;object-fit:cover;display:block}
+.vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
-.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.footer-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.73rem;color:rgba(255,255,255,0.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 36px}.page-hero h1{font-size:2.3rem}.related-grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.content-wrap{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
-:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
-<div class="topbar">
-  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
-    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="site-nav" aria-label="Main navigation">
-  <div class="site-nav-inner">
-    <a href="/" class="sn-link">Home</a>
-    <a href="/conditions/" class="sn-link ">Conditions</a>
-    <div class="sn-div"></div>
-    <a href="/preventive-care/" class="sn-link active">Preventive Care</a>
-    <a href="/emergency/" class="sn-link ">Emergency Guide</a>
-    <a href="/life-stages/" class="sn-link ">Life Stages</a>
-    <a href="/body-systems/" class="sn-link ">Body Systems</a>
-    <div class="sn-div"></div>
-    <a href="/disciplines/" class="sn-link ">By Discipline</a>
-    <a href="/faq/" class="sn-link ">FAQ</a>
-    <a href="/glossary/" class="sn-link ">Glossary</a>
-    <a href="/videos/" class="sn-link">Videos</a>
-    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl active">Preventive Care</a>
+    <a href="/emergency/" class="sl">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl">Find a Vet</a>
   </div>
 </nav>
 </header>
-<div class="page-hero">
-  <div class="breadcrumb"><a href="/">Home</a> › <a href="/preventive-care/">Preventive Care</a> › Biosecurity Protocols</div>
-  <div class="page-hero-eyebrow">🛡️ Protect Your Herd</div>
-  <h1>Biosecurity Protocols</h1>
-  <p class="page-hero-sub">Infectious equine diseases — strangles, influenza, EHV, and pigeon fever among them — can spread rapidly through a herd or facility if basic biosecurity measures are not in place. The cost of a disease outbreak in terms of veterinary treatment, lost competition time, quarantine management, and potential horse losses vastly exceeds the cost of consistent preventive measures.</p>
+<div class="ph" style="background:linear-gradient(135deg,#3A1A0A 0%,#200E04 100%)">
+  <div class="bc"><a href="/">Home</a> › <a href="/preventive-care/">Preventive Care</a> › Biosecurity Protocols for Horse Facilities</div>
+  <div class="ey">🛡️ Herd Protection · Outbreak Prevention</div>
+  <h1>Biosecurity Protocols for Horse Facilities</h1>
+  <p class="phs">The cost of preventing an infectious disease outbreak is a fraction of the cost of managing one. Strangles, EHV, Influenza, and Pigeon Fever can move through a barn in days once introduced — and the losses in veterinary costs, lost competition time, quarantine management, and potential horse deaths are entirely disproportionate to the simple, consistent measures that prevent most introductions.</p>
 </div>
-<div class="content-wrap" id="main-content">
-  <main class="main-col" role="main">
-    <div class="quick-facts"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fact-label">What it is</span><span class="fact-value">Practices that prevent introduction and spread of infectious disease in a horse population</span></div>
-<div class="fact-row"><span class="fact-label">Key protocols</span><span class="fact-value">New horse quarantine, event return monitoring, equipment disinfection, visitor protocols</span></div>
-<div class="fact-row"><span class="fact-label">Quarantine period</span><span class="fact-value">Minimum 2–3 weeks isolation for any new arrival before introduction to resident horses</span></div>
-<div class="fact-row"><span class="fact-label">Most important</span><span class="fact-value">Temperature monitoring — fever is often the first sign of infectious disease</span></div>
-<div class="fact-row"><span class="fact-label">Event risk</span><span class="fact-value">Shows, sales, and clinics are the highest-risk settings for disease exposure</span></div>
-<div class="fact-row"><span class="fact-label">Post-exposure</span><span class="fact-value">Monitor temperature twice daily for 2 weeks after any high-exposure event</span></div></div>
-    <div class="alert-box"><h3>⚠️ Immediate Biosecurity Actions</h3><ul><li>Any horse showing fever (>101.5°F), nasal discharge, or lymph node swelling should be isolated immediately</li>
-<li>Notify your veterinarian before implementing quarantine protocols — they will direct specific measures</li>
-<li>Do not wait for laboratory results to isolate — act on clinical suspicion</li>
-<li>Notify event organizers and facilities where the horse has been in the last 2 weeks</li>
-<li>Multiple horses showing similar signs simultaneously is a potential outbreak — call your vet urgently</li></ul></div>
-    <div class="article-body"><h2>Why Biosecurity Matters</h2>
-<p>Infectious equine diseases — strangles, influenza, EHV, and pigeon fever among them — can spread rapidly through a herd or facility if basic biosecurity measures are not in place. The cost of a disease outbreak in terms of veterinary treatment, lost competition time, quarantine management, and potential horse losses vastly exceeds the cost of consistent preventive measures.</p>
-<p>Biosecurity is not complicated, but it requires consistent discipline. The highest-risk moments are the introduction of new horses, return from events and sales, and any situation where your horses have shared air space, water sources, or contact with horses of unknown health status.</p>
-<h3>New Horse Quarantine Protocol</h3>
-<ul>
-<li>Isolate all new arrivals for a minimum of 21 days in a separate area — ideally separate airspace, not just a separate stall</li>
-<li>Monitor temperature twice daily (morning and evening) throughout the quarantine period</li>
-<li>Use dedicated feed buckets, water buckets, and grooming equipment for the quarantined horse</li>
-<li>Arrange for veterinary examination and health documentation review</li>
-<li>Confirm vaccination history and administer any missing vaccinations at least 2 weeks before introduction</li>
+<div class="cw" id="mc">
+  <main role="main">
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Primary goal</span><span class="fv">Prevent introduction and spread of infectious disease — before an outbreak, not during one</span></div>
+<div class="fr"><span class="fl">Most critical measure</span><span class="fv">New horse quarantine — minimum 21 days isolation for any horse arriving from an outside location</span></div>
+<div class="fr"><span class="fl">Event return protocol</span><span class="fv">Temperature monitoring twice daily for 14 days after any event, clinic, sale, or exposure to unfamiliar horses</span></div>
+<div class="fr"><span class="fl">Key diagnostic tool</span><span class="fv">Rectal temperature — a fever (>101.5°F) is often the first sign of infectious disease; catch it before the horse spreads disease to others</span></div>
+<div class="fr"><span class="fl">Highest risk situations</span><span class="fv">New horse introductions; return from events or sales; horses visiting breeding farms; horses that shared airspace at competitions</span></div>
+<div class="fr"><span class="fl">Environmental persistence</span><span class="fv">S. equi (Strangles) survives on surfaces for weeks; EHV survives hours to days; Influenza survives hours to days on surfaces</span></div>
+<div class="fr"><span class="fl">Disinfection principle</span><span class="fv">Surfaces must be physically cleaned before disinfectant application — organic matter inactivates most disinfectants</span></div>
+</div>
+    <div class="abox"><h3>⚠️ Implement Immediate Isolation If</h3><ul><li>Any horse develops fever >101.5°F, nasal discharge, cough, or lymph node swelling — especially if multiple horses are affected</li>
+<li>A horse returns from any event or sale and develops any respiratory or systemic signs within 14 days</li>
+<li>Any horse on the property is confirmed or suspected to have an infectious condition (Strangles, EHV, Influenza)</li>
+<li>A horse arrives from another facility — regardless of apparent health at arrival, quarantine is standard protocol</li>
+<li>Multiple horses at a facility develop similar signs in a short time window — potential outbreak; call your veterinarian immediately</li>
+<li>A neighboring property or facility you've had contact with reports an outbreak of any contagious disease</li>
+</ul></div>
+    <div class="ab"><h2>The Core Principle: Layered Biosecurity</h2>
+<p>Effective biosecurity is not a single measure — it is a layered system where multiple overlapping protocols each reduce the probability of disease introduction or spread. No single measure is foolproof; the combination of quarantine, temperature monitoring, equipment protocols, and personnel hygiene creates a system that reliably protects horse populations.</p>
+<p>The analogy to human public health is apt: handwashing alone doesn't prevent all disease transmission, but combined with vaccination, respiratory precautions, and avoiding sick contacts, the aggregate protection is significant. The same principle applies to equine facilities.</p>
+<table class="dtable"><thead><tr><th>Layer</th><th>Protocol</th><th>When Applied</th><th>Cost</th></tr></thead><tbody><tr><td><strong>New horse quarantine</strong></td><td>21+ days isolation before herd contact</td><td>Every new horse arriving from any outside location</td><td>Low cost; extremely high impact</td></tr>
+<tr><td><strong>Event return monitoring</strong></td><td>Temperature BID for 14 days; no immediate herd contact</td><td>After every event, sale, clinic, or boarding elsewhere</td><td>Minutes per day; potentially disease-preventing</td></tr>
+<tr><td><strong>Equipment isolation</strong></td><td>Dedicated tools for each horse or management group; no sharing</td><td>Routine operations; heightened during any suspected disease</td><td>Equipment cost only</td></tr>
+<tr><td><strong>Personnel hygiene</strong></td><td>Hand washing; clothing change; footwear disinfection between farms</td><td>Between facilities; during any active disease situation</td><td>Minutes; low cost supplies</td></tr>
+<tr><td><strong>Visitor protocol</strong></td><td>Biosecurity questionnaire; disinfection before horse contact</td><td>All visitors; especially from other facilities</td><td>Conversation cost only</td></tr>
+<tr><td><strong>Environmental disinfection</strong></td><td>Clean + disinfect stalls and equipment after disease exposure</td><td>After any confirmed infectious case or quarantine period</td><td>Time + disinfectant cost</td></tr>
+<tr><td><strong>Vaccination</strong></td><td>Core vaccines for all; risk-based per situation</td><td>Ongoing preventive protocol</td><td>Annual cost; highest ROI in prevention</td></tr>
+</tbody></table>
+<h2>New Horse Quarantine — The Most Important Protocol</h2>
+<p>New horse quarantine is the single most important biosecurity measure at any equine facility. Every horse arriving from outside the property — regardless of apparent health at arrival, regardless of the source reputation, regardless of how long the horse has been known to you — should be isolated from resident horses for a minimum of 21 days.</p>
+<p>The 21-day period covers the incubation period for most equine infectious diseases. A horse incubating Strangles or EHV can appear completely healthy at arrival and develop clinical signs within 3–14 days. Without quarantine, that horse has already contaminated the water sources, fencing, and shared airspace of the resident population before anyone knows there's a problem.</p>
+<table class="dtable"><thead><tr><th>Quarantine Element</th><th>Minimum Standard</th><th>Best Practice</th></tr></thead><tbody><tr><td><strong>Physical separation</strong></td><td>Different stall from resident horses</td><td>Different barn or paddock; no shared airspace</td></tr>
+<tr><td><strong>Duration</strong></td><td>21 days</td><td>28–30 days for highest-risk arrivals (from sales, racing, large boarding facilities)</td></tr>
+<tr><td><strong>Temperature monitoring</strong></td><td>Daily</td><td>Twice daily (morning and evening)</td></tr>
+<tr><td><strong>Equipment</strong></td><td>Separate bucket, halter, grooming tools</td><td>Dedicated personnel if possible</td></tr>
+<tr><td><strong>Veterinary examination</strong></td><td>On arrival if possible</td><td>Bloodwork, Coggins review, full physical exam at arrival</td></tr>
+<tr><td><strong>Vaccination verification</strong></td><td>Review records</td><td>Update vaccinations that are not current</td></tr>
+<tr><td><strong>Introduction to herd</strong></td><td>After quarantine period with no signs</td><td>Gradual introduction; watch for signs in first week post-integration</td></tr>
+</tbody></table>
+<h2>Event Return Protocol — The Most Consistently Neglected Measure</h2>
+<p>The return from events, sales, and clinics is the most common source of infectious disease introduction to private horse facilities — and event return monitoring is the most consistently neglected biosecurity measure. Horses at events share airspace with dozens to hundreds of horses of unknown health status. The incubation period for most equine respiratory diseases is 3–14 days. A horse that was exposed at a show on Saturday may not show signs until the following Wednesday.</p>
+<p>The standard event return protocol is straightforward: temperature monitoring twice daily (morning and evening) for 14 days after return. A fever above 101.5°F before other signs appear is the window to isolate the horse before it contaminates the rest of the facility. Waiting for nasal discharge and cough — which many owners use as the trigger for concern — means days of active disease spread have already occurred.</p>
+<h3>14-Day Post-Event Monitoring Protocol</h3><ul>
+<li>Check rectal temperature every morning and evening — know your horse's normal so deviations are obvious (normal: 99–101.5°F)</li>
+<li>Delay reintroduction to the herd for 48–72 hours after return from high-risk events even if the horse appears healthy</li>
+<li>Monitor for nasal discharge, cough, lymph node swelling, and appetite changes</li>
+<li>If fever develops: isolate immediately, call your veterinarian, do not expose other horses</li>
+<li>Events with confirmed disease activity (EHV outbreak, Strangles report): extend monitoring to 21 days and consider more aggressive separation</li>
 </ul>
-<h3>Event Return Protocol</h3>
-<ul>
-<li>After any event, sale, or exposure to unfamiliar horses — monitor temperature twice daily for 14 days</li>
-<li>Watch for nasal discharge, cough, lymph node swelling, or any change in demeanor</li>
-<li>Delay introduction to herd horses for 48–72 hours after return from high-risk events</li>
-<li>Report any respiratory or systemic signs to your veterinarian promptly</li>
+<h2>Equipment and Personnel Biosecurity</h2>
+<p>Infectious agents are carried on hands, clothing, boots, equipment, tack, and vehicles as efficiently as they are transmitted directly between horses. A single handler moving from an infected horse to a healthy horse — without hand washing or clothing change — can transmit Strangles or EHV directly.</p>
+<table class="dtable"><thead><tr><th>Vector</th><th>Disease Risk</th><th>Protocol</th></tr></thead><tbody><tr><td><strong>Halters and lead ropes</strong></td><td>Strangles (S. equi on fabric); EHV</td><td>Dedicated or disinfected between horses; no sharing during active disease</td></tr>
+<tr><td><strong>Grooming tools</strong></td><td>Ringworm (fungal); rain rot (D. congolensis); pinworms</td><td>Do not share between horses; disinfect regularly; dedicated tools for at-risk horses</td></tr>
+<tr><td><strong>Water buckets</strong></td><td>Strangles; EHV; Influenza; Salmonella</td><td>Do not share between horses; clean and disinfect between horses</td></tr>
+<tr><td><strong>Tack (bits, nosebands)</strong></td><td>Any pathogen that spreads via saliva or nasal secretions</td><td>Disinfect bits between horses especially at events</td></tr>
+<tr><td><strong>Handler hands</strong></td><td>Any pathogen spread by direct contact</td><td>Wash hands between horses; hand sanitizer when washing not practical</td></tr>
+<tr><td><strong>Handler clothing/footwear</strong></td><td>Strangles; EHV; ringworm; Salmonella</td><td>Change outer clothing or use disposable coveralls when moving between disease-positive and negative groups</td></tr>
+<tr><td><strong>Vehicles and trailers</strong></td><td>Any pathogen persisting on surfaces</td><td>Clean and disinfect after transporting sick horses; allow to dry before reuse</td></tr>
+</tbody></table>
+<h2>Disinfection — Products and Application</h2>
+<p>Disinfection requires two steps: physical cleaning to remove organic matter (manure, mucus, feed material), followed by application of a chemical disinfectant. Skipping the cleaning step renders most disinfectants ineffective — organic matter physically protects pathogens and chemically neutralizes many disinfectant products.</p>
+<table class="dtable"><thead><tr><th>Disinfectant</th><th>Effective Against</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>Dilute bleach (sodium hypochlorite 1:32–1:50)</strong></td><td>Bacteria, viruses, fungi</td><td>Inexpensive; widely available; fast-acting</td><td>Inactivated by organic matter; corrosive; unstable</td><td></td></tr>
+<tr><td><strong>Quaternary ammonium compounds (Roccal-D, Tek-Trol)</strong></td><td>Bacteria, some viruses</td><td>Stable; residual activity; less corrosive than bleach</td><td>Less effective against non-enveloped viruses; organic matter sensitive</td></tr>
+<tr><td><strong>Accelerated hydrogen peroxide (Virkon S, Rescue)</strong></td><td>Bacteria, viruses, fungi, spores</td><td>Broad spectrum; relatively safe; environmentally friendly</td><td>Higher cost; some organic matter sensitivity</td></tr>
+<tr><td><strong>Chlorhexidine (Nolvasan)</strong></td><td>Bacteria, some viruses</td><td>Good skin and wound disinfection; residual activity</td><td>Less effective against non-enveloped viruses</td></tr>
+<tr><td><strong>Lime sulfur</strong></td><td>Fungal conditions (ringworm, rain rot)</td><td>Effective topical; inexpensive</td><td>Odor; stains; not a general facility disinfectant</td></tr>
+</tbody></table>
+<h2>Outbreak Response — When Disease Is Already Present</h2>
+<p>When an infectious disease is suspected or confirmed at a facility, the response must be immediate and systematic. The following represents general educational guidance — your veterinarian directs specific protocols for your situation.</p>
+<h3>Immediate Response Steps</h3><ul>
+<li>Call your veterinarian — they direct the response; contact them before implementing protocols to confirm the appropriate approach for the specific disease</li>
+<li>Isolate affected horses immediately — separate physically from healthy horses; dedicated personnel, equipment, and water sources</li>
+<li>Implement temperature monitoring for all horses on the property — twice daily; fever before clinical signs identifies the next exposed horse</li>
+<li>Stop all horse movement on and off the property — no arrivals; no departures; prevents spread to other facilities</li>
+<li>Notify facilities your horses have visited in the previous 14 days — they may have exposed horses that need monitoring</li>
+<li>Notify the state veterinarian if the disease is reportable (EHM from EHV, Strangles, EIA, rabies, VSV) — required by law in most states</li>
+<li>Document which horses were in which locations at what times — this information supports contact tracing</li>
 </ul>
-<h3>Facility Disinfection Basics</h3>
-<ul>
-<li>Disinfect shared equipment (halters, lead ropes, buckets, twitches) between horses during an outbreak</li>
-<li>Common equine disinfectants include dilute bleach (1:10), quaternary ammonium compounds, and accelerated hydrogen peroxide products — clean surfaces of organic matter before disinfecting</li>
-<li>Water troughs shared between horses are a significant disease transmission point — clean and change frequently</li>
-<li>Fly control reduces transmission of pigeon fever and other insect-vectored pathogens</li>
+<h3>Returning to Normal Operations</h3><ul>
+<li>All affected horses clear of signs for 14–21 days before lifting restrictions</li>
+<li>Guttural pouch sampling for Strangles — identifies carriers before reintegration</li>
+<li>Full facility disinfection — stalls, water sources, fencing, equipment</li>
+<li>Veterinarian clearance before resuming normal horse movement</li>
+<li>Vaccination review — update protocols based on what the outbreak revealed about gaps</li>
 </ul>
 </div>
-    <div class="action-box"><h3>✅ Building Your Farm Biosecurity Plan</h3><ol><li><strong>Establish a quarantine space</strong> — designate an area physically separated from resident horses for new arrivals</li>
-<li><strong>Get a thermometer and learn to use it</strong> — temperature monitoring is the most important early-detection tool</li>
-<li><strong>Create a visitor protocol</strong> — ask visitors to disinfect footwear and avoid contact with horses if they've been at other facilities</li>
-<li><strong>Know your vet's emergency contact</strong> — biosecurity situations move fast; early veterinary guidance improves outcomes</li>
-<li><strong>Document new arrivals</strong> — record vaccination status, Coggins results, and health history for all horses entering your facility</li></ol></div>
-    <div class="info-box"><h3>📋 Biosecurity Discussion Points for Your Vet</h3><ul><li>Which infectious diseases are most active in your county or region this season</li>
-<li>Whether your vaccination program adequately covers the diseases relevant to your event and exposure patterns</li>
-<li>Appropriate quarantine duration for horses returning from high-risk environments</li>
-<li>Disinfectant selection and dilution for your specific facility</li>
-<li>Reporting requirements — which diseases are reportable in your state</li></ul></div>
-    <div class="article-video">
-      <div class="video-frame">
-        <div class="vid-facade" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Prevention and Biosecurity" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Prevention and Biosecurity">
-          <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Prevention and Biosecurity" loading="lazy" decoding="async">
-          <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="video-caption">
-        <span class="video-cat-tag">🛡️ Biosecurity</span>
-        <div class="video-title-label">Proactive Horse Care — Prevention and Biosecurity</div>
-        <div class="video-by">Julie Goodnight</div>
-      </div>
+    <div class="acbox"><h3>✅ Building Your Facility Biosecurity Plan</h3><ol><li><strong>Establish a quarantine space</strong> — physically separate from resident horses; ideally separate building, at minimum different paddock and airspace</li>
+<li><strong>Get a thermometer and learn to use it</strong> — rectal temperature is the most sensitive early indicator of infectious disease; know your horse's normal (99–101.5°F)</li>
+<li><strong>Create an event return protocol</strong> — write it down; communicate it to barn staff; apply it consistently after every departure</li>
+<li><strong>Audit shared equipment</strong> — identify which items are shared between horses and develop a cleaning/disinfection schedule for each</li>
+<li><strong>Know your vet's emergency number</strong> before you need it — biosecurity situations move fast; early veterinary guidance changes outcomes</li>
+<li><strong>Document all horse arrivals and departures</strong> — a log of where horses go and who comes to the property is invaluable during outbreak investigation</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Biosecurity Program Discussion Points for Your Vet</h3><ul><li>Current regional disease activity — which diseases are circulating in your county or at events you attend</li>
+<li>Quarantine protocol adjustment for high-risk arrivals — racing or sale barn horses may warrant longer quarantine</li>
+<li>Vaccination program adequacy — does your current protocol cover the diseases most relevant to your horses' exposure pattern</li>
+<li>Disinfectant product selection and dilution protocols appropriate for your facility type and the pathogens of concern</li>
+<li>Reportable disease obligations in your state — know which conditions require notification to the state veterinarian</li>
+<li>Post-outbreak return-to-normal criteria — what specific milestones need to be met before lifting restrictions</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What are the infectious diseases most active in our region right now, and is our vaccination protocol adequate?</li>
+<li>What quarantine protocol do you recommend for the types of horses we typically bring in — their source matters</li>
+<li>If we have a suspected Strangles case, what is your recommended management protocol and when should we call you?</li>
+<li>Which disinfectant products do you recommend for our facility type, and what dilution protocols do you use?</li>
+<li>What are our reporting obligations if we confirm a reportable disease on this property?</li>
+<li>Can you help us design a written biosecurity plan for our facility that we can share with staff and visitors?</li>
+</ul></div>
+    <div class="vw">
+  <div class="vf">
+    <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Prevention and Biosecurity"
+         role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Prevention and Biosecurity">
+      <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg"
+           alt="Proactive Horse Care — Prevention and Biosecurity" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
     </div>
-    <div class="section-label">Related Topics</div>
-    <div class="related-grid"><a href="/preventive-care/vaccinations/" class="related-link"><span class="related-link-title">Vaccination Guide</span><span class="related-link-arrow">→</span></a>
-<a href="/conditions/strangles/" class="related-link"><span class="related-link-title">Strangles</span><span class="related-link-arrow">→</span></a>
-<a href="/conditions/ehv/" class="related-link"><span class="related-link-title">Equine Herpesvirus</span><span class="related-link-arrow">→</span></a>
-<a href="/conditions/pigeon-fever/" class="related-link"><span class="related-link-title">Pigeon Fever</span><span class="related-link-arrow">→</span></a>
-<a href="/preventive-care/annual-exam/" class="related-link"><span class="related-link-title">Annual Exam</span><span class="related-link-arrow">→</span></a>
-<a href="/find-a-vet/" class="related-link"><span class="related-link-title">Find an Equine Vet</span><span class="related-link-arrow">→</span></a></div>
+  </div>
+  <div class="vc">
+    <span class="vcat">🛡️ Biosecurity</span>
+    <div class="vtit">Proactive Horse Care — Prevention and Biosecurity</div>
+    <div class="vby">Julie Goodnight</div>
+  </div>
+</div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/conditions/strangles/" class="rlink"><span>Strangles</span><span>→</span></a>
+<a href="/conditions/ehv/" class="rlink"><span>Equine Herpesvirus (EHV)</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Vaccination Guide</span><span>→</span></a>
+<a href="/conditions/pigeon-fever/" class="rlink"><span>Pigeon Fever</span><span>→</span></a>
+<a href="/preventive-care/annual-exam/" class="rlink"><span>Annual Wellness Exam</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sidebar-vet">
+    <div class="svet">
       <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
       <a href="/find-a-vet/">Find a Vet Near You →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Conditions</h3>
+    <div class="sc">
+      <h3>Preventive Care</h3>
+      <a href="/preventive-care/vaccinations/">Vaccination Guide</a>
+      <a href="/preventive-care/deworming/">Deworming Programs</a>
+      <a href="/preventive-care/dental/">Dental Care</a>
+      <a href="/preventive-care/annual-exam/">Annual Wellness Exam</a>
+      <a href="/preventive-care/biosecurity/">Biosecurity</a>
+      <a href="/preventive-care/">All Preventive Care →</a>
+    </div>
+    <div class="sc">
+      <h3>Key Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
-      <a href="/conditions/laminitis/">Laminitis</a>
-      <a href="/conditions/ulcers/">Gastric Ulcers</a>
       <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/ehv/">EHV</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
+      <a href="/conditions/bot-flies/">Bot Flies</a>
       <a href="/conditions/">All 15 Conditions →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Quick Links</h3>
-      <a href="/preventive-care/">Preventive Care</a>
-      <a href="/emergency/">Emergency Guide</a>
-      <a href="/faq/">FAQ</a>
-      <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
+    <div class="sc">
+      <h3>Life Stages</h3>
+      <a href="/life-stages/foal-health/">Foal Health</a>
+      <a href="/life-stages/senior-horse/">Senior Horse</a>
+      <a href="/life-stages/breeding-mare/">Breeding Mare</a>
+      <a href="/life-stages/">All Life Stages →</a>
     </div>
   </aside>
 </div>
 <footer>
-  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="footer-nav">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
-    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="footer-disclaimer">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>.</div>
+  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI &middot; Bridle &amp; Bit Magazine. All rights reserved.</div>
 </footer>
 <script>
-document.querySelectorAll('.vid-facade').forEach(function(f){
-  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
+document.querySelectorAll('.vfa').forEach(function(f){
+  f.addEventListener('click',function(){
+    var id=f.dataset.vid,t=f.dataset.title;
+    var iframe=document.createElement('iframe');
+    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
+    iframe.title=t;iframe.allowFullscreen=true;
+    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
+    iframe.referrerPolicy='strict-origin-when-cross-origin';
+    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
+  });
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
 </script>

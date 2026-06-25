@@ -2,221 +2,362 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
-<title>Dental Care | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: dental care — for horse owners. Not a substitute for veterinary care.">
+<title>Equine Dental Care | HorseVeterinarian.AI</title>
+<meta name="description" content="Complete equine dental care guide — anatomy, common problems, examination process, performance impact, young horse dentition, senior horse dental management, and what to ask your veterinarian.">
 <link rel="canonical" href="https://horseveterinarian.ai/preventive-care/dental/">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Equine Dental Care | HorseVeterinarian.AI">
+<meta property="og:description" content="Complete equine dental care guide — anatomy, common problems, examination process, performance impact, young horse dentition, senior horse dental management, and what to ask your veterinarian.">
+<meta property="og:url" content="https://horseveterinarian.ai/preventive-care/dental/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
-body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
-a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
-.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
-.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
-.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
-.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
-.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
-.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
-.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
-.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
-.page-hero{padding:28px 16px 24px;background:linear-gradient(135deg,#2A1A3A 0%,#180E20 100%)}
-.breadcrumb{font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:10px}.breadcrumb a{color:rgba(255,255,255,0.65);text-decoration:none}.breadcrumb a:hover{color:#5DE8B8}
-.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
-.page-hero h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
-.page-hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:600px;line-height:1.6}
-.content-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
-.quick-facts{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;margin-bottom:20px}
-.quick-facts h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.84rem}.fact-row:last-child{border-bottom:none}
-.fact-label{font-weight:700;color:var(--ink-muted);min-width:110px;flex-shrink:0}.fact-value{color:var(--ink-soft)}
-.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.alert-box ul{padding-left:16px;font-size:0.84rem;color:#5A1A1A;line-height:1.7}
-.action-box{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.action-box h3{font-size:0.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.action-box ol{padding-left:18px;font-size:0.84rem;color:#5A3A08;line-height:1.75}
-.info-box{background:var(--teal-pale);border:1px solid rgba(26,107,90,0.2);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
-.info-box h3{font-size:0.88rem;font-weight:700;color:var(--forest);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.info-box ul{padding-left:16px;font-size:0.84rem;color:var(--ink-soft);line-height:1.7}
-.article-body h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--ink);margin:24px 0 10px;line-height:1.2}
-.article-body h3{font-size:1rem;font-weight:700;color:var(--forest);margin:18px 0 7px}
-.article-body p{font-size:0.92rem;color:var(--ink-soft);line-height:1.7;margin-bottom:14px}
-.article-body ul{padding-left:20px;font-size:0.9rem;color:var(--ink-soft);line-height:1.75;margin-bottom:14px}
-.article-body li{margin-bottom:3px}
-.article-video{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:18px}
-.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
-.vid-facade,.video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vid-facade{cursor:pointer;overflow:hidden}
-.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
-.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28)}.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
-.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
-.video-caption{padding:12px 14px;border-top:1px solid var(--border)}
-.video-cat-tag{display:inline-block;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:5px}
-.video-title-label{font-family:'Playfair Display',serif;font-size:0.92rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:2px}
-.video-by{font-size:0.74rem;color:var(--ink-muted);font-weight:600}
-.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin:28px 0 12px;padding-left:2px}
-.related-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.related-link{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--transition)}.related-link:hover{border-color:var(--border-strong);background:var(--teal-pale)}
-.related-link-title{font-size:0.88rem;font-weight:700;color:var(--ink)}.related-link-arrow{font-size:0.9rem;color:var(--teal)}
-.sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:16px}
-.sidebar-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);margin-bottom:10px;border-bottom:2px solid var(--border);padding-bottom:8px}
-.sidebar-card a{color:var(--teal);font-size:0.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--border)}.sidebar-card a:last-child{border-bottom:none}.sidebar-card a:hover{color:var(--forest);text-decoration:underline}
-.sidebar-vet{background:var(--forest);border-radius:var(--radius-lg);padding:18px;text-align:center;margin-bottom:16px}
-.sidebar-vet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--cream);margin-bottom:6px}
-.sidebar-vet p{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.5;margin-bottom:12px}
-.sidebar-vet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--forest-deeper);font-weight:700;font-size:0.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}
-.sidebar-vet a:hover{background:var(--teal-light);color:#fff}
-footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
+.qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
+.qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
+.fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
+.vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
+.vfa img{width:100%;height:100%;object-fit:cover;display:block}
+.vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
-.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.footer-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.73rem;color:rgba(255,255,255,0.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 36px}.page-hero h1{font-size:2.3rem}.related-grid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.content-wrap{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
-:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
-<div class="topbar">
-  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
-    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="site-nav" aria-label="Main navigation">
-  <div class="site-nav-inner">
-    <a href="/" class="sn-link">Home</a>
-    <a href="/conditions/" class="sn-link ">Conditions</a>
-    <div class="sn-div"></div>
-    <a href="/preventive-care/" class="sn-link active">Preventive Care</a>
-    <a href="/emergency/" class="sn-link ">Emergency Guide</a>
-    <a href="/life-stages/" class="sn-link ">Life Stages</a>
-    <a href="/body-systems/" class="sn-link ">Body Systems</a>
-    <div class="sn-div"></div>
-    <a href="/disciplines/" class="sn-link ">By Discipline</a>
-    <a href="/faq/" class="sn-link ">FAQ</a>
-    <a href="/glossary/" class="sn-link ">Glossary</a>
-    <a href="/videos/" class="sn-link">Videos</a>
-    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl active">Preventive Care</a>
+    <a href="/emergency/" class="sl">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl">Find a Vet</a>
   </div>
 </nav>
 </header>
-<div class="page-hero">
-  <div class="breadcrumb"><a href="/">Home</a> › <a href="/preventive-care/">Preventive Care</a> › Dental Care</div>
-  <div class="page-hero-eyebrow">🦷 Annual Essential</div>
-  <h1>Dental Care</h1>
-  <p class="page-hero-sub">Horses are hypsodont — their teeth continue to erupt throughout life, compensating for wear. An adult horse has 36–44 teeth (varying with wolf teeth and canines). The premolars and molars form a continuous grinding surface — the 'cheek teeth' — that must maintain even contact for efficient forage processing.</p>
+<div class="ph" style="background:linear-gradient(135deg,#2A1A3A 0%,#180E20 100%)">
+  <div class="bc"><a href="/">Home</a> › <a href="/preventive-care/">Preventive Care</a> › Equine Dental Care</div>
+  <div class="ey">🦷 Annual to Biannual · Performance & Health</div>
+  <h1>Equine Dental Care</h1>
+  <p class="phs">Horses have some of the most complex dental anatomy of any domestic animal — teeth that erupt continuously throughout life, a chewing motion that produces predictable pathology, and dental problems that affect nutrition, performance, and comfort long before most owners notice any sign. Understanding equine dentistry helps you advocate for appropriate dental care for your horse.</p>
 </div>
-<div class="content-wrap" id="main-content">
-  <main class="main-col" role="main">
-    <div class="quick-facts"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fact-label">Why it matters</span><span class="fact-value">Equine teeth erupt continuously throughout life — regular professional care prevents pain, weight loss, and performance problems</span></div>
-<div class="fact-row"><span class="fact-label">Frequency</span><span class="fact-value">Adult horses: annually; young horses and horses over 20: every 6 months</span></div>
-<div class="fact-row"><span class="fact-label">Common findings</span><span class="fact-value">Sharp enamel points, hooks, ramps, wave mouth, retained caps, wolf teeth</span></div>
-<div class="fact-row"><span class="fact-label">Performed by</span><span class="fact-value">Equine veterinarian or veterinary dentist under sedation for thorough examination</span></div>
-<div class="fact-row"><span class="fact-label">Performance impact</span><span class="fact-value">Dental pain directly affects bitting, collection, and response to rein aids</span></div>
-<div class="fact-row"><span class="fact-label">Signs of problems</span><span class="fact-value">Dropping feed (quidding), head tilting, resistance to bit, weight loss, long hay stems in manure</span></div></div>
-    <div class="alert-box"><h3>⚠️ Signs Requiring Dental Evaluation</h3><ul><li>Dropping feed (quidding) — balls of partially chewed hay on the ground</li>
-<li>Significant unexplained weight loss despite adequate feed</li>
-<li>Foul odor from the mouth or a nasal discharge from one nostril (can indicate tooth root abscess)</li>
-<li>Swelling of the jaw or face</li>
-<li>Sudden resistance to the bit or head tossing that wasn't present before</li>
-<li>Undigested long stems of hay or whole grain in manure</li></ul></div>
-    <div class="article-body"><h2>Equine Dental Anatomy and Why Regular Care Matters</h2>
-<p>Horses are hypsodont — their teeth continue to erupt throughout life, compensating for wear. An adult horse has 36–44 teeth (varying with wolf teeth and canines). The premolars and molars form a continuous grinding surface — the 'cheek teeth' — that must maintain even contact for efficient forage processing.</p>
-<p>Because horses chew in an elliptical (side-to-side) motion, the outer edges of the upper cheek teeth and inner edges of the lower cheek teeth do not get worn by the opposing teeth and develop sharp enamel points. These points lacerate the cheeks and tongue, causing pain that affects eating, bit acceptance, and performance.</p>
-<h3>Common Dental Problems</h3>
-<ul>
-<li>Sharp enamel points — the most common finding; develop on all adult horses within 6–12 months of the last float</li>
-<li>Hooks — sharp overgrowths on the first upper cheek tooth or last lower cheek tooth, caused by dental misalignment</li>
-<li>Ramps — similar to hooks but with a sloped rather than vertical face</li>
-<li>Wave mouth — undulating occlusal surface from uneven wear of multiple teeth</li>
-<li>Step mouth — one tooth significantly higher or lower than adjacent teeth</li>
-<li>Retained deciduous caps — baby teeth that have not shed normally, impeding eruption of adult teeth in young horses</li>
-<li>Wolf teeth — vestigial first premolars that can interfere with bit contact</li>
-<li>Tooth root abscess — infection of the tooth root producing swelling, fistula, or nasal discharge</li>
+<div class="cw" id="mc">
+  <main role="main">
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Dental anatomy</span><span class="fv">Hypsodont teeth — continuously erupting throughout life, compensating for wear; approximately 5–6 inches of tooth reserve at birth</span></div>
+<div class="fr"><span class="fl">Number of teeth</span><span class="fv">Adult male/gelding: 40–44; adult mare: 36–40 (mares rarely have canines; wolf teeth variable)</span></div>
+<div class="fr"><span class="fl">Exam frequency</span><span class="fv">Adult horses annually; young horses (under 5) and seniors (over 20) every 6 months</span></div>
+<div class="fr"><span class="fl">Requires sedation</span><span class="fv">A complete dental exam requires sedation and a full-mouth speculum — visual-only exams miss most pathology</span></div>
+<div class="fr"><span class="fl">Primary tool</span><span class="fv">Floating — rasping of sharp points and correction of imbalances — is the cornerstone treatment</span></div>
+<div class="fr"><span class="fl">Performance impact</span><span class="fv">Sharp dental points, hooks, and malocclusions cause oral pain that directly affects bit acceptance, collection, and head carriage</span></div>
+<div class="fr"><span class="fl">Key concern</span><span class="fv">Many horses with significant dental disease show no obvious signs until the condition is advanced — professional exam is the only reliable detection method</span></div>
+</div>
+    <div class="abox"><h3>⚠️ Signs That May Indicate Dental Problems — Schedule an Exam</h3><ul><li>Dropping feed (quidding) — partially chewed balls of hay or grain falling from the mouth during eating</li>
+<li>Slow eating, reluctance to start eating, or unusual food preferences (avoiding hay, preferring mash)</li>
+<li>Unexplained weight loss or difficulty maintaining condition despite adequate feed access</li>
+<li>Undigested long hay stems or whole grain in the manure — inadequate chewing</li>
+<li>Foul odor from the mouth, nasal discharge from one nostril, or visible facial swelling — possible tooth root abscess</li>
+<li>Head tilting, resistance to the bit, head tossing, or one-sided work under saddle that has developed or worsened</li>
+<li>Excessive salivation or water drooling from the mouth</li>
+<li>A young horse with visible facial bumps along the lower jaw — typically normal eruption bumps, but worth confirming</li>
+</ul></div>
+    <div class="ab"><h2>Equine Dental Anatomy — What Makes Horse Teeth Unique</h2>
+<p>Unlike human teeth, which grow to a fixed height and then stop, equine cheek teeth (premolars and molars) are hypsodont — they continue to erupt from the jaw throughout the horse's life, compensating for the wear produced by constant grazing and chewing. At birth, each tooth has approximately 5–6 inches of reserve crown buried in the jaw; this gradually erupts over the horse's life. By age 30, many horses have very little tooth reserve remaining and significant dental changes.</p>
+<p>The horse's chewing motion is predominantly lateral (side-to-side), unlike the more vertical chewing motion of many other species. This produces predictable patterns of uneven wear: the outer edges of the upper cheek teeth and the inner edges of the lower cheek teeth are not worn against each other, and they develop sharp enamel points that lacerate the cheek mucosa and tongue. This is why floating — professionally rasping these points — is required regularly in virtually all horses.</p>
+<table class="dtable"><thead><tr><th>Tooth Type</th><th>Location</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Incisors (12 total)</strong></td><td>Front of mouth — 6 upper, 6 lower</td><td>Used for grasping and biting; wear patterns used to estimate age; problems less common than cheek teeth</td></tr>
+<tr><td><strong>Canine teeth (0–4)</strong></td><td>Between incisors and cheek teeth</td><td>Present in most geldings and stallions; rare in mares; erupt at ~4–5 years; tend to accumulate tartar</td></tr>
+<tr><td><strong>Wolf teeth (0–4)</strong></td><td>Small vestigial PM1 in front of upper cheek teeth</td><td>Present in majority of horses; can cause bitting discomfort; routinely removed before training</td></tr>
+<tr><td><strong>Cheek teeth — Premolars (12)</strong></td><td>Behind wolf teeth if present; form grinding surface</td><td>PM2 is the first true cheek tooth; cap (deciduous) teeth replaced by age 4–5</td></tr>
+<tr><td><strong>Cheek teeth — Molars (12)</strong></td><td>Furthest back in the mouth</td><td>M3 (last molar) erupts at age 3.5–4 years; full battery not complete until age 5</td></tr>
+</tbody></table>
+<h2>Common Dental Problems — What Your Vet Finds</h2>
+<p>Regular professional dental examination identifies pathology that is not visible to the untrained eye — and that produces no obvious clinical signs until advanced. The following are the most commonly identified findings during equine dental examinations.</p>
+<table class="dtable"><thead><tr><th>Problem</th><th>What It Is</th><th>Clinical Effect</th><th>Treatment</th></tr></thead><tbody><tr><td><strong>Sharp enamel points</strong></td><td>Uneven wear produces sharp edges on outer upper and inner lower cheek teeth</td><td>Cheek and tongue lacerations; bit resentment; quidding</td><td>Floating — rasping the points smooth; required for virtually all horses annually</td></tr>
+<tr><td><strong>Hooks</strong></td><td>Overgrowth of the first upper cheek tooth (PM2) or last lower molar — sharp vertical or sloped overgrowth</td><td>Restrict jaw movement; prevent normal lateral chewing motion; bit interference</td><td>Reduction by power float or hand float; may require multiple treatments</td></tr>
+<tr><td><strong>Ramps</strong></td><td>Sloped (ramp-shaped) overgrowths similar to hooks</td><td>Altered jaw movement; chewing difficulty</td><td>Reduction by floating; some horses are prone to recurrence</td></tr>
+<tr><td><strong>Wave mouth</strong></td><td>Undulating occlusal (biting) surface — some teeth taller, some shorter</td><td>Severely impaired chewing efficiency; poor feed utilization</td><td>Gradual reduction over multiple appointments; not always fully correctable</td></tr>
+<tr><td><strong>Step mouth</strong></td><td>A single tooth significantly taller or shorter than adjacent teeth</td><td>Impairs chewing across the arcade</td><td>Reduction of the overgrown tooth; gradual approach to avoid sensitivity</td></tr>
+<tr><td><strong>Retained deciduous caps</strong></td><td>Baby teeth not shed when adult teeth erupted beneath them</td><td>Food packing; adult tooth eruption interference; facial discomfort</td><td>Manual removal; usually easy; timing matters — not too early</td></tr>
+<tr><td><strong>Wolf teeth</strong></td><td>Vestigial PM1 — small, variable position</td><td>Bit pressure on wolf teeth causes discomfort; lateral bit movement pain</td><td>Extraction under sedation; routine; most are done before training begins</td></tr>
+<tr><td><strong>Diastema</strong></td><td>Abnormal gaps between adjacent cheek teeth</td><td>Food packs in the gap; progressive periodontitis; painful</td><td>Management varies: widening, packing, diet change; veterinary determination</td></tr>
+<tr><td><strong>Tooth root abscess</strong></td><td>Infection of the apex of a cheek tooth root</td><td>Facial swelling; nasal discharge from one nostril; head shyness; weight loss</td><td>Extraction of affected tooth; may require surgical approach</td></tr>
+<tr><td><strong>EOTRH</strong></td><td>Equine Odontoclastic Tooth Resorption and Hypercementosis — painful progressive incisor root resorption</td><td>Extreme bit sensitivity; dropping feed; obvious oral pain in advanced cases</td><td>Extraction of affected incisors; diagnosis by dental radiographs</td></tr>
+</tbody></table>
+<h2>The Dental Examination — What Actually Happens</h2>
+<p>A complete equine dental examination cannot be performed without sedation and a full-mouth speculum. This is the most important thing to understand about equine dentistry. Without sedation, the horse cannot be safely and comfortably examined to the back of the mouth, and without a speculum holding the mouth open, the back third of the cheek teeth is invisible.</p>
+<p>Many horse owners have experienced 'dental exams' in which a person runs a hand around the front of the horse's mouth and says it looks fine — this is not a comprehensive dental examination. A complete exam with a sedated, speculated horse by a trained equine veterinarian or veterinary dentist takes 30–60 minutes and examines every surface of every tooth systematically.</p>
+<h3>What Happens During a Complete Dental Exam</h3><ul>
+<li>Sedation — alpha-2 agonist (xylazine, detomidine) produces appropriate sedation for safe examination and treatment</li>
+<li>Full-mouth speculum placement — holds the mouth open; allows examination and treatment access</li>
+<li>Visual inspection of all tooth surfaces — using a dental mirror, light source, or camera; checking for all common pathologies</li>
+<li>Palpation of cheek and tongue mucosa — identifying lacerations from sharp points and other lesions</li>
+<li>Occlusion assessment — evaluating the relationship between upper and lower arcades; identifying hooks, ramps, wave mouth</li>
+<li>Treatment (floating) — power float or hand float to reduce sharp points, hooks, and correct imbalances</li>
+<li>Documentation — recording findings for comparison at next visit; identifying teeth that need monitoring</li>
+<li>Owner education — discussing findings, what was treated, and what to watch for before next appointment</li>
 </ul>
-<h2>The Dental Examination</h2>
-<p>A thorough equine dental exam requires sedation. Without sedation, it is not possible to adequately examine the entire length of the cheek teeth using a mouth speculum and dental mirror or camera. A visual-only exam at the front of the mouth misses the majority of dental pathology.</p>
-<p>During the exam, your veterinarian or veterinary dentist examines all tooth surfaces, identifies abnormalities, and performs floating (rasping) to reduce sharp points and correct imbalances. Power floats allow more precise correction than hand floats in many situations.</p>
+<h2>Dental Care at Every Life Stage</h2>
+<p>Equine dental needs change significantly across the lifespan. The appropriate examination frequency and the types of problems most likely to be found vary considerably from foal through senior horse.</p>
+<table class="dtable"><thead><tr><th>Life Stage</th><th>Exam Frequency</th><th>Primary Concerns</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Foal (0–6 months)</strong></td><td>At first wellness exam</td><td>Jaw conformation, bite assessment</td><td>Abnormalities identified early allow timely intervention</td></tr>
+<tr><td><strong>Weanling–2 years</strong></td><td>Every 6 months</td><td>Retained caps on premolars; erupting arcade assessment; wolf teeth</td><td>Multiple cap shed events occur in this window; frequent monitoring catches problems</td></tr>
+<tr><td><strong>2–5 years</strong></td><td>Every 6 months</td><td>Wolf teeth; canine eruption (geldings/stallions ~4–5 yrs); completing arcade</td><td>Final adult tooth eruption complete by ~age 5; this is the most dynamic dental period</td></tr>
+<tr><td><strong>Adult (5–15 years)</strong></td><td>Annually</td><td>Sharp points; hooks; ramps; routine maintenance</td><td>Most adults need annual floating; some need more frequent care based on findings</td></tr>
+<tr><td><strong>Senior (15–20+)</strong></td><td>Every 6 months</td><td>Wave mouth; tooth loosening; diastema; loss of cheek teeth; EOTRH (incisors)</td><td>Progressive changes accelerate; dietary adjustment based on dental function is common</td></tr>
+</tbody></table>
+<h2>How Dental Health Affects Performance and Behavior</h2>
+<p>Oral pain from dental pathology directly affects the working horse in ways that are commonly misidentified as training problems, bad attitude, or evasion. Bit pressure applied against the cheek mucosa over sharp dental points, or transmitted to wolf teeth, causes pain on every contact. A horse in this situation has no way to communicate the problem except through resistance.</p>
+<p>The behaviors most commonly associated with dental pain in ridden horses include: head tossing; opening the mouth; tilting the head; resistance to taking contact; one-sided work difficulties; bucking or resistance at transitions; sensitivity to grooming or haltering around the face; and overall irritability or resentment of work. None of these signs are specific to dental pain — but all of them warrant ruling out dental pathology before attributing the behavior to training.</p>
+<h3>Before Attributing Ridden Resistance to Training, Rule Out</h3><ul>
+<li>Sharp dental points — the most common cause of bit-related oral pain</li>
+<li>Wolf teeth — bitting discomfort from wolf tooth contact with the bit ring is extremely common and resolved with extraction</li>
+<li>Hooks — restrict jaw movement and change how the horse accepts contact</li>
+<li>Saddle fit — oral pain and back pain can produce identical behavioral signs</li>
+<li>Any significant dental pathology — tooth root abscess, diastema, EOTRH</li>
+</ul>
+<h2>Feeding the Horse with Compromised Dentition</h2>
+<p>As horses age and dental function declines — particularly from wave mouth, tooth loss, and reduced chewing efficiency — dietary modification becomes necessary. Signs that dental function is inadequate for processing conventional hay include quidding, long hay stems in manure, and weight loss despite ad-lib hay access.</p>
+<p>A range of dietary options maintains adequate nutrition when chewing function is compromised: soaking hay cubes (chop the cubes into smaller pieces and soak in water until soft), steamed hay, hay pellets (soak for horses with severe dental compromise), and complete senior feeds formulated to replace hay entirely. The specific recommendation depends on the degree of dental compromise — your veterinarian advises based on examination findings.</p>
 </div>
-    <div class="action-box"><h3>✅ Dental Care Protocol</h3><ol><li><strong>Schedule a dental exam</strong> with your veterinarian — most do dental work during the annual wellness visit or as a separate appointment</li>
-<li><strong>Plan for sedation</strong> — a thorough exam requires it; budget for it as part of the appointment</li>
-<li><strong>Young horses (under 5):</strong> exam every 6 months — caps, wolf teeth, and developing arcade alignment require monitoring</li>
-<li><strong>Senior horses (over 20):</strong> exam every 6 months — tooth loss, wave mouth, and chewing efficiency change rapidly</li>
-<li><strong>If you notice any signs of dental pain</strong> — quidding, weight loss, head tilting — schedule an exam promptly rather than waiting for the annual visit</li></ol></div>
-    <div class="info-box"><h3>📋 Discussion Points for Your Vet</h3><ul><li>Appropriate exam interval for your horse's age and dental history</li>
-<li>Whether wolf teeth are present and should be extracted</li>
-<li>Feeding adjustments if significant dental disease is found — soaked hay, hay cubes, complete feed</li>
-<li>Monitoring for tooth root abscesses — signs and when to act</li>
-<li>Senior horse feeding strategy as tooth surface is lost with age</li></ul></div>
-    <div class="article-video">
-      <div class="video-frame">
-        <div class="vid-facade" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
-          <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
-          <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="video-caption">
-        <span class="video-cat-tag">🦷 Dental Care</span>
-        <div class="video-title-label">Proactive Horse Care — Annual Health Planning</div>
-        <div class="video-by">Julie Goodnight</div>
-      </div>
+    <div class="acbox"><h3>✅ Establishing a Dental Care Program</h3><ol><li><strong>Schedule a complete dental exam</strong> with your veterinarian — if it has been over a year, it is overdue for most adult horses</li>
+<li><strong>Plan for sedation</strong> — budget for it as part of the appointment; a complete exam cannot be done without it</li>
+<li><strong>Young horses (under 5):</strong> schedule every 6 months — the multiple cap shed events and erupting adult arcade require monitoring</li>
+<li><strong>Senior horses (over 15):</strong> schedule every 6 months — dental changes accelerate; discuss dietary adjustments based on what the exam finds</li>
+<li><strong>Report any dental-associated signs</strong> to your vet promptly — quidding, one-sided nasal discharge, facial swelling — don't wait for the next annual exam</li>
+<li><strong>Ask about wolf teeth</strong> when your young horse has their first dental exam — extraction before training begins is routine and significantly reduces bitting problems</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Ongoing Dental Program Discussion Points for Your Vet</h3><ul><li>Appropriate exam interval for your specific horse's age and current dental condition</li>
+<li>Wolf teeth assessment — are they present, are they causing problems, and should they be removed?</li>
+<li>Findings from this exam that need monitoring at the next visit</li>
+<li>Dietary adjustments if significant dental compromise is found — appropriate feed formats for current chewing function</li>
+<li>Tooth root abscess evaluation — radiographs or advanced imaging if facial swelling or unilateral nasal discharge</li>
+<li>EOTRH evaluation in older horses — dental radiographs to assess incisor root resorption</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What specifically did you find at this exam, and what were the most significant problems treated?</li>
+<li>Are there any findings I should monitor between now and the next appointment?</li>
+<li>Does the current dental condition affect how I should be feeding this horse?</li>
+<li>Should we take dental radiographs for anything you found today?</li>
+<li>For my young horse — are all caps shed appropriately, and are the adult teeth erupting normally?</li>
+<li>For my senior horse — is there any evidence of EOTRH in the incisors, and what would that mean for management?</li>
+</ul></div>
+    <div class="vw">
+  <div class="vf">
+    <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning"
+         role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
+      <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg"
+           alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
     </div>
-    <div class="section-label">Related Topics</div>
-    <div class="related-grid"><a href="/preventive-care/vaccinations/" class="related-link"><span class="related-link-title">Vaccination Guide</span><span class="related-link-arrow">→</span></a>
-<a href="/preventive-care/annual-exam/" class="related-link"><span class="related-link-title">Annual Exam</span><span class="related-link-arrow">→</span></a>
-<a href="/conditions/ulcers/" class="related-link"><span class="related-link-title">Gastric Ulcers</span><span class="related-link-arrow">→</span></a>
-<a href="/life-stages/young-horse/" class="related-link"><span class="related-link-title">Young Horse Health</span><span class="related-link-arrow">→</span></a>
-<a href="/life-stages/senior-horse/" class="related-link"><span class="related-link-title">Senior Horse Health</span><span class="related-link-arrow">→</span></a>
-<a href="/find-a-vet/" class="related-link"><span class="related-link-title">Find an Equine Vet</span><span class="related-link-arrow">→</span></a></div>
+  </div>
+  <div class="vc">
+    <span class="vcat">🦷 Dental Care</span>
+    <div class="vtit">Proactive Horse Care — Annual Health Planning</div>
+    <div class="vby">Julie Goodnight</div>
+  </div>
+</div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/preventive-care/annual-exam/" class="rlink"><span>Annual Wellness Exam</span><span>→</span></a>
+<a href="/life-stages/young-horse/" class="rlink"><span>Young Horse Health</span><span>→</span></a>
+<a href="/life-stages/senior-horse/" class="rlink"><span>Senior Horse Health</span><span>→</span></a>
+<a href="/conditions/ulcers/" class="rlink"><span>Gastric Ulcers</span><span>→</span></a>
+<a href="/faq/" class="rlink"><span>Horse Owner FAQ</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sidebar-vet">
+    <div class="svet">
       <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
       <a href="/find-a-vet/">Find a Vet Near You →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Conditions</h3>
+    <div class="sc">
+      <h3>Preventive Care</h3>
+      <a href="/preventive-care/vaccinations/">Vaccination Guide</a>
+      <a href="/preventive-care/deworming/">Deworming Programs</a>
+      <a href="/preventive-care/dental/">Dental Care</a>
+      <a href="/preventive-care/annual-exam/">Annual Wellness Exam</a>
+      <a href="/preventive-care/biosecurity/">Biosecurity</a>
+      <a href="/preventive-care/">All Preventive Care →</a>
+    </div>
+    <div class="sc">
+      <h3>Key Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
-      <a href="/conditions/laminitis/">Laminitis</a>
-      <a href="/conditions/ulcers/">Gastric Ulcers</a>
       <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/ehv/">EHV</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
+      <a href="/conditions/bot-flies/">Bot Flies</a>
       <a href="/conditions/">All 15 Conditions →</a>
     </div>
-    <div class="sidebar-card">
-      <h3>Quick Links</h3>
-      <a href="/preventive-care/">Preventive Care</a>
-      <a href="/emergency/">Emergency Guide</a>
-      <a href="/faq/">FAQ</a>
-      <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
+    <div class="sc">
+      <h3>Life Stages</h3>
+      <a href="/life-stages/foal-health/">Foal Health</a>
+      <a href="/life-stages/senior-horse/">Senior Horse</a>
+      <a href="/life-stages/breeding-mare/">Breeding Mare</a>
+      <a href="/life-stages/">All Life Stages →</a>
     </div>
   </aside>
 </div>
 <footer>
-  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="footer-nav">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
-    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="footer-disclaimer">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>.</div>
+  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI &middot; Bridle &amp; Bit Magazine. All rights reserved.</div>
 </footer>
 <script>
-document.querySelectorAll('.vid-facade').forEach(function(f){
-  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
+document.querySelectorAll('.vfa').forEach(function(f){
+  f.addEventListener('click',function(){
+    var id=f.dataset.vid,t=f.dataset.title;
+    var iframe=document.createElement('iframe');
+    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
+    iframe.title=t;iframe.allowFullscreen=true;
+    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
+    iframe.referrerPolicy='strict-origin-when-cross-origin';
+    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
+  });
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
 </script>
