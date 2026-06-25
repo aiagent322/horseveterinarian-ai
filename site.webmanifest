@@ -1,0 +1,26 @@
+{
+  "name": "HorseVeterinarian.AI",
+  "short_name": "HorseVet.AI",
+  "description": "Equine health knowledge resource for horse owners — from Bridle & Bit Magazine",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#051C15",
+  "theme_color": "#0D3B2E",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
