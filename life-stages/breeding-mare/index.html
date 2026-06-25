@@ -5,200 +5,307 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>Breeding Mare Health | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: Breeding Mare Health for horse owners. From Bridle &amp; Bit Magazine. Not a substitute for veterinary care.">
+<meta name="description" content="Breeding mare health guide — pre-breeding examination, uterine culture, EHV vaccination schedule during pregnancy, pre-foaling preparation, foaling emergencies, retained placenta, and post-foaling monitoring.">
 <link rel="canonical" href="https://horseveterinarian.ai/life-stages/breeding-mare/">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Breeding Mare Health | HorseVeterinarian.AI">
+<meta property="og:description" content="Breeding mare health guide — pre-breeding examination, uterine culture, EHV vaccination schedule during pregnancy, pre-foaling preparation, foaling emergencies, retained placenta, and post-foaling monitoring.">
 <meta property="og:url" content="https://horseveterinarian.ai/life-stages/breeding-mare/">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--F:#0D3B2E;--FD:#082820;--FX:#051C15;--T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;--G:#C9983A;--GP:#FFF8EE;--I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;--A:#8B1A1A;--AL:#FDF0F0;--W:#FFFFFF;--B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);--r:10px;--rl:14px;--t:0.2s ease}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
-.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none;font-size:.9rem}.skip:focus{left:0}
-.db{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600}.db a{color:var(--T);text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
 .tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
 .tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
-.bbl{display:none;align-items:center;line-height:0;flex-shrink:0}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
 .sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
-.snl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.snl:hover,.snl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
-.snv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
-.ph{padding:28px 16px 24px;background:linear-gradient(135deg,#1A2A3A 0%,#0E1820 100%)}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
 .bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
 .ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 .ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
 .phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
 .cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
 .qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
 .qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fact-row:last-child{border-bottom:none}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
 .fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
-.ab{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ab h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ab ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
-.acb{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.acb h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.acb ol{padding-left:18px;font-size:.84rem;color:#5A3A08;line-height:1.75}
-.ib{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ib h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ib ul{padding-left:16px;font-size:.84rem;color:var(--IS);line-height:1.7}
-.ab2 h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:24px 0 10px;line-height:1.2}
-.ab2 h3{font-size:1rem;font-weight:700;color:var(--F);margin:18px 0 7px}
-.ab2 p{font-size:.92rem;color:var(--IS);line-height:1.7;margin-bottom:14px}
-.ab2 ul{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
-.ab2 li{margin-bottom:3px}
-.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:18px}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
 .vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
 .vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
 .vfa img{width:100%;height:100%;object-fit:cover;display:block}
 .vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
-.vp svg{width:52px;height:52px;fill:rgba(255,255,255,.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.vc{padding:12px 14px;border-top:1px solid var(--B)}
-.vct{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
-.vtl{font-family:'Playfair Display',serif;font-size:.92rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
-.vby{font-size:.74rem;color:var(--IM);font-weight:600}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
-.rg{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.rl{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--t)}.rl:hover{border-color:var(--BS);background:var(--TP)}
-.rl span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rl span:last-child{font-size:.9rem;color:var(--T)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
 .sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
 .sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
 .sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
-.sv{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
-.sv h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
-.sv p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
-.sv a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:40px}.sv a:hover{background:var(--TL);color:#fff}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
 footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.fl2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.fl2 span{color:#5DE8B8}
-.fn{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.fd{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bbl{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}.ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.cw{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
 <a class="skip" href="#mc">Skip to main content</a>
-<div class="db" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
 <div class="tb">
   <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bbl">
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
     <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="sn" aria-label="Main navigation">
-  <div class="sni">
-    <a href="/" class="snl">Home</a>
-    <a href="/conditions/" class="snl ">Conditions</a>
-    <div class="snv"></div>
-    <a href="/preventive-care/" class="snl ">Preventive Care</a>
-    <a href="/emergency/" class="snl ">Emergency Guide</a>
-    <a href="/life-stages/" class="snl active">Life Stages</a>
-    <a href="/body-systems/" class="snl ">Body Systems</a>
-    <div class="snv"></div>
-    <a href="/disciplines/" class="snl ">By Discipline</a>
-    <a href="/faq/" class="snl ">FAQ</a>
-    <a href="/glossary/" class="snl ">Glossary</a>
-    <a href="/videos/" class="snl">Videos</a>
-    <a href="/find-a-vet/" class="snl">Find a Vet</a>
-  </div>
-</nav>
+<nav class="sn" aria-label="Main navigation"><div class="sni">
+  <a href="/" class="sl">Home</a>
+  <a href="/conditions/" class="sl ">Conditions</a>
+  <div class="sdiv"></div>
+  <a href="/preventive-care/" class="sl ">Preventive Care</a>
+  <a href="/emergency/" class="sl ">Emergency Guide</a>
+  <a href="/life-stages/" class="sl active">Life Stages</a>
+  <a href="/body-systems/" class="sl ">Body Systems</a>
+  <div class="sdiv"></div>
+  <a href="/disciplines/" class="sl ">By Discipline</a>
+  <a href="/faq/" class="sl ">FAQ</a>
+  <a href="/glossary/" class="sl ">Glossary</a>
+  <a href="/videos/" class="sl">Videos</a>
+  <a href="/find-a-vet/" class="sl">Find a Vet</a>
+</div></nav>
 </header>
-<div class="ph">
+<div class="ph" style="background:linear-gradient(135deg,#1A2A3A 0%,#0E1820 100%)">
   <div class="bc"><a href="/">Home</a> › <a href="/life-stages/">Life Stages</a> › Breeding Mare Health</div>
-  <div class="ey">🐴 Reproductive Health</div>
+  <div class="ey">🐴 Reproductive Health · Pre-Breeding · Pregnancy · Foaling</div>
   <h1>Breeding Mare Health</h1>
-  <p class="phs">A pre-breeding examination by an equine reproductive veterinarian is the foundation of a well-managed breeding program. This evaluation assesses vulvar conformation (and whether a Caslick's procedure is needed to protect the reproductive tract), uterine health via rectal palpation and ultrasound, ovarian activity and follicle development, and uterine culture and cytology to identify subclinical endometritis before breeding.</p>
+  <p class="phs">Successful breeding programs are built on pre-breeding evaluation, timed vaccination, and foaling preparedness — and the consequences of skipping any of these steps can be severe. Retained placenta is a 3-hour emergency. EHV abortion prevention depends on precisely timed vaccination. Colostrum quality determines the foal's immune foundation. The guides below prepare you for each phase.</p>
 </div>
 <div class="cw" id="mc">
   <main role="main">
-    <div class="qf"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fl">Pre-breeding exam</span><span class="fv">Breeding soundness examination by an equine reproductive vet — essential before the breeding season</span></div><div class="fact-row"><span class="fl">EHV vaccination</span><span class="fv">Rhinopneumonitis at months 5, 7, and 9 of gestation to reduce abortion risk</span></div><div class="fact-row"><span class="fl">Pre-foaling vaccines</span><span class="fv">Core vaccines 4–6 weeks before foaling — maximizes antibody transfer to foal via colostrum</span></div><div class="fact-row"><span class="fl">Gestation</span><span class="fv">Average 340 days; range 320–370 days; term mares should be closely monitored</span></div><div class="fact-row"><span class="fl">Retained placenta</span><span class="fv">Must be passed within 3 hours of foaling — a time-sensitive veterinary emergency</span></div><div class="fact-row"><span class="fl">Post-foaling</span><span class="fv">Mares cycle again 7–10 days after foaling — the foal heat</span></div></div>
-    <div class="ab"><h3>⚠️ Breeding Mare Emergencies — Call Your Vet Immediately</h3><ul><li>Placenta not passed within 3 hours of foaling — retained placenta is a serious emergency</li><li>Excessive or prolonged hemorrhage during or after foaling</li><li>Colic signs in the mare during late pregnancy or immediately postpartum</li><li>Severe ventral edema and difficulty walking in late pregnancy — possible ruptured prepubic tendon</li><li>Foal not delivered within 30 minutes of amniotic sac rupturing — dystocia</li><li>Uterine tissue visible at the vulva after foaling — prolapsed uterus</li></ul></div>
-    <div class="ab2"><h2>Pre-Breeding Evaluation</h2>
-<p>A pre-breeding examination by an equine reproductive veterinarian is the foundation of a well-managed breeding program. This evaluation assesses vulvar conformation (and whether a Caslick's procedure is needed to protect the reproductive tract), uterine health via rectal palpation and ultrasound, ovarian activity and follicle development, and uterine culture and cytology to identify subclinical endometritis before breeding.</p>
-<p>Mares with poor perineal conformation, uterine fluid accumulation history, or prior pregnancy loss benefit from more intensive reproductive evaluation and targeted management. The goal is to identify and address any factors that reduce conception or pregnancy maintenance rates before breeding occurs.</p>
-<h3>Vaccination Schedule for Pregnant Mares</h3><ul><li>EHV-1 (Rhinopneumonitis): months 5, 7, and 9 of gestation — reduces EHV-1 abortion risk</li><li>Core vaccines (EEE/WEE, Tetanus, West Nile, Rabies, Influenza): 4–6 weeks before expected foaling date — maximizes antibody transfer to foal through colostrum</li><li>Botulism vaccination in endemic areas — discuss timing with your vet</li><li>Do NOT use modified live viral vaccines during pregnancy without veterinary guidance</li></ul>
-<h2>Foaling Preparation</h2>
-<p>As foaling approaches — typically 2–4 weeks before the expected date — the mare's udder begins to develop and fill. Dried colostrum ('waxing') on the teat ends typically appears 24–48 hours before foaling. The perineal area softens and relaxes, and the mare may become restless and show mild colic signs as contractions begin.</p>
-<p>Know your vet's emergency foaling contact before foaling begins. Most foaling complications require immediate veterinary response — the mare should deliver the foal within 20–30 minutes of active stage 2 labor beginning (the amniotic sac rupturing).</p>
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Pre-breeding exam</span><span class="fv">Breeding soundness examination by a reproductive veterinarian before each breeding season — not optional for serious programs</span></div>
+<div class="fr"><span class="fl">EHV-1 vaccination</span><span class="fv">Rhinopneumonitis at months 5, 7, and 9 of gestation — reduces EHV-1 abortion risk</span></div>
+<div class="fr"><span class="fl">Pre-foaling vaccines</span><span class="fv">Core vaccines 4–6 weeks before expected foaling — maximizes antibody levels in colostrum for foal</span></div>
+<div class="fr"><span class="fl">Gestation</span><span class="fv">Average 340 days (range 320–370) — considerable individual variation; mares often foal at consistent relative times year to year</span></div>
+<div class="fr"><span class="fl">Foal heat</span><span class="fv">Mares typically cycle 7–10 days after foaling — foal-heat breeding is possible but not ideal; discuss with reproductive vet</span></div>
+<div class="fr"><span class="fl">Retained placenta</span><span class="fv">Must be passed within 3 hours of foaling — after 3 hours, call your veterinarian; do NOT pull it</span></div>
+<div class="fr"><span class="fl">Colostrum quality</span><span class="fv">Brix refractometer test (>23% = good quality); can be tested before foaling; have backup plan if poor</span></div>
 </div>
-    <div class="acb"><h3>✅ Breeding Mare Health Program</h3><ol><li><strong>Schedule pre-breeding exam</strong> 4–6 weeks before the planned breeding date</li><li><strong>Confirm EHV vaccination timing</strong> at months 5, 7, and 9 of pregnancy</li><li><strong>Time pre-foaling booster vaccines</strong> 4–6 weeks before expected foaling date</li><li><strong>Know foaling signs</strong> — udder development, waxing, perineal relaxation</li><li><strong>Have vet emergency contact ready</strong> before foaling begins — retained placenta is time-sensitive</li><li><strong>Test colostrum quality</strong> before foaling if possible — a Brix refractometer gives rapid quality assessment</li></ol></div>
-    <div class="ib"><h3>📋 Discussion Points for Your Reproductive Vet</h3><ul><li>Caslick's procedure — whether perineal conformation warrants suturing before breeding</li><li>Uterine culture and cytology results — whether endometritis treatment is needed before breeding</li><li>Follicle monitoring and optimal breeding timing</li><li>Post-breeding uterine lavage protocol if your mare is a problem breeder</li><li>Colostrum quality testing options and what to do if quality is poor</li><li>Neonatal isoerythrolysis (NI) risk assessment if mare has type A or Q blood antigens</li></ul></div>
-    <div class="vw">
-      <div class="vf">
-        <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
-          <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
-          <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="vc">
-        <span class="vct">🐴 Breeding</span>
-        <div class="vtl">Proactive Horse Care — Annual Health Planning</div>
-        <div class="vby">Julie Goodnight</div>
-      </div>
-    </div>
-    <div class="sl">Related Topics</div>
-    <div class="rg"><a href="/life-stages/foal-health/" class="rl"><span>Foal Health</span><span>→</span></a><a href="/life-stages/stallion-care/" class="rl"><span>Stallion Health</span><span>→</span></a><a href="/conditions/ehv/" class="rl"><span>Equine Herpesvirus (EHV)</span><span>→</span></a><a href="/preventive-care/vaccinations/" class="rl"><span>Vaccination Guide</span><span>→</span></a><a href="/find-a-vet/" class="rl"><span>Find an Equine Vet</span><span>→</span></a><a href="/faq/" class="rl"><span>Horse Owner FAQ</span><span>→</span></a></div>
+    <div class="abox"><h3>⚠️ Breeding Mare Emergencies — Call Immediately</h3><ul><li>Placenta not passed within 3 hours of foaling — retained placenta is a serious emergency causing endotoxemia and laminitis</li>
+<li>Excessive hemorrhage during or after foaling</li>
+<li>Colic signs in a pregnant mare — uterine torsion possible</li>
+<li>Foal not delivered within 30 minutes of the amniotic sac rupturing (active stage 2 labor) — dystocia emergency</li>
+<li>Severe ventral edema late in pregnancy making walking difficult — possible rupturing prepubic tendon</li>
+<li>Prolapsed uterus after foaling — uterine tissue visible at the vulva; immediate emergency</li>
+<li>Mare recumbent and unable or unwilling to rise in late pregnancy or immediately postpartum</li>
+</ul></div>
+    <div class="ab"><h2>Pre-Breeding Examination — The Foundation</h2>
+<p>A pre-breeding examination by a licensed equine reproductive veterinarian is the most important proactive step in a breeding program. The exam evaluates everything that determines whether this mare is likely to conceive and maintain a pregnancy: vulvar conformation, uterine health, ovarian activity, and the presence of subclinical endometritis that would prevent implantation or cause early embryonic death.</p>
+<table class="dtable"><thead><tr><th>Exam Component</th><th>What Is Assessed</th><th>Why It Matters</th></tr></thead><tbody><tr><td><strong>Perineal conformation (Caslick's assessment)</strong></td><td>Angle of the vulva; degree of pneumovagina risk</td><td>Poor conformation allows fecal contamination of the reproductive tract; Caslick's procedure corrects this surgically</td></tr>
+<tr><td><strong>Rectal palpation and ultrasonography</strong></td><td>Uterine tone, echotexture, fluid accumulation; ovarian size and follicle development</td><td>Identifies endometritis, cysts, uterine pathology before breeding; monitors follicle to time breeding</td></tr>
+<tr><td><strong>Uterine culture and cytology</strong></td><td>Bacterial culture for pathogens; cytology for inflammatory cells</td><td>Identifies subclinical endometritis that prevents conception; guides antibiotic selection if needed</td></tr>
+<tr><td><strong>Uterine biopsy (selected mares)</strong></td><td>Histological assessment of endometrial health</td><td>Categorizes endometrial health (Grade I–III); provides prognosis for carrying a foal to term</td></tr>
+<tr><td><strong>Hormone assessment</strong></td><td>Progesterone levels; may be used to confirm luteal function</td><td>Ensures mare is cycling normally and corpus luteum function is adequate</td></tr>
+</tbody></table>
+<h2>Vaccination During Pregnancy — Timing Is Everything</h2>
+<p>Vaccination timing during pregnancy is not arbitrary — it directly determines two outcomes: EHV-1 abortion prevention (months 5, 7, and 9 of gestation), and the immune protection the foal receives through colostrum (core vaccines 4–6 weeks before foaling). Getting the timing right requires knowing the mare's breeding date and calculating accordingly.</p>
+<table class="dtable"><thead><tr><th>Vaccine</th><th>Timing</th><th>Purpose</th><th>Important Note</th></tr></thead><tbody><tr><td><strong>EHV-1 (Rhinopneumonitis)</strong></td><td>Months 5, 7, and 9 of gestation</td><td>Reduce EHV-1 abortion risk — a significant cause of late-term pregnancy loss</td><td>Killed products only during pregnancy; NO modified live EHV vaccines in pregnant mares</td></tr>
+<tr><td><strong>EEE/WEE, Tetanus, West Nile</strong></td><td>4–6 weeks before expected foaling date</td><td>Maximizes IgG levels in colostrum — the foal's immune foundation</td><td>Timing to foaling maximizes antibody transfer; too early = lower colostrum antibody levels</td></tr>
+<tr><td><strong>Influenza</strong></td><td>4–6 weeks before foaling</td><td>Same colostrum transfer strategy</td><td>Confirm product is labeled for use in pregnant mares</td></tr>
+<tr><td><strong>Rabies</strong></td><td>Annually — time to 4–6 weeks pre-foaling if due</td><td>Annual requirement; colostrum transfer strategy</td><td>Confirm product safety in pregnancy with your vet</td></tr>
+<tr><td><strong>Botulism</strong></td><td>Discuss with vet — endemic areas</td><td>Foal protection through colostrum in high-risk regions (Kentucky, parts of Southeast)</td><td>First trimester if not previously vaccinated</td></tr>
+</tbody></table>
+<h2>Recognizing Pre-Foaling Signs</h2>
+<p>Foaling preparation begins 2–4 weeks before the expected date. Recognizing the signs of impending parturition allows appropriate monitoring — particularly important because most mares foal at night and the active delivery stage (stage 2) lasts only 20–30 minutes. A foal not delivered within 30 minutes of the amniotic sac rupturing is a dystocia emergency.</p>
+<table class="dtable"><thead><tr><th>Sign</th><th>Typical Timing Before Foaling</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Udder development</strong></td><td>2–4 weeks before</td><td>Progressive filling; check daily once development begins</td></tr>
+<tr><td><strong>Waxing (dried colostrum on teats)</strong></td><td>12–48 hours before</td><td>Not universal — some mares wax; some don't; some have already leaked colostrum</td></tr>
+<tr><td><strong>Milk let-down</strong></td><td>Hours before</td><td>Colostrum freely running from teat — foaling typically within 12 hours</td></tr>
+<tr><td><strong>Perineal relaxation</strong></td><td>24–48 hours before</td><td>Vulva, tailhead, and pelvic musculature visibly soften and relax</td></tr>
+<tr><td><strong>Restlessness and mild colic signs</strong></td><td>Hours to minutes before</td><td>Uterine contractions beginning; mare may circle, look at flank, lie down and get up</td></tr>
+<tr><td><strong>Sweating</strong></td><td>Just before active labor</td><td>Particularly around flank and behind ears</td></tr>
+</tbody></table>
+<h3>Stage 1, 2, and 3 of Parturition — Know What's Normal</h3><ul>
+<li>Stage 1 (preparatory): uterine contractions, restlessness, sweating, colic-like signs. Duration: 1–4 hours. Mare may stand and lie repeatedly. No reason to intervene.</li>
+<li>Stage 2 (active delivery): rupture of the chorioallantois ('water breaking'); active abdominal straining; foal delivered. Duration: 20–30 minutes. Longer than 30 minutes without progress = call vet immediately.</li>
+<li>Stage 3 (placental expulsion): placenta passed. Should occur within 1–3 hours of foaling. After 3 hours without passage = call vet. Do NOT pull the placenta.</li>
+</ul>
+<h2>Post-Foaling Monitoring</h2>
+<p>The 24 hours after foaling are critical for both mare and foal. The mare needs monitoring for retained placenta (>3 hours), excessive hemorrhage, uterine prolapse, and post-partum colic. The foal needs IgG testing at 18–24 hours and monitoring per the foal health protocol.</p>
+<p>Document the placenta after it passes: lay it out in a Y-shape and examine for completeness — any missing horn piece means retained tissue and requires immediate veterinary contact. Retained placental tissue causes endotoxemia and laminitis that can be severe and rapid in onset.</p>
+</div>
+    <div class="acbox"><h3>✅ Breeding Mare Annual Health Program</h3><ol><li><strong>Pre-breeding exam 4–6 weeks before</strong> the planned breeding date — culture, cytology, and ultrasonographic assessment</li>
+<li><strong>Confirm EHV vaccination timing</strong> — calculate months 5, 7, and 9 from the breeding date and schedule accordingly</li>
+<li><strong>Time core vaccines 4–6 weeks before</strong> the expected foaling date — not earlier, not later</li>
+<li><strong>Test colostrum quality</strong> before foaling if possible — Brix refractometer; have backup plan (banked colostrum or replacer)</li>
+<li><strong>Have veterinarian's emergency foaling number</strong> saved and accessible before foaling season begins</li>
+<li><strong>Document the placenta</strong> after passage — photograph and examine for completeness</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Breeding Mare Discussion Points for Your Vet</h3><ul><li>Caslick's procedure — does this mare's perineal conformation warrant suturing before breeding, and when should it be opened</li>
+<li>Uterine culture results — if endometritis is present, treatment before breeding rather than after repeated failures</li>
+<li>Post-breeding uterine management — 'problem mares' benefit from post-breeding uterine lavage to remove fluid accumulation</li>
+<li>Twin pregnancy management — if twins detected at day 14–16 ultrasound, early manual reduction before day 16 is the preferred approach</li>
+<li>Neonatal isoerythrolysis (NI) risk — mares with type A or Q blood factors can produce antibodies destroying foal red cells; testing available</li>
+<li>Foaling monitoring protocol — in-stall camera, foaling alarm, attendant protocol based on facility resources</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>Based on this uterine culture, what endometritis treatment do you recommend before breeding?</li>
+<li>Does this mare's conformation warrant a Caslick's procedure, and if so, when should I plan to have it opened?</li>
+<li>What is the precise EHV vaccination schedule based on this mare's breeding date?</li>
+<li>What colostrum quality threshold should I be targeting, and what is the backup plan if quality is inadequate?</li>
+<li>Is this mare a candidate for twin pregnancy based on history or ultrasound findings?</li>
+<li>What is your preferred retained placenta protocol — when and how should I treat it if the placenta isn't passed?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
+      <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🐴 Breeding Mare</span><div class="vtit">Proactive Horse Care — Annual Health Planning</div><div class="vby">Julie Goodnight</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/life-stages/foal-health/" class="rlink"><span>Foal Health</span><span>→</span></a>
+<a href="/life-stages/stallion-care/" class="rlink"><span>Stallion Health</span><span>→</span></a>
+<a href="/conditions/ehv/" class="rlink"><span>Equine Herpesvirus (EHV)</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Vaccination Guide</span><span>→</span></a>
+<a href="/preventive-care/annual-exam/" class="rlink"><span>Annual Wellness Exam</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sv">
-      <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
-      <a href="/find-a-vet/">Find a Vet Near You →</a>
-    </div>
-    <div class="sc">
-      <h3>Conditions</h3>
+    <div class="svet"><h3>Find an Equine Vet</h3>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a></div>
+    <div class="sc"><h3>Life Stages</h3><a href="/life-stages/foal-health/">Foal Health</a>
+<a href="/life-stages/young-horse/">Young Horse</a>
+<a href="/life-stages/senior-horse/">Senior Horse</a>
+<a href="/life-stages/breeding-mare/">Breeding Mare</a>
+<a href="/life-stages/stallion-care/">Stallion Health</a>
+<a href="/life-stages/">All Life Stages →</a>
+</div>
+    <div class="sc"><h3>Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
       <a href="/conditions/laminitis/">Laminitis</a>
       <a href="/conditions/ulcers/">Gastric Ulcers</a>
-      <a href="/conditions/navicular/">Navicular Syndrome</a>
-      <a href="/conditions/strangles/">Strangles</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
-      <a href="/conditions/">All 15 Conditions →</a>
-    </div>
-    <div class="sc">
-      <h3>Quick Links</h3>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/">All 15 Conditions →</a></div>
+    <div class="sc"><h3>Quick Links</h3>
       <a href="/preventive-care/">Preventive Care</a>
       <a href="/emergency/">Emergency Guide</a>
       <a href="/faq/">FAQ</a>
       <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
-    </div>
+      <a href="/videos/">Videos</a></div>
   </aside>
 </div>
 <footer>
-  <div class="fl2">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="fn">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
     <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="fd">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>. &copy; 2026 HorseVeterinarian.AI.</div>
 </footer>
 <script>
 document.querySelectorAll('.vfa').forEach(function(f){
-  f.addEventListener('click',function(){
-    var id=f.dataset.vid,t=f.dataset.title;
-    var iframe=document.createElement('iframe');
-    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
-    iframe.title=t;iframe.allowFullscreen=true;
-    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
-    iframe.referrerPolicy='strict-origin-when-cross-origin';
-    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
-  });
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
-</script>
-</body>
-</html>
+</script></body></html>

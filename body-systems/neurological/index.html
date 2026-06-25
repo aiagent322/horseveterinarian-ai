@@ -5,200 +5,313 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>The Equine Neurological System | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: The Equine Neurological System for horse owners. From Bridle &amp; Bit Magazine. Not a substitute for veterinary care.">
+<meta name="description" content="Equine neurological system guide — AAEP grading scale, distinguishing neurological from orthopedic conditions, EPM and EHM pathophysiology, wobbler syndrome, facial nerve deficits, and why neurological signs are always urgent.">
 <link rel="canonical" href="https://horseveterinarian.ai/body-systems/neurological/">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="The Equine Neurological System | HorseVeterinarian.AI">
+<meta property="og:description" content="Equine neurological system guide — AAEP grading scale, distinguishing neurological from orthopedic conditions, EPM and EHM pathophysiology, wobbler syndrome, facial nerve deficits, and why neurological signs are always urgent.">
 <meta property="og:url" content="https://horseveterinarian.ai/body-systems/neurological/">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--F:#0D3B2E;--FD:#082820;--FX:#051C15;--T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;--G:#C9983A;--GP:#FFF8EE;--I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;--A:#8B1A1A;--AL:#FDF0F0;--W:#FFFFFF;--B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);--r:10px;--rl:14px;--t:0.2s ease}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
-.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none;font-size:.9rem}.skip:focus{left:0}
-.db{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600}.db a{color:var(--T);text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
 .tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
 .tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
-.bbl{display:none;align-items:center;line-height:0;flex-shrink:0}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
 .sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
-.snl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.snl:hover,.snl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
-.snv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
-.ph{padding:28px 16px 24px;background:linear-gradient(135deg,#1A1A3A 0%,#0E0E20 100%)}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
 .bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
 .ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 .ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
 .phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
 .cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
 .qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
 .qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fact-row:last-child{border-bottom:none}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
 .fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
-.ab{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ab h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ab ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
-.acb{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.acb h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.acb ol{padding-left:18px;font-size:.84rem;color:#5A3A08;line-height:1.75}
-.ib{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ib h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ib ul{padding-left:16px;font-size:.84rem;color:var(--IS);line-height:1.7}
-.ab2 h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:24px 0 10px;line-height:1.2}
-.ab2 h3{font-size:1rem;font-weight:700;color:var(--F);margin:18px 0 7px}
-.ab2 p{font-size:.92rem;color:var(--IS);line-height:1.7;margin-bottom:14px}
-.ab2 ul{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
-.ab2 li{margin-bottom:3px}
-.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:18px}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
 .vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
 .vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
 .vfa img{width:100%;height:100%;object-fit:cover;display:block}
 .vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
-.vp svg{width:52px;height:52px;fill:rgba(255,255,255,.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.vc{padding:12px 14px;border-top:1px solid var(--B)}
-.vct{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
-.vtl{font-family:'Playfair Display',serif;font-size:.92rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
-.vby{font-size:.74rem;color:var(--IM);font-weight:600}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
-.rg{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.rl{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--t)}.rl:hover{border-color:var(--BS);background:var(--TP)}
-.rl span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rl span:last-child{font-size:.9rem;color:var(--T)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
 .sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
 .sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
 .sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
-.sv{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
-.sv h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
-.sv p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
-.sv a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:40px}.sv a:hover{background:var(--TL);color:#fff}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
 footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.fl2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.fl2 span{color:#5DE8B8}
-.fn{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.fd{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bbl{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}.ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.cw{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
 <a class="skip" href="#mc">Skip to main content</a>
-<div class="db" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
 <div class="tb">
   <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bbl">
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
     <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="sn" aria-label="Main navigation">
-  <div class="sni">
-    <a href="/" class="snl">Home</a>
-    <a href="/conditions/" class="snl ">Conditions</a>
-    <div class="snv"></div>
-    <a href="/preventive-care/" class="snl ">Preventive Care</a>
-    <a href="/emergency/" class="snl ">Emergency Guide</a>
-    <a href="/life-stages/" class="snl ">Life Stages</a>
-    <a href="/body-systems/" class="snl active">Body Systems</a>
-    <div class="snv"></div>
-    <a href="/disciplines/" class="snl ">By Discipline</a>
-    <a href="/faq/" class="snl ">FAQ</a>
-    <a href="/glossary/" class="snl ">Glossary</a>
-    <a href="/videos/" class="snl">Videos</a>
-    <a href="/find-a-vet/" class="snl">Find a Vet</a>
-  </div>
-</nav>
+<nav class="sn" aria-label="Main navigation"><div class="sni">
+  <a href="/" class="sl">Home</a>
+  <a href="/conditions/" class="sl ">Conditions</a>
+  <div class="sdiv"></div>
+  <a href="/preventive-care/" class="sl ">Preventive Care</a>
+  <a href="/emergency/" class="sl ">Emergency Guide</a>
+  <a href="/life-stages/" class="sl ">Life Stages</a>
+  <a href="/body-systems/" class="sl active">Body Systems</a>
+  <div class="sdiv"></div>
+  <a href="/disciplines/" class="sl ">By Discipline</a>
+  <a href="/faq/" class="sl ">FAQ</a>
+  <a href="/glossary/" class="sl ">Glossary</a>
+  <a href="/videos/" class="sl">Videos</a>
+  <a href="/find-a-vet/" class="sl">Find a Vet</a>
+</div></nav>
 </header>
-<div class="ph">
+<div class="ph" style="background:linear-gradient(135deg,#1A1A3A 0%,#0E0E20 100%)">
   <div class="bc"><a href="/">Home</a> › <a href="/body-systems/">Body Systems</a> › The Equine Neurological System</div>
-  <div class="ey">🧠 Brain, Spinal Cord &amp; Nerves</div>
+  <div class="ey">🧠 Brain · Spinal Cord · Nerves · Always Urgent</div>
   <h1>The Equine Neurological System</h1>
-  <p class="phs">One of the most important clinical challenges in equine medicine is distinguishing neurological conditions from orthopedic conditions — both can produce abnormal gait and reluctance to move. Several features help differentiate them.</p>
+  <p class="phs">Neurological signs in horses are always clinically significant and always require urgent veterinary evaluation. The ability to distinguish neurological from orthopedic gait abnormalities — and to communicate accurately about what you observe — helps your veterinarian triage correctly and respond appropriately.</p>
 </div>
 <div class="cw" id="mc">
   <main role="main">
-    <div class="qf"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fl">Clinical importance</span><span class="fv">Neurological signs in horses are always significant — prompt veterinary evaluation is essential</span></div><div class="fact-row"><span class="fl">Common conditions</span><span class="fv">EPM, EHM (EHV-1 neurological), wobbler syndrome, facial nerve paralysis, peripheral neuropathy</span></div><div class="fact-row"><span class="fl">Primary signs</span><span class="fv">Incoordination (ataxia), muscle weakness, abnormal gait, facial asymmetry, difficulty swallowing</span></div><div class="fact-row"><span class="fl">Grading</span><span class="fv">AAEP 5-grade neurological scoring scale used to assess severity and monitor progression</span></div><div class="fact-row"><span class="fl">Diagnosis</span><span class="fv">Neurological exam + imaging + CSF/blood testing — diagnosis requires a veterinarian</span></div><div class="fact-row"><span class="fl">Asymmetry</span><span class="fv">EPM and other neurological diseases often produce asymmetric signs unlike orthopedic conditions</span></div></div>
-    <div class="ab"><h3>⚠️ Neurological Signs Requiring Immediate Veterinary Contact</h3><ul><li>Any sudden onset of incoordination, stumbling, or abnormal gait</li><li>Muscle weakness in the hindquarters — particularly if asymmetric</li><li>A horse that falls or is unable to rise from a lying position</li><li>Head tilting, circling, or apparent vestibular dysfunction</li><li>Difficulty swallowing, drooping of the lips or eyelids, asymmetric facial expression</li><li>Progressive worsening of any neurological sign over days or hours</li></ul></div>
-    <div class="ab2"><h2>Recognizing Neurological vs. Orthopedic Conditions</h2>
-<p>One of the most important clinical challenges in equine medicine is distinguishing neurological conditions from orthopedic conditions — both can produce abnormal gait and reluctance to move. Several features help differentiate them.</p>
-<p>Neurological signs tend to be present at slow gaits and may worsen when the head is elevated. Incoordination (ataxia) — where the horse places its feet abnormally rather than simply avoiding weight-bearing — is distinctly neurological. Asymmetric muscle wasting without a corresponding history of limb disuse is often neurological. Bilateral or multi-limb involvement is more typical of neurological disease.</p>
-<h3>AAEP Neurological Grade Scale</h3><ul><li>Grade 1: Deficit just detectable at normal movement; consistent with normal on straight line</li><li>Grade 2: Deficit detectable at normal movement; worse with head elevation or tight circles</li><li>Grade 3: Deficit prominent at normal movement; stumbles; falls may occur</li><li>Grade 4: Stumbles spontaneously; falls with circling or inclines</li><li>Grade 5: Falls spontaneously; recumbent</li></ul>
-<h2>Wobbler Syndrome</h2>
-<p>Cervical Vertebral Stenotic Myelopathy (CVSM) — wobbler syndrome — produces progressive hindlimb and forelimb incoordination due to spinal cord compression in the neck. Fast-growing young horses (particularly Thoroughbreds and Warmbloods) are most commonly affected, though any age or breed can develop degenerative joint disease-related cord compression.</p>
-<p>Radiography and myelography (contrast study of the spinal cord) are used for diagnosis. Management ranges from dietary modification and exercise restriction in mild cases to surgical decompression (ventral slot or cervical vertebral interbody fusion) in more severe cases.</p>
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Key rule</span><span class="fv">Any horse showing ataxia, weakness, or asymmetric gait abnormality needs immediate veterinary contact</span></div>
+<div class="fr"><span class="fl">Most common neurological condition</span><span class="fv">EPM (Equine Protozoal Myeloencephalitis) — Sarcocystis neurona; widespread in North America</span></div>
+<div class="fr"><span class="fl">AAEP grading</span><span class="fv">5-grade neurological severity scale used to assess and track neurological conditions</span></div>
+<div class="fr"><span class="fl">Neurological vs orthopedic</span><span class="fv">Key difference: ataxia (placement error) vs pain-avoidance (shortened stride, head nod)</span></div>
+<div class="fr"><span class="fl">EHM</span><span class="fv">Equine Herpesvirus Myeloencephalopathy — neurological EHV-1; reportable in most states; outbreaks at events</span></div>
+<div class="fr"><span class="fl">Wobbler syndrome</span><span class="fv">CVSM — cervical vertebral stenotic myelopathy; spinal cord compression in the neck</span></div>
+<div class="fr"><span class="fl">Never ride</span><span class="fv">Do not ride a horse with suspected neurological disease — serious fall risk for horse and rider</span></div>
 </div>
-    <div class="acb"><h3>✅ Responding to Neurological Signs</h3><ol><li><strong>Contact your veterinarian immediately</strong> — neurological disease requires urgent evaluation</li><li><strong>Restrict movement</strong> — a horse with significant incoordination is at high risk for falls and handler injury</li><li><strong>Secure safely</strong> in a well-bedded stall away from obstacles, fencing, and other horses</li><li><strong>Video the gait if possible</strong> — documenting the specific neurological signs is extremely helpful for the vet</li><li><strong>Note recent history</strong> — shipping, illness, vaccination, deworming, or management changes that preceded onset</li><li><strong>Do not work or ride</strong> a horse with suspected neurological disease</li></ol></div>
-    <div class="ib"><h3>📋 Discussion Points for Your Vet</h3><ul><li>EPM testing — serum and CSF antibody titres, interpretation, and treatment options</li><li>EHV biosecurity if multiple horses are affected — possible EHM outbreak situation</li><li>Myelography vs. MRI for suspected wobbler syndrome</li><li>Neurological grade and prognosis for the specific condition diagnosed</li><li>Treatment monitoring — repeat neurological scoring to assess response</li></ul></div>
-    <div class="vw">
-      <div class="vf">
-        <div class="vfa" data-vid="bTl1_AUdXpE" data-title="What to Expect in a Neurological / Lameness Exam" role="button" tabindex="0" aria-label="Play: What to Expect in a Neurological / Lameness Exam">
-          <img src="https://img.youtube.com/vi/bTl1_AUdXpE/hqdefault.jpg" alt="What to Expect in a Neurological / Lameness Exam" loading="lazy" decoding="async">
-          <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="vc">
-        <span class="vct">🧠 Neurological</span>
-        <div class="vtl">What to Expect in a Neurological / Lameness Exam</div>
-        <div class="vby">Monty Roberts / HandsOnGloves</div>
-      </div>
-    </div>
-    <div class="sl">Related Topics</div>
-    <div class="rg"><a href="/conditions/epm/" class="rl"><span>EPM Guide</span><span>→</span></a><a href="/conditions/ehv/" class="rl"><span>Equine Herpesvirus / EHM</span><span>→</span></a><a href="/emergency/" class="rl"><span>Emergency Guide</span><span>→</span></a><a href="/preventive-care/vaccinations/" class="rl"><span>Vaccination Guide</span><span>→</span></a><a href="/find-a-vet/" class="rl"><span>Find an Equine Vet</span><span>→</span></a><a href="/glossary/" class="rl"><span>Veterinary Glossary</span><span>→</span></a></div>
+    <div class="abox"><h3>⚠️ Neurological Signs Requiring Immediate Veterinary Contact</h3><ul><li>Any sudden onset of incoordination, stumbling, or abnormal limb placement</li>
+<li>Hindlimb weakness — particularly if asymmetric (one side worse)</li>
+<li>A horse that falls or cannot rise from a lying position</li>
+<li>Head tilting, circling, or vestibular dysfunction</li>
+<li>Drooping lip, eyelid, or ear — facial nerve paresis</li>
+<li>Difficulty swallowing or abnormal tongue function</li>
+<li>Progressive worsening of any gait abnormality over hours to days</li>
+</ul></div>
+    <div class="ab"><h2>Neurological vs. Orthopedic — The Clinical Distinction</h2>
+<p>One of the most common diagnostic challenges is distinguishing a neurological gait abnormality from an orthopedic one. Both can produce abnormal movement, reluctance to move, and apparent weakness. Several clinical features help differentiate them.</p>
+<p>The key distinguishing feature of neurological gait is ataxia — the horse placing its feet in abnormal positions relative to where they should be, not simply avoiding weight-bearing. An orthopedic lameness produces a horse that moves carefully to protect a painful structure; a neurological problem produces a horse that cannot accurately control where its feet go.</p>
+<table class="dtable"><thead><tr><th>Feature</th><th>Orthopedic Lameness</th><th>Neurological Condition</th></tr></thead><tbody><tr><td><strong>Primary mechanism</strong></td><td>Pain avoidance</td><td>Loss of proprioception and/or motor control</td></tr>
+<tr><td><strong>Limb placement</strong></td><td>Careful, protective</td><td>Abnormal — wide-based, cross-stepping, stumbling</td></tr>
+<tr><td><strong>Head elevation effect</strong></td><td>May worsen if forelimb</td><td>Typically worsens neurological signs — ataxia increases with head elevation</td></tr>
+<tr><td><strong>Circles</strong></td><td>Often worse on circle — consistent pattern</td><td>Worse on circle; may 'fall in' or 'drift out'; loses the circle</td></tr>
+<tr><td><strong>Reversing</strong></td><td>Usually manageable</td><td>Often very difficult; stumbling, falling backward possible</td></tr>
+<tr><td><strong>Asymmetry</strong></td><td>Consistent limb preference</td><td>May be asymmetric (EPM) or symmetric (CVSM)</td></tr>
+<tr><td><strong>Muscle wasting</strong></td><td>Disuse atrophy over time</td><td>May be neurogenic atrophy — more rapid, more focal</td></tr>
+<tr><td><strong>Response to nerve block</strong></td><td>Lameness improves with analgesia</td><td>Does NOT improve with perineural analgesia</td></tr>
+</tbody></table>
+<h2>AAEP Neurological Grading Scale</h2>
+<p>The AAEP 5-grade neurological grading scale provides a standardized framework for assessing severity and tracking change over time. Knowing this scale allows horse owners to describe what they observe in terms their veterinarian can immediately interpret.</p>
+<table class="dtable"><thead><tr><th>Grade</th><th>Description</th><th>What You See</th><th>Handler Safety</th></tr></thead><tbody><tr><td><strong>0</strong></td><td>Normal</td><td>No detectable gait abnormality</td><td>Normal</td></tr>
+<tr><td><strong>1</strong></td><td>Barely perceptible deficit</td><td>Subtle ataxia detectable only with manipulation (head elevation, tight circles, slopes)</td><td>Safe</td></tr>
+<tr><td><strong>2</strong></td><td>Mild deficit</td><td>Ataxia detectable at normal gaits; worse with manipulation</td><td>Generally safe; monitor</td></tr>
+<tr><td><strong>3</strong></td><td>Moderate deficit</td><td>Ataxia prominent at normal gaits; stumbles spontaneously; may fall with manipulation</td><td>Caution — do not ride; handler at risk</td></tr>
+<tr><td><strong>4</strong></td><td>Severe deficit</td><td>Stumbles spontaneously; falls with circling or inclines; near recumbent possible</td><td>High risk — significant injury risk to horse and handler</td></tr>
+<tr><td><strong>5</strong></td><td>Recumbent</td><td>Cannot or will not rise; recumbent</td><td>Emergency — human safety concern; do not attempt to force standing</td></tr>
+</tbody></table>
+<h2>EPM — Equine Protozoal Myeloencephalitis</h2>
+<p>EPM is caused by Sarcocystis neurona, a protozoan parasite whose definitive host is the Virginia opossum (Didelphis virginiana). Opossums shed sporocysts in their feces, which can contaminate hay, grain, and water sources accessed by horses. When horses ingest sporocysts, the protozoa can invade the central nervous system and cause focal or multifocal damage — producing the characteristic asymmetric neurological signs.</p>
+<p>Diagnosis is complicated by the high background seropositivity in North America — many horses have antibody titers indicating exposure without clinical disease. Definitive diagnosis combines clinical scoring, exclusion of other neurological conditions, serum and ideally CSF antibody testing, and response to treatment. Three FDA-approved antiprotozoal protocols exist (ponazuril, diclazuril, sulfadiazine-pyrimethamine).</p>
+<h3>EPM — Key Clinical Points</h3><ul>
+<li>Asymmetric neurological signs are a hallmark — unlike CVSM which tends to be more symmetric</li>
+<li>Most commonly affects the spinal cord; brainstem involvement produces cranial nerve deficits</li>
+<li>Stress events (transport, competition, illness) may trigger clinical disease in previously exposed horses with latent infection</li>
+<li>Opossum control on the property reduces environmental sporocyst burden</li>
+<li>Grade 1–2 horses treated promptly have significantly better outcomes than Grade 3–4 horses with delayed treatment</li>
+</ul>
+<h2>Wobbler Syndrome (CVSM)</h2>
+<p>Cervical Vertebral Stenotic Myelopathy (CVSM) — wobbler syndrome — produces progressive ataxia from spinal cord compression in the neck. Unlike EPM, CVSM signs tend to be symmetric (both sides equally affected) and tend to be more prominent in the hindlimbs, though forelimbs are also affected in significant cases.</p>
+<p>CVSM has two forms: a dynamic form in younger horses (instability of cervical vertebral articulations that compresses the cord during flexion) and a static form in older horses (degenerative joint disease producing constant narrowing of the spinal canal). Myelography (contrast study of the spinal cord via CSF injection) is the traditional diagnostic gold standard; CT myelography is increasingly available at referral centers.</p>
+<h2>EHM — The Neurological Form of EHV-1</h2>
+<p>Equine Herpesvirus Myeloencephalopathy (EHM) represents the most serious outcome of EHV-1 infection — vascular inflammation in the spinal cord and brain causing ischemic neurological damage. Signs include hindlimb ataxia and weakness, urinary incontinence, and in severe cases, inability to rise.</p>
+<p>EHM is reportable to state veterinary authorities in most states and has caused significant outbreaks at equine events. Fever typically precedes neurological signs by 1–2 days — temperature monitoring after exposure to horses from events is the most important early detection tool. Any horse with neurological signs following an EHV fever episode requires immediate veterinary evaluation and isolation.</p>
+</div>
+    <div class="acbox"><h3>✅ Responding to Neurological Signs</h3><ol><li><strong>Call your veterinarian immediately</strong> — neurological disease requires urgent evaluation</li>
+<li><strong>Restrict movement</strong> — a horse with significant ataxia is at serious fall and injury risk for horse and handler</li>
+<li><strong>Secure safely</strong> — deeply bedded stall, away from fences, water tanks, and other horses</li>
+<li><strong>Video the gait</strong> if you can do so safely — documenting the specific pattern is extremely helpful for the vet</li>
+<li><strong>Note recent history</strong> — any transport, illness, vaccination, deworming, or new horse contact in prior 3–14 days</li>
+<li><strong>Do not ride or attempt to longe</strong> a horse with suspected neurological signs</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Neurological Health Discussion Points for Your Vet</h3><ul><li>EPM testing protocol — serum vs CSF; which products if treatment is indicated</li>
+<li>EHM biosecurity if multiple horses are affected — possible outbreak protocol with state vet notification</li>
+<li>CVSM workup — myelography or CT myelography at a referral center</li>
+<li>Neurological grade at diagnosis and target grade for treatment success</li>
+<li>Return-to-work criteria after neurological treatment — objective grading, not just 'looks better'</li>
+<li>Opossum exclusion on the property for EPM risk reduction</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What AAEP neurological grade do you assign today, and what does that mean for prognosis?</li>
+<li>Is EPM or another condition your primary differential, and what testing do you recommend?</li>
+<li>Should we do serum testing, CSF testing, or both?</li>
+<li>If EPM is confirmed, which treatment protocol do you recommend and why?</li>
+<li>At what grade of improvement would you consider this horse safe to resume work?</li>
+<li>Is EHM a concern given this horse's recent history, and should we notify anyone?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="bTl1_AUdXpE" data-title="What to Expect in a Neurological / Lameness Exam" role="button" tabindex="0" aria-label="Play: What to Expect in a Neurological / Lameness Exam">
+      <img src="https://img.youtube.com/vi/bTl1_AUdXpE/hqdefault.jpg" alt="What to Expect in a Neurological / Lameness Exam" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🧠 Neurological</span><div class="vtit">What to Expect in a Neurological / Lameness Exam</div><div class="vby">Monty Roberts / HandsOnGloves</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/conditions/epm/" class="rlink"><span>EPM Guide</span><span>→</span></a>
+<a href="/conditions/ehv/" class="rlink"><span>Equine Herpesvirus / EHM</span><span>→</span></a>
+<a href="/emergency/" class="rlink"><span>Emergency Guide</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Vaccination Guide</span><span>→</span></a>
+<a href="/preventive-care/biosecurity/" class="rlink"><span>Biosecurity</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sv">
-      <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
-      <a href="/find-a-vet/">Find a Vet Near You →</a>
-    </div>
-    <div class="sc">
-      <h3>Conditions</h3>
+    <div class="svet"><h3>Find an Equine Vet</h3>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a></div>
+    <div class="sc"><h3>Body Systems</h3><a href="/body-systems/digestive/">Digestive System</a>
+<a href="/body-systems/musculoskeletal/">Musculoskeletal</a>
+<a href="/body-systems/respiratory/">Respiratory</a>
+<a href="/body-systems/neurological/">Neurological</a>
+<a href="/body-systems/reproductive/">Reproductive</a>
+<a href="/body-systems/skin-coat/">Skin & Coat</a>
+<a href="/body-systems/eyes/">Eyes & Vision</a>
+<a href="/body-systems/">All Body Systems →</a>
+</div>
+    <div class="sc"><h3>Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
       <a href="/conditions/laminitis/">Laminitis</a>
       <a href="/conditions/ulcers/">Gastric Ulcers</a>
-      <a href="/conditions/navicular/">Navicular Syndrome</a>
-      <a href="/conditions/strangles/">Strangles</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
-      <a href="/conditions/">All 15 Conditions →</a>
-    </div>
-    <div class="sc">
-      <h3>Quick Links</h3>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/">All 15 Conditions →</a></div>
+    <div class="sc"><h3>Quick Links</h3>
       <a href="/preventive-care/">Preventive Care</a>
       <a href="/emergency/">Emergency Guide</a>
       <a href="/faq/">FAQ</a>
       <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
-    </div>
+      <a href="/videos/">Videos</a></div>
   </aside>
 </div>
 <footer>
-  <div class="fl2">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="fn">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
     <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="fd">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>. &copy; 2026 HorseVeterinarian.AI.</div>
 </footer>
 <script>
 document.querySelectorAll('.vfa').forEach(function(f){
-  f.addEventListener('click',function(){
-    var id=f.dataset.vid,t=f.dataset.title;
-    var iframe=document.createElement('iframe');
-    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
-    iframe.title=t;iframe.allowFullscreen=true;
-    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
-    iframe.referrerPolicy='strict-origin-when-cross-origin';
-    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
-  });
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
-</script>
-</body>
-</html>
+</script></body></html>

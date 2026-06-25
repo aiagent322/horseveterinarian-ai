@@ -5,200 +5,310 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>The Equine Reproductive System | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: The Equine Reproductive System for horse owners. From Bridle &amp; Bit Magazine. Not a substitute for veterinary care.">
+<meta name="description" content="Equine reproductive system guide — mare estrous cycle, seasonal anestrus, photoperiod management, pregnancy monitoring, parturition stages, stallion anatomy and semen physiology, and reproductive emergencies.">
 <link rel="canonical" href="https://horseveterinarian.ai/body-systems/reproductive/">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="The Equine Reproductive System | HorseVeterinarian.AI">
+<meta property="og:description" content="Equine reproductive system guide — mare estrous cycle, seasonal anestrus, photoperiod management, pregnancy monitoring, parturition stages, stallion anatomy and semen physiology, and reproductive emergencies.">
 <meta property="og:url" content="https://horseveterinarian.ai/body-systems/reproductive/">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--F:#0D3B2E;--FD:#082820;--FX:#051C15;--T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;--G:#C9983A;--GP:#FFF8EE;--I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;--A:#8B1A1A;--AL:#FDF0F0;--W:#FFFFFF;--B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);--r:10px;--rl:14px;--t:0.2s ease}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
-.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none;font-size:.9rem}.skip:focus{left:0}
-.db{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600}.db a{color:var(--T);text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
 .tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
 .tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
-.bbl{display:none;align-items:center;line-height:0;flex-shrink:0}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
 .sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
-.snl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.snl:hover,.snl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
-.snv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
-.ph{padding:28px 16px 24px;background:linear-gradient(135deg,#1A2A1A 0%,#0E180E 100%)}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
 .bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
 .ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 .ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
 .phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
 .cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
 .qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
 .qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fact-row:last-child{border-bottom:none}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
 .fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
-.ab{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ab h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ab ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
-.acb{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.acb h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.acb ol{padding-left:18px;font-size:.84rem;color:#5A3A08;line-height:1.75}
-.ib{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ib h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ib ul{padding-left:16px;font-size:.84rem;color:var(--IS);line-height:1.7}
-.ab2 h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:24px 0 10px;line-height:1.2}
-.ab2 h3{font-size:1rem;font-weight:700;color:var(--F);margin:18px 0 7px}
-.ab2 p{font-size:.92rem;color:var(--IS);line-height:1.7;margin-bottom:14px}
-.ab2 ul{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
-.ab2 li{margin-bottom:3px}
-.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:18px}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
 .vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
 .vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
 .vfa img{width:100%;height:100%;object-fit:cover;display:block}
 .vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
-.vp svg{width:52px;height:52px;fill:rgba(255,255,255,.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.vc{padding:12px 14px;border-top:1px solid var(--B)}
-.vct{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
-.vtl{font-family:'Playfair Display',serif;font-size:.92rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
-.vby{font-size:.74rem;color:var(--IM);font-weight:600}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
-.rg{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.rl{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--t)}.rl:hover{border-color:var(--BS);background:var(--TP)}
-.rl span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rl span:last-child{font-size:.9rem;color:var(--T)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
 .sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
 .sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
 .sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
-.sv{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
-.sv h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
-.sv p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
-.sv a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:40px}.sv a:hover{background:var(--TL);color:#fff}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
 footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.fl2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.fl2 span{color:#5DE8B8}
-.fn{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.fd{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bbl{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}.ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.cw{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
 <a class="skip" href="#mc">Skip to main content</a>
-<div class="db" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
 <div class="tb">
   <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bbl">
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
     <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="sn" aria-label="Main navigation">
-  <div class="sni">
-    <a href="/" class="snl">Home</a>
-    <a href="/conditions/" class="snl ">Conditions</a>
-    <div class="snv"></div>
-    <a href="/preventive-care/" class="snl ">Preventive Care</a>
-    <a href="/emergency/" class="snl ">Emergency Guide</a>
-    <a href="/life-stages/" class="snl ">Life Stages</a>
-    <a href="/body-systems/" class="snl active">Body Systems</a>
-    <div class="snv"></div>
-    <a href="/disciplines/" class="snl ">By Discipline</a>
-    <a href="/faq/" class="snl ">FAQ</a>
-    <a href="/glossary/" class="snl ">Glossary</a>
-    <a href="/videos/" class="snl">Videos</a>
-    <a href="/find-a-vet/" class="snl">Find a Vet</a>
-  </div>
-</nav>
+<nav class="sn" aria-label="Main navigation"><div class="sni">
+  <a href="/" class="sl">Home</a>
+  <a href="/conditions/" class="sl ">Conditions</a>
+  <div class="sdiv"></div>
+  <a href="/preventive-care/" class="sl ">Preventive Care</a>
+  <a href="/emergency/" class="sl ">Emergency Guide</a>
+  <a href="/life-stages/" class="sl ">Life Stages</a>
+  <a href="/body-systems/" class="sl active">Body Systems</a>
+  <div class="sdiv"></div>
+  <a href="/disciplines/" class="sl ">By Discipline</a>
+  <a href="/faq/" class="sl ">FAQ</a>
+  <a href="/glossary/" class="sl ">Glossary</a>
+  <a href="/videos/" class="sl">Videos</a>
+  <a href="/find-a-vet/" class="sl">Find a Vet</a>
+</div></nav>
 </header>
-<div class="ph">
+<div class="ph" style="background:linear-gradient(135deg,#1A2A1A 0%,#0E180E 100%)">
   <div class="bc"><a href="/">Home</a> › <a href="/body-systems/">Body Systems</a> › The Equine Reproductive System</div>
-  <div class="ey">🐴 Breeding &amp; Reproduction</div>
+  <div class="ey">🐴 Mare Cycle · Pregnancy · Stallion Physiology</div>
   <h1>The Equine Reproductive System</h1>
-  <p class="phs">Understanding the mare's reproductive cycle is foundational to successful breeding management. Mares are seasonally polyestrous — they cycle naturally from approximately April through October in the Northern Hemisphere, driven by increasing day length. The transition from winter anestrus to active cycling occurs in spring; the fall transition reverses this.</p>
+  <p class="phs">Understanding equine reproductive physiology — why mares cycle seasonally, how follicle monitoring guides breeding timing, what the normal stages of foaling look like, and how semen quality is assessed — transforms breeding management conversations with your veterinarian from confusion to informed partnership.</p>
 </div>
 <div class="cw" id="mc">
   <main role="main">
-    <div class="qf"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fl">Mare cycle</span><span class="fv">21-day estrous cycle; behavioral estrus (heat) lasts 5–7 days; ovulation near the end of estrus</span></div><div class="fact-row"><span class="fl">Seasonal</span><span class="fv">Mares are seasonally polyestrous — naturally cycle spring through fall; transition periods in spring/fall</span></div><div class="fact-row"><span class="fl">Gestation</span><span class="fv">Average 340 days; range 320–370 days; considerable individual variation</span></div><div class="fact-row"><span class="fl">Stallion</span><span class="fv">Daily sperm output correlates with testicular size; semen quality assessable via BSE</span></div><div class="fact-row"><span class="fl">Photoperiod</span><span class="fv">Day length controls reproductive cycling — artificial lighting used to advance the spring season</span></div><div class="fact-row"><span class="fl">EHV-1</span><span class="fv">Most significant infectious reproductive pathogen — causes late-term abortion; vaccinate at months 5, 7, 9</span></div></div>
-    <div class="ab"><h3>⚠️ Reproductive Emergencies</h3><ul><li>Dystocia — foal not delivered within 30 minutes of amniotic sac rupturing</li><li>Retained placenta — must be passed within 3 hours of foaling</li><li>Colic signs in a pregnant mare — uterine torsion possible</li><li>Excessive hemorrhage after foaling</li><li>Sudden pregnancy loss at any stage</li><li>Severe scrotal swelling or pain in a stallion</li></ul></div>
-    <div class="ab2"><h2>The Mare's Reproductive Cycle</h2>
-<p>Understanding the mare's reproductive cycle is foundational to successful breeding management. Mares are seasonally polyestrous — they cycle naturally from approximately April through October in the Northern Hemisphere, driven by increasing day length. The transition from winter anestrus to active cycling occurs in spring; the fall transition reverses this.</p>
-<p>During the active breeding season, mares cycle approximately every 21 days. The follicular phase (estrus) lasts 5–7 days and ends with ovulation; the luteal phase (diestrus) lasts approximately 14 days. Breeding is timed to ovulation — typically determined by rectal palpation and ultrasound monitoring of follicle development by an equine reproductive veterinarian.</p>
-<h3>Artificial Lighting to Advance the Season</h3><ul><li>Mares can be brought into cyclicity earlier by simulating a longer photoperiod starting December 1</li><li>A 200-watt incandescent (or equivalent LED) light in the stall from approximately 4pm to midnight is the standard protocol</li><li>Mares typically begin cycling 60–90 days after initiating the artificial lighting program — planned early January start produces February/March cycles</li><li>Discuss appropriate lighting protocols with your equine reproductive veterinarian</li></ul>
-<h2>Pregnancy and Parturition</h2>
-<p>Following successful fertilization, the equine embryo enters the uterus around day 6 and 'fixes' in position around day 17, suppressing the normal luteolytic mechanism. Pregnancy is confirmed by transrectal ultrasound at approximately day 14–16 (detection of embryonic vesicle) and again at day 25–28 (confirmation of heartbeat and single vs. twin pregnancy).</p>
-<p>Twin pregnancies are a significant problem in horses — the uterus cannot support two foals to term, and spontaneous abortion or birth of one or both non-viable twins is the most common outcome. Twin reduction performed by the veterinarian before day 30 is the preferred management.</p>
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Mare cycle</span><span class="fv">21-day estrous cycle; behavioral estrus (heat) lasts 5–7 days; ovulation occurs near the end of estrus</span></div>
+<div class="fr"><span class="fl">Seasonally polyestrous</span><span class="fv">Mares naturally cycle spring through fall driven by increasing day length; winter anestrus is normal</span></div>
+<div class="fr"><span class="fl">Gestation</span><span class="fv">Average 340 days (range 320–370); considerable individual variation</span></div>
+<div class="fr"><span class="fl">Transition periods</span><span class="fv">Spring and fall transitions — irregular cycles, erratic behavior; most challenging for breeding management</span></div>
+<div class="fr"><span class="fl">Stallion spermatogenesis</span><span class="fv">~57–60 day cycle from stem cell to ejaculated sperm — illness months ago affects fertility now</span></div>
+<div class="fr"><span class="fl">Dystocia definition</span><span class="fv">Active stage 2 labor (amniotic sac ruptured) > 30 minutes without delivery — emergency</span></div>
+<div class="fr"><span class="fl">Twin pregnancy</span><span class="fv">Equine uterus cannot support twins to term — spontaneous abortion or birth of non-viable twins is the typical outcome</span></div>
 </div>
-    <div class="acb"><h3>✅ Reproductive Health Planning</h3><ol><li><strong>Pre-breeding exam</strong> 4–6 weeks before the planned breeding date for mares</li><li><strong>Annual BSE</strong> 4–6 weeks before the breeding season for stallions</li><li><strong>Start artificial lighting December 1</strong> if early-season breeding is planned</li><li><strong>Pregnancy check at day 14–16</strong> after breeding — confirm conception and rule out twins</li><li><strong>EHV vaccination at months 5, 7, 9</strong> for pregnant mares</li><li><strong>Pre-foaling vaccine boosters 4–6 weeks before</strong> expected foaling date</li></ol></div>
-    <div class="ib"><h3>📋 Discussion Points for Your Reproductive Vet</h3><ul><li>Mare's cycle regularity and any history of reproductive problems</li><li>Uterine culture and cytology — rule out endometritis before breeding</li><li>Photoperiod timing and lighting protocol for your facility</li><li>Twin reduction protocol if twins are detected</li><li>Breeding method selection — live cover, cooled transported semen, frozen semen — and implications for conception rates</li></ul></div>
-    <div class="vw">
-      <div class="vf">
-        <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
-          <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
-          <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="vc">
-        <span class="vct">🐴 Reproductive</span>
-        <div class="vtl">Proactive Horse Care — Annual Health Planning</div>
-        <div class="vby">Julie Goodnight</div>
-      </div>
-    </div>
-    <div class="sl">Related Topics</div>
-    <div class="rg"><a href="/life-stages/breeding-mare/" class="rl"><span>Breeding Mare Health</span><span>→</span></a><a href="/life-stages/stallion-care/" class="rl"><span>Stallion Health</span><span>→</span></a><a href="/life-stages/foal-health/" class="rl"><span>Foal Health</span><span>→</span></a><a href="/conditions/ehv/" class="rl"><span>Equine Herpesvirus (EHV)</span><span>→</span></a><a href="/find-a-vet/" class="rl"><span>Find an Equine Vet</span><span>→</span></a><a href="/glossary/" class="rl"><span>Veterinary Glossary</span><span>→</span></a></div>
+    <div class="abox"><h3>⚠️ Reproductive Emergencies — Call Immediately</h3><ul><li>Dystocia — foal not delivered within 30 minutes of amniotic sac rupturing during active straining</li>
+<li>Retained placenta — placenta not passed within 3 hours of foaling</li>
+<li>Excessive or prolonged hemorrhage during or after foaling</li>
+<li>Uterine prolapse — uterine tissue visible at the vulva after foaling</li>
+<li>Colic signs in a pregnant mare — uterine torsion possible; always evaluate</li>
+<li>Severe ventral edema late in pregnancy making walking difficult — possible prepubic tendon rupture</li>
+<li>Scrotal swelling, asymmetry, or pain in a stallion — testicular torsion or trauma</li>
+</ul></div>
+    <div class="ab"><h2>The Mare's Estrous Cycle — Physiology and Practical Implications</h2>
+<p>The equine estrous cycle averages 21 days and is regulated by the interplay of pituitary gonadotropins (FSH, LH) and ovarian steroids (estrogen, progesterone). During the follicular phase (estrus, approximately 5–7 days), a dominant follicle develops under FSH drive and produces estrogen, which causes behavioral heat. LH surge triggers ovulation, typically 24–48 hours before the end of behavioral heat. During the luteal phase (diestrus, approximately 14 days), the corpus luteum produces progesterone, suppressing behavioral estrus.</p>
+<p>The practical implication: breeding at random within 'heat' does not optimize conception rates. Breeding timed to the period 24–48 hours before ovulation — identified by rectal palpation and ultrasound monitoring of follicle size — produces significantly better results, particularly for transported semen where the timing window is narrow.</p>
+<table class="dtable"><thead><tr><th>Phase</th><th>Duration</th><th>Hormonal Driver</th><th>What You May Observe</th><th>Optimal Breeding Window</th></tr></thead><tbody><tr><td><strong>Estrus (heat)</strong></td><td>5–7 days</td><td>Rising estrogen from dominant follicle</td><td>Receptive to stallion; squatting; frequent urination; relaxed vulva</td><td>Days 3–5 of estrus, or 24–48 hrs before confirmed ovulation</td></tr>
+<tr><td><strong>Ovulation</strong></td><td>~36 hrs from LH surge</td><td>LH surge</td><td>Behavioral heat ending or mare becoming less receptive</td><td>At or within 12 hrs of confirmed ovulation for AI</td></tr>
+<tr><td><strong>Early diestrus</strong></td><td>Days 1–5 post-ovulation</td><td>Rising progesterone from CL</td><td>Mare rejecting stallion (squeal, kick, threat)</td><td>Not indicated</td></tr>
+<tr><td><strong>Diestrus</strong></td><td>Days 5–16</td><td>Progesterone dominant</td><td>No receptivity to stallion</td><td>Not indicated</td></tr>
+<tr><td><strong>Late diestrus / transition</strong></td><td>Days 16–21</td><td>Progesterone declining; PGF2α luteolysis</td><td>Variable behavior as transition begins</td><td>Not optimal</td></tr>
+</tbody></table>
+<h2>Seasonal Anestrus and Photoperiod Management</h2>
+<p>Mares are seasonally polyestrous — the reproductive system is activated by increasing day length (long days) and suppressed by decreasing day length (short days). In the Northern Hemisphere, mares typically cycle from approximately April through October; they enter anestrus (no ovarian activity) in winter and transition back to cyclicity in spring.</p>
+<p>The spring transition is the most challenging period for breeding management — mares are transitioning from anestrus to normal cyclicity through a period of irregular, prolonged, and sometimes behaviorally indeterminate cycles. Artificial lighting — simulating a longer photoperiod from December 1 — advances this transition, allowing mares to reach normal cyclicity earlier in the calendar year.</p>
+<h3>Artificial Lighting Protocol for Early Breeding</h3><ul>
+<li>Begin December 1 — earlier is better; the response takes 60–90 days</li>
+<li>Single 200-watt incandescent bulb (or equivalent lumens LED) in a 12×12 stall — the stall should be well-lit enough to read a newspaper anywhere in it</li>
+<li>Light from approximately 5pm to midnight (extending the photoperiod to 16 total hours of light)</li>
+<li>Mares under lights typically begin normal cycling by late February to early March</li>
+<li>Discuss appropriate lighting protocol for your specific situation with your equine reproductive veterinarian</li>
+</ul>
+<h2>Pregnancy Monitoring — Key Veterinary Checkpoints</h2>
+<p>Pregnancy monitoring in horses follows a structured schedule designed to confirm conception, identify problems at the earliest possible point, and plan appropriately for foaling.</p>
+<table class="dtable"><thead><tr><th>Checkpoint</th><th>Timing</th><th>Method</th><th>Purpose</th></tr></thead><tbody><tr><td><strong>Early pregnancy check</strong></td><td>Day 14–16 post-ovulation</td><td>Transrectal ultrasound</td><td>Confirm embryonic vesicle; detect twins; earliest intervention point</td></tr>
+<tr><td><strong>Heartbeat confirmation</strong></td><td>Day 25–28</td><td>Transrectal ultrasound</td><td>Confirm fetal heartbeat; confirms viable pregnancy</td></tr>
+<tr><td><strong>Twin reduction (if twins)</strong></td><td>By day 14–30</td><td>Manual crushing or endoscopic aspiration</td><td>Equine uterus cannot support twins; early reduction is far more successful than later attempts</td></tr>
+<tr><td><strong>Fetal sexing (optional)</strong></td><td>Day 60–70</td><td>Transrectal ultrasound</td><td>High accuracy window for genital tubercle sexing</td></tr>
+<tr><td><strong>Mid-pregnancy check</strong></td><td>Day 90–100+</td><td>Transrectal or transabdominal ultrasound</td><td>Confirm ongoing pregnancy; assess fetal development</td></tr>
+<tr><td><strong>Pre-foaling assessment</strong></td><td>2–4 weeks pre-foaling</td><td>Physical exam, udder assessment, colostrum quality</td><td>Ensure foaling preparation is appropriate; identify any concerns</td></tr>
+</tbody></table>
+<h2>Parturition — Normal Foaling Stages</h2>
+<p>Understanding normal foaling stages allows horse owners to recognize when intervention may be needed. Most mares foal at night with minimal assistance required. The active delivery (Stage 2) is the critical monitoring window.</p>
+<table class="dtable"><thead><tr><th>Stage</th><th>Duration</th><th>What Happens</th><th>When to Call Vet</th></tr></thead><tbody><tr><td><strong>Stage 1 — Preparatory</strong></td><td>1–4 hours</td><td>Uterine contractions; restlessness; sweating; colic signs; intermittent lying and rising</td><td>Not needed unless signs are extreme or Stage 1 exceeds 4 hours without progressing</td></tr>
+<tr><td><strong>Stage 2 — Active delivery</strong></td><td>20–30 minutes</td><td>Amnion ruptures; active straining; foal delivered forelegs and head first</td><td>If foal not delivered within 30 minutes of amnion rupturing — call immediately; dystocia</td></tr>
+<tr><td><strong>Stage 3 — Placental expulsion</strong></td><td>1–3 hours</td><td>Placenta passes; mare may show mild colic signs</td><td>If placenta not passed within 3 hours — call vet; retained placenta is a serious emergency</td></tr>
+</tbody></table>
+</div>
+    <div class="acbox"><h3>✅ Reproductive Health Program — Mares and Stallions</h3><ol><li><strong>Pre-breeding exam 4–6 weeks before</strong> planned breeding — culture, ultrasound, conformation assessment</li>
+<li><strong>Start artificial lighting December 1</strong> if early-season breeding is planned — response takes 60–90 days</li>
+<li><strong>Day 14–16 pregnancy check</strong> after each breeding — confirms conception and rules out twins</li>
+<li><strong>Annual BSE 4–6 weeks before breeding season</strong> for stallions — semen quality assessment before committing mares</li>
+<li><strong>Have vet foaling contact</strong> saved before the foaling season; know nearest referral hospital</li>
+<li><strong>Document placenta</strong> after passage — examine for completeness; retained fragments cause serious complications</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Reproductive Health Discussion Points for Your Vet</h3><ul><li>Mare cycle regularity — if irregular, reproductive hormonal evaluation and ultrasound may guide management</li>
+<li>Breeding method selection — live cover, cooled transported, or frozen semen; implications for timing and conception rates</li>
+<li>Problem breeder management — mares with recurrent early embryonic loss or endometritis need individualized protocols</li>
+<li>Twin reduction timing — early identification and prompt action dramatically improves success rates</li>
+<li>Foaling assistance readiness — who will check the mare, how frequently, and what alarm system if any</li>
+<li>Stallion libido and behavioral management — distinguish pain, learned aversion, and hormonal problems</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What size is the dominant follicle today, and when do you expect ovulation?</li>
+<li>Based on today's ultrasound, when is the optimal window to breed?</li>
+<li>What is the pregnancy check result, and is there any concern about early embryonic loss risk for this mare?</li>
+<li>If twins are confirmed, what is your preferred reduction method and timing?</li>
+<li>What is this stallion's TMS per ejaculate, and how many mares per week can he safely breed?</li>
+<li>What signs in the last 2–4 weeks before foaling should prompt me to call you before labor begins?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
+      <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🐴 Reproductive</span><div class="vtit">Proactive Horse Care — Annual Health Planning</div><div class="vby">Julie Goodnight</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/life-stages/breeding-mare/" class="rlink"><span>Breeding Mare Health</span><span>→</span></a>
+<a href="/life-stages/stallion-care/" class="rlink"><span>Stallion Health</span><span>→</span></a>
+<a href="/life-stages/foal-health/" class="rlink"><span>Foal Health</span><span>→</span></a>
+<a href="/conditions/ehv/" class="rlink"><span>Equine Herpesvirus (EHV)</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Vaccination Guide</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sv">
-      <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
-      <a href="/find-a-vet/">Find a Vet Near You →</a>
-    </div>
-    <div class="sc">
-      <h3>Conditions</h3>
+    <div class="svet"><h3>Find an Equine Vet</h3>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a></div>
+    <div class="sc"><h3>Body Systems</h3><a href="/body-systems/digestive/">Digestive System</a>
+<a href="/body-systems/musculoskeletal/">Musculoskeletal</a>
+<a href="/body-systems/respiratory/">Respiratory</a>
+<a href="/body-systems/neurological/">Neurological</a>
+<a href="/body-systems/reproductive/">Reproductive</a>
+<a href="/body-systems/skin-coat/">Skin & Coat</a>
+<a href="/body-systems/eyes/">Eyes & Vision</a>
+<a href="/body-systems/">All Body Systems →</a>
+</div>
+    <div class="sc"><h3>Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
       <a href="/conditions/laminitis/">Laminitis</a>
       <a href="/conditions/ulcers/">Gastric Ulcers</a>
-      <a href="/conditions/navicular/">Navicular Syndrome</a>
-      <a href="/conditions/strangles/">Strangles</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
-      <a href="/conditions/">All 15 Conditions →</a>
-    </div>
-    <div class="sc">
-      <h3>Quick Links</h3>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/">All 15 Conditions →</a></div>
+    <div class="sc"><h3>Quick Links</h3>
       <a href="/preventive-care/">Preventive Care</a>
       <a href="/emergency/">Emergency Guide</a>
       <a href="/faq/">FAQ</a>
       <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
-    </div>
+      <a href="/videos/">Videos</a></div>
   </aside>
 </div>
 <footer>
-  <div class="fl2">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="fn">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
     <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="fd">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>. &copy; 2026 HorseVeterinarian.AI.</div>
 </footer>
 <script>
 document.querySelectorAll('.vfa').forEach(function(f){
-  f.addEventListener('click',function(){
-    var id=f.dataset.vid,t=f.dataset.title;
-    var iframe=document.createElement('iframe');
-    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
-    iframe.title=t;iframe.allowFullscreen=true;
-    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
-    iframe.referrerPolicy='strict-origin-when-cross-origin';
-    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
-  });
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
-</script>
-</body>
-</html>
+</script></body></html>

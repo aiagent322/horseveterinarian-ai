@@ -5,200 +5,311 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>Stallion Health | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: Stallion Health for horse owners. From Bridle &amp; Bit Magazine. Not a substitute for veterinary care.">
+<meta name="description" content="Stallion health guide — Breeding Soundness Examination (BSE), semen quality parameters, systemic illness effects on fertility, Coggins requirements, penile hygiene, and breeding season management.">
 <link rel="canonical" href="https://horseveterinarian.ai/life-stages/stallion-care/">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Stallion Health | HorseVeterinarian.AI">
+<meta property="og:description" content="Stallion health guide — Breeding Soundness Examination (BSE), semen quality parameters, systemic illness effects on fertility, Coggins requirements, penile hygiene, and breeding season management.">
 <meta property="og:url" content="https://horseveterinarian.ai/life-stages/stallion-care/">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--F:#0D3B2E;--FD:#082820;--FX:#051C15;--T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;--G:#C9983A;--GP:#FFF8EE;--I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;--A:#8B1A1A;--AL:#FDF0F0;--W:#FFFFFF;--B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);--r:10px;--rl:14px;--t:0.2s ease}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
-.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none;font-size:.9rem}.skip:focus{left:0}
-.db{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600}.db a{color:var(--T);text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
 .tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
 .tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
-.bbl{display:none;align-items:center;line-height:0;flex-shrink:0}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
 .sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
-.snl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.snl:hover,.snl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
-.snv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
-.ph{padding:28px 16px 24px;background:linear-gradient(135deg,#1A1A3A 0%,#0E0E20 100%)}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
 .bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
 .ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 .ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
 .phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
 .cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
 .qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
 .qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fact-row:last-child{border-bottom:none}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
 .fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
-.ab{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ab h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ab ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
-.acb{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.acb h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.acb ol{padding-left:18px;font-size:.84rem;color:#5A3A08;line-height:1.75}
-.ib{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ib h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ib ul{padding-left:16px;font-size:.84rem;color:var(--IS);line-height:1.7}
-.ab2 h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:24px 0 10px;line-height:1.2}
-.ab2 h3{font-size:1rem;font-weight:700;color:var(--F);margin:18px 0 7px}
-.ab2 p{font-size:.92rem;color:var(--IS);line-height:1.7;margin-bottom:14px}
-.ab2 ul{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
-.ab2 li{margin-bottom:3px}
-.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:18px}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
 .vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
 .vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
 .vfa img{width:100%;height:100%;object-fit:cover;display:block}
 .vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
-.vp svg{width:52px;height:52px;fill:rgba(255,255,255,.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.vc{padding:12px 14px;border-top:1px solid var(--B)}
-.vct{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
-.vtl{font-family:'Playfair Display',serif;font-size:.92rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
-.vby{font-size:.74rem;color:var(--IM);font-weight:600}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
-.rg{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.rl{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--t)}.rl:hover{border-color:var(--BS);background:var(--TP)}
-.rl span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rl span:last-child{font-size:.9rem;color:var(--T)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
 .sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
 .sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
 .sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
-.sv{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
-.sv h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
-.sv p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
-.sv a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:40px}.sv a:hover{background:var(--TL);color:#fff}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
 footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.fl2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.fl2 span{color:#5DE8B8}
-.fn{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.fd{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bbl{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}.ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.cw{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
 <a class="skip" href="#mc">Skip to main content</a>
-<div class="db" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
 <div class="tb">
   <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bbl">
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
     <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="sn" aria-label="Main navigation">
-  <div class="sni">
-    <a href="/" class="snl">Home</a>
-    <a href="/conditions/" class="snl ">Conditions</a>
-    <div class="snv"></div>
-    <a href="/preventive-care/" class="snl ">Preventive Care</a>
-    <a href="/emergency/" class="snl ">Emergency Guide</a>
-    <a href="/life-stages/" class="snl active">Life Stages</a>
-    <a href="/body-systems/" class="snl ">Body Systems</a>
-    <div class="snv"></div>
-    <a href="/disciplines/" class="snl ">By Discipline</a>
-    <a href="/faq/" class="snl ">FAQ</a>
-    <a href="/glossary/" class="snl ">Glossary</a>
-    <a href="/videos/" class="snl">Videos</a>
-    <a href="/find-a-vet/" class="snl">Find a Vet</a>
-  </div>
-</nav>
+<nav class="sn" aria-label="Main navigation"><div class="sni">
+  <a href="/" class="sl">Home</a>
+  <a href="/conditions/" class="sl ">Conditions</a>
+  <div class="sdiv"></div>
+  <a href="/preventive-care/" class="sl ">Preventive Care</a>
+  <a href="/emergency/" class="sl ">Emergency Guide</a>
+  <a href="/life-stages/" class="sl active">Life Stages</a>
+  <a href="/body-systems/" class="sl ">Body Systems</a>
+  <div class="sdiv"></div>
+  <a href="/disciplines/" class="sl ">By Discipline</a>
+  <a href="/faq/" class="sl ">FAQ</a>
+  <a href="/glossary/" class="sl ">Glossary</a>
+  <a href="/videos/" class="sl">Videos</a>
+  <a href="/find-a-vet/" class="sl">Find a Vet</a>
+</div></nav>
 </header>
-<div class="ph">
+<div class="ph" style="background:linear-gradient(135deg,#1A1A3A 0%,#0E0E20 100%)">
   <div class="bc"><a href="/">Home</a> › <a href="/life-stages/">Life Stages</a> › Stallion Health</div>
-  <div class="ey">🐎 Stallion Management</div>
+  <div class="ey">🐎 BSE · Semen Quality · Breeding Season Preparation</div>
   <h1>Stallion Health</h1>
-  <p class="phs">The BSE is the foundation of stallion reproductive management. Performed by a licensed equine reproductive veterinarian, it comprehensively evaluates the stallion's ability to settle mares at an acceptable rate.</p>
+  <p class="phs">A stallion's reproductive value depends entirely on semen quality — and semen quality is highly vulnerable to systemic illness, stress, and management factors. Annual pre-season BSE 4–6 weeks before the breeding season provides objective assessment of the stallion's reproductive capacity and protects the investment of mares being bred.</p>
 </div>
 <div class="cw" id="mc">
   <main role="main">
-    <div class="qf"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fl">BSE</span><span class="fv">Breeding Soundness Examination — annual comprehensive reproductive evaluation by a licensed equine vet</span></div><div class="fact-row"><span class="fl">Key parameters</span><span class="fv">Motility, morphology, concentration, total motile sperm per ejaculate</span></div><div class="fact-row"><span class="fl">Coggins</span><span class="fv">Current negative EIA test required for breeding in most states and for interstate travel</span></div><div class="fact-row"><span class="fl">Illness impact</span><span class="fv">Fever or systemic illness can reduce semen quality for 6–8 weeks after recovery</span></div><div class="fact-row"><span class="fl">Libido</span><span class="fv">Decreased breeding interest may indicate pain, management issues, or hormonal problems — warrants evaluation</span></div><div class="fact-row"><span class="fl">Hygiene</span><span class="fv">Regular penile cleaning with warm water; avoid harsh soaps that disrupt normal microbiome</span></div></div>
-    <div class="ab"><h3>⚠️ Signs Requiring Veterinary Evaluation</h3><ul><li>Decreased libido or refusal to breed — may indicate pain, learned aversion, or hormonal issue</li><li>Penile or preputial swelling, discharge, or visible lesions</li><li>Scrotal swelling, asymmetry, or pain on palpation</li><li>Significant decline in semen quality compared to prior evaluations</li><li>Fever or systemic illness — impacts semen quality for weeks after recovery</li><li>Any positive Coggins result — immediate regulatory implications</li></ul></div>
-    <div class="ab2"><h2>The Breeding Soundness Examination (BSE)</h2>
-<p>The BSE is the foundation of stallion reproductive management. Performed by a licensed equine reproductive veterinarian, it comprehensively evaluates the stallion's ability to settle mares at an acceptable rate.</p>
-<p>A complete BSE includes physical examination of the external genitalia (penis, prepuce, scrotum, testicles, epididymides); libido assessment during a teasing evaluation; scrotal circumference measurement (correlates with daily sperm output); semen collection and laboratory analysis; and an overall health assessment.</p>
-<h3>Semen Quality Parameters</h3><ul><li>Progressive motility — percentage of sperm moving forward; minimum 60% for satisfactory classification</li><li>Morphology — percentage of normally shaped sperm; defects classified as primary (head/midpiece) or secondary (tail)</li><li>Concentration — sperm per mL, used to calculate total sperm per ejaculate</li><li>Total motile sperm (TMS) per ejaculate — most important single parameter for breeding book capacity</li></ul>
-<h2>Systemic Illness and Semen Quality</h2>
-<p>Sperm production (spermatogenesis) takes approximately 60 days. Any febrile illness, significant lameness, or systemic disease during that period can reduce semen quality even after the stallion has recovered clinically. A stallion who had pneumonia or colic surgery in November may still show reduced semen quality at the start of the February breeding season.</p>
-<p>This makes annual pre-season BSE especially important: it confirms that semen quality is adequate before maiden mares or high-value mares are booked, and allows time for re-evaluation or breed book adjustments if quality is temporarily reduced.</p>
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">BSE</span><span class="fv">Breeding Soundness Examination — annual comprehensive reproductive evaluation by a licensed equine vet, 4–6 weeks pre-season</span></div>
+<div class="fr"><span class="fl">Spermatogenesis cycle</span><span class="fv">Approximately 60 days — systemic illness during this window reduces semen quality for weeks after clinical recovery</span></div>
+<div class="fr"><span class="fl">Key semen parameters</span><span class="fv">Progressive motility (minimum 60%); morphology (minimum 60% normal); total motile sperm per ejaculate</span></div>
+<div class="fr"><span class="fl">Coggins test</span><span class="fv">Current negative EIA test required at most breeding facilities and for interstate transport — annual</span></div>
+<div class="fr"><span class="fl">Libido</span><span class="fv">Decreased breeding interest may indicate pain, learned aversion, or hormonal problem — warrants evaluation, not just dismissal</span></div>
+<div class="fr"><span class="fl">Penile hygiene</span><span class="fv">Regular cleaning with warm water; harsh soaps and antiseptics damage the normal penile microbiome</span></div>
+<div class="fr"><span class="fl">Illness timing</span><span class="fv">A stallion that had fever or systemic illness in November may still have reduced semen quality in February</span></div>
 </div>
-    <div class="acb"><h3>✅ Stallion Health Program</h3><ol><li><strong>Annual BSE</strong> 4–6 weeks before the breeding season</li><li><strong>Current Coggins test</strong> — required for most breeding facilities and interstate travel</li><li><strong>Penile hygiene</strong> — warm water cleaning during sheath cleaning; avoid antiseptic soaps</li><li><strong>Report any illness or fever</strong> to your vet with the breeding season timeline in context</li><li><strong>Monitor libido and behavior</strong> — changes may indicate pain or management issues</li><li><strong>Maintain appropriate body condition</strong> — breeding is metabolically demanding work</li></ol></div>
-    <div class="ib"><h3>📋 Discussion Points for Your Reproductive Vet</h3><ul><li>BSE result interpretation and appropriate breed book size for this stallion</li><li>Semen collection and cooling protocols for transported cooled semen</li><li>Vaccination schedule — core vaccines plus any risk-based vaccines appropriate for breeding facilities</li><li>Preputial hygiene protocol — frequency and appropriate products</li><li>Venereal disease screening if the stallion breeds multiple mares</li></ul></div>
-    <div class="vw">
-      <div class="vf">
-        <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
-          <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
-          <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="vc">
-        <span class="vct">🐎 Stallion Health</span>
-        <div class="vtl">Proactive Horse Care — Annual Health Planning</div>
-        <div class="vby">Julie Goodnight</div>
-      </div>
-    </div>
-    <div class="sl">Related Topics</div>
-    <div class="rg"><a href="/life-stages/breeding-mare/" class="rl"><span>Breeding Mare Health</span><span>→</span></a><a href="/life-stages/foal-health/" class="rl"><span>Foal Health</span><span>→</span></a><a href="/preventive-care/vaccinations/" class="rl"><span>Vaccination Guide</span><span>→</span></a><a href="/preventive-care/annual-exam/" class="rl"><span>Annual Wellness Exam</span><span>→</span></a><a href="/find-a-vet/" class="rl"><span>Find an Equine Vet</span><span>→</span></a><a href="/glossary/" class="rl"><span>Veterinary Glossary</span><span>→</span></a></div>
+    <div class="abox"><h3>⚠️ Signs in Stallions Requiring Veterinary Evaluation</h3><ul><li>Decreased libido or refusal to breed — may indicate pain, learned aversion, or hormonal problem</li>
+<li>Penile or preputial swelling, discharge, or visible lesions</li>
+<li>Scrotal swelling, asymmetry, or pain on palpation</li>
+<li>Significant decline in semen quality compared to prior evaluations</li>
+<li>Fever or systemic illness during the breeding season — impacts semen quality for 6–8 weeks</li>
+<li>Lameness — pain reduces libido and may make mounting physically difficult</li>
+<li>Any positive Coggins result — immediate regulatory implications</li>
+</ul></div>
+    <div class="ab"><h2>The Breeding Soundness Examination (BSE)</h2>
+<p>The BSE is the foundation of stallion reproductive management and should be performed annually 4–6 weeks before the start of the breeding season. This timing allows identification of any problems and, if necessary, rebooking of mares or adjustment of the breeding program before the season opens.</p>
+<table class="dtable"><thead><tr><th>BSE Component</th><th>What Is Assessed</th><th>Clinical Significance</th></tr></thead><tbody><tr><td><strong>Physical examination of external genitalia</strong></td><td>Penis, prepuce, scrotum, testicles, epididymides — palpation and visual inspection</td><td>Identifies tumors, infections, trauma, asymmetry, cryptorchidism complications</td></tr>
+<tr><td><strong>Scrotal circumference</strong></td><td>Measured at widest point; correlates with daily sperm output</td><td>Larger scrotal circumference = higher daily sperm production capacity</td></tr>
+<tr><td><strong>Libido evaluation</strong></td><td>Observation during teasing with a receptive mare</td><td>Confirms appropriate sexual behavior; low libido may indicate pain or prior aversive experience</td></tr>
+<tr><td><strong>Semen collection</strong></td><td>Artificial vagina; multiple collections to assess ejaculate quality and reserve</td><td>Single collection may not represent full capacity; sequential collections reveal reserve</td></tr>
+<tr><td><strong>Semen analysis</strong></td><td>Motility, morphology, concentration, total sperm per ejaculate</td><td>See table below for minimum classification standards</td></tr>
+<tr><td><strong>Overall health assessment</strong></td><td>BCS, lameness, systemic health</td><td>General health directly affects reproductive performance</td></tr>
+</tbody></table>
+<h2>Semen Quality Parameters — Understanding BSE Results</h2>
+<p>The AISE (American Interpretation of Stallion Evaluations) and similar classification systems provide minimum standards for satisfactory BSE classification. Stallions classified as 'satisfactory' have adequate reproductive potential for a normal breeding book at natural cover or cooled transported semen. 'Questionable' or 'unsatisfactory' classifications indicate reduced breeding capacity and require management adjustments.</p>
+<table class="dtable"><thead><tr><th>Parameter</th><th>Minimum Satisfactory</th><th>Clinical Notes</th></tr></thead><tbody><tr><td><strong>Progressive motility (%)</strong></td><td>≥ 60% progressively motile sperm</td><td>Most reliable single indicator of fertilizing potential; measure immediately after collection at body temperature</td></tr>
+<tr><td><strong>Total motility (%)</strong></td><td>≥ 70% total motile</td><td>Includes non-progressive motility; less predictive than progressive</td></tr>
+<tr><td><strong>Morphology (% normal)</strong></td><td>≥ 60% morphologically normal sperm</td><td>Defects classified as primary (head/midpiece = more significant) or secondary (tail = less significant)</td></tr>
+<tr><td><strong>Total motile sperm (TMS) per ejaculate</strong></td><td>≥ 1 billion TMS for classification</td><td>Used to calculate how many mares the stallion can breed per cycle; drives booking management</td></tr>
+<tr><td><strong>Seminal pH</strong></td><td>7.2–7.8</td><td>Outside this range suggests contamination or accessory gland problem</td></tr>
+<tr><td><strong>Volume</strong></td><td>Variable (30–120 mL typical)</td><td>Volume alone is not a quality indicator; TMS calculation requires volume × concentration × motility</td></tr>
+</tbody></table>
+<h2>Systemic Illness and Semen Quality</h2>
+<p>Spermatogenesis — the production of sperm from stem cells — takes approximately 57–60 days in the horse. Any event that disrupts this process (fever, systemic illness, significant stress, testicular trauma) produces measurable semen quality decline approximately 60 days after the event, even if the stallion has fully recovered clinically.</p>
+<p>This is one of the most clinically important facts about stallion management: a stallion that was ill in late fall may enter the February breeding season with significantly reduced semen quality despite appearing completely normal. Annual pre-season BSE (rather than relying on prior year's results) catches this problem before mares are committed to the book.</p>
+<h3>Conditions That Can Reduce Semen Quality</h3><ul>
+<li>Febrile illness (pneumonia, colic, strangles) — most common cause of transient semen quality reduction</li>
+<li>Testicular trauma — contusion, torsion, or scrotal injury; may cause permanent damage if severe</li>
+<li>High environmental temperature and scrotal hyperthermia — testes must be maintained below core body temperature for spermatogenesis</li>
+<li>Lameness — pain and concurrent NSAID use both affect semen parameters</li>
+<li>Chronic systemic disease — weight loss, PPID, liver or kidney disease</li>
+<li>Overuse (excessive collections) — depletes sperm reserves; resolve with rest and appropriate collection frequency</li>
+</ul>
+<h2>Penile Hygiene and Venereal Disease Prevention</h2>
+<p>Regular penile hygiene is important for stallion health and for prevention of venereal disease transmission to mares. The goal is to remove smegma accumulation (the waxy material that collects in the preputial folds and urethral fossa) without disrupting the normal microbial flora of the penis.</p>
+<p>The appropriate approach is warm water cleaning during routine sheath cleaning — approximately monthly for most stallions. Harsh soaps, antiseptic washes, and over-cleaning disrupt the beneficial microbiome and can actually increase colonization by pathogenic organisms including Pseudomonas and Klebsiella, which cause endometritis in mares.</p>
+<h3>Venereal Disease Screening</h3><ul>
+<li>Equine Viral Arteritis (EVA): stallions can become persistently infected and shed virus in semen; test before first breeding season and after any exposure; vaccination available</li>
+<li>Contagious Equine Metritis (CEM): Taylorella equigenitalis — regulatory concern; required testing for imported stallions and breeding into some international programs</li>
+<li>Pseudomonas and Klebsiella: not traditional venereal pathogens but can be transmitted via semen; detected on routine culture; avoid harsh antiseptic use that increases carrier risk</li>
+</ul>
+</div>
+    <div class="acbox"><h3>✅ Stallion Annual Health Program</h3><ol><li><strong>Annual BSE 4–6 weeks before</strong> the breeding season opens — results in hand before any mare is committed</li>
+<li><strong>Current Coggins test</strong> — required at most breeding facilities and for interstate transport</li>
+<li><strong>Report any illness or fever</strong> to your vet in context of the breeding season timeline — a November illness affects a February season</li>
+<li><strong>Penile hygiene</strong> — warm water cleaning monthly during sheath cleaning; avoid harsh soaps and antiseptics</li>
+<li><strong>Monitor libido and breeding behavior</strong> — changes may indicate pain or management issues rather than attitude</li>
+<li><strong>Maintain appropriate body condition</strong> — breeding season is metabolically demanding; avoid obesity and underweight</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Stallion Health Discussion Points for Your Vet</h3><ul><li>BSE result interpretation and appropriate breeding book size for this stallion's TMS</li>
+<li>Semen cooling and transport protocols if shipping cooled semen — extender selection, packaging, transit time evaluation</li>
+<li>Vaccination schedule appropriate for a breeding stallion — core vaccines plus EVA timing</li>
+<li>Venereal disease screening requirements for your breeding program and jurisdiction</li>
+<li>Collection frequency management — how often can this stallion be collected while maintaining quality</li>
+<li>Libido management if behavioral issues develop — distinguish between pain, learned aversion, and hormonal problem</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>What is the total motile sperm per ejaculate, and how many mares per cycle does that support?</li>
+<li>Are there any morphology defects that indicate a specific underlying problem versus normal variation?</li>
+<li>Given this stallion's semen quality, do you recommend any changes to collection frequency or management?</li>
+<li>Should we evaluate for EVA or other venereal pathogens given this stallion's history and program?</li>
+<li>Is there anything in today's physical examination that raises concern about underlying health affecting reproductive performance?</li>
+<li>What are the minimum cooling and transport parameters for this stallion's semen quality?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care — Annual Health Planning" role="button" tabindex="0" aria-label="Play: Proactive Horse Care — Annual Health Planning">
+      <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care — Annual Health Planning" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">🐎 Stallion Health</span><div class="vtit">Proactive Horse Care — Annual Health Planning</div><div class="vby">Julie Goodnight</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/life-stages/breeding-mare/" class="rlink"><span>Breeding Mare Health</span><span>→</span></a>
+<a href="/life-stages/foal-health/" class="rlink"><span>Foal Health</span><span>→</span></a>
+<a href="/preventive-care/annual-exam/" class="rlink"><span>Annual Wellness Exam</span><span>→</span></a>
+<a href="/preventive-care/vaccinations/" class="rlink"><span>Vaccination Guide</span><span>→</span></a>
+<a href="/conditions/ehv/" class="rlink"><span>Equine Herpesvirus (EHV)</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sv">
-      <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
-      <a href="/find-a-vet/">Find a Vet Near You →</a>
-    </div>
-    <div class="sc">
-      <h3>Conditions</h3>
+    <div class="svet"><h3>Find an Equine Vet</h3>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a></div>
+    <div class="sc"><h3>Life Stages</h3><a href="/life-stages/foal-health/">Foal Health</a>
+<a href="/life-stages/young-horse/">Young Horse</a>
+<a href="/life-stages/senior-horse/">Senior Horse</a>
+<a href="/life-stages/breeding-mare/">Breeding Mare</a>
+<a href="/life-stages/stallion-care/">Stallion Health</a>
+<a href="/life-stages/">All Life Stages →</a>
+</div>
+    <div class="sc"><h3>Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
       <a href="/conditions/laminitis/">Laminitis</a>
       <a href="/conditions/ulcers/">Gastric Ulcers</a>
-      <a href="/conditions/navicular/">Navicular Syndrome</a>
-      <a href="/conditions/strangles/">Strangles</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
-      <a href="/conditions/">All 15 Conditions →</a>
-    </div>
-    <div class="sc">
-      <h3>Quick Links</h3>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/">All 15 Conditions →</a></div>
+    <div class="sc"><h3>Quick Links</h3>
       <a href="/preventive-care/">Preventive Care</a>
       <a href="/emergency/">Emergency Guide</a>
       <a href="/faq/">FAQ</a>
       <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
-    </div>
+      <a href="/videos/">Videos</a></div>
   </aside>
 </div>
 <footer>
-  <div class="fl2">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="fn">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
     <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="fd">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>. &copy; 2026 HorseVeterinarian.AI.</div>
 </footer>
 <script>
 document.querySelectorAll('.vfa').forEach(function(f){
-  f.addEventListener('click',function(){
-    var id=f.dataset.vid,t=f.dataset.title;
-    var iframe=document.createElement('iframe');
-    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
-    iframe.title=t;iframe.allowFullscreen=true;
-    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
-    iframe.referrerPolicy='strict-origin-when-cross-origin';
-    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
-  });
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
-</script>
-</body>
-</html>
+</script></body></html>

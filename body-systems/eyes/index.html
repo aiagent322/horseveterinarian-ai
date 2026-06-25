@@ -5,200 +5,328 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
 <title>Equine Eyes &amp; Ocular Health | HorseVeterinarian.AI</title>
-<meta name="description" content="Educational guide: Equine Eyes &amp; Ocular Health for horse owners. From Bridle &amp; Bit Magazine. Not a substitute for veterinary care.">
+<meta name="description" content="Equine ocular health guide — visual anatomy and behavior, corneal ulcers and melting ulcer urgency, Equine Recurrent Uveitis (Moon Blindness), eyelid lacerations, foreign bodies, glaucoma, and ERU long-term management.">
 <link rel="canonical" href="https://horseveterinarian.ai/body-systems/eyes/">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Equine Eyes &amp; Ocular Health | HorseVeterinarian.AI">
+<meta property="og:description" content="Equine ocular health guide — visual anatomy and behavior, corneal ulcers and melting ulcer urgency, Equine Recurrent Uveitis (Moon Blindness), eyelid lacerations, foreign bodies, glaucoma, and ERU long-term management.">
 <meta property="og:url" content="https://horseveterinarian.ai/body-systems/eyes/">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--F:#0D3B2E;--FD:#082820;--FX:#051C15;--T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;--G:#C9983A;--GP:#FFF8EE;--I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;--A:#8B1A1A;--AL:#FDF0F0;--W:#FFFFFF;--B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);--r:10px;--rl:14px;--t:0.2s ease}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
-.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none;font-size:.9rem}.skip:focus{left:0}
-.db{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600}.db a{color:var(--T);text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
 .tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
 .tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
-.bbl{display:none;align-items:center;line-height:0;flex-shrink:0}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
 .sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
 .sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
-.snl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.snl:hover,.snl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
-.snv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
-.ph{padding:28px 16px 24px;background:linear-gradient(135deg,#1A2A3A 0%,#0E1820 100%)}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
 .bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
 .ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
 .ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
 .phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
 .cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
 .qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
 .qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
-.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fact-row:last-child{border-bottom:none}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
 .fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
-.ab{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ab h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ab ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
-.acb{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.acb h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.acb ol{padding-left:18px;font-size:.84rem;color:#5A3A08;line-height:1.75}
-.ib{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
-.ib h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
-.ib ul{padding-left:16px;font-size:.84rem;color:var(--IS);line-height:1.7}
-.ab2 h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:24px 0 10px;line-height:1.2}
-.ab2 h3{font-size:1rem;font-weight:700;color:var(--F);margin:18px 0 7px}
-.ab2 p{font-size:.92rem;color:var(--IS);line-height:1.7;margin-bottom:14px}
-.ab2 ul{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
-.ab2 li{margin-bottom:3px}
-.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:18px}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
 .vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
 .vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
 .vfa img{width:100%;height:100%;object-fit:cover;display:block}
 .vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
-.vp svg{width:52px;height:52px;fill:rgba(255,255,255,.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,.5))}
-.vc{padding:12px 14px;border-top:1px solid var(--B)}
-.vct{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
-.vtl{font-family:'Playfair Display',serif;font-size:.92rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
-.vby{font-size:.74rem;color:var(--IM);font-weight:600}
-.sl{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
-.rg{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
-.rl{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--t)}.rl:hover{border-color:var(--BS);background:var(--TP)}
-.rl span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rl span:last-child{font-size:.9rem;color:var(--T)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
 .sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
 .sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
 .sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
-.sv{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
-.sv h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
-.sv p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
-.sv a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:40px}.sv a:hover{background:var(--TL);color:#fff}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
 footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.fl2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.fl2 span{color:#5DE8B8}
-.fn{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-.fd{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(min-width:768px){.bbl{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}.ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}.rg{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:900px){.cw{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
 <a class="skip" href="#mc">Skip to main content</a>
-<div class="db" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<div class="dbar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
 <header>
 <div class="tb">
   <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bbl">
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
     <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="sn" aria-label="Main navigation">
-  <div class="sni">
-    <a href="/" class="snl">Home</a>
-    <a href="/conditions/" class="snl ">Conditions</a>
-    <div class="snv"></div>
-    <a href="/preventive-care/" class="snl ">Preventive Care</a>
-    <a href="/emergency/" class="snl ">Emergency Guide</a>
-    <a href="/life-stages/" class="snl ">Life Stages</a>
-    <a href="/body-systems/" class="snl active">Body Systems</a>
-    <div class="snv"></div>
-    <a href="/disciplines/" class="snl ">By Discipline</a>
-    <a href="/faq/" class="snl ">FAQ</a>
-    <a href="/glossary/" class="snl ">Glossary</a>
-    <a href="/videos/" class="snl">Videos</a>
-    <a href="/find-a-vet/" class="snl">Find a Vet</a>
-  </div>
-</nav>
+<nav class="sn" aria-label="Main navigation"><div class="sni">
+  <a href="/" class="sl">Home</a>
+  <a href="/conditions/" class="sl ">Conditions</a>
+  <div class="sdiv"></div>
+  <a href="/preventive-care/" class="sl ">Preventive Care</a>
+  <a href="/emergency/" class="sl ">Emergency Guide</a>
+  <a href="/life-stages/" class="sl ">Life Stages</a>
+  <a href="/body-systems/" class="sl active">Body Systems</a>
+  <div class="sdiv"></div>
+  <a href="/disciplines/" class="sl ">By Discipline</a>
+  <a href="/faq/" class="sl ">FAQ</a>
+  <a href="/glossary/" class="sl ">Glossary</a>
+  <a href="/videos/" class="sl">Videos</a>
+  <a href="/find-a-vet/" class="sl">Find a Vet</a>
+</div></nav>
 </header>
-<div class="ph">
+<div class="ph" style="background:linear-gradient(135deg,#1A2A3A 0%,#0E1820 100%)">
   <div class="bc"><a href="/">Home</a> › <a href="/body-systems/">Body Systems</a> › Equine Eyes &amp; Ocular Health</div>
-  <div class="ey">👁️ Vision &amp; Eye Health</div>
+  <div class="ey">👁️ Largest Eye of Any Land Mammal · Always Urgent</div>
   <h1>Equine Eyes &amp; Ocular Health</h1>
-  <p class="phs">The horse's eye is the largest of any land mammal and is positioned laterally on the skull to provide nearly panoramic vision — critical for a prey animal. The wide visual field enables detection of predators approaching from almost any direction, but leaves two blind spots: directly in front of the nose and directly behind.</p>
+  <p class="phs">The horse has the largest eye of any land mammal — a large, laterally positioned organ giving nearly panoramic vision that is simultaneously exquisitely vulnerable to trauma. Any eye condition in a horse is urgent. Corneal ulcers can progress to perforation within hours. Each episode of uveitis permanently reduces vision. The standard rule is simple: same-day veterinary contact for any eye concern, no exceptions.</p>
 </div>
 <div class="cw" id="mc">
   <main role="main">
-    <div class="qf"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fl">Visual field</span><span class="fv">Horses have approximately 350° monocular field; small binocular zone in front; blind spots directly in front and behind</span></div><div class="fact-row"><span class="fl">Largest eye</span><span class="fv">The horse has the largest eye of any land mammal — extremely well developed for a prey animal</span></div><div class="fact-row"><span class="fl">Most common cause of blindness</span><span class="fv">Equine Recurrent Uveitis (ERU/Moon Blindness) — progressive cumulative inflammation</span></div><div class="fact-row"><span class="fl">Common conditions</span><span class="fv">Corneal ulcers, ERU, eyelid lacerations, conjunctivitis, foreign bodies, cataracts</span></div><div class="fact-row"><span class="fl">Urgency</span><span class="fv">Eye conditions in horses are almost always urgent — rapid progression to serious damage possible</span></div><div class="fact-row"><span class="fl">Corneal ulcers</span><span class="fv">Can perforate within hours if infected with proteolytic bacteria — always call the vet same day</span></div></div>
-    <div class="ab"><h3>⚠️ Eye Signs Requiring Same-Day or Immediate Veterinary Contact</h3><ul><li>Horse holding one eye closed or squinting significantly</li><li>Any visible wound to the eye, cornea, or eyelid</li><li>Cloudy, blue, gray, or white discoloration of the cornea</li><li>Excessive tearing (epiphora) with squinting or light sensitivity</li><li>A visible foreign body in the eye</li><li>Rapid progression of signs — squinting yesterday to fully closed today = call immediately</li></ul></div>
-    <div class="ab2"><h2>Equine Visual Anatomy</h2>
-<p>The horse's eye is the largest of any land mammal and is positioned laterally on the skull to provide nearly panoramic vision — critical for a prey animal. The wide visual field enables detection of predators approaching from almost any direction, but leaves two blind spots: directly in front of the nose and directly behind.</p>
-<p>The horizontal, elongated pupil of the horse allows a wide horizontal visual field and is adapted for scanning the ground-level horizon. The retina contains both rod cells (night vision) and cone cells (color, detail). Horses have limited color discrimination — they are thought to be similar to red-green colorblind humans — but have excellent night vision and are highly motion-sensitive.</p>
-<h3>Understanding Equine Behavior Through Vision</h3><ul><li>The lateral eye position means horses often turn their heads to look at objects with one eye rather than both — this is normal</li><li>Sudden movement at the edge of the visual field is perceived as potential threat — a key component of spooky behavior</li><li>Dark-to-light transitions (entering and exiting barn) require significant visual adaptation time — patience during transitions reduces anxiety</li><li>Objects seen with one eye are not processed with the same depth perception as binocular views — horses may be startled by objects already familiar to one eye when first seen with the other</li></ul>
-<h2>Equine Recurrent Uveitis (ERU)</h2>
-<p>ERU — also called Moon Blindness — is the most common cause of blindness in horses, and the most common equine ocular disease overall. Each episode of uveitis (inflammation of the uveal tract — iris, ciliary body, and choroid) causes cumulative damage: scarring, synechiae formation, lens changes, and ultimately cataract development or retinal detachment.</p>
-<p>Treatment of each episode is aimed at suppressing inflammation as rapidly and completely as possible to minimize the cumulative damage. Topical and systemic NSAIDs and corticosteroids are the mainstay of treatment. A cyclosporine sustained-release implant (Implant) has shown efficacy in reducing recurrence frequency in some horses.</p>
+    <div class="qf"><h3>📋 At a Glance</h3><div class="fr"><span class="fl">Eye anatomy</span><span class="fv">Largest eye of any land mammal (~5cm diameter); lateral skull placement gives ~350° visual field</span></div>
+<div class="fr"><span class="fl">Blind spots</span><span class="fv">Directly in front of the nose, and directly behind the hindquarters</span></div>
+<div class="fr"><span class="fl">Primary urgency rule</span><span class="fv">Any horse squinting, tearing excessively, or with corneal cloudiness = same-day vet call</span></div>
+<div class="fr"><span class="fl">Most dangerous condition</span><span class="fv">Keratomalacia (melting ulcer) — Pseudomonas or fungal enzymes dissolve corneal stroma within hours</span></div>
+<div class="fr"><span class="fl">Most common blindness cause</span><span class="fv">Equine Recurrent Uveitis (ERU/Moon Blindness) — cumulative irreversible damage from repeated inflammation episodes</span></div>
+<div class="fr"><span class="fl">Critical rule</span><span class="fv">Never apply corticosteroid-containing eye drops without veterinary diagnosis — steroids cause corneal ulcers to melt and perforate</span></div>
+<div class="fr"><span class="fl">ERU management</span><span class="fv">Aggressive treatment of each episode to minimize cumulative damage; cyclosporine implant for recurrent cases</span></div>
 </div>
-    <div class="acb"><h3>✅ Ocular First Aid and Veterinary Care</h3><ol><li><strong>Call your vet same day</strong> for any eye concern — corneal ulcers can perforate within hours</li><li><strong>Move to a shaded area</strong> — light sensitivity makes bright environments more painful</li><li><strong>Apply fly mask</strong> to protect the eye and reduce light exposure</li><li><strong>Do not apply any eye medication</strong> without veterinary instruction — some products worsen specific conditions</li><li><strong>Do not attempt to remove embedded foreign bodies</strong> — requires veterinary instruments</li><li><strong>Monitor the other eye</strong> — ERU is frequently bilateral over time</li></ol></div>
-    <div class="ib"><h3>📋 Discussion Points for Your Vet</h3><ul><li>Corneal ulcer grading and treatment protocol — topical antibiotic selection, atropine, antifungal if needed</li><li>ERU diagnosis and suppression treatment — frequency of recurrence, systemic vs. topical management</li><li>Cyclosporine implant — appropriate candidates and realistic expectations</li><li>Subpalpebral lavage (SPL) systems for horses requiring frequent topical medication</li><li>Monitoring the contralateral eye in horses with known ERU</li></ul></div>
-    <div class="vw">
-      <div class="vf">
-        <div class="vfa" data-vid="-RtlbdxzNMs" data-title="Play it Safe in Emergency Situations" role="button" tabindex="0" aria-label="Play: Play it Safe in Emergency Situations">
-          <img src="https://img.youtube.com/vi/-RtlbdxzNMs/hqdefault.jpg" alt="Play it Safe in Emergency Situations" loading="lazy" decoding="async">
-          <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
-        </div>
-      </div>
-      <div class="vc">
-        <span class="vct">👁️ Ocular Health</span>
-        <div class="vtl">Play it Safe in Emergency Situations</div>
-        <div class="vby">Julie Goodnight</div>
-      </div>
-    </div>
-    <div class="sl">Related Topics</div>
-    <div class="rg"><a href="/emergency/eye-injury/" class="rl"><span>Eye Injury Emergency</span><span>→</span></a><a href="/conditions/cushings/" class="rl"><span>Cushing's / PPID</span><span>→</span></a><a href="/find-a-vet/" class="rl"><span>Find an Equine Vet</span><span>→</span></a><a href="/glossary/" class="rl"><span>Veterinary Glossary</span><span>→</span></a><a href="/faq/" class="rl"><span>Horse Owner FAQ</span><span>→</span></a><a href="/preventive-care/" class="rl"><span>Preventive Care</span><span>→</span></a></div>
+    <div class="abox"><h3>⚠️ Eye Signs Requiring Same-Day or Immediate Veterinary Contact</h3><ul><li>Horse holding one eye completely or partially closed (blepharospasm) — severe pain</li>
+<li>Any visible wound to the cornea, eyelid, or globe</li>
+<li>Corneal cloudiness — blue, gray, or white opacity where the cornea should be clear</li>
+<li>Excessive tearing with squinting or light sensitivity</li>
+<li>A foreign body visible in or on the eye — do not attempt removal</li>
+<li>Rapid deterioration — squinting this morning, fully closed this evening = call immediately</li>
+<li>An eye that appears smaller, sunken, or changed in shape compared to the other eye</li>
+</ul></div>
+    <div class="ab"><h2>Equine Visual Anatomy — Understanding How Horses See</h2>
+<p>The horse's eye is the largest of any land mammal and is positioned laterally on the skull. This gives a very wide monocular visual field on each side (nearly 180°) with a small binocular field directly in front, but leaves two blind spots: one directly in front of the nose and one directly behind the hindquarters. This anatomy explains many characteristic equine behaviors.</p>
+<p>The equine pupil is horizontally oriented — a slit-like opening that maximizes the horizontal field of view along the ground plane, ideal for detecting predators approaching at ground level. The retina contains both rods (night vision, motion detection) and cones (color, detail). Horses have dichromatic color vision similar to a red-green colorblind human — they see blues and yellows well, but have poor red discrimination. Their night vision is excellent.</p>
+<table class="dtable"><thead><tr><th>Visual Feature</th><th>Equine Anatomy</th><th>Behavioral Implication</th></tr></thead><tbody><tr><td><strong>Monocular field</strong></td><td>~190° per eye</td><td>Can see behind flank on each side without turning head</td></tr>
+<tr><td><strong>Binocular field</strong></td><td>~60–65° directly in front</td><td>Required for accurate depth perception; used when approaching obstacles and jumping</td></tr>
+<tr><td><strong>Blind spots</strong></td><td>Directly in front of nose; directly behind</td><td>Explains why horses raise head to look at objects near their nose; explains why approaching directly behind startles them</td></tr>
+<tr><td><strong>Near vision</strong></td><td>Requires lowering the head (near-ground objects)</td><td>The horse's eye does not accommodate (focus) like humans; they tilt the retina by lowering their head to focus on near objects</td></tr>
+<tr><td><strong>Color vision</strong></td><td>Blue and yellow; poor red discrimination</td><td>Red objects on green grass are difficult to distinguish; blue and yellow jump poles/equipment may be more visible</td></tr>
+<tr><td><strong>Night vision</strong></td><td>Excellent — large pupil; high rod density; tapetum lucidum</td><td>Good vision in low light; transition adaptation takes longer than humans — allow time when moving from light to dark</td></tr>
+<tr><td><strong>Motion detection</strong></td><td>Excellent in peripheral fields</td><td>High sensitivity to movement in the periphery — a key component of spookiness</td></tr>
+</tbody></table>
+<h2>Corneal Ulcers — Why Speed Matters</h2>
+<p>Corneal ulcers — erosions or defects in the corneal epithelium — are the most common equine ocular emergency. A superficial corneal abrasion from a hay stem is painful but manageable. The same ulcer infected with Pseudomonas aeruginosa or a fungal organism (particularly Aspergillus, common in hay and plant material) can undergo 'melting' — enzymatic stromal dissolution that can progress through the full corneal thickness to perforation within 12–24 hours.</p>
+<p>This is the defining urgency of equine ophthalmology: a condition that could be treated effectively today may be surgical or hopeless tomorrow. Fluorescein stain (applied by the vet to the corneal surface) reveals ulcer extent and depth. Culture of the ulcer guides antibiotic and antifungal selection. The goal of treatment is to eliminate infection, halt enzymatic destruction, and support corneal healing.</p>
+<table class="dtable"><thead><tr><th>Ulcer Type</th><th>Signs</th><th>Urgency</th><th>Key Treatment Principle</th></tr></thead><tbody><tr><td><strong>Simple superficial ulcer</strong></td><td>Squinting, tearing, mild cloudiness; fluorescein stain positive</td><td>Same day</td><td>Topical antibiotic; atropine for ciliary spasm pain; re-stain at 5–7 days to confirm healing</td></tr>
+<tr><td><strong>Infected ulcer (bacterial)</strong></td><td>More significant cloudiness; mucopurulent discharge; more pain</td><td>Immediate</td><td>Culture and sensitivity; targeted antibiotic; anti-protease therapy if melting suspected</td></tr>
+<tr><td><strong>Fungal ulcer</strong></td><td>Yellow-gray stromal infiltrate; may have satellite lesions; associated with plant matter</td><td>Immediate</td><td>Antifungal (voriconazole, natamycin); NO corticosteroids; often requires long-term treatment</td></tr>
+<tr><td><strong>Melting ulcer (keratomalacia)</strong></td><td>Gelatinous, yellow-gray stromal liquefaction; severe pain</td><td>EMERGENCY — same-hour veterinary contact</td><td>Anti-protease agents (EDTA, autologous serum); intensive topical therapy; possible conjunctival flap surgery to save the eye</td></tr>
+<tr><td><strong>Descemetocele</strong></td><td>Ulcer has penetrated all stromal layers; Descemet's membrane bulging</td><td>Surgical emergency</td><td>Conjunctival flap or corneal transplant; perforation is imminent</td></tr>
+</tbody></table>
+<h2>Equine Recurrent Uveitis — The Most Important Long-Term Ocular Condition</h2>
+<p>Equine Recurrent Uveitis (ERU) — historically called Moon Blindness — is the most common cause of blindness in horses worldwide. Each episode of uveitis causes permanent damage through synechiae formation (adhesions between iris and lens), lens changes, cataracts, vitreal degeneration, retinal detachment, and eventually end-stage phthisis bulbi (shrunken, blind eye).</p>
+<p>The critical management principle: aggressive treatment of each episode to suppress inflammation as rapidly and completely as possible minimizes cumulative damage. A horse with ERU that has every episode treated intensively by a veterinarian will have better long-term vision than one whose episodes are undertreated or unrecognized.</p>
+<h3>ERU Episode Recognition</h3><ul>
+<li>Squinting (blepharospasm) — often severe</li>
+<li>Excessive tearing (epiphora)</li>
+<li>Miosis — the pupil is small and fixed due to iris spasm; often visible as a smaller pupil than the unaffected eye</li>
+<li>Aqueous flare — cloudiness in the anterior chamber (the fluid between cornea and iris) seen with a light source</li>
+<li>Perilimbal injection — redness around the corneal margin from scleral vessels</li>
+<li>Photophobia — horse seeks darkness, resents examination of the eye</li>
+<li>Hypopyon — white material in the anterior chamber in severe cases</li>
+</ul>
+<h3>ERU Long-Term Management</h3><ul>
+<li>Fly mask with UV protection worn during turnout year-round — UV is an inflammatory trigger; reduce exposure</li>
+<li>Topical NSAID prophylaxis in some horses — discuss with your veterinary ophthalmologist</li>
+<li>Cyclosporine sustained-release implant — placed by equine ophthalmologist; reduces recurrence frequency in eligible candidates</li>
+<li>Monitoring the contralateral eye — ERU is frequently bilateral over time; early detection in the second eye changes management</li>
+<li>Regular veterinary ocular exams — tracking progression, adjusting protocols, monitoring for complications</li>
+<li>Leptospirosis vaccination in endemic areas — Lepto association with ERU is documented in many cases</li>
+</ul>
+<h2>Eyelid Lacerations — Why Precise Repair Matters</h2>
+<p>Eyelid lacerations require precise veterinary repair because the eyelid margin is the structure that distributes tear film across the cornea with each blink. A gap or misalignment in the eyelid margin — even 1mm — creates a zone of inadequate tear distribution that produces corneal desiccation, ulceration, and potentially permanent opacity in that zone.</p>
+<p>Do not attempt home management of eyelid lacerations or allow them to heal without repair. Emergency temporary coverage with a clean non-adherent dressing is appropriate while awaiting veterinary attention, but definitive repair requires surgical technique and fine suture material.</p>
+<h2>Understanding Equine Behavior Through Visual Anatomy</h2>
+<p>Many characteristic equine behaviors become immediately understandable when viewed through the lens of equine visual anatomy. Horses are not being stupid, spooky, or difficult — they are responding rationally to what they can and cannot see.</p>
+<h3>Behavioral Insights from Visual Anatomy</h3><ul>
+<li>Spooking at familiar objects when approached differently — the visual system is strongly asymmetric; an object familiar to the left eye is not automatically recognized when seen by the right eye for the first time</li>
+<li>Hesitation at dark barn doorways — transition from bright outdoor light to dark interior requires significant pupillary adaptation time; the horse genuinely cannot see well during this transition</li>
+<li>Head raising to look at nearby objects — without raising the head, a horse cannot bring close objects into focus; the postural head raise is a focusing mechanism</li>
+<li>Wide ground-level spooking at unusual objects — peripheral motion detection is exceptionally sensitive; a tarp corner moving at the edge of the visual field triggers a predator-avoidance response appropriate to a prey animal</li>
+<li>Resistance to approaching directly from behind — the direct rear blind spot means the horse cannot see what's approaching; approach from the side so the horse can see you</li>
+</ul>
+</div>
+    <div class="acbox"><h3>✅ Ocular First Aid and Veterinary Care</h3><ol><li><strong>Move to shade immediately</strong> — photophobia is a consistent feature of corneal and uveal conditions; bright light increases discomfort</li>
+<li><strong>Apply a fly mask</strong> if the horse tolerates it — protects from further trauma and UV exposure without touching the eye</li>
+<li><strong>Call your vet same day</strong> for any eye concern — do not wait to see if it improves</li>
+<li><strong>Do not apply any eye drops</strong> without veterinary direction — corticosteroid-containing products cause corneal ulcers to melt</li>
+<li><strong>Do not attempt to remove foreign bodies</strong> — requires sedation and appropriate instruments</li>
+<li><strong>Prevent rubbing</strong> — a horse in ocular pain will rub the eye aggressively on legs and stall walls; a neck cradle can prevent self-trauma in severe cases</li>
+</ol></div>
+    <div class="ibox"><h3>📋 Long-Term Ocular Health Discussion Points for Your Vet</h3><ul><li>ERU diagnosis confirmation and treatment protocol for each episode</li>
+<li>Cyclosporine implant candidacy — appropriate for horses with frequent, confirmed ERU episodes</li>
+<li>Leptospirosis vaccination relevance in your region given ERU diagnosis</li>
+<li>Subpalpebral lavage (SPL) catheter — for horses requiring frequent eye medication; makes dosing easier and safer</li>
+<li>Monitoring the fellow eye in ERU horses — when to examine and what early involvement looks like</li>
+<li>Fly mask recommendations — UV protection level matters; discuss products with your vet</li>
+</ul></div>
+    <div class="ab"><h2>Questions to Ask Your Veterinarian</h2><ul><li>Is this a corneal ulcer, and if so, what depth and do you see any signs of melting?</li>
+<li>Should we stain, culture, and start antibiotic or antifungal treatment at this visit?</li>
+<li>Is there evidence of concurrent uveitis alongside the surface pathology?</li>
+<li>What specific medications, frequency, and duration do you recommend?</li>
+<li>When do you want to recheck, and what signs should prompt me to call before then?</li>
+<li>Given this horse's history, is ERU a long-term concern and what management would you recommend?</li>
+</ul></div>
+    <div class="vw"><div class="vf">
+    <div class="vfa" data-vid="-RtlbdxzNMs" data-title="Play it Safe in Emergency Situations" role="button" tabindex="0" aria-label="Play: Play it Safe in Emergency Situations">
+      <img src="https://img.youtube.com/vi/-RtlbdxzNMs/hqdefault.jpg" alt="Play it Safe in Emergency Situations" loading="lazy" decoding="async">
+      <div class="vp" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+    </div></div>
+  <div class="vc"><span class="vcat">👁️ Eye Health</span><div class="vtit">Play it Safe in Emergency Situations</div><div class="vby">Julie Goodnight</div></div></div>
+    <div class="seclabel">Related Topics</div>
+    <div class="rgrid"><a href="/emergency/eye-injury/" class="rlink"><span>Eye Injury Emergency</span><span>→</span></a>
+<a href="/conditions/cushings/" class="rlink"><span>Cushing's / PPID</span><span>→</span></a>
+<a href="/body-systems/neurological/" class="rlink"><span>Neurological System</span><span>→</span></a>
+<a href="/find-a-vet/" class="rlink"><span>Find an Equine Vet</span><span>→</span></a>
+<a href="/glossary/" class="rlink"><span>Veterinary Glossary</span><span>→</span></a>
+<a href="/faq/" class="rlink"><span>Horse Owner FAQ</span><span>→</span></a>
+</div>
   </main>
   <aside class="sidebar" aria-label="Related resources">
-    <div class="sv">
-      <h3>Find an Equine Vet</h3>
-      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
-      <a href="/find-a-vet/">Find a Vet Near You →</a>
-    </div>
-    <div class="sc">
-      <h3>Conditions</h3>
+    <div class="svet"><h3>Find an Equine Vet</h3>
+      <p>This guide is educational only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a></div>
+    <div class="sc"><h3>Body Systems</h3><a href="/body-systems/digestive/">Digestive System</a>
+<a href="/body-systems/musculoskeletal/">Musculoskeletal</a>
+<a href="/body-systems/respiratory/">Respiratory</a>
+<a href="/body-systems/neurological/">Neurological</a>
+<a href="/body-systems/reproductive/">Reproductive</a>
+<a href="/body-systems/skin-coat/">Skin & Coat</a>
+<a href="/body-systems/eyes/">Eyes & Vision</a>
+<a href="/body-systems/">All Body Systems →</a>
+</div>
+    <div class="sc"><h3>Conditions</h3>
       <a href="/conditions/colic/">Colic</a>
       <a href="/conditions/laminitis/">Laminitis</a>
       <a href="/conditions/ulcers/">Gastric Ulcers</a>
-      <a href="/conditions/navicular/">Navicular Syndrome</a>
-      <a href="/conditions/strangles/">Strangles</a>
       <a href="/conditions/cushings/">Cushing's / PPID</a>
-      <a href="/conditions/">All 15 Conditions →</a>
-    </div>
-    <div class="sc">
-      <h3>Quick Links</h3>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/">All 15 Conditions →</a></div>
+    <div class="sc"><h3>Quick Links</h3>
       <a href="/preventive-care/">Preventive Care</a>
       <a href="/emergency/">Emergency Guide</a>
       <a href="/faq/">FAQ</a>
       <a href="/glossary/">Glossary</a>
-      <a href="/videos/">Videos</a>
-    </div>
+      <a href="/videos/">Videos</a></div>
   </aside>
 </div>
 <footer>
-  <div class="fl2">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="fn">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
     <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div class="fd">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
-  <div style="margin-top:8px;color:rgba(255,255,255,.28);font-size:.73rem">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener" style="color:#5DE8B8">Arizona State Veterinary Medical Examining Board</a>. &copy; 2026 HorseVeterinarian.AI.</div>
 </footer>
 <script>
 document.querySelectorAll('.vfa').forEach(function(f){
-  f.addEventListener('click',function(){
-    var id=f.dataset.vid,t=f.dataset.title;
-    var iframe=document.createElement('iframe');
-    iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';
-    iframe.title=t;iframe.allowFullscreen=true;
-    iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
-    iframe.referrerPolicy='strict-origin-when-cross-origin';
-    f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';
-  });
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
-</script>
-</body>
-</html>
+</script></body></html>
