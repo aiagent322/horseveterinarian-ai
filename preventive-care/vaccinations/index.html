@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0D3B2E">
+<title>Vaccination Guide | HorseVeterinarian.AI</title>
+<meta name="description" content="Educational guide: vaccination guide — for horse owners. Not a substitute for veterinary care.">
+<link rel="canonical" href="https://horseveterinarian.ai/preventive-care/vaccinations/">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<style>
+:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{-webkit-text-size-adjust:100%}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
+.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
+.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
+.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
+.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
+.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
+.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
+.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
+.page-hero{padding:28px 16px 24px;background:linear-gradient(135deg,#0D3B2E 0%,#1A6B5A 100%)}
+.breadcrumb{font-size:0.75rem;color:rgba(255,255,255,0.55);margin-bottom:10px}.breadcrumb a{color:rgba(255,255,255,0.65);text-decoration:none}.breadcrumb a:hover{color:#5DE8B8}
+.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.page-hero h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
+.page-hero-sub{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:600px;line-height:1.6}
+.content-wrap{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+.quick-facts{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:18px;margin-bottom:20px}
+.quick-facts h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--ink);margin-bottom:12px}
+.fact-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--border);font-size:0.84rem}.fact-row:last-child{border-bottom:none}
+.fact-label{font-weight:700;color:var(--ink-muted);min-width:110px;flex-shrink:0}.fact-value{color:var(--ink-soft)}
+.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
+.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
+.alert-box ul{padding-left:16px;font-size:0.84rem;color:#5A1A1A;line-height:1.7}
+.action-box{background:var(--gold-pale);border:1px solid rgba(201,152,58,0.3);border-left:4px solid var(--gold);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
+.action-box h3{font-size:0.88rem;font-weight:700;color:#5A4010;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
+.action-box ol{padding-left:18px;font-size:0.84rem;color:#5A3A08;line-height:1.75}
+.info-box{background:var(--teal-pale);border:1px solid rgba(26,107,90,0.2);border-left:4px solid var(--teal);border-radius:var(--radius);padding:14px 16px;margin-bottom:18px}
+.info-box h3{font-size:0.88rem;font-weight:700;color:var(--forest);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
+.info-box ul{padding-left:16px;font-size:0.84rem;color:var(--ink-soft);line-height:1.7}
+.article-body h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--ink);margin:24px 0 10px;line-height:1.2}
+.article-body h3{font-size:1rem;font-weight:700;color:var(--forest);margin:18px 0 7px}
+.article-body p{font-size:0.92rem;color:var(--ink-soft);line-height:1.7;margin-bottom:14px}
+.article-body ul{padding-left:20px;font-size:0.9rem;color:var(--ink-soft);line-height:1.75;margin-bottom:14px}
+.article-body li{margin-bottom:3px}
+.article-video{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);overflow:hidden;margin-bottom:18px}
+.video-frame{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vid-facade,.video-frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vid-facade{cursor:pointer;overflow:hidden}
+.vid-facade img{width:100%;height:100%;object-fit:cover;display:block}
+.vid-play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.28)}.vid-facade:hover .vid-play{background:rgba(0,0,0,0.42)}
+.vid-play svg{width:52px;height:52px;fill:rgba(255,255,255,0.9);filter:drop-shadow(0 2px 6px rgba(0,0,0,0.5))}
+.video-caption{padding:12px 14px;border-top:1px solid var(--border)}
+.video-cat-tag{display:inline-block;font-size:0.67rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--teal-pale);color:var(--forest);margin-bottom:5px}
+.video-title-label{font-family:'Playfair Display',serif;font-size:0.92rem;font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:2px}
+.video-by{font-size:0.74rem;color:var(--ink-muted);font-weight:600}
+.section-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-muted);margin:28px 0 12px;padding-left:2px}
+.related-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-top:6px}
+.related-link{background:var(--white);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--transition)}.related-link:hover{border-color:var(--border-strong);background:var(--teal-pale)}
+.related-link-title{font-size:0.88rem;font-weight:700;color:var(--ink)}.related-link-arrow{font-size:0.9rem;color:var(--teal)}
+.sidebar-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:16px;margin-bottom:16px}
+.sidebar-card h3{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:900;color:var(--ink);margin-bottom:10px;border-bottom:2px solid var(--border);padding-bottom:8px}
+.sidebar-card a{color:var(--teal);font-size:0.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--border)}.sidebar-card a:last-child{border-bottom:none}.sidebar-card a:hover{color:var(--forest);text-decoration:underline}
+.sidebar-vet{background:var(--forest);border-radius:var(--radius-lg);padding:18px;text-align:center;margin-bottom:16px}
+.sidebar-vet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--cream);margin-bottom:6px}
+.sidebar-vet p{font-size:0.8rem;color:rgba(255,255,255,0.72);line-height:1.5;margin-bottom:12px}
+.sidebar-vet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--forest-deeper);font-weight:700;font-size:0.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}
+.sidebar-vet a:hover{background:var(--teal-light);color:#fff}
+footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
+.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
+.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.footer-disclaimer{margin-top:12px;padding-top:10px;border-top:1px solid rgba(255,255,255,0.1);font-size:0.73rem;color:rgba(255,255,255,0.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 36px}.page-hero h1{font-size:2.3rem}.related-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.content-wrap{grid-template-columns:1fr 280px;align-items:start}.sidebar{position:sticky;top:100px}}
+:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<div class="disclaimer-bar" role="note">⚕️ Educational resource only — always consult a licensed equine veterinarian. <a href="/find-a-vet/">Find a Vet →</a></div>
+<header>
+<div class="topbar">
+  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+  </a>
+</div>
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="site-nav-inner">
+    <a href="/" class="sn-link">Home</a>
+    <a href="/conditions/" class="sn-link ">Conditions</a>
+    <div class="sn-div"></div>
+    <a href="/preventive-care/" class="sn-link active">Preventive Care</a>
+    <a href="/emergency/" class="sn-link ">Emergency Guide</a>
+    <a href="/life-stages/" class="sn-link ">Life Stages</a>
+    <a href="/body-systems/" class="sn-link ">Body Systems</a>
+    <div class="sn-div"></div>
+    <a href="/disciplines/" class="sn-link ">By Discipline</a>
+    <a href="/faq/" class="sn-link ">FAQ</a>
+    <a href="/glossary/" class="sn-link ">Glossary</a>
+    <a href="/videos/" class="sn-link">Videos</a>
+    <a href="/find-a-vet/" class="sn-link">Find a Vet</a>
+  </div>
+</nav>
+</header>
+<div class="page-hero">
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/preventive-care/">Preventive Care</a> › Vaccination Guide</div>
+  <div class="page-hero-eyebrow">💉 Core Preventive Protocol</div>
+  <h1>Vaccination Guide</h1>
+  <p class="page-hero-sub">The American Association of Equine Practitioners (AAEP) publishes vaccination guidelines that define core vaccines — those recommended for all horses regardless of location or use — and risk-based vaccines recommended based on geographic region, lifestyle, and exposure risk.</p>
+</div>
+<div class="content-wrap" id="main-content">
+  <main class="main-col" role="main">
+    <div class="quick-facts"><h3>📋 At a Glance</h3><div class="fact-row"><span class="fact-label">What it covers</span><span class="fact-value">Core vaccines all horses need + risk-based vaccines by region and use</span></div>
+<div class="fact-row"><span class="fact-label">Core vaccines</span><span class="fact-value">EEE/WEE, Tetanus, West Nile Virus, Rabies — AAEP-recommended for all horses</span></div>
+<div class="fact-row"><span class="fact-label">Risk-based</span><span class="fact-value">Influenza, EHV, Strangles, Potomac Horse Fever, Botulism — based on exposure risk</span></div>
+<div class="fact-row"><span class="fact-label">Frequency</span><span class="fact-value">Core vaccines annually; some risk-based vaccines every 3–6 months</span></div>
+<div class="fact-row"><span class="fact-label">Administration</span><span class="fact-value">Veterinarian-administered or owner-administered depending on product and skill</span></div>
+<div class="fact-row"><span class="fact-label">Reactions</span><span class="fact-value">Mild local soreness common; systemic reactions rare but require vet management</span></div></div>
+    <div class="alert-box"><h3>⚠️ Vaccination Precautions</h3><ul><li>Never vaccinate a horse that is already sick — delay until health is restored</li>
+<li>Modified live intranasal strangles vaccine carries handling risk — discuss with your vet</li>
+<li>Pregnant mares have specific vaccination timing requirements — consult your veterinarian</li>
+<li>New horses: establish vaccination history before integrating into the herd</li>
+<li>Watch for systemic reactions (hives, facial swelling, difficulty breathing) for 30 minutes after vaccination</li></ul></div>
+    <div class="article-body"><h2>AAEP Core Vaccines — All Horses</h2>
+<p>The American Association of Equine Practitioners (AAEP) publishes vaccination guidelines that define core vaccines — those recommended for all horses regardless of location or use — and risk-based vaccines recommended based on geographic region, lifestyle, and exposure risk.</p>
+<p>Core vaccines provide protection against diseases with significant morbidity and mortality risk and where vaccination effectively reduces disease. They include: Eastern and Western Equine Encephalomyelitis (EEE/WEE), transmitted by mosquitoes and with high fatality rates; Tetanus, caused by Clostridium tetani in wounds; West Nile Virus, mosquito-transmitted and a common cause of equine neurological disease; and Rabies, fatal and zoonotic.</p>
+<h3>Core Vaccines — Annual Minimum</h3>
+<ul>
+<li>Eastern Equine Encephalomyelitis (EEE) — mosquito-transmitted arboviral disease; high fatality rate; annual booster in spring before mosquito season</li>
+<li>Western Equine Encephalomyelitis (WEE) — similar to EEE; typically combined in a single product</li>
+<li>Tetanus — Clostridium tetani produces a potent neurotoxin in wounds; horses are highly susceptible; combined with EEE/WEE in most products</li>
+<li>West Nile Virus (WNV) — mosquito-transmitted flavivirus; causes neurological disease; annual spring booster recommended; semi-annual in high-risk areas</li>
+<li>Rabies — fatal viral disease transmissible to humans; annual vaccination required in many states</li>
+</ul>
+<h3>Risk-Based Vaccines — Discuss with Your Vet</h3>
+<ul>
+<li>Equine Influenza — respiratory virus; particularly important for horses attending events, competitions, and sales; every 6 months for high-exposure horses</li>
+<li>Equine Herpesvirus (EHV-1/4) — respiratory, abortive, and neurological forms; every 6 months for show horses, breeding mares</li>
+<li>Strangles (S. equi) — modified live intranasal or killed; particularly valuable for horses in high-exposure environments</li>
+<li>Potomac Horse Fever (PHF) — regional vaccine; recommended in endemic river valley areas</li>
+<li>Botulism — recommended for foals and horses in hay-fermentation risk areas</li>
+<li>Venezuelan Equine Encephalomyelitis (VEE) — required in endemic regions</li>
+</ul>
+<h2>Vaccination Timing for Broodmares</h2>
+<p>Pregnant mares require specific vaccination timing to ensure adequate antibody transfer to the foal through colostrum. Generally, core vaccines are given 4–6 weeks before the expected foaling date to maximize colostrum antibody levels. EHV-1 vaccination is given at months 5, 7, and 9 of pregnancy to reduce abortion risk. Your veterinarian designs a specific schedule for your breeding operation.</p>
+</div>
+    <div class="action-box"><h3>✅ Setting Up Your Vaccination Program</h3><ol><li><strong>Schedule a vet consultation</strong> to review your horse's current vaccination status and develop a program appropriate for your location and use</li>
+<li><strong>Research your region's endemic diseases</strong> — your vet knows which risk-based vaccines matter most in your area</li>
+<li><strong>Keep vaccination records</strong> — most competitions require current proof of vaccination for Influenza and EHV</li>
+<li><strong>Plan for spring boosters</strong> before mosquito season for EEE/WEE and West Nile</li>
+<li><strong>Discuss the breeding mare protocol</strong> separately if you have mares in foal</li></ol></div>
+    <div class="info-box"><h3>📋 Discussion Points for Your Vet</h3><ul><li>Which risk-based vaccines are most relevant for your county and competition circuit</li>
+<li>Semi-annual vs. annual boosters for show horses — Influenza immunity wanes faster than annual boosters provide</li>
+<li>Coggins (EIA) testing requirements for interstate travel and competition in your state</li>
+<li>Appropriate age to begin vaccinating foals — typically starting at 4–6 months of age</li>
+<li>Whether any horses in your herd have never been vaccinated and need a primary series</li></ul></div>
+    <div class="article-video">
+      <div class="video-frame">
+        <div class="vid-facade" data-vid="fBihWe0bKf8" data-title="Giving a Foal Their First Vaccinations" role="button" tabindex="0" aria-label="Play: Giving a Foal Their First Vaccinations">
+          <img src="https://img.youtube.com/vi/fBihWe0bKf8/hqdefault.jpg" alt="Giving a Foal Their First Vaccinations" loading="lazy" decoding="async">
+          <div class="vid-play" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+        </div>
+      </div>
+      <div class="video-caption">
+        <span class="video-cat-tag">💉 Vaccinations</span>
+        <div class="video-title-label">Giving a Foal Their First Vaccinations</div>
+        <div class="video-by">Warwick Schiller</div>
+      </div>
+    </div>
+    <div class="section-label">Related Topics</div>
+    <div class="related-grid"><a href="/preventive-care/deworming/" class="related-link"><span class="related-link-title">Deworming Programs</span><span class="related-link-arrow">→</span></a>
+<a href="/preventive-care/annual-exam/" class="related-link"><span class="related-link-title">Annual Wellness Exam</span><span class="related-link-arrow">→</span></a>
+<a href="/conditions/strangles/" class="related-link"><span class="related-link-title">Strangles</span><span class="related-link-arrow">→</span></a>
+<a href="/conditions/ehv/" class="related-link"><span class="related-link-title">Equine Herpesvirus (EHV)</span><span class="related-link-arrow">→</span></a>
+<a href="/life-stages/foal-health/" class="related-link"><span class="related-link-title">Foal Health</span><span class="related-link-arrow">→</span></a>
+<a href="/find-a-vet/" class="related-link"><span class="related-link-title">Find an Equine Vet</span><span class="related-link-arrow">→</span></a></div>
+  </main>
+  <aside class="sidebar" aria-label="Related resources">
+    <div class="sidebar-vet">
+      <h3>Find an Equine Vet</h3>
+      <p>Educational guide only. Contact a licensed equine veterinarian for any health concern.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a>
+    </div>
+    <div class="sidebar-card">
+      <h3>Conditions</h3>
+      <a href="/conditions/colic/">Colic</a>
+      <a href="/conditions/laminitis/">Laminitis</a>
+      <a href="/conditions/ulcers/">Gastric Ulcers</a>
+      <a href="/conditions/strangles/">Strangles</a>
+      <a href="/conditions/cushings/">Cushing's / PPID</a>
+      <a href="/conditions/">All 15 Conditions →</a>
+    </div>
+    <div class="sidebar-card">
+      <h3>Quick Links</h3>
+      <a href="/preventive-care/">Preventive Care</a>
+      <a href="/emergency/">Emergency Guide</a>
+      <a href="/faq/">FAQ</a>
+      <a href="/glossary/">Glossary</a>
+      <a href="/videos/">Videos</a>
+    </div>
+  </aside>
+</div>
+<footer>
+  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="footer-nav">
+    <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+  </nav>
+  <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
+  <div class="footer-disclaimer">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. The practice of veterinary medicine in Arizona is regulated by the Arizona State Veterinary Medical Examining Board.</div>
+  <div style="margin-top:8px;color:rgba(255,255,255,0.28);font-size:0.73rem;">&copy; 2026 HorseVeterinarian.AI. All rights reserved.</div>
+</footer>
+<script>
+document.querySelectorAll('.vid-facade').forEach(function(f){
+  f.addEventListener('click',function(){var id=f.dataset.vid,t=f.dataset.title;var iframe=document.createElement('iframe');iframe.src='https://www.youtube.com/embed/'+id+'?autoplay=1&rel=0';iframe.title=t;iframe.allowFullscreen=true;iframe.allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';iframe.referrerPolicy='strict-origin-when-cross-origin';f.innerHTML='';f.appendChild(iframe);f.style.cursor='default';});
+  f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
+});
+</script>
+</body>
+</html>
