@@ -2,165 +2,367 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0D3B2E">
-<title>Find an Equine Veterinarian | HorseVeterinarian.AI</title>
-<meta name="description" content="Find a licensed equine veterinarian near you — AAEP member directory, state veterinary board resources, emergency clinic locators, and tips for building your veterinary team.">
+<title>Find an Equine Veterinarian Near You | HorseVeterinarian.AI</title>
+<meta name="description" content="How to find a licensed equine veterinarian — AAEP locator, Arizona State Veterinary Board, referral centers, emergency preparedness, what to ask, and how to build the right veterinary team for your horse.">
 <link rel="canonical" href="https://horseveterinarian.ai/find-a-vet/">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Find an Equine Veterinarian Near You | HorseVeterinarian.AI">
+<meta property="og:description" content="How to find a licensed equine veterinarian — AAEP locator, Arizona State Veterinary Board, referral centers, emergency preparedness, what to ask, and how to build the right veterinary team for your horse.">
+<meta property="og:url" content="https://horseveterinarian.ai/find-a-vet/">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://horseveterinarian.ai/og-image.png">
+<meta property="og:site_name" content="HorseVeterinarian.AI">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
-:root{--forest:#0D3B2E;--forest-dark:#082820;--forest-deeper:#051C15;--teal:#1A6B5A;--teal-light:#2A8B75;--teal-pale:#E0F0EB;--gold:#C9983A;--gold-pale:#FFF8EE;--ink:#1A2E28;--ink-soft:#3A5248;--ink-muted:#5C7A70;--cream:#F5FBF8;--alert:#8B1A1A;--alert-light:#FDF0F0;--white:#FFFFFF;--border:rgba(26,107,90,0.14);--border-strong:rgba(26,107,90,0.28);--shadow-md:0 4px 16px rgba(5,28,21,0.09);--radius:10px;--radius-lg:14px;--transition:0.2s ease;}
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);--S3:0 8px 32px rgba(5,28,21,0.13);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{-webkit-text-size-adjust:100%}body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
-a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
-.skip-link{position:absolute;left:-9999px;top:0;z-index:200;background:var(--teal);color:#fff;padding:10px 16px;border-radius:0 0 var(--radius) 0;font-weight:700;text-decoration:none}.skip-link:focus{left:0;top:0}
-.disclaimer-bar{background:#FFF8E6;border-bottom:2px solid var(--gold);padding:9px 16px;text-align:center;font-size:0.78rem;color:#5A4010;font-weight:600}.disclaimer-bar a{color:var(--teal);text-decoration:underline}
-.topbar{background:linear-gradient(135deg,var(--forest-deeper),var(--forest-dark));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.18)}
-.topbar-logo{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--cream);text-decoration:none;white-space:nowrap}.topbar-logo span{color:#5DE8B8}
-.bb-logo-link{display:none;align-items:center;line-height:0;flex-shrink:0}
-.site-nav{background:var(--forest-dark);border-top:1px solid rgba(255,255,255,0.08);border-bottom:2px solid var(--teal-light);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
-.site-nav-inner{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.site-nav-inner::-webkit-scrollbar{display:none}
-.sn-link{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:0.8rem;font-weight:700;color:rgba(255,255,255,0.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color 0.18s,border-color 0.18s;letter-spacing:0.01em}.sn-link:hover,.sn-link.active{color:#5DE8B8;border-bottom-color:var(--teal-light);background:rgba(255,255,255,0.05)}
-.sn-div{width:1px;height:26px;background:rgba(255,255,255,0.12);align-self:center;flex-shrink:0;margin:0 2px}
-.page-hero{padding:30px 16px 26px;background:linear-gradient(135deg,var(--forest) 0%,#1A6B5A 100%);text-align:center}
-.page-hero-eyebrow{display:inline-block;background:rgba(255,255,255,0.1);color:rgba(255,255,255,0.88);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:4px 14px;border-radius:20px;margin-bottom:10px}
-.page-hero h1{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:var(--cream);line-height:1.1;margin-bottom:8px}
-.page-hero p{color:rgba(255,255,255,0.72);font-size:0.9rem;max-width:580px;margin:0 auto}
-.wrap{max-width:960px;margin:0 auto;padding:24px 12px 48px}
-.alert-box{background:var(--alert-light);border:1px solid rgba(139,26,26,0.2);border-left:4px solid var(--alert);border-radius:var(--radius);padding:14px 16px;margin-bottom:24px}
-.alert-box h3{font-size:0.88rem;font-weight:700;color:var(--alert);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.04em}
-.alert-box p{font-size:0.86rem;color:#5A1A1A;line-height:1.6}
-.resource-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:28px}
-.resource-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px 18px}
-.resource-card h3{font-family:'Playfair Display',serif;font-size:1.05rem;font-weight:900;color:var(--ink);margin-bottom:8px}
-.resource-card p{font-size:0.87rem;color:var(--ink-muted);line-height:1.6;margin-bottom:12px}
-.resource-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;background:var(--forest);color:var(--cream);border-radius:20px;font-weight:700;font-size:0.85rem;text-decoration:none;transition:var(--transition);min-height:40px}
-.resource-btn:hover{background:var(--teal);color:#fff;text-decoration:none}
-.resource-btn.secondary{background:var(--teal-pale);color:var(--forest);border:1px solid var(--border-strong)}
-.resource-btn.secondary:hover{background:var(--teal);color:#fff}
-.section-title{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:900;color:var(--ink);margin:28px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--border-strong)}
-.tips-list{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;margin-bottom:24px}
-.tips-list li{font-size:0.9rem;color:var(--ink-soft);line-height:1.7;padding:6px 0;border-bottom:1px solid var(--border)}
-.tips-list li:last-child{border-bottom:none}
-.tips-list li strong{color:var(--ink)}
-footer{background:var(--forest-deeper);color:rgba(255,255,255,0.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:0.8rem;border-top:3px solid var(--teal-light)}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+/* PAGE HERO */
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+/* CONTENT LAYOUT */
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+/* QUICK FACTS */
+.qf{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:20px}
+.qf h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--I);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px solid var(--B);font-size:.84rem}.fr:last-child{border-bottom:none}
+.fl{font-weight:700;color:var(--IM);min-width:110px;flex-shrink:0}.fv{color:var(--IS)}
+/* ALERT BOX */
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h3{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox ul{padding-left:16px;font-size:.84rem;color:#5A1A1A;line-height:1.7}
+/* ACTION BOX */
+.acbox{background:var(--GP);border:1px solid rgba(201,152,58,.3);border-left:4px solid var(--G);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.acbox h3{font-size:.88rem;font-weight:700;color:#5A4010;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.acbox ol{padding-left:18px;font-size:.87rem;color:#5A3A08;line-height:1.8}
+.acbox li{margin-bottom:4px}
+/* INFO BOX */
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:16px 18px;margin-bottom:18px}
+.ibox h3{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.ibox ul{padding-left:16px;font-size:.87rem;color:var(--IS);line-height:1.75}
+.ibox li{margin-bottom:4px}
+/* ARTICLE BODY */
+.ab h2{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--I);margin:28px 0 12px;line-height:1.2}
+.ab h3{font-size:1rem;font-weight:700;color:var(--F);margin:20px 0 8px}
+.ab p{font-size:.92rem;color:var(--IS);line-height:1.75;margin-bottom:14px}
+.ab ul,.ab ol{padding-left:20px;font-size:.9rem;color:var(--IS);line-height:1.8;margin-bottom:14px}
+.ab li{margin-bottom:5px}
+.ab strong{color:var(--I)}
+/* TABLES */
+.dtable{width:100%;border-collapse:collapse;font-size:.84rem;margin:16px 0 20px;background:var(--W);border-radius:var(--r);overflow:hidden;border:1px solid var(--B)}
+.dtable th{background:var(--F);color:var(--C);padding:10px 12px;text-align:left;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.dtable td{padding:10px 12px;border-bottom:1px solid var(--B);color:var(--IS);vertical-align:top;line-height:1.5}
+.dtable tr:last-child td{border-bottom:none}
+.dtable tr:nth-child(even) td{background:var(--TP)}
+/* SEVERITY GRID */
+.sgrid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0 20px}
+.scard{border-radius:var(--r);padding:14px 16px;border:1px solid transparent}
+.scard.mild{background:#F0FFF4;border-color:rgba(74,140,106,.25)}.scard.mild .stitle{color:#2D6B4A}
+.scard.mod{background:#FFF8E0;border-color:rgba(201,152,58,.3)}.scard.mod .stitle{color:#7A5010}
+.scard.sev{background:var(--AL);border-color:rgba(139,26,26,.25)}.scard.sev .stitle{color:var(--A)}
+.stitle{font-weight:700;font-size:.85rem;margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+.scard ul{padding-left:16px;font-size:.83rem;line-height:1.7}
+.scard.mild ul{color:#2D5248}.scard.mod ul{color:#5A3A08}.scard.sev ul{color:#5A1010}
+/* HIGHLIGHT CALLOUT */
+.hcall{background:var(--FD);border-radius:var(--r);padding:16px 18px;margin:18px 0;border:1px solid rgba(93,232,184,.15)}
+.hcall h3{font-size:.9rem;font-weight:700;color:#5DE8B8;margin-bottom:8px}
+.hcall p{font-size:.87rem;color:rgba(255,255,255,.78);line-height:1.65}
+.hcall ul{padding-left:18px;font-size:.85rem;color:rgba(255,255,255,.72);line-height:1.75}
+/* VIDEO */
+.vw{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);overflow:hidden;margin-bottom:20px}
+.vf{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;background:#000}
+.vfa,.vf iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}.vfa{cursor:pointer;overflow:hidden}
+.vfa img{width:100%;height:100%;object-fit:cover;display:block}
+.vp{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.28)}.vfa:hover .vp{background:rgba(0,0,0,.42)}
+.vp svg{width:54px;height:54px;fill:rgba(255,255,255,.92);filter:drop-shadow(0 2px 8px rgba(0,0,0,.5))}
+.vc{padding:13px 15px;border-top:1px solid var(--B)}
+.vcat{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:var(--TP);color:var(--F);margin-bottom:5px}
+.vtit{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);line-height:1.3;margin-bottom:2px}
+.vby{font-size:.75rem;color:var(--IM);font-weight:600}
+/* SECTION LABEL */
+.seclabel{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--IM);margin:28px 0 12px;padding-left:2px}
+/* RELATED GRID */
+.rgrid{display:grid;grid-template-columns:1fr;gap:10px}
+.rlink{background:var(--W);border:1px solid var(--B);border-radius:var(--r);padding:12px 15px;text-decoration:none;color:inherit;display:flex;justify-content:space-between;align-items:center;transition:var(--tr)}.rlink:hover{border-color:var(--BS);background:var(--TP)}
+.rlink span:first-child{font-size:.88rem;font-weight:700;color:var(--I)}.rlink span:last-child{color:var(--T);font-size:.9rem}
+/* SIDEBAR */
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:block;padding:5px 0;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none}.svet a:hover{background:var(--TL);color:#fff}
+/* FOOTER */
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
 footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
-.footer-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--cream);margin-bottom:8px}.footer-logo span{color:#5DE8B8}
-.footer-nav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
-@media(min-width:768px){.bb-logo-link{display:flex}.topbar{padding:14px 20px}.topbar-logo{font-size:1.35rem}.page-hero{padding:44px 24px 40px}.page-hero h1{font-size:2.4rem}.resource-grid{grid-template-columns:repeat(2,1fr)}}
-:focus-visible{outline:3px solid var(--teal-light);outline-offset:2px;border-radius:3px}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.73rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* HOVER */
+@media(hover:hover){.rlink:hover span:first-child{color:var(--F)}}
+/* RESPONSIVE */
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .rgrid{grid-template-columns:repeat(2,1fr)}
+  .sgrid{grid-template-columns:repeat(3,1fr)}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
 </style>
 </head>
 <body>
-<a class="skip-link" href="#main-content">Skip to main content</a>
-<div class="disclaimer-bar">⚕️ This site is educational only. A licensed equine veterinarian is essential for your horse's health care.</div>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener">Arizona State Veterinary Medical Examining Board</a>.</div>
 <header>
-<div class="topbar">
-  <a class="topbar-logo" href="/">Horse<span>Veterinarian</span>.AI</a>
-  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb-logo-link">
-    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto;" loading="lazy">
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" style="height:38px;width:auto" loading="lazy">
   </a>
 </div>
-<nav class="site-nav" aria-label="Main navigation">
-  <div class="site-nav-inner">
-    <a href="/" class="sn-link">Home</a>
-    <a href="/conditions/" class="sn-link">Conditions</a>
-    <div class="sn-div"></div>
-    <a href="/preventive-care/" class="sn-link">Preventive Care</a>
-    <a href="/emergency/" class="sn-link">Emergency Guide</a>
-    <a href="/life-stages/" class="sn-link">Life Stages</a>
-    <a href="/body-systems/" class="sn-link">Body Systems</a>
-    <div class="sn-div"></div>
-    <a href="/disciplines/" class="sn-link">By Discipline</a>
-    <a href="/faq/" class="sn-link">FAQ</a>
-    <a href="/glossary/" class="sn-link">Glossary</a>
-    <a href="/videos/" class="sn-link">Videos</a>
-    <a href="/find-a-vet/" class="sn-link active">Find a Vet</a>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl">Preventive Care</a>
+    <a href="/emergency/" class="sl">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl active">Find a Vet</a>
   </div>
 </nav>
 </header>
-<div class="page-hero">
-  <div class="page-hero-eyebrow">📞 Your Most Important Resource</div>
+
+<div class="ph" style="background:linear-gradient(135deg,#0D3B2E 0%,#2A8B75 100%)">
+  <div class="bc"><a href="/">Home</a> › Find an Equine Vet</div>
+  <div class="ey">🏥 Find a Licensed Equine Veterinarian</div>
   <h1>Find an Equine Veterinarian</h1>
-  <p>No website — including this one — replaces a licensed equine veterinarian. Find yours before you need one. Emergency contacts should be established before an emergency occurs.</p>
+  <p class="phs">HorseVeterinarian.AI is an educational resource — not a veterinary service. Everything on this site is designed to support the conversation with a licensed equine veterinarian, not replace it. Use the resources below to find the right veterinary team for your horse.</p>
 </div>
-<div class="wrap" id="main-content">
-  <div class="alert-box">
-    <h3>🚨 Have an Emergency Right Now?</h3>
-    <p>If your horse is showing signs of colic, severe lameness, difficulty breathing, an eye injury, neurological signs, or any other acute health crisis — stop reading and call your veterinarian immediately. If you do not have an established veterinarian, call the nearest equine emergency hospital or equine referral center. Do not delay.</p>
+
+<div style="background:#FDF0F0;border-bottom:3px solid #8B1A1A;padding:16px;text-align:center">
+  <strong style="color:#8B1A1A;font-size:1rem">🚨 Having an emergency right now?</strong>
+  <span style="color:#5A1A1A;font-size:.9rem;display:block;margin-top:4px">Call your veterinarian's emergency line immediately. If you don't have a vet, call the nearest equine hospital or emergency referral center in your area.</span>
+</div>
+
+<style>
+.fv-grid{display:grid;grid-template-columns:1fr;gap:16px;margin:24px 0}
+.fv-card{background:#fff;border:1px solid rgba(26,107,90,.14);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:10px}
+.fv-card h2{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:#1A2E28;margin:0}
+.fv-card p{font-size:.88rem;color:#3A5248;line-height:1.7;margin:0}
+.fv-card a.btn{display:inline-flex;align-items:center;gap:6px;background:#1A6B5A;color:#fff;font-weight:700;font-size:.84rem;padding:10px 18px;border-radius:20px;text-decoration:none;width:fit-content;margin-top:4px}.fv-card a.btn:hover{background:#0D3B2E}
+.fv-card .tag{display:inline-block;font-size:.67rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:#E0F0EB;color:#0D3B2E;margin-bottom:4px;width:fit-content}
+.fv-card .tag.urgent{background:#FDF0F0;color:#8B1A1A}
+.fv-card .tag.az{background:#FFF8EE;color:#7A5010}
+.checklist{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:6px}
+.checklist li{font-size:.87rem;color:#3A5248;line-height:1.6;padding-left:22px;position:relative}.checklist li::before{content:'✓';position:absolute;left:0;color:#1A6B5A;font-weight:700}
+.qs-grid{display:grid;grid-template-columns:1fr;gap:10px;margin:16px 0}
+.qs-card{background:#E0F0EB;border-radius:10px;padding:14px 16px}
+.qs-card p{font-size:.86rem;color:#1A2E28;font-weight:600;margin:0;line-height:1.5}
+.qs-card span{font-size:.78rem;color:#3A5248;display:block;margin-top:4px;font-weight:400}
+.prep-box{background:#0D3B2E;border-radius:14px;padding:20px;margin:24px 0}
+.prep-box h2{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:#F5FBF8;margin-bottom:12px}
+.prep-box ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
+.prep-box li{font-size:.86rem;color:rgba(255,255,255,.8);line-height:1.6;padding-left:22px;position:relative}.prep-box li::before{content:'→';position:absolute;left:0;color:#5DE8B8;font-weight:700}
+@media(min-width:768px){.fv-grid{grid-template-columns:repeat(2,1fr)}.qs-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.fv-grid{grid-template-columns:repeat(3,1fr)}.qs-grid{grid-template-columns:repeat(3,1fr)}}
+</style>
+
+<div class="wrap" id="mc" style="max-width:1100px;margin:0 auto;padding:26px 12px 48px">
+
+  <div style="font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5C7A70;margin-bottom:14px">Veterinary Finder Tools</div>
+
+  <div class="fv-grid">
+    <div class="fv-card">
+      <div class="tag">AAEP Verified</div>
+      <h2>AAEP Find a Veterinarian</h2>
+      <p>The American Association of Equine Practitioners member directory is the primary resource for finding a licensed equine veterinarian. Search by zip code, state, and specialty. AAEP members have made a professional commitment to equine medicine.</p>
+      <a href="https://www.aaep.org/info/find-a-veterinarian" target="_blank" rel="noopener noreferrer" class="btn">Search AAEP Directory →</a>
+    </div>
+    <div class="fv-card">
+      <div class="tag az">Arizona Specific</div>
+      <h2>Arizona State Veterinary Board</h2>
+      <p>The Arizona State Veterinary Medical Examining Board licenses and regulates veterinary practice in Arizona. You can verify a veterinarian's Arizona license status and confirm they are in good standing through the board's online verification tool.</p>
+      <a href="https://veterinary.az.gov" target="_blank" rel="noopener noreferrer" class="btn">Verify Arizona License →</a>
+    </div>
+    <div class="fv-card">
+      <div class="tag urgent">Emergency Referral</div>
+      <h2>Equine Referral &amp; Specialty Centers</h2>
+      <p>Surgical emergencies (large colon volvulus, strangulating small intestinal obstruction) require immediate transport to a facility with an equine surgeon on call. Know the location and drive time to your nearest equine referral center <strong>before</strong> a colic — not during one.</p>
+      <p style="margin-top:6px;font-size:.82rem;color:#5C7A70">Search for equine hospitals in your area through the AAEP directory. Ask your regular vet which referral center they work with and save that number now.</p>
+    </div>
+    <div class="fv-card">
+      <div class="tag">Reproductive Specialist</div>
+      <h2>Equine Reproductive Veterinarians</h2>
+      <p>Breeding programs, breeding soundness examinations, pregnancy monitoring, and foaling management require a veterinarian with equine reproductive training. Many general equine practices offer reproductive services; complex cases benefit from a specialist.</p>
+      <p style="margin-top:6px;font-size:.82rem;color:#5C7A70">Ask your primary equine vet for a referral to a reproductive specialist if your situation is complex — problem mares, stallion evaluation, frozen semen AI, or twins.</p>
+    </div>
+    <div class="fv-card">
+      <div class="tag">Dentistry</div>
+      <h2>Equine Dental Practitioners</h2>
+      <p>Complete equine dental care requires sedation and a veterinarian licensed to administer it. While veterinary dental technicians (EDT) operate in some jurisdictions, sedated dental procedures require veterinary oversight. Ask your primary vet or AAEP for a referral to a dental specialist for complex cases.</p>
+      <a href="https://www.iaedonline.com" target="_blank" rel="noopener noreferrer" class="btn">IAED Member Directory →</a>
+    </div>
+    <div class="fv-card">
+      <div class="tag">Community Resource</div>
+      <h2>Local Equestrian Community</h2>
+      <p>Your barn, local riding club, and regional horse organization are excellent sources of veterinarian recommendations from people who use equine veterinary services in your specific area. Recommendations from riders in your discipline — who have comparable horses and needs — are particularly valuable.</p>
+      <p style="margin-top:6px;font-size:.82rem;color:#5C7A70">Bridle &amp; Bit Magazine's Arizona equestrian community is another resource — <a href="https://www.bridleandbit.com" target="_blank" rel="noopener" style="color:#1A6B5A">bridleandbit.com</a></p>
+    </div>
   </div>
 
-  <div class="section-title">Find an Equine Vet — Directories</div>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <h3>AAEP Veterinarian Finder</h3>
-      <p>The American Association of Equine Practitioners maintains a searchable directory of member equine veterinarians across the United States. The AAEP is the primary professional organization for equine veterinary medicine — member veterinarians are committed to equine-specific practice standards.</p>
-      <a href="https://www.aaep.org/horse-owners/horse-health/" target="_blank" rel="noopener" class="resource-btn">Search AAEP Directory ↗</a>
-    </div>
-    <div class="resource-card">
-      <h3>Arizona State Veterinary Board</h3>
-      <p>The Arizona State Veterinary Medical Examining Board licenses and regulates veterinary medicine in Arizona. Their license lookup tool allows you to verify that a veterinarian is currently licensed to practice in Arizona.</p>
-      <a href="https://veterinary.az.gov" target="_blank" rel="noopener" class="resource-btn">AZ Veterinary Board ↗</a>
-    </div>
-    <div class="resource-card">
-      <h3>Equine Referral &amp; Specialty Centers</h3>
-      <p>For complex cases — colic surgery, advanced imaging (MRI, CT, bone scan), internal medicine, reproduction — your regular vet may refer you to an equine referral hospital with specialists and advanced equipment. Know the location of your nearest equine referral center before you need it.</p>
-      <a href="https://www.aaep.org" target="_blank" rel="noopener" class="resource-btn secondary">AAEP Resources ↗</a>
-    </div>
-    <div class="resource-card">
-      <h3>Ask Your Barn Community</h3>
-      <p>Word-of-mouth from experienced local horse owners is often the most reliable way to find a skilled equine veterinarian in your area. Your farrier, trainer, and fellow boarders at your barn are valuable resources for local veterinary recommendations.</p>
-      <a href="/faq/" class="resource-btn secondary">Horse Owner FAQ →</a>
-    </div>
+  <div class="ab">
+    <h2>Building the Right Veterinary Team for Your Horse</h2>
+    <p>Most horse owners benefit from having more than one veterinarian relationship: a primary equine veterinarian for routine and urgent care, and a specialist or referral center identified before you need them. The time to identify your emergency referral center is not during a 2am colic — it is at your next annual wellness exam.</p>
+    <p>In Arizona specifically, the distances between some facilities and the heat-related health challenges unique to the region make it especially important to have a plan before any emergency. Discuss the following at your next vet visit:</p>
+
+    <h2>What Equine Veterinarians Do — Understanding the Scope of Care</h2>
+    <p>A licensed equine veterinarian provides a scope of services that no other professional is qualified or legally authorized to provide. Understanding this helps horse owners make appropriate decisions about who to call and when.</p>
+    <table class="dtable">
+      <thead><tr><th>Service Category</th><th>What It Involves</th><th>Why a Licensed Vet Is Required</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Diagnosis</strong></td><td>Physical examination, diagnostic nerve blocks, laboratory testing, imaging interpretation</td><td>Diagnosis is the practice of veterinary medicine — legally requires a licensed veterinarian</td></tr>
+        <tr><td><strong>Prescription medications</strong></td><td>Banamine, Regumate, omeprazole, antibiotics, pergolide, acepromazine, controlled substances</td><td>Prescription drugs require a valid veterinarian-client-patient relationship (VCPR) and vet prescription</td></tr>
+        <tr><td><strong>Sedation and anesthesia</strong></td><td>All sedation (including for dental procedures and wound care) requires veterinary administration</td><td>Only licensed veterinarians can legally administer controlled sedatives in horses in most jurisdictions</td></tr>
+        <tr><td><strong>Surgery</strong></td><td>Colic surgery, joint lavage, laceration repair, castration, reproductive procedures</td><td>Veterinary license required; surgical emergencies require referral centers with surgical capability</td></tr>
+        <tr><td><strong>Vaccination</strong></td><td>Administration of vaccines (owner-administered vaccines are available but vet-administered preferred for reactions)</td><td>Modified live vaccines, some risk-based vaccines, and vaccination-associated medical decisions require veterinary involvement</td></tr>
+        <tr><td><strong>Coggins test</strong></td><td>Blood collection for EIA testing — required for interstate transport and most competitions</td><td>Blood must be collected by a licensed veterinarian for official Coggins test</td></tr>
+        <tr><td><strong>Pre-purchase exam</strong></td><td>Comprehensive soundness and health evaluation; radiographs; drug testing</td><td>Objective licensed professional assessment; findings become your purchase record</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Establishing a Veterinarian-Client-Patient Relationship (VCPR)</h2>
+    <p>The Veterinarian-Client-Patient Relationship (VCPR) is the legal and professional foundation of equine veterinary care. A VCPR exists when a veterinarian has examined your horse in person, understands the animal's health status, has accepted responsibility for medical judgment about the horse's health, and has made themselves available for follow-up care.</p>
+    <p>A VCPR is required before a veterinarian can legally prescribe medications for your horse — including Banamine (flunixin meglumine), which many horse owners have on hand for colic management. Obtaining prescription medications for your horse requires an established VCPR with a vet who has examined your horse. This is why the annual wellness exam is not just clinically valuable — it also maintains the VCPR that makes prescription access legally appropriate.</p>
+
+    <h2>Types of Veterinary Services for Horses</h2>
+    <table class="dtable">
+      <thead><tr><th>Visit Type</th><th>When You Need It</th><th>What to Expect</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Annual wellness exam</strong></td><td>Once a year; twice yearly for horses over 15</td><td>Full physical exam, BCS, vaccinations, deworming review, bloodwork discussion, ACTH if indicated</td></tr>
+        <tr><td><strong>Emergency call</strong></td><td>Colic, severe lameness, wound, eye injury, respiratory distress, foaling emergency</td><td>Urgent response; triage and stabilization; referral if needed; emergency fees typically apply after hours</td></tr>
+        <tr><td><strong>Lameness evaluation</strong></td><td>New or progressive lameness; pre-purchase; performance decline</td><td>Systematic evaluation; flexion tests; nerve blocks; imaging; may be a scheduled multi-hour appointment</td></tr>
+        <tr><td><strong>Dental procedure</strong></td><td>Annual; every 6 months for under 5 or over 15</td><td>Sedation, speculum exam, floating; may be combined with annual wellness or separate appointment</td></tr>
+        <tr><td><strong>Reproductive services</strong></td><td>Breeding soundness exam, pregnancy check, foaling assistance, post-foaling care</td><td>Range from single ultrasound to intensive management; many practices offer reproductive services</td></tr>
+        <tr><td><strong>Pre-purchase exam</strong></td><td>Before buying any horse; scope of exam depends on price and intended use</td><td>Physical exam, flexion tests, possible radiographs and/or scope; buyer's agent, not seller's; budget 1–3 hours</td></tr>
+        <tr><td><strong>Referral / specialist</strong></td><td>Surgical colic, complex lameness, ophthalmology, reproduction specialist, internal medicine</td><td>Referral hospital or specialist practice; your primary vet coordinates and communicates</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Questions to Ask When Choosing an Equine Veterinarian</h2>
+    <p>Not all equine veterinary practices are identical — some specialize in large horse barns, some in reproduction, some in lameness work, some in western performance horses. Finding a vet whose practice aligns with your horses' needs improves the quality of care you receive. The following questions are worth asking when establishing a new veterinary relationship:</p>
   </div>
 
-  <div class="section-title">What to Ask When Choosing an Equine Vet</div>
-  <ul class="tips-list">
-    <li><strong>Do they do equine work exclusively, or is it part of a mixed practice?</strong> Equine-only practices typically offer more specialized equipment and experience.</li>
-    <li><strong>What is their after-hours emergency protocol?</strong> Colic emergencies happen at midnight. Know before it happens how to reach emergency care.</li>
-    <li><strong>Do they have access to portable diagnostic equipment?</strong> Digital radiography, portable ultrasound, and endoscopy capability on the farm truck significantly expands what can be done on a first visit.</li>
-    <li><strong>Do they have a referral relationship with an equine hospital?</strong> A good working relationship with a referral center ensures smooth transitions when advanced care is needed.</li>
-    <li><strong>Are they familiar with your discipline's specific health demands?</strong> A vet experienced with reining horses, endurance horses, or racehorses brings relevant context to performance horse care.</li>
-    <li><strong>What is their approach to preventive care and parasite management?</strong> A vet who uses evidence-based targeted deworming and AAEP vaccination guidelines demonstrates current knowledge.</li>
-    <li><strong>Can they provide referrals for dental care and therapeutic shoeing?</strong> The best outcomes in many equine conditions come from a collaborative team — vet, farrier, dentist.</li>
-  </ul>
+  <div class="qs-grid">
+    <div class="qs-card"><p>Are you primarily a large animal / equine practice, or do you see mixed species?</p><span>Dedicated equine practices typically have more equine-specific equipment and experience</span></div>
+    <div class="qs-card"><p>Do you offer 24/7 emergency coverage, and what is the after-hours protocol?</p><span>Know the emergency process before you need it — who covers, what number, response time</span></div>
+    <div class="qs-card"><p>What imaging is available in your practice — digital radiographs, portable ultrasound?</p><span>In-practice imaging capability affects how quickly diagnosis can happen</span></div>
+    <div class="qs-card"><p>Which referral or surgical facility do you work with for colic surgery?</p><span>Your vet should have an established relationship with a surgical center and be able to communicate during transport</span></div>
+    <div class="qs-card"><p>Do you have experience with [your specific discipline] horses?</p><span>A vet familiar with reining, cutting, endurance, or other specific demands understands the injury profile</span></div>
+    <div class="qs-card"><p>What are your dental services, and do you perform sedated dental procedures in the field?</p><span>Confirm whether dental is offered in-practice or referred; confirm sedation is included</span></div>
+    <div class="qs-card"><p>What does an annual wellness exam include, and what is the typical cost?</p><span>Understand what's included and what costs extra — vaccinations, bloodwork, Coggins are often additional</span></div>
+    <div class="qs-card"><p>How do I reach you after hours, and what is your response time for colic?</p><span>The answer to this question — and your comfort with it — matters more than almost anything else</span></div>
+    <div class="qs-card"><p>Do you have experience with PPID (Cushing's disease) management in older horses?</p><span>If you have horses over 10, endocrine management experience is important</span></div>
+  </div>
 
-  <div class="section-title">Building Your Equine Health Team</div>
-  <div class="resource-grid">
-    <div class="resource-card">
-      <h3>Annual Wellness Exam</h3>
-      <p>Scheduling an annual wellness exam with your equine vet — not just emergency calls — establishes a baseline, builds a relationship, and catches problems early. Your vet gets to know your horse's normal; you get professional guidance on nutrition, vaccination, and preventive care.</p>
-      <a href="/preventive-care/annual-exam/" class="resource-btn secondary">Annual Exam Guide →</a>
-    </div>
-    <div class="resource-card">
-      <h3>Pre-Purchase Exam</h3>
-      <p>Before buying a horse, have a licensed equine veterinarian perform a pre-purchase examination. The exam scope can be tailored to the horse's intended use — from a basic soundness check to full radiographic series and bloodwork. This is one of the most valuable veterinary investments you can make.</p>
-      <a href="/faq/" class="resource-btn secondary">FAQ: Pre-Purchase →</a>
-    </div>
-    <div class="resource-card">
-      <h3>Emergency Preparedness</h3>
-      <p>Know your vet's emergency number. Know the nearest equine emergency hospital and how long it takes to drive there. Have a functional, accessible trailer. Keep a basic first aid kit stocked. These preparations take minutes to arrange but make the difference in a crisis.</p>
-      <a href="/emergency/" class="resource-btn secondary">Emergency Guide →</a>
-    </div>
-    <div class="resource-card">
-      <h3>Farrier Collaboration</h3>
-      <p>Your farrier and your veterinarian should know each other and communicate about your horse. In cases of laminitis, navicular syndrome, hoof cracks, and any lameness with a foot component, the farrier-veterinarian team produces outcomes neither can achieve independently.</p>
-      <a href="/conditions/laminitis/" class="resource-btn secondary">Laminitis Guide →</a>
-    </div>
+  <div class="ab">
+    <h2>The Pre-Purchase Examination — What It Is and Why It Matters</h2>
+    <p>A pre-purchase examination is a veterinary evaluation performed by a licensed equine veterinarian on behalf of a potential buyer, before the purchase decision is finalized. It is the single most important step in any horse purchase, regardless of price — and it should always be performed by a veterinarian selected by the buyer, not the seller.</p>
+    <p>The scope of a pre-purchase exam is negotiable and should be proportional to the purchase price and intended use. A basic exam includes a thorough physical exam, flexion tests, and observation at walk and trot. A comprehensive exam may add radiographic survey (hocks, stifles, coffin joints, front feet), endoscopy, bloodwork, and drug testing for competition horses.</p>
+    <h3>What a Pre-Purchase Exam Is NOT</h3>
+    <ul>
+      <li>It is not a pass/fail certification — the vet finds and reports what is present; the buyer decides whether the findings are acceptable for the intended use</li>
+      <li>It is not a guarantee of future soundness — a horse can develop problems after purchase that were not present at the time of exam</li>
+      <li>It is not the seller's exam — the buyer's vet represents the buyer's interests; findings belong to the buyer</li>
+      <li>It is not optional for any significant purchase — the exam cost is always less than the cost of purchasing a horse with undisclosed pathology</li>
+    </ul>
+
+    <h2>Emergency Preparedness — Build Your Plan Before You Need It</h2>
+    <p>The single most impactful thing a horse owner can do for their horse's emergency outcomes is prepare <em>before</em> any emergency occurs. Know these things now — not during a 2am colic:</p>
+  </div>
+
+  <div class="prep-box">
+    <h2>Emergency Preparedness Checklist</h2>
+    <ul>
+      <li><strong>Your vet's emergency number:</strong> saved in your phone AND posted in the barn. Confirm they have 24/7 coverage or know who covers after hours.</li>
+      <li><strong>Nearest equine surgical center:</strong> name, address, phone number, and your drive time from the barn. Know this before any colic — not during one.</li>
+      <li><strong>Your horse's baseline vital signs:</strong> resting heart rate, respiratory rate, gut sounds, and gum color documented during health. Posted in the stall or available on your phone.</li>
+      <li><strong>A functional trailer:</strong> tires inflated, electrical working, floor sound, lights functioning. Check annually. The trailer must be ready when the colic happens at 2am.</li>
+      <li><strong>A stocked first aid kit:</strong> stethoscope, thermometer, bandage materials, saline, non-stick dressings, flashlight — accessible at all times, not behind locked equipment.</li>
+      <li><strong>Current Coggins:</strong> if you will ever transport your horse, have a current negative EIA test on file. Interstate transport requires it.</li>
+      <li><strong>Vaccination and health records:</strong> accessible quickly. Referral hospitals ask about vaccination status during colic intake.</li>
+    </ul>
+  </div>
+
+  <div class="ab">
+    <h2>This Site Is Not a Substitute for Veterinary Care</h2>
+    <p>HorseVeterinarian.AI is a free educational resource produced by Bridle &amp; Bit Magazine — Arizona's premier equestrian publication since 1978. Every guide on this site is designed to help horse owners understand conditions, recognize signs, prepare for veterinary visits, and participate more effectively in their horse's care.</p>
+    <p>Nothing on this site replaces examination, diagnosis, or treatment by a licensed equine veterinarian. The information on this site does not constitute veterinary advice. When your horse has a health concern, the right response is always to call your veterinarian — not to search for answers online and manage the situation independently.</p>
+    <p>The practice of veterinary medicine in Arizona is regulated by the <a href="https://veterinary.az.gov" target="_blank" rel="noopener">Arizona State Veterinary Medical Examining Board</a>. Only licensed veterinarians may legally diagnose, prescribe, or treat animal diseases in Arizona.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr;gap:10px;margin-top:24px">
+    <a href="/conditions/" class="rlink"><span>Browse 15 Common Conditions</span><span>→</span></a>
+    <a href="/preventive-care/" class="rlink"><span>Preventive Care Guides</span><span>→</span></a>
+    <a href="/emergency/" class="rlink"><span>Emergency Protocol Guides</span><span>→</span></a>
+    <a href="/faq/" class="rlink"><span>Horse Owner FAQ (200+ Questions)</span><span>→</span></a>
+    <a href="/glossary/" class="rlink"><span>Veterinary Glossary (150+ Terms)</span><span>→</span></a>
+    <a href="/videos/" class="rlink"><span>Educational Videos</span><span>→</span></a>
   </div>
 </div>
+
 <footer>
-  <div class="footer-logo">Horse<span>Veterinarian</span>.AI</div>
-  <nav class="footer-nav">
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
     <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
-    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a><a href="/find-a-vet/">Find a Vet</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/videos/">Videos</a><a href="/find-a-vet/">Find a Vet</a>
   </nav>
   <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
-  <div style="margin-top:10px;color:rgba(255,255,255,0.35);font-size:0.73rem;">Educational information only. Not a substitute for professional veterinary care. &copy; 2026 HorseVeterinarian.AI.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian for diagnosis and treatment. © 2026 HorseVeterinarian.AI · Bridle & Bit Magazine. All rights reserved.</div>
 </footer>
-</body>
-</html>
+</body></html>
