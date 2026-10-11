@@ -4,7 +4,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
   Strict-Transport-Security: max-age=15552000
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://servedby.revive-adserver.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://img.youtube.com https://imagedelivery.net https://servedby.revive-adserver.net; font-src 'self'; frame-src https://www.youtube.com https://servedby.revive-adserver.net; connect-src 'self' https://servedby.revive-adserver.net; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://servedby.revive-adserver.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://img.youtube.com https://imagedelivery.net https://servedby.revive-adserver.net https://cdn.revive-adserver.net; font-src 'self'; frame-src https://www.youtube.com https://servedby.revive-adserver.net; connect-src 'self' https://servedby.revive-adserver.net; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
 
 /*.html
   Cache-Control: public, max-age=3600
