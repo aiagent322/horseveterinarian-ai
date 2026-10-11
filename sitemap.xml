@@ -131,6 +131,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://horseveterinarian.ai/emergency/lameness/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://horseveterinarian.ai/emergency/fever/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://horseveterinarian.ai/emergency/not-eating/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://horseveterinarian.ai/emergency/eye-injury/</loc>
     <lastmod>2026-06-24</lastmod>
     <priority>0.8</priority>
