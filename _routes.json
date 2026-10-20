@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "include": ["/api/vet-assistant", "/beta/unlock", "/api/horsevet-health"],
+  "exclude": []
+}

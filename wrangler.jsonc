@@ -1,0 +1,11 @@
+{
+  "name": "horseveterinarian-ai",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-10-20",
+  "services": [
+    {
+      "binding": "HORSEVET_GATEWAY",
+      "service": "horsevet-beta-gateway"
+    }
+  ]
+}
