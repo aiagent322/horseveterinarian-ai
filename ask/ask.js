@@ -18,7 +18,7 @@
   'use strict';
 
   var CONFIG = Object.freeze({
-    liveEnabled: false,      // keep false until the protected same-origin route is verified
+    liveEnabled: true,       // protected preview only; gateway Emergency Stop remains on
     unlockEnabled: true,     // session verification only on the protected Pages preview
     endpoints: Object.freeze({ ask: '/api/vet-assistant', unlock: '/beta/unlock' }),
     timeoutMs: 90000,
@@ -53,7 +53,7 @@
     var meta = document.querySelector('meta[name="hvai-ask-demo"]');
     var isLocal = LOCAL_HOSTS.indexOf(location.hostname) !== -1;
     if (meta && meta.getAttribute('content') === 'mock' && isLocal) return 'demo';
-    if (CONFIG.liveEnabled === true) return 'live';
+    if (CONFIG.liveEnabled === true && /^(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev$/.test(location.hostname)) return 'live';
     return 'disabled';
   }
 
