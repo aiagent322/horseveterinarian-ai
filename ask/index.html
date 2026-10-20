@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0D3B2E">
+<meta name="robots" content="noindex,nofollow">
+<title>Ask a Question (Beta) | HorseVeterinarian.AI</title>
+<meta name="description" content="Private beta question page for HorseVeterinarian.AI. Educational information only; not a substitute for a licensed equine veterinarian.">
+<link rel="preload" href="/fonts/playfair-display-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/source-sans-3-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<style>
+:root{
+  --F:#0D3B2E;--FD:#082820;--FX:#051C15;
+  --T:#1A6B5A;--TL:#2A8B75;--TP:#E0F0EB;
+  --G:#C9983A;--GL:#F5E8CC;--GP:#FFF8EE;
+  --I:#1A2E28;--IS:#3A5248;--IM:#5C7A70;--C:#F5FBF8;
+  --A:#8B1A1A;--AL:#FDF0F0;--AD:#6B1010;
+  --W:#FFFFFF;
+  --B:rgba(26,107,90,0.14);--BS:rgba(26,107,90,0.28);
+  --S1:0 1px 3px rgba(5,28,21,0.07);--S2:0 4px 16px rgba(5,28,21,0.09);
+  --r:10px;--rl:14px;--tr:0.2s ease;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{font-family:'Source Sans 3',sans-serif;background:var(--C);color:var(--I);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:var(--T);text-decoration:none}a:hover{text-decoration:underline}
+.skip{position:absolute;left:-9999px;top:0;z-index:200;background:var(--T);color:#fff;padding:10px 16px;border-radius:0 0 var(--r) 0;font-weight:700;text-decoration:none}.skip:focus{left:0}
+.dbar{background:#FFF8E6;border-bottom:2px solid var(--G);padding:9px 16px;text-align:center;font-size:.78rem;color:#5A4010;font-weight:600;line-height:1.4}.dbar a{color:var(--T);text-decoration:underline}
+.tb{background:linear-gradient(135deg,var(--FX),var(--FD));padding:11px 14px;padding-top:calc(11px + env(safe-area-inset-top));display:flex;align-items:center;justify-content:space-between;gap:10px;position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+.tl{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--C);text-decoration:none;white-space:nowrap}.tl span{color:#5DE8B8}
+.bb{display:none;align-items:center;line-height:0;flex-shrink:0}
+.sn{background:var(--FD);border-top:1px solid rgba(255,255,255,.08);border-bottom:2px solid var(--TL);position:sticky;top:54px;z-index:150;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+.sni{display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;padding:0 4px;max-width:1200px;margin:0 auto}.sni::-webkit-scrollbar{display:none}
+.sl{display:flex;align-items:center;flex-shrink:0;padding:0 13px;height:44px;font-size:.8rem;font-weight:700;color:rgba(255,255,255,.72);text-decoration:none;white-space:nowrap;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .18s,border-color .18s;letter-spacing:.01em}.sl:hover,.sl.active{color:#5DE8B8;border-bottom-color:var(--TL);background:rgba(255,255,255,.05)}
+.sdiv{width:1px;height:26px;background:rgba(255,255,255,.12);align-self:center;flex-shrink:0;margin:0 2px}
+.ph{padding:28px 16px 24px}
+.bc{font-size:.75rem;color:rgba(255,255,255,.55);margin-bottom:10px}.bc a{color:rgba(255,255,255,.65);text-decoration:none}.bc a:hover{color:#5DE8B8}
+.ey{display:inline-block;background:rgba(255,255,255,.1);color:rgba(255,255,255,.88);font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 12px;border-radius:20px;margin-bottom:10px}
+.ph h1{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:900;color:var(--C);line-height:1.1;margin-bottom:8px}
+.phs{color:rgba(255,255,255,.72);font-size:.9rem;max-width:600px;line-height:1.6}
+.cw{max-width:1100px;margin:0 auto;padding:24px 12px 48px;display:grid;grid-template-columns:1fr;gap:24px}
+.cw>main{min-width:0}
+.abox{background:var(--AL);border:1px solid rgba(139,26,26,.2);border-left:4px solid var(--A);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.abox h2{font-size:.88rem;font-weight:700;color:var(--A);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.abox p{font-size:.87rem;color:#5A1A1A;line-height:1.65}
+.abox a{color:var(--AD);text-decoration:underline;font-weight:700}
+.ibox{background:var(--TP);border:1px solid rgba(26,107,90,.2);border-left:4px solid var(--T);border-radius:var(--r);padding:14px 16px;margin-bottom:18px}
+.ibox h2{font-size:.88rem;font-weight:700;color:var(--F);margin-bottom:6px;text-transform:uppercase;letter-spacing:.04em}
+.ibox p{font-size:.87rem;color:var(--IS);line-height:1.65}
+.sc{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:16px;margin-bottom:16px}
+.sc h3{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:900;color:var(--I);margin-bottom:10px;border-bottom:2px solid var(--B);padding-bottom:8px}
+.sc a{color:var(--T);font-size:.82rem;font-weight:600;text-decoration:none;display:flex;align-items:center;min-height:44px;border-bottom:1px solid var(--B)}.sc a:last-child{border-bottom:none}.sc a:hover{color:var(--F);text-decoration:underline}
+.svet{background:var(--F);border-radius:var(--rl);padding:18px;text-align:center;margin-bottom:16px}
+.svet h3{font-family:'Playfair Display',serif;font-size:1rem;font-weight:900;color:var(--C);margin-bottom:6px}
+.svet p{font-size:.8rem;color:rgba(255,255,255,.72);line-height:1.5;margin-bottom:12px}
+.svet a{display:inline-flex;align-items:center;justify-content:center;background:#5DE8B8;color:var(--FX);font-weight:700;font-size:.85rem;padding:10px 18px;border-radius:20px;text-decoration:none;min-height:44px}.svet a:hover{background:var(--TL);color:#fff}
+footer{background:var(--FX);color:rgba(255,255,255,.6);text-align:center;padding:24px 16px calc(24px + env(safe-area-inset-bottom));font-size:.8rem;border-top:3px solid var(--TL)}
+footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:underline}
+.flogo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:900;color:var(--C);margin-bottom:8px}.flogo span{color:#5DE8B8}
+.fnav{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 14px;margin:10px 0}
+.fdis{margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,.1);font-size:.75rem;color:rgba(255,255,255,.37);max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
+/* ASK PAGE */
+[hidden]{display:none!important}
+.demo{background:#2B1E00;color:#FFE7A8;border:2px dashed var(--G);border-radius:var(--r);padding:12px 16px;margin-bottom:18px;font-weight:700;font-size:.88rem;line-height:1.5}
+.demo strong{color:#fff;letter-spacing:.06em;text-transform:uppercase}
+.card{background:var(--W);border:1px solid var(--B);border-radius:var(--rl);padding:18px;margin-bottom:18px;box-shadow:var(--S1)}
+.card h2{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:900;color:var(--I);margin-bottom:12px;line-height:1.25}
+fieldset{border:0;min-width:0}
+fieldset[disabled]{opacity:.6}
+.lbl{display:block;font-weight:700;font-size:.92rem;color:var(--I);margin-bottom:6px}
+.hint{font-size:.8rem;color:var(--IM);margin-bottom:8px}
+textarea,.inp{width:100%;font:inherit;font-size:1rem;color:var(--I);background:var(--W);border:1px solid var(--BS);border-radius:var(--r);padding:12px 14px;line-height:1.5}
+textarea{min-height:150px;resize:vertical}
+textarea:focus,.inp:focus{border-color:var(--T);outline:3px solid rgba(42,139,117,.35);outline-offset:1px}
+textarea[readonly]{background:#F3F7F5;color:var(--IS)}
+.row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-top:10px}
+.count{font-size:.8rem;color:var(--IM);font-variant-numeric:tabular-nums}
+.count.over{color:var(--A);font-weight:700}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 22px;border:0;border-radius:22px;background:var(--T);color:#fff;font:inherit;font-weight:700;font-size:.95rem;cursor:pointer;transition:background var(--tr)}
+.btn:hover{background:var(--F)}
+.btn[disabled]{background:#8FA79F;cursor:not-allowed}
+.btn.alt{background:var(--F)}
+.spin{width:16px;height:16px;border:2px solid rgba(255,255,255,.45);border-top-color:#fff;border-radius:50%;display:none}
+.busy .spin{display:inline-block}
+@media(prefers-reduced-motion:no-preference){.busy .spin{animation:sp 0.9s linear infinite}}
+@keyframes sp{to{transform:rotate(360deg)}}
+.status{font-size:.88rem;color:var(--IS);margin-top:12px;min-height:1.4em}
+.err{display:none;background:var(--AL);border:1px solid rgba(139,26,26,.25);border-left:4px solid var(--A);border-radius:var(--r);padding:12px 14px;margin-top:12px;color:#5A1A1A;font-size:.9rem}
+.err.show{display:block}
+.err p+p{margin-top:8px}
+.err .err-emg{font-weight:700;color:var(--AD)}
+.unlock{display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--B)}
+.unlock.show{display:block}
+.unlock .row{justify-content:flex-start}
+.unlock .inp{max-width:280px}
+.answer{display:none}
+.answer.show{display:block}
+.answer:focus{outline:3px solid var(--TL);outline-offset:2px}
+.mocktag{display:inline-block;background:#2B1E00;color:#FFE7A8;border:1px dashed var(--G);border-radius:8px;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 9px;margin-bottom:10px}
+.atext{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.95rem;color:var(--IS);line-height:1.75}
+.unavail{display:none}
+.unavail.show{display:block}
+@media(min-width:768px){
+  .bb{display:flex}.tb{padding:14px 20px}.tl{font-size:1.35rem}
+  .ph{padding:44px 24px 36px}.ph h1{font-size:2.3rem}
+  .card{padding:22px 24px}
+}
+@media(min-width:900px){
+  .cw{grid-template-columns:1fr 285px;align-items:start}
+  .sidebar{position:sticky;top:100px}
+}
+@media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
+:focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
+#mc,h2,h3{scroll-margin-top:110px}
+</style>
+</head>
+<body>
+<a class="skip" href="#mc">Skip to main content</a>
+<div class="dbar" role="note">⚕️ In any emergency, call your veterinarian first. <a href="/find-a-vet/">Find a Vet →</a></div>
+<header>
+<div class="tb">
+  <a class="tl" href="/">Horse<span>Veterinarian</span>.AI</a>
+  <a href="https://www.bridleandbit.com" target="_blank" rel="noopener noreferrer" class="bb">
+    <img src="https://imagedelivery.net/9VlM7Y9GaQMXOu5Ypg50yA/bb-hp-0/public" alt="Bridle &amp; Bit Magazine" width="139" height="38" style="height:38px;width:auto" fetchpriority="high">
+  </a>
+</div>
+<nav class="sn" aria-label="Main navigation">
+  <div class="sni">
+    <a href="/" class="sl">Home</a>
+    <a href="/conditions/" class="sl">Conditions</a>
+    <div class="sdiv"></div>
+    <a href="/preventive-care/" class="sl">Preventive Care</a>
+    <a href="/emergency/" class="sl">Emergency Guide</a>
+    <a href="/life-stages/" class="sl">Life Stages</a>
+    <a href="/body-systems/" class="sl">Body Systems</a>
+    <div class="sdiv"></div>
+    <a href="/disciplines/" class="sl">By Discipline</a>
+    <a href="/faq/" class="sl">FAQ</a>
+    <a href="/glossary/" class="sl">Glossary</a>
+    <a href="/videos/" class="sl">Videos</a>
+    <a href="/find-a-vet/" class="sl">Find a Vet</a>
+  </div>
+</nav>
+</header>
+<div class="ph" style="background:linear-gradient(135deg,#0D3B2E 0%,#1A6B5A 60%,#2A8B75 100%)">
+  <div class="bc"><a href="/">Home</a> › Ask a Question</div>
+  <div class="ey">Private Beta</div>
+  <h1>Ask a Horse Health Question</h1>
+  <p class="phs">Ask a general question about horse health and care. Answers are educational information for horse owners, not a diagnosis or treatment plan.</p>
+</div>
+<div class="cw" id="mc">
+  <main role="main">
+    <div class="demo" id="ask-demo-banner" hidden><strong>Demonstration mode.</strong> Local testing only. Every answer shown on this page is a mock fixture, not a live veterinary response.</div>
+
+    <div class="abox" role="note">
+      <h2>Emergency? Call your vet now</h2>
+      <p>If your horse may be in an emergency, call your veterinarian or the nearest equine hospital right away. Do not wait for an answer on this page. The <a href="/emergency/">Emergency Guide</a> covers what to do until help arrives.</p>
+    </div>
+
+    <div class="ibox" role="note">
+      <h2>Educational use only</h2>
+      <p>Answers are general educational information. They are not a diagnosis, do not replace an examination by a licensed equine veterinarian, and are not a recommendation to give any medication. Don't include personal details in your question.</p>
+    </div>
+
+    <div class="ibox unavail" id="ask-unavailable" role="note">
+      <h2>Not available yet</h2>
+      <p>The question service is not open on this page yet. Please check back later. For a health concern now, contact your veterinarian.</p>
+    </div>
+
+    <section class="card" aria-labelledby="ask-form-h">
+      <h2 id="ask-form-h">Your question</h2>
+      <form id="ask-form" novalidate>
+        <fieldset id="ask-fieldset" disabled>
+          <label class="lbl" for="ask-q">Question about your horse</label>
+          <p class="hint" id="ask-q-hint">Up to 4,000 characters. Press Ctrl+Enter (⌘+Enter on Mac) or use the button to send.</p>
+          <textarea id="ask-q" name="question" maxlength="4000" required aria-describedby="ask-q-hint ask-count"></textarea>
+          <div class="row">
+            <span class="count" id="ask-count" aria-live="off">0 / 4,000</span>
+            <button type="submit" class="btn" id="ask-submit"><span class="spin" aria-hidden="true"></span><span id="ask-submit-label">Ask</span></button>
+          </div>
+        </fieldset>
+      </form>
+      <p class="status" id="ask-status" role="status" aria-live="polite"></p>
+      <div class="err" id="ask-error" role="alert"></div>
+
+      <form class="unlock" id="unlock-form" novalidate>
+        <label class="lbl" for="unlock-code">Beta access code</label>
+        <p class="hint" id="unlock-hint">Enter the code you were given to unlock the private beta on this device.</p>
+        <div class="row">
+          <input class="inp" id="unlock-code" name="code" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="200" aria-describedby="unlock-hint">
+          <button type="submit" class="btn alt" id="unlock-submit"><span class="spin" aria-hidden="true"></span><span>Unlock</span></button>
+        </div>
+      </form>
+    </section>
+
+    <section class="card answer" id="ask-answer" tabindex="-1" aria-labelledby="ask-answer-h">
+      <h2 id="ask-answer-h">Answer</h2>
+      <span class="mocktag" id="ask-mocktag" hidden>Mock fixture · not a live veterinary response</span>
+      <div class="atext" id="ask-answer-text"></div>
+    </section>
+
+    <noscript><div class="ibox"><h2>JavaScript required</h2><p>This page needs JavaScript to send questions.</p></div></noscript>
+  </main>
+  <aside class="sidebar" aria-label="Related resources">
+    <div class="svet">
+      <h3>Find an Equine Vet</h3>
+      <p>Know your vet's emergency number before you need it. Save it in your phone today.</p>
+      <a href="/find-a-vet/">Find a Vet Near You →</a>
+    </div>
+    <div class="sc">
+      <h3>Emergency Guides</h3>
+      <a href="/emergency/colic-emergency/">Colic Emergency</a>
+      <a href="/emergency/lameness/">Lameness</a>
+      <a href="/emergency/fever/">Fever</a>
+      <a href="/emergency/not-eating/">Horse Not Eating</a>
+      <a href="/emergency/wound-care/">Wound Care &amp; First Aid</a>
+      <a href="/emergency/">All Emergency Guides →</a>
+    </div>
+    <div class="sc">
+      <h3>Browse the Library</h3>
+      <a href="/faq/">Horse Owner FAQ</a>
+      <a href="/conditions/">Common Conditions</a>
+      <a href="/preventive-care/">Preventive Care</a>
+      <a href="/glossary/">Veterinary Glossary</a>
+    </div>
+  </aside>
+</div>
+<footer>
+  <div class="flogo">Horse<span>Veterinarian</span>.AI</div>
+  <nav class="fnav">
+    <a href="/">Home</a><a href="/conditions/">Conditions</a><a href="/preventive-care/">Preventive Care</a>
+    <a href="/emergency/">Emergency</a><a href="/faq/">FAQ</a><a href="/glossary/">Glossary</a>
+    <a href="/find-a-vet/">Find a Vet</a>
+  </nav>
+  <div>A resource from <a href="https://www.bridleandbit.com" target="_blank" rel="noopener">Bridle &amp; Bit Magazine</a> — Arizona's premier equestrian publication since 1978.</div>
+  <div class="fdis">Educational information only. Not a substitute for professional veterinary care. Always consult a licensed equine veterinarian. © 2026 HorseVeterinarian.AI · Bridle &amp; Bit Magazine. All rights reserved.</div>
+</footer>
+<script src="/ask/ask.js" defer></script>
+</body>
+</html>
