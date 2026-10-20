@@ -14,3 +14,6 @@
 
 /*.png
   Cache-Control: public, max-age=86400
+
+/ask/*
+  Cache-Control: no-store

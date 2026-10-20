@@ -1,8 +1,8 @@
 /*
- * HorseVeterinarian.AI — /ask/ question interface (private beta, not yet connected).
+ * HorseVeterinarian.AI — /ask/ question interface (review beta).
  *
  * Execution modes
- *   disabled (default) : questions stay disabled; preview unlock may be enabled separately.
+ *   disabled (default) : questions stay disabled; review-site unlock may be enabled separately.
  *   live               : only if CONFIG.liveEnabled is changed to true in a reviewed commit.
  *                        Sends same-origin requests to CONFIG.endpoints. Requires the
  *                        private same-origin routing to exist first (see release notes).
@@ -18,8 +18,8 @@
   'use strict';
 
   var CONFIG = Object.freeze({
-    liveEnabled: true,       // protected preview only; gateway Emergency Stop remains on
-    unlockEnabled: true,     // session verification only on the protected Pages preview
+    liveEnabled: true,       // website and protected previews; gateway controls availability
+    unlockEnabled: true,     // retain the existing beta-code session requirement
     endpoints: Object.freeze({ ask: '/api/vet-assistant', unlock: '/beta/unlock' }),
     timeoutMs: 90000,
     maxChars: 4000
@@ -53,13 +53,13 @@
     var meta = document.querySelector('meta[name="hvai-ask-demo"]');
     var isLocal = LOCAL_HOSTS.indexOf(location.hostname) !== -1;
     if (meta && meta.getAttribute('content') === 'mock' && isLocal) return 'demo';
-    if (CONFIG.liveEnabled === true && /^(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev$/.test(location.hostname)) return 'live';
+    if (CONFIG.liveEnabled === true && /^(?:horseveterinarian\.ai|www\.horseveterinarian\.ai|(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev)$/.test(location.hostname)) return 'live';
     return 'disabled';
   }
 
   var MODE = resolveMode();
-  var IS_PREVIEW = /^(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev$/.test(location.hostname);
-  var UNLOCK_ALLOWED = MODE === 'demo' || (IS_PREVIEW && CONFIG.unlockEnabled === true);
+  var IS_REVIEW_HOST = /^(?:horseveterinarian\.ai|www\.horseveterinarian\.ai|(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev)$/.test(location.hostname);
+  var UNLOCK_ALLOWED = MODE === 'demo' || (IS_REVIEW_HOST && CONFIG.unlockEnabled === true);
   var TIMEOUT_MS = CONFIG.timeoutMs;
   if (MODE === 'demo') {
     // Local test harness may shorten the timeout; never lengthen it.
@@ -89,7 +89,7 @@
     kept: 'Your question has been kept in the box above.',
     emergency: 'If your horse may be having an emergency, contact your veterinarian or an equine emergency clinic now.',
     unlocking: 'Checking your access code…',
-    unlocked: 'Access unlocked on this device. Send your question again.',
+    unlocked: 'Access unlocked on this device. You can now ask your question.',
     unlockEmpty: 'Enter your access code.',
     unlockBad: 'That access code wasn’t accepted.',
     unlockLimit: 'Too many attempts. Please wait and try again later.',
@@ -329,6 +329,9 @@
     }
   });
   els.form.addEventListener('submit', onAskSubmit);
-  if (UNLOCK_ALLOWED) els.unlockForm.addEventListener('submit', onUnlockSubmit);
+  if (UNLOCK_ALLOWED) {
+    els.unlockForm.addEventListener('submit', onUnlockSubmit);
+    showUnlock(true);
+  }
   else els.unlockForm.parentNode.removeChild(els.unlockForm);
 })();

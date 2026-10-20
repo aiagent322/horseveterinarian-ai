@@ -1,8 +1,8 @@
-/* Private preview adapter. Cloudflare Access must protect the Pages previews.
+/* Review-beta adapter for the website and protected previews.
+ * The gateway enforces beta sessions, quotas, deduplication and Emergency Stop.
  * No SIM credentials, question rewriting, retries, or new request IDs here.
- * Keep ask/ask.js disabled until the protected connection is verified.
  */
-const PREVIEW_HOST = /^(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev$/;
+const REVIEW_HOST = /^(?:horseveterinarian\.ai|www\.horseveterinarian\.ai|(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev)$/;
 const ROUTES = new Map([
   ['/api/vet-assistant', { method: 'POST', upstream: '/api/vet-assistant' }],
   ['/beta/unlock', { method: 'POST', upstream: '/beta/unlock' }],
@@ -28,8 +28,8 @@ export async function onRequest(context) {
   const route = ROUTES.get(url.pathname);
   if (!route) return context.next();
 
-  // This release cannot expose the adapter on the production site or base Pages host.
-  if (url.protocol !== 'https:' || url.port || !PREVIEW_HOST.test(url.hostname)) {
+  // Permit only the website and known previews; the base Pages host stays blocked.
+  if (url.protocol !== 'https:' || url.port || !REVIEW_HOST.test(url.hostname)) {
     return failure(403);
   }
   if (request.method !== route.method) return failure(405, { Allow: route.method });
