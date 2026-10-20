@@ -2,7 +2,7 @@
  * HorseVeterinarian.AI — /ask/ question interface (private beta, not yet connected).
  *
  * Execution modes
- *   disabled (default) : form stays disabled, nothing is sent anywhere.
+ *   disabled (default) : questions stay disabled; preview unlock may be enabled separately.
  *   live               : only if CONFIG.liveEnabled is changed to true in a reviewed commit.
  *                        Sends same-origin requests to CONFIG.endpoints. Requires the
  *                        private same-origin routing to exist first (see release notes).
@@ -19,7 +19,7 @@
 
   var CONFIG = Object.freeze({
     liveEnabled: false,      // keep false until the protected same-origin route is verified
-    unlockEnabled: false,    // beta-code unlock; only valid once /beta/unlock is same-origin
+    unlockEnabled: true,     // session verification only on the protected Pages preview
     endpoints: Object.freeze({ ask: '/api/vet-assistant', unlock: '/beta/unlock' }),
     timeoutMs: 90000,
     maxChars: 4000
@@ -58,7 +58,8 @@
   }
 
   var MODE = resolveMode();
-  var UNLOCK_ALLOWED = MODE === 'demo' || (MODE === 'live' && CONFIG.unlockEnabled === true);
+  var IS_PREVIEW = /^(?:ask-interface-local|[a-f0-9]{8})\.horseveterinarian-ai\.pages\.dev$/.test(location.hostname);
+  var UNLOCK_ALLOWED = MODE === 'demo' || (IS_PREVIEW && CONFIG.unlockEnabled === true);
   var TIMEOUT_MS = CONFIG.timeoutMs;
   if (MODE === 'demo') {
     // Local test harness may shorten the timeout; never lengthen it.
@@ -273,7 +274,7 @@
       .finally(function () {
         unlockInFlight = false;               // always released first
         try { setUnlockBusy(false); } catch (e) { /* best-effort */ }
-        try { els.submit.disabled = false; } catch (e) { /* best-effort */ }
+        try { els.submit.disabled = MODE === 'disabled'; } catch (e) { /* best-effort */ }
       })
       .catch(function () { /* no unhandled rejection */ });
   }
@@ -283,8 +284,8 @@
     if (r.kind === 'http' && r.status === 200 && r.data && typeof r.data === 'object' && r.data.ok === true) {
       els.unlockCode.value = '';
       showUnlock(false);
-      setStatus(MSG.unlocked);
-      els.q.focus();
+      setStatus(MODE === 'disabled' ? 'Beta access confirmed on this device. Question submission remains disabled.' : MSG.unlocked);
+      if (MODE !== 'disabled') els.q.focus();
       return;
     }
     setStatus('');
@@ -299,7 +300,13 @@
   // ---------- init ----------
   if (MODE === 'disabled') {
     els.form.addEventListener('submit', function (e) { e.preventDefault(); });
-    els.unlockForm.parentNode.removeChild(els.unlockForm);
+    if (UNLOCK_ALLOWED) {
+      els.unlockForm.addEventListener('submit', onUnlockSubmit);
+      showUnlock(true);
+      setStatus('Beta access check only. Question submission is disabled.');
+    } else {
+      els.unlockForm.parentNode.removeChild(els.unlockForm);
+    }
     els.unavailable.classList.add('show');
     els.fieldset.disabled = true;
     els.submitLabel.textContent = 'Not available yet';
