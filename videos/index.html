@@ -154,7 +154,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 }
 @media(min-width:1024px){.ph h1{font-size:2.6rem}.cw{grid-template-columns:1fr 300px}}
 :focus-visible{outline:3px solid var(--TL);outline-offset:2px;border-radius:3px}
-#mc,h2,h3{scroll-margin-top:110px.sgrid{grid-template-columns:repeat(3,1fr)}}.adslot{max-width:610px;margin:10px auto;padding:0 12px;text-align:center}.adslot ins{display:block;width:100%}.adslot img{max-width:100%;height:auto}
+#mc,h2,h3{scroll-margin-top:110px}}.adslot{max-width:610px;margin:10px auto;padding:0 12px;text-align:center}.adslot ins{display:block;width:100%}.adslot img{max-width:100%;height:auto}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://horseveterinarian.ai/"}, {"@type": "ListItem", "position": 2, "name": "Equine Health Videos", "item": "https://horseveterinarian.ai/videos/"}]}</script>
 </head>
@@ -224,6 +224,19 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 .rlink span:last-child{color:#1A6B5A;font-size:.9rem}
 @media(min-width:768px){.vid-grid{grid-template-columns:repeat(2,1fr)}.more-grid{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:1024px){.vid-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* PodcastCorral-inspired video discovery controls */
+.library-tools{background:#fff;border:1px solid var(--B);border-radius:14px;padding:18px;margin:0 0 26px;box-shadow:var(--S1)}
+.library-tools label{display:block;font-size:.83rem;font-weight:800;color:var(--F);margin-bottom:8px}
+.library-search{width:100%;border:1px solid var(--BS);border-radius:8px;padding:12px 14px;font:inherit;font-size:16px;color:var(--I);background:#fff}
+.library-search:focus-visible{outline:3px solid var(--TL);outline-offset:2px}
+.library-filters{display:flex;gap:7px;flex-wrap:wrap;margin-top:14px}
+.library-filter{font:700 .8rem 'Source Sans 3',sans-serif;border:1px solid var(--BS);background:#fff;color:var(--F);border-radius:25px;padding:9px 13px;min-height:44px;cursor:pointer}
+.library-filter[aria-pressed="true"]{background:var(--F);border-color:var(--F);color:white}
+.library-summary{font-size:.82rem;color:var(--IM);margin-top:12px}
+.library-empty{display:none;background:var(--TP);border-radius:10px;padding:18px;color:var(--F);margin:20px 0}
+.vid-card[hidden],.cat-section[hidden]{display:none!important}
+.library-vet-note{font-size:.75rem;color:var(--IM);border-top:1px solid var(--B);padding:8px 16px;background:#fafdfb}
 </style>
 
 <div class="wrap" id="mc">
@@ -231,7 +244,21 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <strong>Educational use only.</strong> These videos are curated from YouTube and are presented for educational purposes. They do not constitute veterinary advice. Always consult a licensed equine veterinarian for any health concern affecting your horse. Content is provided by the video creators and is not produced by HorseVeterinarian.AI or Bridle &amp; Bit Magazine.
   </div>
 
-  <div class="cat-section"><div class="cat-label">🚨 Emergency &amp; Lameness</div><p class="cat-intro">First aid, lameness exams, and emergency preparedness — videos every horse owner should watch before needing them.</p><div class="vid-grid"><div class="vid-card">
+
+  <div class="library-tools" role="search" aria-label="Search veterinary educational videos">
+    <label for="library-search">Find a horse health video</label>
+    <input id="library-search" class="library-search" type="search" placeholder="Search colic, lameness, laminitis, vaccinations..." autocomplete="off" aria-controls="video-library-results">
+    <div class="library-filters" role="group" aria-label="Filter videos by topic">
+      <button type="button" class="library-filter" data-topic="all" aria-pressed="true">All topics</button>
+      <button type="button" class="library-filter" data-topic="emergency">Emergency &amp; Lameness</button>
+      <button type="button" class="library-filter" data-topic="preventive">Preventive Care</button>
+      <button type="button" class="library-filter" data-topic="conditions">Conditions &amp; Management</button>
+    </div>
+    <p class="library-summary" id="library-summary" role="status" aria-live="polite">Showing 11 existing educational videos. Additional clinical review pending.</p>
+  </div>
+  <p class="library-empty" id="library-empty" role="status">No videos match that search. Try a broader term or choose All topics.</p>
+  <div id="video-library-results">
+  <div class="cat-section" data-topic="emergency"><div class="cat-label">🚨 Emergency &amp; Lameness</div><p class="cat-intro">First aid, lameness exams, and emergency preparedness — videos every horse owner should watch before needing them.</p><div class="vid-grid"><div class="vid-card">
   <div class="vid-facade" id="vf0" data-vid="bTl1_AUdXpE" data-title="235 by HandsOnGloves: What to Expect in a Lameness Exam &amp; Gaited Horse Basics"
        role="button" tabindex="0" aria-label="Play: 235 by HandsOnGloves: What to Expect in a Lameness Exam &amp; Gaited Horse Basics">
     <img src="https://img.youtube.com/vi/bTl1_AUdXpE/hqdefault.jpg" alt="235 by HandsOnGloves: What to Expect in a Lameness Exam &amp; Gaited Horse Basics" width="480" height="360" loading="lazy" decoding="async">
@@ -268,7 +295,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="vid-channel">Julie Goodnight</div>
   </div>
 </div></div></div>
-<div class="cat-section"><div class="cat-label">✅ Preventive Care</div><p class="cat-intro">Vaccinations, deworming strategy, and annual wellness — the proactive health management programs that prevent the most common equine health crises.</p><div class="vid-grid"><div class="vid-card">
+<div class="cat-section" data-topic="preventive"><div class="cat-label">✅ Preventive Care</div><p class="cat-intro">Vaccinations, deworming strategy, and annual wellness — the proactive health management programs that prevent the most common equine health crises.</p><div class="vid-grid"><div class="vid-card">
   <div class="vid-facade" id="vf3" data-vid="gZHoTKmdFvQ" data-title="Proactive Horse Care: Your Annual Health Checklist"
        role="button" tabindex="0" aria-label="Play: Proactive Horse Care: Your Annual Health Checklist">
     <img src="https://img.youtube.com/vi/gZHoTKmdFvQ/hqdefault.jpg" alt="Proactive Horse Care: Your Annual Health Checklist" width="480" height="360" loading="lazy" decoding="async">
@@ -305,7 +332,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
     <div class="vid-channel">Monty Roberts</div>
   </div>
 </div></div></div>
-<div class="cat-section"><div class="cat-label">🏥 Conditions &amp; Management</div><p class="cat-intro">Educational context for specific conditions and management challenges — supplements the written guides throughout this site.</p><div class="vid-grid"><div class="vid-card">
+<div class="cat-section" data-topic="conditions"><div class="cat-label">🏥 Conditions &amp; Management</div><p class="cat-intro">Educational context for specific conditions and management challenges — supplements the written guides throughout this site.</p><div class="vid-grid"><div class="vid-card">
   <div class="vid-facade" id="vf6" data-vid="ZNZ69BNo7FQ" data-title="150: Pain Treating Laminitis and Sable Island Horses by Omega Fields"
        role="button" tabindex="0" aria-label="Play: 150: Pain Treating Laminitis and Sable Island Horses by Omega Fields">
     <img src="https://img.youtube.com/vi/ZNZ69BNo7FQ/hqdefault.jpg" alt="150: Pain Treating Laminitis and Sable Island Horses by Omega Fields" width="480" height="360" loading="lazy" decoding="async">
@@ -367,6 +394,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
   </div>
 </div></div></div>
 
+  </div><!-- video-library-results -->
 
   <div style="font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#5C7A70;margin-bottom:14px">Continue Learning</div>
   <div class="more-grid">
@@ -405,5 +433,49 @@ document.querySelectorAll('.vid-facade').forEach(function(f){
   });
   f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();f.click();}});
 });
+</script>
+
+<script>
+(function(){
+  'use strict';
+  const input=document.getElementById('library-search');
+  const summary=document.getElementById('library-summary');
+  const empty=document.getElementById('library-empty');
+  const sections=Array.from(document.querySelectorAll('#video-library-results .cat-section'));
+  const buttons=Array.from(document.querySelectorAll('.library-filter'));
+  let topic='all';
+  for(const card of document.querySelectorAll('#video-library-results .vid-card')){
+    const info=card.querySelector('.vid-info');
+    if(info){
+      const note=document.createElement('div');
+      note.className='library-vet-note';
+      note.textContent='External educational content · Clinical review pending';
+      card.appendChild(note);
+    }
+  }
+  function update(){
+    const query=input.value.toLocaleLowerCase().trim();
+    let shown=0;
+    for(const section of sections){
+      let sectionShown=0;
+      const enabled=topic==='all'||topic===section.dataset.topic;
+      for(const card of section.querySelectorAll('.vid-card')){
+        const match=enabled&&card.textContent.toLocaleLowerCase().includes(query);
+        card.hidden=!match;
+        if(match){shown++;sectionShown++;}
+      }
+      section.hidden=sectionShown===0;
+    }
+    summary.textContent='Showing '+shown+' of 11 existing videos. Additional clinical review pending.';
+    empty.style.display=shown?'none':'block';
+  }
+  input.addEventListener('input',update);
+  buttons.forEach(button=>button.addEventListener('click',function(){
+    topic=this.dataset.topic;
+    buttons.forEach(b=>b.setAttribute('aria-pressed',String(b===this)));
+    update();
+  }));
+  update();
+})();
 </script>
 </body></html>
