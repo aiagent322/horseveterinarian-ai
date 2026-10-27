@@ -33,3 +33,8 @@ The remaining link (`hTBsGh2k5F8`) returned HTTP 401 twice and is retained in th
 ## Batch 003 — Eye Health, October 27, 2026
 
 All 11 user-supplied links returned titles and publisher names through YouTube oEmbed; none duplicated an existing YouTube ID. Added an Eye Health section and filter, bringing the page to 71 selections. The 184-second start for `QU1T23FpoQA` is preserved in both the embed and direct link. The Vetericyn publisher is identified as a commercial brand; UF Innovate's video is described as research. The section links to UC Davis and UF guidance about contacting a veterinarian for eye problems and consulting before applying anything to the eye. Metadata verification does not establish playback availability or clinical approval.
+
+
+## Batch 004 — Tendons & Rehabilitation, October 27, 2026
+
+The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was submitted twice and appears once. All 10 unique links returned titles and publisher names through YouTube oEmbed, with no existing-library ID duplicates. Added a Tendons & Rehabilitation section and filter, bringing the page to 81 selections. The 70-second start for `_gFz8gZmXAU` is preserved in both the embed and direct link. Product presentations and owner experiences are identified in descriptions; recovery and treatment claims are not independently verified. Metadata verification does not establish playback availability or clinical approval.
