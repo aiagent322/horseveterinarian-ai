@@ -21,3 +21,10 @@ The CSV is the editorial inventory, **not** a list of 25 published or verified v
 6. For emergency topics put contact-a-veterinarian guidance before the video.
 
 CSV IDs are stable. Current website has one source-identified hoof abscess video; that card is not marked clinically approved. No other slots have been populated with fabricated URLs.
+
+
+## Batch 002 — user-selected additions, October 27, 2026
+
+`video-inventory-batch-002.json` records all 36 supplied links. YouTube oEmbed returned titles and publisher names for 35; these were added as externally produced educational selections, following the existing page's clinical-review-pending labeling. This metadata check does not establish clinical approval or successful playback. No videos are labeled medically reviewed.
+
+The remaining link (`hTBsGh2k5F8`) returned HTTP 401 twice and is retained in the inventory without a public card. The new selections comprise 9 colic/surgery, 10 lameness, 2 neurological examination, and 14 dentistry videos. Two ColiCare-related selections are labeled as including program promotion. The supplied 15-second start for `ZTntWmehC4s` is retained. The page now contains 60 selections, and its filtered count is calculated from the cards.
