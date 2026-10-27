@@ -28,3 +28,8 @@ CSV IDs are stable. Current website has one source-identified hoof abscess video
 `video-inventory-batch-002.json` records all 36 supplied links. YouTube oEmbed returned titles and publisher names for 35; these were added as externally produced educational selections, following the existing page's clinical-review-pending labeling. This metadata check does not establish clinical approval or successful playback. No videos are labeled medically reviewed.
 
 The remaining link (`hTBsGh2k5F8`) returned HTTP 401 twice and is retained in the inventory without a public card. The new selections comprise 9 colic/surgery, 10 lameness, 2 neurological examination, and 14 dentistry videos. Two ColiCare-related selections are labeled as including program promotion. The supplied 15-second start for `ZTntWmehC4s` is retained. The page now contains 60 selections, and its filtered count is calculated from the cards.
+
+
+## Batch 003 — Eye Health, October 27, 2026
+
+All 11 user-supplied links returned titles and publisher names through YouTube oEmbed; none duplicated an existing YouTube ID. Added an Eye Health section and filter, bringing the page to 71 selections. The 184-second start for `QU1T23FpoQA` is preserved in both the embed and direct link. The Vetericyn publisher is identified as a commercial brand; UF Innovate's video is described as research. The section links to UC Davis and UF guidance about contacting a veterinarian for eye problems and consulting before applying anything to the eye. Metadata verification does not establish playback availability or clinical approval.
