@@ -195,7 +195,7 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
 
 <div class="ph" style="background:linear-gradient(135deg,#0D3B2E 0%,#1A6B5A 100%)">
   <div class="bc"><a href="/">Home</a> › Videos</div>
-  <div class="ey">🎬 Video Library — Building Our Collection</div>
+  <div class="ey">🎬 Veterinary Video Library</div>
   <h1>Equine Health Educational Videos</h1>
   <p class="phs">Curated educational videos from experienced equine professionals — organized by topic to supplement the written guides throughout this site. All videos are educational and do not replace veterinary care.</p>
 </div>
@@ -254,11 +254,18 @@ footer a{color:#5DE8B8;text-decoration:none}footer a:hover{text-decoration:under
       <button type="button" class="library-filter" data-topic="preventive">Preventive Care</button>
       <button type="button" class="library-filter" data-topic="conditions">Conditions &amp; Management</button>
     </div>
-    <p class="library-summary" id="library-summary" role="status" aria-live="polite">New veterinary educational videos are being curated.</p>
+    <p class="library-summary" id="library-summary" role="status" aria-live="polite">1 source-verified video in the library · 24 additional slots pending research and clinical review.</p>
   </div>
   <p class="library-empty" id="library-empty" role="status">The new veterinary video collection is being curated. Please check back for reviewed educational videos.</p>
   <div id="video-library-results">
-  <div class="cat-section" data-topic="emergency"><div class="cat-label">Emergency &amp; Lameness</div><p class="cat-intro">Clinically reviewed educational videos will be added here after source verification.</p><div class="vid-grid"></div></div>
+  <div class="cat-section" data-topic="emergency"><div class="cat-label">Emergency &amp; Lameness</div><p class="cat-intro">Educational cases on common causes of lameness and veterinary examinations.</p><div class="vid-grid"><div class="vid-card">
+<div class="vid-facade" role="button" tabindex="0" data-vid="Iwb97ovNkXU" data-title="Farrier finds a hoof abscess!!" aria-label="Play: Farrier finds a hoof abscess!!">
+<img src="https://img.youtube.com/vi/Iwb97ovNkXU/hqdefault.jpg" alt="Michigan State University Extension hoof abscess examination demonstration" width="480" height="360" loading="lazy" decoding="async">
+<div class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+</div>
+<div class="vid-info"><div class="vid-title">Farrier Finds a Hoof Abscess</div><div class="vid-channel">ExtensionHorses · Michigan State University Extension educator and farrier</div><p class="vid-desc">An educational case showing investigation of a hoof abscess in a lame horse. Examination and treatment decisions belong with a veterinarian and qualified hoof-care professional.</p>
+<a href="https://www.youtube.com/watch?v=Iwb97ovNkXU" target="_blank" rel="noopener noreferrer">Watch on YouTube ↗</a></div>
+</div></div></div>
   <div class="cat-section" data-topic="preventive"><div class="cat-label">Preventive Care</div><p class="cat-intro">Future videos on preventive care and horse health.</p><div class="vid-grid"></div></div>
   <div class="cat-section" data-topic="conditions"><div class="cat-label">Conditions &amp; Management</div><p class="cat-intro">Future condition-specific educational videos.</p><div class="vid-grid"></div></div>
   </div><!-- video-library-results -->
@@ -316,7 +323,7 @@ document.querySelectorAll('.vid-facade').forEach(function(f){
     if(info){
       const note=document.createElement('div');
       note.className='library-vet-note';
-      note.textContent='External educational content · Clinical review pending';
+      note.textContent='Source verified · Clinical content review pending';
       card.appendChild(note);
     }
   }
@@ -333,7 +340,7 @@ document.querySelectorAll('.vid-facade').forEach(function(f){
       }
       section.hidden=sectionShown===0;
     }
-    summary.textContent='Showing '+shown+' reviewed videos.';
+    summary.textContent='Showing '+shown+' of 1 source-verified video · Clinical content review pending.';
     empty.style.display=shown?'none':'block';
   }
   input.addEventListener('input',update);
