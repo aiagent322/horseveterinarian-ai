@@ -2,11 +2,22 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic as T
+import qa_colic, qa_gi
+T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
 SUF = ' | HorseVeterinarian.AI'
-TOPIC = dict(key='colic', name='Colic', url='/qa/colic/')
+TOPICS = [
+ dict(key='colic', name='Colic', url='/qa/colic/', mod=qa_colic, h1='Colic Questions &amp; Answers',
+      hub_title='Colic Questions and Answers for Horse Owners', hub_meta='Source-checked answers to common horse colic questions: signs, what to do, when to call the vet, sand colic, prevention, surgery and recovery.',
+      call='If your horse is showing signs of colic right now, stop reading and call your veterinarian or nearest equine emergency hospital. This page is educational and cannot assess your horse.',
+      desc='%d questions: signs, what to do, prevention, sand colic and surgery.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Protocol')),
+ dict(key='gi', name='Digestive Health', url='/qa/gi/', mod=qa_gi, h1='Digestive Health Questions &amp; Answers',
+      hub_title='Horse Digestive Health Questions and Answers', hub_meta='Source-checked answers on gastric ulcers, diarrhea, pot belly and water intake in horses. Educational information, not veterinary advice.',
+      call='If your horse has severe diarrhea, signs of dehydration, or colic signs right now, call your veterinarian or nearest equine emergency hospital. This page is educational and cannot assess your horse.',
+      desc='%d questions: gastric ulcers, diarrhea, pot belly and water intake.', overview=('/conditions/ulcers/','Gastric Ulcers Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Protocol')),
+]
+TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()
 head = tpl[:tpl.index('<div class="page-hero">')]
 foot = tpl[tpl.rindex('<div class="adslot" aria-label="Advertisement">'):]
@@ -44,31 +55,29 @@ def shell(title, meta, path, crumbs, ld_name):
     block = '<script type="application/ld+json">%s</script>\n<script type="application/ld+json">%s</script>\n' % (json.dumps(ld1), json.dumps(ld2))
     h = re.sub(r'(<script type="application/ld\+json">.*?</script>\s*){2}', lambda m: block, h, count=1, flags=re.S)
     return h
-HERO_CALL = '''  <div class="emergency-callout">
-    <div class="emergency-callout-icon">🚨</div>
-    <p>If your horse is showing signs of colic right now, stop reading and call your veterinarian or nearest equine emergency hospital. This page is educational and cannot assess your horse.</p>
-  </div>'''
+def hero_call():
+    return '  <div class="emergency-callout">\n    <div class="emergency-callout-icon">🚨</div>\n    <p>%s</p>\n  </div>' % TOPIC['call']
 def sidebar(cur):
     links = ''.join('<a href="%s%s/">%s</a>' % (TOPIC['url'], p['slug'], esc(p['title'])) for p in T.PAGES)
     return '''  <aside class="sidebar" aria-label="Related resources">
     <div class="sidebar-vet"><h3>Find an Equine Vet</h3><p>This guide is educational only. For any health concern affecting your horse, contact a licensed equine veterinarian.</p><a href="/find-a-vet/">Find a Vet Near You →</a></div>
-    <div class="sidebar-card"><h3>Colic Questions</h3>%s<a href="/qa/colic/">All colic questions →</a></div>
-    <div class="sidebar-card"><h3>Emergency Resources</h3><a href="/emergency/colic-emergency/">Colic Emergency Protocol</a><a href="/conditions/colic/">Colic Overview</a><a href="/emergency/">All Emergency Guides →</a></div>
-  </aside>''' % links
+    <div class="sidebar-card"><h3>%s Questions</h3>%s<a href="%s">All questions →</a></div>
+    <div class="sidebar-card"><h3>Emergency Resources</h3><a href="%s">%s</a><a href="%s">%s</a><a href="/emergency/">All Emergency Guides →</a></div>
+  </aside>''' % (TOPIC['name'], links, TOPIC['url'], TOPIC['emerg'][0], TOPIC['emerg'][1], TOPIC['overview'][0], TOPIC['overview'][1])
 def page(p, videos):
     path = '%s%s/' % (TOPIC['url'], p['slug'])
     title = fit_title(p['title'])
-    h = shell(title, p['meta'], path, [('Home', '/'), ('Q&A', '/qa/'), ('Colic', TOPIC['url']), (p['title'], path)], p['title'])
+    h = shell(title, p['meta'], path, [('Home', '/'), ('Q&A', '/qa/'), (TOPIC['name'], TOPIC['url']), (p['title'], path)], p['title'])
     cls = 'page-hero' if p['urgent'] else 'page-hero calm'
-    urgent = ('<div class="urgent-box"><strong>Urgent:</strong> colic can become life-threatening quickly. If your horse is in pain now, call your veterinarian first, then use this page.</div>' if p['urgent'] else '')
+    urgent = ('<div class="urgent-box"><strong>Urgent:</strong> this can become life-threatening quickly. If your horse is unwell now, call your veterinarian first, then use this page.</div>' if p['urgent'] else '')
     vid = ''
     if videos.get(p['slug']):
         vid = '<h2>Related videos</h2><p>Externally produced educational videos selected for topic fit. They have <strong>not</strong> been medically reviewed by HorseVeterinarian.AI.</p>' + ''.join(videos[p['slug']])
     srcs = ''.join('<li><a href="%s" target="_blank" rel="noopener noreferrer">%s</a></li>' % (T.S[k][1], T.S[k][0]) for k in p['src'])
     rel = ''.join('<a href="%s%s/" class="related-link"><span class="related-link-title">%s</span><span class="related-link-arrow">→</span></a>' % (TOPIC['url'], r, esc(next(x['title'] for x in T.PAGES if x['slug'] == r))) for r in p['rel'])
     main = '''<div class="%s">
-  <div class="breadcrumb"><a href="/">Home</a> › <a href="/qa/">Q&amp;A</a> › <a href="/qa/colic/">Colic</a></div>
-  <div class="page-hero-eyebrow">Colic · Q&amp;A</div>
+  <div class="breadcrumb"><a href="/">Home</a> › <a href="/qa/">Q&amp;A</a> › <a href="%s">%s</a></div>
+  <div class="page-hero-eyebrow">%s · Q&amp;A</div>
   <h1>%s</h1>
 %s
 </div>
@@ -84,11 +93,11 @@ def page(p, videos):
       <p style="font-size:.8rem">Sources reviewed November 2026. Educational information only; not veterinary advice, and not medically reviewed by a veterinarian.</p>
     </div>
     <div class="section-label" style="margin-top:28px">Related Questions</div>
-    <div class="related-grid">%s<a href="/conditions/colic/" class="related-link"><span class="related-link-title">Colic Overview</span><span class="related-link-arrow">→</span></a></div>
+    <div class="related-grid">%s<a href="%s" class="related-link"><span class="related-link-title">%s</span><span class="related-link-arrow">→</span></a></div>
   </main>
 %s
 </div>
-''' % (cls, esc(p['q']), HERO_CALL, urgent, p['short'], p['body'], vid, srcs, rel, sidebar(p['slug']))
+''' % (cls, TOPIC['url'], TOPIC['name'], TOPIC['name'], esc(p['q']), hero_call(), urgent, p['short'], p['body'], vid, srcs, rel, TOPIC['overview'][0], TOPIC['overview'][1], sidebar(p['slug']))
     return h + main + foot
 def hub(title, meta, path, crumbs, h1, intro, listing):
     h = shell(title, meta, path, crumbs, h1)
@@ -102,26 +111,30 @@ def hub(title, meta, path, crumbs, h1, intro, listing):
   <main class="main-col" role="main"><div class="article-body"><p>%s</p></div>%s</main>
 %s
 </div>
-''' % (' › '.join('<a href="%s">%s</a>' % (u, n) for n, u in crumbs[:-1]) + ' › ' + crumbs[-1][0], h1, HERO_CALL, intro, listing, sidebar('')) + foot
-def main():
-    vpath = os.path.join(ROOT, 'tools/qa_videos_colic.json')
+''' % (' › '.join('<a href="%s">%s</a>' % (u, n) for n, u in crumbs[:-1]) + ' › ' + crumbs[-1][0], h1, hero_call(), intro, listing, sidebar('')) + foot
+def build_topic(tp):
+    global T, TOPIC
+    T = tp['mod']; TOPIC = tp
+    vpath = os.path.join(ROOT, 'tools/qa_videos_%s.json' % tp['key'])
     videos = {}
     if os.path.exists(vpath):
         from build_qa_videos import render
         videos = render(json.load(open(vpath)))
-    out = []
     for p in T.PAGES:
-        d = os.path.join(ROOT, 'qa/colic', p['slug']); os.makedirs(d, exist_ok=True)
-        open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page(p, videos)); out.append(p['slug'])
-    lst = '<ul class="qa-list">' + ''.join('<li><a href="/qa/colic/%s/">%s</a><span>%s</span></li>' % (p['slug'], esc(p['q']), esc(p['short'][:140].rsplit(' ', 1)[0]) + '…') for p in T.PAGES) + '</ul>'
-    open(os.path.join(ROOT, 'qa/colic/index.html'), 'w', encoding='utf-8').write(hub(
-        'Colic Questions and Answers for Horse Owners' + '', 'Source-checked answers to common horse colic questions: signs, what to do, when to call the vet, sand colic, prevention, surgery and recovery.',
-        '/qa/colic/', [('Home', '/'), ('Q&A', '/qa/'), ('Colic', '/qa/colic/')], 'Colic Questions &amp; Answers',
+        d = os.path.join(ROOT, 'qa', tp['key'], p['slug']); os.makedirs(d, exist_ok=True)
+        open(os.path.join(d, 'index.html'), 'w', encoding='utf-8').write(page(p, videos))
+    lst = '<ul class="qa-list">' + ''.join('<li><a href="%s%s/">%s</a><span>%s</span></li>' % (tp['url'], p['slug'], esc(p['q']), esc(p['short'][:140].rsplit(' ', 1)[0]) + '…') for p in T.PAGES) + '</ul>'
+    open(os.path.join(ROOT, 'qa', tp['key'], 'index.html'), 'w', encoding='utf-8').write(hub(
+        tp['hub_title'], tp['hub_meta'], tp['url'], [('Home', '/'), ('Q&A', '/qa/'), (tp['name'], tp['url'])], tp['h1'],
         'Each answer is checked against veterinary sources, such as the AAEP, Merck Veterinary Manual and university veterinary programs, and links to them. Educational only.', lst))
+    print(tp['key'], len(T.PAGES), 'pages')
+def main():
+    for tp in TOPICS: build_topic(tp)
+    global TOPIC, T
+    TOPIC = TOPICS[0]; T = TOPICS[0]['mod']
+    listing = '<ul class="qa-list">' + ''.join('<li><a href="%s">%s</a><span>%s</span></li>' % (tp['url'], tp['name'], tp['desc'] % len(tp['mod'].PAGES)) for tp in TOPICS) + '</ul>'
     open(os.path.join(ROOT, 'qa/index.html'), 'w', encoding='utf-8').write(hub(
-        'Horse Health Questions and Answers', 'Source-checked horse health questions and answers from HorseVeterinarian.AI, starting with colic. Educational information, not veterinary advice.',
+        'Horse Health Questions and Answers', 'Source-checked horse health questions and answers from HorseVeterinarian.AI, starting with colic and digestive health. Educational only.',
         '/qa/', [('Home', '/'), ('Q&A', '/qa/')], 'Horse Health Q&amp;A',
-        'Source-checked answers to common horse health questions, published topic by topic.',
-        '<ul class="qa-list"><li><a href="/qa/colic/">Colic</a><span>%d questions: signs, what to do, prevention, sand colic and surgery.</span></li></ul>' % len(T.PAGES)))
-    print(len(out), 'pages')
+        'Source-checked answers to common horse health questions, published topic by topic.', listing))
 main()

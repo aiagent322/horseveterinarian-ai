@@ -38,3 +38,8 @@ All 11 user-supplied links returned titles and publisher names through YouTube o
 ## Batch 004 — Tendons & Rehabilitation, October 27, 2026
 
 The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was submitted twice and appears once. All 10 unique links returned titles and publisher names through YouTube oEmbed, with no existing-library ID duplicates. Added a Tendons & Rehabilitation section and filter, bringing the page to 81 selections. The 70-second start for `_gFz8gZmXAU` is preserved in both the embed and direct link. Product presentations and owner experiences are identified in descriptions; recovery and treatment claims are not independently verified. Metadata verification does not establish playback availability or clinical approval.
+
+
+## Q&A page videos — colic and digestive health, November 16, 2026
+
+`tools/qa_videos_colic.json` (21 videos) and `tools/qa_videos_gi.json` (12 videos) record videos attached to `/qa/colic/` and `/qa/gi/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Videos from feed-company, podcast and similar publishers are flagged `commercial_note`. Candidates that failed oEmbed (`ev5-0-yZKtA`, `XD73GAHiFNw`) were dropped, not guessed.

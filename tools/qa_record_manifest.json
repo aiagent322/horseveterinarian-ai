@@ -1,0 +1,149 @@
+{
+ "colic": {
+  "types-of-colic": [
+   "VET-QA-0001",
+   "VET-QA-0013"
+  ],
+  "causes-of-colic": [
+   "VET-QA-0014"
+  ],
+  "signs-of-colic": [
+   "VET-QA-0017"
+  ],
+  "what-to-do-if-your-horse-has-colic": [
+   "VET-QA-0024",
+   "VET-QA-0025"
+  ],
+  "when-to-call-the-vet-for-colic": [
+   "VET-QA-0028",
+   "VET-QA-0029"
+  ],
+  "how-to-monitor-a-horse-for-colic": [
+   "VET-QA-0003"
+  ],
+  "what-to-monitor-after-a-colic-episode": [
+   "VET-QA-0026",
+   "VET-QA-0027"
+  ],
+  "how-to-prevent-colic": [
+   "VET-QA-0002",
+   "VET-QA-0004",
+   "VET-QA-0005",
+   "VET-QA-0006",
+   "VET-QA-0010"
+  ],
+  "signs-of-sand-colic": [
+   "VET-QA-0011"
+  ],
+  "how-to-prevent-sand-colic": [
+   "VET-QA-0007",
+   "VET-QA-0012",
+   "VET-QA-0022"
+  ],
+  "impaction-colic-treatment": [
+   "VET-QA-0020"
+  ],
+  "diet-and-manure-impaction-in-horses": [
+   "VET-QA-0021"
+  ],
+  "signs-a-horse-may-need-colic-surgery": [
+   "VET-QA-0018"
+  ],
+  "colic-surgery-success-rates": [
+   "VET-QA-0019"
+  ],
+  "colic-surgery-risks-and-complications": [
+   "VET-QA-0015",
+   "VET-QA-0016"
+  ],
+  "colic-hospital-stay": [
+   "VET-QA-0009"
+  ],
+  "colic-surgery-recovery-and-aftercare": [
+   "VET-QA-0008",
+   "VET-QA-0023"
+  ]
+ },
+ "gi": {
+  "signs-of-gastric-ulcers": [
+   "VET-QA-0126",
+   "VET-QA-0127",
+   "VET-QA-0129",
+   "VET-QA-0130"
+  ],
+  "how-to-prevent-gastric-ulcers": [
+   "VET-QA-0104",
+   "VET-QA-0105",
+   "VET-QA-0110",
+   "VET-QA-0111",
+   "VET-QA-0112",
+   "VET-QA-0134",
+   "VET-QA-0135"
+  ],
+  "gastric-ulcer-treatment-options": [
+   "VET-QA-0114",
+   "VET-QA-0119",
+   "VET-QA-0142",
+   "VET-QA-0143"
+  ],
+  "gastric-ulcer-treatment-time-and-recovery": [
+   "VET-QA-0115",
+   "VET-QA-0116",
+   "VET-QA-0117",
+   "VET-QA-0118",
+   "VET-QA-0124",
+   "VET-QA-0128"
+  ],
+  "causes-of-diarrhea-in-horses": [
+   "VET-QA-0120"
+  ],
+  "when-to-call-the-vet-for-horse-diarrhea": [
+   "VET-QA-0132",
+   "VET-QA-0139",
+   "VET-QA-0140"
+  ],
+  "how-vets-diagnose-horse-diarrhea": [
+   "VET-QA-0098"
+  ],
+  "how-to-prevent-diarrhea-in-horses": [
+   "VET-QA-0108"
+  ],
+  "pot-belly-in-horses-causes-and-tests": [
+   "VET-QA-0094",
+   "VET-QA-0102",
+   "VET-QA-0113"
+  ],
+  "pot-belly-in-horses-diet": [
+   "VET-QA-0095",
+   "VET-QA-0133",
+   "VET-QA-0136",
+   "VET-QA-0137"
+  ],
+  "how-to-increase-a-horses-water-intake": [
+   "VET-QA-0106"
+  ]
+ },
+ "held": {
+  "VET-QA-0089": "answer is about eye tearing, not diet \u2014 mismatched; eye topic",
+  "VET-QA-0090": "generic diet question; no topic",
+  "VET-QA-0093": "generic care-instructions question; no topic",
+  "VET-QA-0107": "generic monitoring question; no topic",
+  "VET-QA-0138": "generic weight/health question; nutrition topic",
+  "VET-QA-0097": "answer repeats diet text, does not answer the medication question",
+  "VET-QA-0125": "malnutrition; nutrition topic",
+  "VET-QA-0144": "overlaps colic/diarrhea/ulcer pages; no unique content",
+  "VET-QA-0096": "pot-belly exercise: no verified source",
+  "VET-QA-0099": "eye topic",
+  "VET-QA-0103": "eye topic",
+  "VET-QA-0109": "eye topic",
+  "VET-QA-0131": "eye topic",
+  "VET-QA-0141": "eye topic (question text only)",
+  "VET-QA-0091": "long-term ulcer effects: ECEIM calls signs-disease links weakly supported; no verified source",
+  "VET-QA-0121": "same; \"acid reflux\" framing not standard EGUS terminology",
+  "VET-QA-0122": "same",
+  "VET-QA-0100": "PPI combinations: no verified source",
+  "VET-QA-0101": "long-term PPI use: ECEIM does not address",
+  "VET-QA-0123": "PPI side effects: ECEIM does not address",
+  "VET-QA-0092": "ulcer-treatment side effects: no verified source"
+ }
+}
