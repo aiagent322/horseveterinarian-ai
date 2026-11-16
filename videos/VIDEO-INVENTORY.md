@@ -53,3 +53,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — lameness, hooves and limbs, November 16, 2026
 
 `tools/qa_videos_lameness.json` (12 videos, 16 placements on 12 pages) records videos attached to `/qa/lameness/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Supplement-company, retailer, subscription, creator and veterinarian-audience channels are flagged in `commercial_note`. Pages with no topic-matched video were left blank; videos older than about eight years and treatment demonstrations by non-veterinarians were not used.
+
+
+## Q&A page videos — infectious disease and fever, November 16, 2026
+
+`tools/qa_videos_infectious.json` (8 videos, 8 placements on 6 pages) records videos attached to `/qa/infectious/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Podcast, veterinary-practice and breed-association channels are flagged in `commercial_note`. Pages with no topic-matched video were left blank; videos older than about eight years and news clips were not used. Candidates that failed oEmbed (`pugVjrzUPXU`, `0ziJEg8coAs`) were dropped, not guessed.

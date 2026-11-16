@@ -1,0 +1,106 @@
+{
+ "pages": {
+  "how-to-take-a-horses-temperature": [
+   "yKI-NLYosKE",
+   "zEgYcGKGIaI"
+  ],
+  "signs-and-complications-of-strangles": [
+   "2E1gFrI7DYA"
+  ],
+  "strangles-treatment-and-spread": [
+   "sYitBkXrRaQ"
+  ],
+  "preventing-and-containing-strangles": [
+   "9aXY4At8xKU"
+  ],
+  "ehv-1-prevention-and-isolation": [
+   "Plwn9YJSL_Y"
+  ],
+  "preventing-equine-influenza": [
+   "7-namB2sqbg",
+   "f-9rSPjmmYk"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "World Horse Welfare",
+   "status": "source_verified",
+   "title": "Webinar: Equine strangles: Exploring the realities of this common disease",
+   "youtube_id": "2E1gFrI7DYA"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "British Equestrian",
+   "status": "source_verified",
+   "title": "EHW22: Equine influenza – why do we vaccinate?",
+   "youtube_id": "7-namB2sqbg"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast from a veterinary practice.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Countryside Vets",
+   "status": "source_verified",
+   "title": "Ep. 61 - Strangles in Horses Part 2: Treatment, Vaccination, and Prevention Explained by Equine Vets",
+   "youtube_id": "9aXY4At8xKU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Espinar Equine",
+   "status": "source_verified",
+   "title": "Equine Herpes Virus (EHV-1,4); how it works - Espinar Equine; veterinary practice",
+   "youtube_id": "Plwn9YJSL_Y"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel; may mention products.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Perth Equine Vets",
+   "status": "source_verified",
+   "title": "The Importance of Equine Influenza Vaccination",
+   "youtube_id": "f-9rSPjmmYk"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast from a veterinary practice.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Countryside Vets",
+   "status": "source_verified",
+   "title": "Ep. 60 - Strangles in Horses Explained: Symptoms, Treatment, Biosecurity, and Outbreak Prevention",
+   "youtube_id": "sYitBkXrRaQ"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "ExtensionHorses",
+   "status": "source_verified",
+   "title": "Taking a Horse's Temperature",
+   "youtube_id": "yKI-NLYosKE"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Redwings Horse Sanctuary",
+   "status": "source_verified",
+   "title": "How to take your horse's temperature",
+   "youtube_id": "zEgYcGKGIaI"
+  }
+ ]
+}

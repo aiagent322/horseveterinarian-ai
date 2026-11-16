@@ -124,7 +124,7 @@
   ]
  },
  "held": {
-  "VET-QA-0089": "answer is about eye tearing, not diet \u2014 mismatched; eye topic",
+  "VET-QA-0089": "answer is about eye tearing, not diet — mismatched; eye topic",
   "VET-QA-0090": "generic diet question; no topic",
   "VET-QA-0093": "generic care-instructions question; no topic",
   "VET-QA-0107": "generic monitoring question; no topic",
@@ -177,7 +177,8 @@
   "VET-QA-0306": "splint prevention: sources give none",
   "VET-QA-0309": "splint prevention: sources give none",
   "VET-QA-0299": "kissing spines prevention: source gives none",
-  "VET-QA-0321": "bowed tendon shoeing/padding: source gives none"
+  "VET-QA-0321": "bowed tendon shoeing/padding: source gives none",
+  "VET-QA-0220": "generic \"signs to watch\" with no condition named"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -368,6 +369,85 @@
   "joint-supplements-for-arthritis": [
    "VET-QA-0381",
    "VET-QA-0388"
+  ]
+ },
+ "infectious": {
+  "signs-and-complications-of-strangles": [
+   "VET-QA-0193",
+   "VET-QA-0217",
+   "VET-QA-0221",
+   "VET-QA-0232"
+  ],
+  "strangles-treatment-and-spread": [
+   "VET-QA-0195",
+   "VET-QA-0231"
+  ],
+  "preventing-and-containing-strangles": [
+   "VET-QA-0201",
+   "VET-QA-0202"
+  ],
+  "signs-of-ehv-1-and-rhinopneumonitis": [
+   "VET-QA-0218",
+   "VET-QA-0223",
+   "VET-QA-0225"
+  ],
+  "how-ehv-1-is-diagnosed": [
+   "VET-QA-0205",
+   "VET-QA-0206"
+  ],
+  "ehv-1-treatment-and-outlook": [
+   "VET-QA-0216",
+   "VET-QA-0219",
+   "VET-QA-0234",
+   "VET-QA-0235"
+  ],
+  "ehv-1-prevention-and-isolation": [
+   "VET-QA-0192",
+   "VET-QA-0194",
+   "VET-QA-0196",
+   "VET-QA-0208",
+   "VET-QA-0228"
+  ],
+  "signs-and-complications-of-equine-influenza": [
+   "VET-QA-0215",
+   "VET-QA-0224"
+  ],
+  "equine-influenza-treatment-and-recovery": [
+   "VET-QA-0207",
+   "VET-QA-0222",
+   "VET-QA-0236"
+  ],
+  "preventing-equine-influenza": [
+   "VET-QA-0198",
+   "VET-QA-0209"
+  ],
+  "signs-of-west-nile-virus": [
+   "VET-QA-0226"
+  ],
+  "west-nile-virus-treatment-and-prognosis": [
+   "VET-QA-0227",
+   "VET-QA-0230"
+  ],
+  "preventing-west-nile-virus": [
+   "VET-QA-0199",
+   "VET-QA-0203",
+   "VET-QA-0204"
+  ],
+  "how-to-take-a-horses-temperature": [
+   "VET-QA-0197",
+   "VET-QA-0210"
+  ],
+  "fever-causes-and-signs": [
+   "VET-QA-0211",
+   "VET-QA-0212",
+   "VET-QA-0229"
+  ],
+  "fever-treatment-and-when-to-call-the-vet": [
+   "VET-QA-0213",
+   "VET-QA-0237"
+  ],
+  "signs-of-dehydration-in-horses": [
+   "VET-QA-0214"
   ]
  }
 }
