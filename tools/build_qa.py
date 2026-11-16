@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -28,6 +28,10 @@ TOPICS = [
       hub_title='Horse Infectious Disease and Fever Questions and Answers', hub_meta='Source-checked answers on strangles, EHV-1, equine influenza, West Nile virus, fever and biosecurity. Educational only; call your vet.',
       call='If your horse has a fever, a weak or wobbly hind end, trouble breathing or swallowing, or swollen jaw lymph nodes, call your veterinarian right away and isolate the horse. This page is educational and cannot assess your horse.',
       desc='%d questions: strangles, EHV-1, influenza, West Nile, fever and biosecurity.', overview=('/conditions/strangles/','Strangles Overview'), emerg=('/emergency/fever/','Fever Emergency Guide')),
+ dict(key='skin', name='Skin &amp; Allergy', url='/qa/skin/', mod=qa_skin, h1='Skin, Allergy &amp; Hives Questions &amp; Answers',
+      hub_title='Horse Skin, Allergy and Hives Questions and Answers', hub_meta='Source-checked answers on rain rot, scratches, hives, allergies, anaphylaxis, mange and ringworm. Educational only; call your vet.',
+      call='If your horse has swelling of the face or airways, trouble breathing, very pale gums, collapse, or a hot, swollen, painful leg, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: rain rot, scratches, hives, allergies, mange and ringworm.', overview=('/conditions/rain-rot/','Rain Rot Overview'), emerg=('/emergency/wound-care/','Wound Care Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

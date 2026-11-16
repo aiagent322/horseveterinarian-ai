@@ -1,0 +1,123 @@
+{
+ "pages": {
+  "signs-of-rain-rot": [
+   "BAlGxHN9zUY"
+  ],
+  "rain-rot-spread-and-prevention": [
+   "b-9-Kw1D5W0"
+  ],
+  "common-causes-of-skin-conditions-in-horses": [
+   "F3wQItUTmrs"
+  ],
+  "scratches-treatment-and-recovery-time": [
+   "7GYBpxWCS2M"
+  ],
+  "causes-of-scratches-in-horses": [
+   "_7FpCsLBiGM"
+  ],
+  "common-causes-of-hives-in-horses": [
+   "WOCrfw2rJt8"
+  ],
+  "common-allergens-and-triggers-in-horses": [
+   "gEtlZ_HFTb8"
+  ],
+  "managing-chronic-allergies-in-horses": [
+   "98XJtsqDrZA"
+  ],
+  "signs-of-ringworm-and-fungal-skin-infections": [
+   "SKt-84osWJo"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary hospital channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Rood & Riddle",
+   "status": "source_verified",
+   "title": "Scratches and Hives Oh My! with Dr Julia Miller",
+   "youtube_id": "7GYBpxWCS2M"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Breed association channel; Friesian-focused.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Friesian Horse Association of North America",
+   "status": "source_verified",
+   "title": "Insect Bite Hypersensitivity with Dr. Susan White",
+   "youtube_id": "98XJtsqDrZA"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Pet Care Partners",
+   "status": "source_verified",
+   "title": "EP. 209: Rain Rot in Horses Explained | Causes, Treatment & Prevention | Pet Care Partners",
+   "youtube_id": "BAlGxHN9zUY"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "S8E12 Skin Problems in Horses",
+   "youtube_id": "F3wQItUTmrs"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "British Equestrian",
+   "status": "source_verified",
+   "title": "EHW22: Disease of the Day – Ringworm",
+   "youtube_id": "SKt-84osWJo"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Pet Care Partners",
+   "status": "source_verified",
+   "title": "EP 247: Urticaria & Angioedema in Horses | Causes, Signs, and Treatment Explained | Pet Care Partner",
+   "youtube_id": "WOCrfw2rJt8"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Pet Care Partners",
+   "status": "source_verified",
+   "title": "EP. 181: Pastern Dermatitis in Horses | Causes, Signs & Treatment | Pet Care Partners",
+   "youtube_id": "_7FpCsLBiGM"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary education company channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Equine Institute",
+   "status": "source_verified",
+   "title": "Rain Rot in Horses: Causes, Transmission, and Prevention",
+   "youtube_id": "b-9-Kw1D5W0"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Understanding Horse Allergies",
+   "youtube_id": "gEtlZ_HFTb8"
+  }
+ ]
+}

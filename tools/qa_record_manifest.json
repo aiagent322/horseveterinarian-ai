@@ -178,7 +178,11 @@
   "VET-QA-0309": "splint prevention: sources give none",
   "VET-QA-0299": "kissing spines prevention: source gives none",
   "VET-QA-0321": "bowed tendon shoeing/padding: source gives none",
-  "VET-QA-0220": "generic \"signs to watch\" with no condition named"
+  "VET-QA-0220": "generic \"signs to watch\" with no condition named",
+  "VET-QA-0440": "respiratory-complications record filed under skin; belongs to the Respiratory batch and carries unsourced numbers",
+  "VET-QA-0442": "hives-recurrence question with no condition named in the record; unsourced",
+  "VET-QA-0444": "\"specific products\" question with no condition named; no source names products",
+  "VET-QA-0446": "natural remedies for mange; no source reviewed supports any"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -448,6 +452,93 @@
   ],
   "signs-of-dehydration-in-horses": [
    "VET-QA-0214"
+  ]
+ },
+ "skin": {
+  "signs-of-rain-rot": [
+   "VET-QA-0472"
+  ],
+  "rain-rot-treatment-and-products": [
+   "VET-QA-0445"
+  ],
+  "rain-rot-spread-and-prevention": [
+   "VET-QA-0450",
+   "VET-QA-0458"
+  ],
+  "signs-of-scratches-in-horses": [
+   "VET-QA-0473"
+  ],
+  "causes-of-scratches-in-horses": [
+   "VET-QA-0477"
+  ],
+  "scratches-treatment-and-recovery-time": [
+   "VET-QA-0447",
+   "VET-QA-0460"
+  ],
+  "preventing-scratches": [
+   "VET-QA-0459"
+  ],
+  "common-causes-of-hives-in-horses": [
+   "VET-QA-0467"
+  ],
+  "how-long-hives-last-and-when-to-call-the-vet": [
+   "VET-QA-0441",
+   "VET-QA-0461",
+   "VET-QA-0462"
+  ],
+  "hives-treatment-and-care": [
+   "VET-QA-0443"
+  ],
+  "preventing-hives": [
+   "VET-QA-0455"
+  ],
+  "common-allergens-and-triggers-in-horses": [
+   "VET-QA-0466",
+   "VET-QA-0451"
+  ],
+  "allergy-testing-for-horses": [
+   "VET-QA-0449",
+   "VET-QA-0465"
+  ],
+  "preventing-allergic-reactions-and-dermatitis": [
+   "VET-QA-0452",
+   "VET-QA-0453"
+  ],
+  "managing-mild-allergic-reactions": [
+   "VET-QA-0463"
+  ],
+  "managing-chronic-allergies-in-horses": [
+   "VET-QA-0464"
+  ],
+  "signs-of-anaphylaxis-and-severe-allergic-reactions": [
+   "VET-QA-0471",
+   "VET-QA-0474",
+   "VET-QA-0476"
+  ],
+  "signs-of-mange-in-horses": [
+   "VET-QA-0475"
+  ],
+  "mange-spread-prevention-and-risks": [
+   "VET-QA-0456",
+   "VET-QA-0470"
+  ],
+  "signs-of-ringworm-and-fungal-skin-infections": [
+   "VET-QA-0469"
+  ],
+  "ringworm-treatment-and-recovery-time": [
+   "VET-QA-0448"
+  ],
+  "preventing-ringworm-and-fungal-infections": [
+   "VET-QA-0454"
+  ],
+  "common-causes-of-skin-conditions-in-horses": [
+   "VET-QA-0468"
+  ],
+  "preventing-skin-problems-in-horses": [
+   "VET-QA-0457"
+  ],
+  "when-to-call-the-vet-for-skin-problems": [
+   "VET-QA-0478"
   ]
  }
 }
