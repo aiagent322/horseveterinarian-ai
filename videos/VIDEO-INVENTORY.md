@@ -48,3 +48,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — metabolic and endocrine, November 16, 2026
 
 `tools/qa_videos_metabolic.json` (10 videos, 14 placements on 10 pages) records videos attached to `/qa/metabolic/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Podcast and creator channels are flagged `commercial_note`. Pharmaceutical-company and feed-product videos, and candidates older than about eight years, were not used. Pages with no topic-matched video were left blank.
+
+
+## Q&A page videos — lameness, hooves and limbs, November 16, 2026
+
+`tools/qa_videos_lameness.json` (12 videos, 16 placements on 12 pages) records videos attached to `/qa/lameness/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Supplement-company, retailer, subscription, creator and veterinarian-audience channels are flagged in `commercial_note`. Pages with no topic-matched video were left blank; videos older than about eight years and treatment demonstrations by non-veterinarians were not used.

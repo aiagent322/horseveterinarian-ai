@@ -150,7 +150,34 @@
   "VET-QA-0290": "when to call for lethargy: no verified source gathered",
   "VET-QA-0260": "generic metabolic-monitoring question; no verified interval",
   "VET-QA-0262": "insulin monitoring interval: no verified source",
-  "VET-QA-0289": "generic treatment question for unnamed condition"
+  "VET-QA-0289": "generic treatment question for unnamed condition",
+  "VET-QA-0293": "generic diet question with no condition named",
+  "VET-QA-0302": "generic home pain management; no condition named",
+  "VET-QA-0316": "generic activity restriction; no condition named",
+  "VET-QA-0318": "generic rest question; no condition named",
+  "VET-QA-0319": "generic rest question; no condition named",
+  "VET-QA-0364": "generic treatment question; no condition named",
+  "VET-QA-0384": "generic pain management; no condition named",
+  "VET-QA-0379": "muscle strain rest: no verified source",
+  "VET-QA-0382": "muscle strain exercises: no verified source",
+  "VET-QA-0339": "neck pain: no verified source",
+  "VET-QA-0310": "stifle injury: sources found cover only locked stifle",
+  "VET-QA-0315": "stifle injury recovery: no verified source",
+  "VET-QA-0324": "stifle injury signs: no verified source",
+  "VET-QA-0342": "stifle injury tests: no verified source",
+  "VET-QA-0352": "stifle rehab: no verified source",
+  "VET-QA-0372": "stifle surgery: no verified source",
+  "VET-QA-0383": "arthritis pain: no verified source gathered",
+  "VET-QA-0389": "arthritis causes: no verified source gathered",
+  "VET-QA-0390": "arthritis treatment: no verified source gathered",
+  "VET-QA-0391": "arthritis long-term: no verified source gathered",
+  "VET-QA-0314": "ligament healing time: source gives no timeline",
+  "VET-QA-0327": "ligament prevention: source gives none",
+  "VET-QA-0362": "ligament treatment: source gives none",
+  "VET-QA-0306": "splint prevention: sources give none",
+  "VET-QA-0309": "splint prevention: sources give none",
+  "VET-QA-0299": "kissing spines prevention: source gives none",
+  "VET-QA-0321": "bowed tendon shoeing/padding: source gives none"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -224,6 +251,123 @@
    "VET-QA-0273",
    "VET-QA-0274",
    "VET-QA-0285"
+  ]
+ },
+ "lameness": {
+  "what-is-laminitis-and-founder": [
+   "VET-QA-0345",
+   "VET-QA-0346"
+  ],
+  "signs-of-laminitis-and-founder": [
+   "VET-QA-0334",
+   "VET-QA-0356",
+   "VET-QA-0358",
+   "VET-QA-0359",
+   "VET-QA-0360",
+   "VET-QA-0361"
+  ],
+  "laminitis-treatment-options": [
+   "VET-QA-0366",
+   "VET-QA-0367"
+  ],
+  "preventing-laminitis-and-founder": [
+   "VET-QA-0305",
+   "VET-QA-0354",
+   "VET-QA-0355"
+  ],
+  "bowed-tendon-signs-and-seriousness": [
+   "VET-QA-0320",
+   "VET-QA-0331",
+   "VET-QA-0344"
+  ],
+  "bowed-tendon-treatment-and-recovery": [
+   "VET-QA-0294",
+   "VET-QA-0296",
+   "VET-QA-0297",
+   "VET-QA-0317",
+   "VET-QA-0322",
+   "VET-QA-0347",
+   "VET-QA-0350",
+   "VET-QA-0353",
+   "VET-QA-0365"
+  ],
+  "preventing-tendon-injuries": [
+   "VET-QA-0311",
+   "VET-QA-0351"
+  ],
+  "ligament-injury-signs-and-diagnosis": [
+   "VET-QA-0300",
+   "VET-QA-0333",
+   "VET-QA-0349"
+  ],
+  "splints-in-horses": [
+   "VET-QA-0329",
+   "VET-QA-0337",
+   "VET-QA-0348",
+   "VET-QA-0371"
+  ],
+  "kissing-spines-signs-and-diagnosis": [
+   "VET-QA-0313",
+   "VET-QA-0335"
+  ],
+  "kissing-spines-treatment-and-outlook": [
+   "VET-QA-0298",
+   "VET-QA-0301",
+   "VET-QA-0330",
+   "VET-QA-0338"
+  ],
+  "back-pain-causes-and-signs": [
+   "VET-QA-0325",
+   "VET-QA-0328"
+  ],
+  "how-back-pain-is-diagnosed": [
+   "VET-QA-0343"
+  ],
+  "back-pain-treatment-options": [
+   "VET-QA-0295",
+   "VET-QA-0363"
+  ],
+  "preventing-back-pain": [
+   "VET-QA-0303"
+  ],
+  "when-to-call-the-vet-for-back-pain": [
+   "VET-QA-0357",
+   "VET-QA-0369"
+  ],
+  "hoof-abscess-signs-and-treatment": [
+   "VET-QA-0332"
+  ],
+  "bruised-sole-causes-and-treatment": [
+   "VET-QA-0304",
+   "VET-QA-0368"
+  ],
+  "hot-hooves-causes": [
+   "VET-QA-0323",
+   "VET-QA-0340"
+  ],
+  "preventing-hoof-problems": [
+   "VET-QA-0307",
+   "VET-QA-0312"
+  ],
+  "when-to-call-the-vet-for-hoof-problems": [
+   "VET-QA-0370"
+  ],
+  "signs-of-cellulitis-and-lymphangitis": [
+   "VET-QA-0392",
+   "VET-QA-0387"
+  ],
+  "cellulitis-treatment-and-immediate-steps": [
+   "VET-QA-0380",
+   "VET-QA-0393",
+   "VET-QA-0394"
+  ],
+  "preventing-cellulitis-and-lymphangitis": [
+   "VET-QA-0385",
+   "VET-QA-0386"
+  ],
+  "joint-supplements-for-arthritis": [
+   "VET-QA-0381",
+   "VET-QA-0388"
   ]
  }
 }
