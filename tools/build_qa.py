@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi
+import qa_colic, qa_gi, qa_metabolic
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -16,6 +16,10 @@ TOPICS = [
       hub_title='Horse Digestive Health Questions and Answers', hub_meta='Source-checked answers on gastric ulcers, diarrhea, pot belly and water intake in horses. Educational information, not veterinary advice.',
       call='If your horse has severe diarrhea, signs of dehydration, or colic signs right now, call your veterinarian or nearest equine emergency hospital. This page is educational and cannot assess your horse.',
       desc='%d questions: gastric ulcers, diarrhea, pot belly and water intake.', overview=('/conditions/ulcers/','Gastric Ulcers Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Protocol')),
+ dict(key='metabolic', name='Metabolic &amp; Endocrine', url='/qa/metabolic/', mod=qa_metabolic, h1='Metabolic &amp; Endocrine Questions &amp; Answers',
+      hub_title='Horse PPID, EMS and Insulin Resistance Questions and Answers', hub_meta='Source-checked answers on PPID (Cushing’s), equine metabolic syndrome, insulin resistance, diet, exercise and laminitis risk. Educational only.',
+      call='If your horse is suddenly sore on its front feet, reluctant to move, or has stopped eating, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: PPID, EMS, insulin resistance, diet, exercise and laminitis risk.', overview=('/conditions/laminitis/','Laminitis Overview'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

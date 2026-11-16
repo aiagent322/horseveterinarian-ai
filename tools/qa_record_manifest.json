@@ -144,6 +144,86 @@
   "VET-QA-0100": "PPI combinations: no verified source",
   "VET-QA-0101": "long-term PPI use: ECEIM does not address",
   "VET-QA-0123": "PPI side effects: ECEIM does not address",
-  "VET-QA-0092": "ulcer-treatment side effects: no verified source"
+  "VET-QA-0092": "ulcer-treatment side effects: no verified source",
+  "VET-QA-0250": "lethargy causes: no verified source gathered",
+  "VET-QA-0264": "lethargy causes: no verified source gathered",
+  "VET-QA-0290": "when to call for lethargy: no verified source gathered",
+  "VET-QA-0260": "generic metabolic-monitoring question; no verified interval",
+  "VET-QA-0262": "insulin monitoring interval: no verified source",
+  "VET-QA-0289": "generic treatment question for unnamed condition"
+ },
+ "metabolic": {
+  "signs-of-ppid-cushings": [
+   "VET-QA-0266",
+   "VET-QA-0275",
+   "VET-QA-0277"
+  ],
+  "how-ppid-is-diagnosed": [
+   "VET-QA-0258"
+  ],
+  "ppid-treatment-options": [
+   "VET-QA-0253",
+   "VET-QA-0278",
+   "VET-QA-0288"
+  ],
+  "ppid-monitoring-and-retesting": [
+   "VET-QA-0261",
+   "VET-QA-0263"
+  ],
+  "ppid-diet": [
+   "VET-QA-0245",
+   "VET-QA-0280",
+   "VET-QA-0281",
+   "VET-QA-0282"
+  ],
+  "signs-of-ems-and-insulin-resistance": [
+   "VET-QA-0265",
+   "VET-QA-0271",
+   "VET-QA-0276"
+  ],
+  "how-ems-is-diagnosed": [
+   "VET-QA-0286",
+   "VET-QA-0287"
+  ],
+  "diet-for-ems-and-insulin-resistance": [
+   "VET-QA-0248",
+   "VET-QA-0251",
+   "VET-QA-0252",
+   "VET-QA-0254",
+   "VET-QA-0255",
+   "VET-QA-0279",
+   "VET-QA-0283",
+   "VET-QA-0284"
+  ],
+  "exercise-for-insulin-resistant-horses": [
+   "VET-QA-0249",
+   "VET-QA-0259"
+  ],
+  "long-term-management-of-ems": [
+   "VET-QA-0269",
+   "VET-QA-0270"
+  ],
+  "ems-prevention": [
+   "VET-QA-0247",
+   "VET-QA-0256"
+  ],
+  "safe-weight-management-for-horses": [
+   "VET-QA-0257"
+  ],
+  "long-term-effects-of-untreated-endocrine-disease": [
+   "VET-QA-0267",
+   "VET-QA-0268"
+  ],
+  "signs-of-laminitis-in-endocrine-disease": [
+   "VET-QA-0272"
+  ],
+  "supplements-for-cushings-and-insulin-resistance": [
+   "VET-QA-0246"
+  ],
+  "is-endocrine-treatment-working-or-worsening": [
+   "VET-QA-0273",
+   "VET-QA-0274",
+   "VET-QA-0285"
+  ]
  }
 }

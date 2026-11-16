@@ -1,0 +1,120 @@
+{
+ "pages": {
+  "signs-of-ppid-cushings": [
+   "vHpazylOmZQ",
+   "DwH1Mt3gMKU"
+  ],
+  "how-ppid-is-diagnosed": [
+   "DwH1Mt3gMKU",
+   "vHpazylOmZQ"
+  ],
+  "ppid-treatment-options": [
+   "MeHWiF-xNng"
+  ],
+  "ppid-diet": [
+   "u4cU6jg67u8"
+  ],
+  "signs-of-ems-and-insulin-resistance": [
+   "FnMZ1WEGQWM"
+  ],
+  "diet-for-ems-and-insulin-resistance": [
+   "u4cU6jg67u8",
+   "DPMo9cSJ20U"
+  ],
+  "exercise-for-insulin-resistant-horses": [
+   "6iA1L6Esmgk"
+  ],
+  "safe-weight-management-for-horses": [
+   "6iA1L6Esmgk"
+  ],
+  "long-term-management-of-ems": [
+   "MeHWiF-xNng",
+   "FnMZ1WEGQWM"
+  ],
+  "signs-of-laminitis-in-endocrine-disease": [
+   "9wFkMO0HNxo"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Cushings/PPID in Horses",
+   "youtube_id": "vHpazylOmZQ"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Rood & Riddle",
+   "status": "source_verified",
+   "title": "An Elusive Disease (PPID) with Dr Diane McFarlane",
+   "youtube_id": "DwH1Mt3gMKU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "LSU AgCenter- Horses",
+   "status": "source_verified",
+   "title": "Cushings (PPID) and Metabolic Syndrome in Horses",
+   "youtube_id": "MeHWiF-xNng"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "podcast channel; feed company guests",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Countryside Vets",
+   "status": "source_verified",
+   "title": "Ep. 81 - Feeding Metabolic Horses w/ Hallway Feeds: Insulin Resistance, PPID, & Low-NSC Diets",
+   "youtube_id": "u4cU6jg67u8"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Cornell University College of Veterinary Medicine",
+   "status": "source_verified",
+   "title": "Equine metabolic syndrome and laminitis - Cornell Vet Equine Seminar Series, February 2021",
+   "youtube_id": "FnMZ1WEGQWM"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Dr. Nettie Liburt, Equine Nutritionist",
+   "status": "source_verified",
+   "title": "All About Soaking Hay - Tips, tricks and proper techniques",
+   "youtube_id": "DPMo9cSJ20U"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "podcast channel",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Pet Food Science Podcast • by Wisenetix",
+   "status": "source_verified",
+   "title": "Obesity & Insulin Resistance in Horses - Dr. Kris Hiney",
+   "youtube_id": "6iA1L6Esmgk"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "creator channel with veterinarian guest",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Katie Van Slyke",
+   "status": "source_verified",
+   "title": "What is laminitis in horses? Vet, Dr. Ursini breaks it down with Baby Seven",
+   "youtube_id": "9wFkMO0HNxo"
+  }
+ ]
+}

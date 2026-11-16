@@ -43,3 +43,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — colic and digestive health, November 16, 2026
 
 `tools/qa_videos_colic.json` (21 videos) and `tools/qa_videos_gi.json` (12 videos) record videos attached to `/qa/colic/` and `/qa/gi/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Videos from feed-company, podcast and similar publishers are flagged `commercial_note`. Candidates that failed oEmbed (`ev5-0-yZKtA`, `XD73GAHiFNw`) were dropped, not guessed.
+
+
+## Q&A page videos — metabolic and endocrine, November 16, 2026
+
+`tools/qa_videos_metabolic.json` (10 videos, 14 placements on 10 pages) records videos attached to `/qa/metabolic/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Podcast and creator channels are flagged `commercial_note`. Pharmaceutical-company and feed-product videos, and candidates older than about eight years, were not used. Pages with no topic-matched video were left blank.
