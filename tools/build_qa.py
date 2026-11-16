@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -32,6 +32,10 @@ TOPICS = [
       hub_title='Horse Skin, Allergy and Hives Questions and Answers', hub_meta='Source-checked answers on rain rot, scratches, hives, allergies, anaphylaxis, mange and ringworm. Educational only; call your vet.',
       call='If your horse has swelling of the face or airways, trouble breathing, very pale gums, collapse, or a hot, swollen, painful leg, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: rain rot, scratches, hives, allergies, mange and ringworm.', overview=('/conditions/rain-rot/','Rain Rot Overview'), emerg=('/emergency/wound-care/','Wound Care Emergency Guide')),
+ dict(key='respiratory', name='Respiratory', url='/qa/respiratory/', mod=qa_respiratory, h1='Respiratory, Cough &amp; Nasal Discharge Questions &amp; Answers',
+      hub_title='Horse Respiratory, Cough and Nasal Discharge Questions', hub_meta='Source-checked answers on pneumonia, cough, nasal discharge, breathing rate, equine asthma and the digital pulse. Educational only; call your vet.',
+      call='If your horse is struggling to breathe, has flared nostrils, a cough after trailering, a fever with cough or discharge, or food coming from the nose, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: pneumonia, cough, nasal discharge, breathing rate and digital pulse.', overview=('/conditions/heaves/','Heaves Overview'), emerg=('/emergency/fever/','Fever Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

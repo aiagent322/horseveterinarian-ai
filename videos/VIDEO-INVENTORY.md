@@ -63,3 +63,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — skin, allergy and hives, November 16, 2026
 
 `tools/qa_videos_skin.json` (9 videos, 9 placements on 9 pages) records videos attached to `/qa/skin/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Podcast, veterinary-practice and breed-association channels are flagged in `commercial_note`. Product-sponsored, home-remedy, retailer and non-equine videos, and candidates older than about eight years, were not used. Mange and several other pages were left blank for lack of a topic-matched video.
+
+
+## Q&A page videos — respiratory, November 16, 2026
+
+`tools/qa_videos_respiratory.json` (9 videos, 9 placements on 8 pages) records videos attached to `/qa/respiratory/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Podcast, veterinary-practice, media and charity channels are flagged in `commercial_note`. Non-equine, owner-case-diary and feed-company videos, and candidates older than about eight years, were not used. Candidate `TYNpOXn_dio` failed oEmbed and was dropped, not guessed.

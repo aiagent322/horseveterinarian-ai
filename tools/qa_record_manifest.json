@@ -182,7 +182,10 @@
   "VET-QA-0440": "respiratory-complications record filed under skin; belongs to the Respiratory batch and carries unsourced numbers",
   "VET-QA-0442": "hives-recurrence question with no condition named in the record; unsourced",
   "VET-QA-0444": "\"specific products\" question with no condition named; no source names products",
-  "VET-QA-0446": "natural remedies for mange; no source reviewed supports any"
+  "VET-QA-0446": "natural remedies for mange; no source reviewed supports any",
+  "VET-QA-0404": "laminitis-signs question filed under respiratory; duplicate of /qa/lameness/signs-of-laminitis-and-founder/",
+  "VET-QA-0415": "vet-check frequency; no source reviewed gives a schedule",
+  "VET-QA-0435": "generic \"what tests diagnose the cause\" with no condition named"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -539,6 +542,76 @@
   ],
   "when-to-call-the-vet-for-skin-problems": [
    "VET-QA-0478"
+  ]
+ },
+ "respiratory": {
+  "signs-of-pneumonia-in-horses": [
+   "VET-QA-0423"
+  ],
+  "how-pneumonia-is-diagnosed": [
+   "VET-QA-0403",
+   "VET-QA-0413"
+  ],
+  "pneumonia-treatment-and-recovery": [
+   "VET-QA-0430",
+   "VET-QA-0414"
+  ],
+  "monitoring-pneumonia-recovery-at-home": [
+   "VET-QA-0406",
+   "VET-QA-0422"
+  ],
+  "pneumonia-complications-and-prevention": [
+   "VET-QA-0420",
+   "VET-QA-0410"
+  ],
+  "causes-of-nasal-discharge-in-horses": [
+   "VET-QA-0416",
+   "VET-QA-0427"
+  ],
+  "when-to-call-the-vet-for-nasal-discharge": [
+   "VET-QA-0432",
+   "VET-QA-0434"
+  ],
+  "nasal-discharge-treatment-and-recurrence": [
+   "VET-QA-0436",
+   "VET-QA-0437",
+   "VET-QA-0412"
+  ],
+  "causes-of-cough-in-horses": [
+   "VET-QA-0425"
+  ],
+  "preventing-cough-and-respiratory-problems": [
+   "VET-QA-0409",
+   "VET-QA-0408",
+   "VET-QA-0411"
+  ],
+  "common-respiratory-conditions-in-horses": [
+   "VET-QA-0417",
+   "VET-QA-0418"
+  ],
+  "normal-respiratory-rate-in-horses": [
+   "VET-QA-0419",
+   "VET-QA-0407"
+  ],
+  "causes-of-high-respiratory-rate": [
+   "VET-QA-0426"
+  ],
+  "signs-of-serious-respiratory-problems": [
+   "VET-QA-0421",
+   "VET-QA-0433",
+   "VET-QA-0439"
+  ],
+  "respiratory-treatment-options": [
+   "VET-QA-0438"
+  ],
+  "how-to-check-a-digital-pulse": [
+   "VET-QA-0405"
+  ],
+  "causes-of-a-strong-digital-pulse": [
+   "VET-QA-0424",
+   "VET-QA-0428",
+   "VET-QA-0431",
+   "VET-QA-0429"
   ]
  }
 }

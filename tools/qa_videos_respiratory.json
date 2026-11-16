@@ -1,0 +1,121 @@
+{
+ "pages": {
+  "signs-of-pneumonia-in-horses": [
+   "xmcx790fn7o"
+  ],
+  "causes-of-nasal-discharge-in-horses": [
+   "t0-YFRXTqbU"
+  ],
+  "when-to-call-the-vet-for-nasal-discharge": [
+   "8h-Xk3ohgD8"
+  ],
+  "nasal-discharge-treatment-and-recurrence": [
+   "c9KzwdNINms"
+  ],
+  "respiratory-treatment-options": [
+   "TV0y_54g770"
+  ],
+  "common-respiratory-conditions-in-horses": [
+   "cKtO4Mf9Yys"
+  ],
+  "causes-of-cough-in-horses": [
+   "41DS5Beo488"
+  ],
+  "how-to-check-a-digital-pulse": [
+   "D1QehWrp0kQ",
+   "gf75JVj63nM"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Charity education webinar.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "World Horse Welfare Education",
+   "status": "source_verified",
+   "title": "Webinar: Coughing & Hacking: Exploring Equine Respiratory Issues",
+   "youtube_id": "41DS5Beo488"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Media network channel (EQUUS article video).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Horse Radio Network",
+   "status": "source_verified",
+   "title": "Runny Nose: When Is It Serious?",
+   "youtube_id": "8h-Xk3ohgD8"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Priors Farm Equine Veterinary Surgery",
+   "status": "source_verified",
+   "title": "Taking A Digital Pulse",
+   "youtube_id": "D1QehWrp0kQ"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast from a veterinary practice.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Countryside Vets",
+   "status": "source_verified",
+   "title": "Ep. 6 - Understanding Asthma and Respiratory Health in Horses",
+   "youtube_id": "TV0y_54g770"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Pet Care Partners",
+   "status": "source_verified",
+   "title": "EP. 207: Purulent Nasal Discharge in Horses | Causes, Diagnosis & Treatment | Pet Care Partners",
+   "youtube_id": "c9KzwdNINms"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Priors Farm Equine Veterinary Surgery",
+   "status": "source_verified",
+   "title": "Equine RAO (‘Asthma’)",
+   "youtube_id": "cKtO4Mf9Yys"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Horse-owner education channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "My Senior Horse",
+   "status": "source_verified",
+   "title": "How to Take a Horse's Pulse",
+   "youtube_id": "gf75JVj63nM"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Nasal Discharge in Horses",
+   "youtube_id": "t0-YFRXTqbU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Pet Care Partners",
+   "status": "source_verified",
+   "title": "EP. 199: Equine Pleuropneumonia Explained | Causes, Signs, Diagnosis & Treatment | Pet Care Partners",
+   "youtube_id": "xmcx790fn7o"
+  }
+ ]
+}
