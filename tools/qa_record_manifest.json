@@ -144,9 +144,6 @@
   "VET-QA-0125": "malnutrition; nutrition topic",
   "VET-QA-0144": "overlaps colic/diarrhea/ulcer pages; no unique content",
   "VET-QA-0096": "pot-belly exercise: no verified source",
-  "VET-QA-0250": "lethargy causes: no verified source gathered",
-  "VET-QA-0264": "lethargy causes: no verified source gathered",
-  "VET-QA-0290": "when to call for lethargy: no verified source gathered",
   "VET-QA-0260": "generic metabolic-monitoring question; no verified interval",
   "VET-QA-0262": "insulin monitoring interval: no verified source",
   "VET-QA-0289": "generic treatment question for unnamed condition",
@@ -250,6 +247,13 @@
    "VET-QA-0273",
    "VET-QA-0274",
    "VET-QA-0285"
+  ],
+  "common-causes-of-lethargy-in-horses": [
+   "VET-QA-0264",
+   "VET-QA-0250"
+  ],
+  "when-to-call-the-vet-for-a-lethargic-horse": [
+   "VET-QA-0290"
   ]
  },
  "lameness": {

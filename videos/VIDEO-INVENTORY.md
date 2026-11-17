@@ -130,3 +130,7 @@ Records 0163, 0179 added to `preventing-scratches` and 0191 to `scratches-treatm
 
 ## Scratches video added — 2026-11-16
 Zy0oKksngmg (OSU Small Farms Program, Dr. Dawn Sherwood) added to `preventing-scratches` and `scratches-treatment-and-recovery-time`. Second search for `stifle-injury-treatment-recovery-and-surgery` found only product (Ice Horse, Arthramid), TV (NatGeo) and clinic case-tracking videos, so it stays blank. Professional Equine Grooms videos remain excluded (affiliate retail channel).
+
+## Lethargy pages — 2026-11-16
+- when-to-call-the-vet-for-a-lethargic-horse: 2u-LmAxc9JE (Starwood Equine Veterinary Services, TPR how-to), wbGapOskTVE (Troy Equine Services, TPR how-to). Matches the page's check-vitals step; neither is about lethargy itself. Judged by title and publisher only.
+- common-causes-of-lethargy-in-horses: blank. Search found a news clip on equine depression, general illness-sign videos from unnamed channels and vet-audience content; none matched.

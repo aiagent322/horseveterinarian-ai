@@ -29,6 +29,10 @@
   ],
   "signs-of-laminitis-in-endocrine-disease": [
    "9wFkMO0HNxo"
+  ],
+  "when-to-call-the-vet-for-a-lethargic-horse": [
+   "2u-LmAxc9JE",
+   "wbGapOskTVE"
   ]
  },
  "videos": [
@@ -101,6 +105,26 @@
    "status": "source_verified",
    "title": "What is laminitis in horses? Vet, Dr. Ursini breaks it down with Baby Seven",
    "youtube_id": "9wFkMO0HNxo"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equine veterinary practice channel; owner TPR how-to.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Starwood Equine Veterinary Services",
+   "status": "source_verified",
+   "title": "How to Take your Horse's TPR",
+   "youtube_id": "2u-LmAxc9JE"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equine veterinary practice channel; owner TPR how-to.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Troy Equine Services",
+   "status": "source_verified",
+   "title": "How To: Equine T.P.R | Troy Equine Services",
+   "youtube_id": "wbGapOskTVE"
   }
  ]
 }

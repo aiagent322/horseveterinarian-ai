@@ -3,6 +3,8 @@
 import qa_colic as C
 S = dict(C.S)
 S.update({
+ 'hsvg13': ('Horse-Side Vet Guide — Depressed, dull or lethargic horse (Doug Thal, DVM, Dipl. ABVP; last modified Dec 2024)', 'https://horsesidevetguide.com/drv/Observation/13'),
+ 'uflcall': ('University of Florida Large Animal Hospital — When It\'s Time to Call the Vet (Sept 2025)', 'https://largeanimal.vethospitals.ufl.edu/2025/09/10/when-its-time-to-call-the-vet/'),
  'wcvm': ('University of Saskatchewan WCVM — Pituitary Pars Intermedia Dysfunction (PPID)', 'https://vmc.usask.ca/care/equine-health/resources/ppid.php'),
  'ucdems': ('UC Davis Center for Equine Health — Equine Metabolic Syndrome', 'https://ceh.vetmed.ucdavis.edu/node/3021'),
  'umnems': ('University of Minnesota Equine Center — Equine Metabolic Syndrome: Management', 'https://vetmed.umn.edu/equine/research/equine-genetics-and-genomics-laboratory/projects/equine-metabolic-syndrome/management'),
@@ -14,7 +16,7 @@ S.update({
  'hcppid': ('Horse Canada — Pituitary Pars Intermedia Dysfunction', 'https://horse-canada.com/magazine/health/pituitary-pars-intermedia-dysfunction/'),
 })
 HELD = {
- 'VET-QA-0250':'lethargy causes: no verified source gathered','VET-QA-0264':'lethargy causes: no verified source gathered','VET-QA-0290':'when to call for lethargy: no verified source gathered',
+ 
  'VET-QA-0260':'generic metabolic-monitoring question; no verified interval','VET-QA-0262':'insulin monitoring interval: no verified source','VET-QA-0289':'generic treatment question for unnamed condition',
 }
 PAGES = [
@@ -281,4 +283,53 @@ PAGES = [
 </ul>
 <p>See <a href="/qa/metabolic/ppid-monitoring-and-retesting/">PPID monitoring</a>.</p>''',
   src=['wcvm','ucdems','umnems'], rel=['ppid-monitoring-and-retesting','signs-of-laminitis-in-endocrine-disease','long-term-management-of-ems']),
+
+ dict(slug='common-causes-of-lethargy-in-horses', ids=['VET-QA-0264','VET-QA-0250'], urgent=True,
+  q='What causes lethargy in horses, and can diet or environment be the reason?',
+  title='Common Causes of Lethargy in Horses',
+  meta='Lethargy can come from digestive, infectious, toxic, organ or metabolic disease, or feed and plant hazards. A dull horse needs a vet exam to find the cause.',
+  short='A lethargic or depressed horse has a sign, not a diagnosis. One veterinary guide lists digestive, infectious, toxic, organ, metabolic and injury causes, including grain overload, moldy corn, poisonous plants and under-nutrition. Taken alone the sign is too broad to point to one cause, so a veterinarian needs to examine the horse.',
+  body='''<h2>What it looks like</h2>
+<p>Horse-Side Vet Guide (Dr. Doug Thal) describes a depressed or lethargic horse as sleepy or drowsy, with a hanging head or lip, usually not eating, and uninterested in people, herd mates or surroundings. Standing with the head down in heat or at midday can be normal.</p>
+<h2>Causes listed (Horse-Side Vet Guide)</h2>
+<ul>
+<li><strong>Digestive:</strong> colic, impactions, gastric ulcers, intestinal inflammation and colitis.</li>
+<li><strong>Infectious:</strong> respiratory viruses, pneumonia, strangles, equine influenza, herpesvirus, Potomac horse fever and West Nile virus, among others.</li>
+<li><strong>Organ and metabolic:</strong> kidney, liver, heart and blood disorders, diabetes, low blood sugar and under-nutrition.</li>
+<li><strong>Toxic, injury and other:</strong> many plant, feed and chemical poisonings, abscesses, fractures, snake bites, insect stings, and stress or anxiety.</li>
+</ul>
+<h2>Diet and environment</h2>
+<ul>
+<li><strong>Diet:</strong> the guide lists carbohydrate or grain overload, moldy corn and aflatoxins, monensin and selenium toxicity, and under-nutrition.</li>
+<li><strong>Environment:</strong> poisonous plants and weeds, blister beetles, lead, rodenticides, snake and insect bites, smoke inhalation, and mosquito-borne and tick-borne diseases.</li>
+</ul>
+<h2>What the sources do not say</h2>
+<p>The guide says depression taken alone is usually too broad a sign to narrow the problem, and other signs help your veterinarian choose tests. It does not explain how to tell these causes apart or how to treat them, and it advises against giving flunixin on your own without knowing the cause. Endocrine disease is another possible cause; see <a href="/qa/metabolic/signs-of-ppid-cushings/">signs of PPID</a>. Check the horse as described in <a href="/qa/metabolic/when-to-call-the-vet-for-a-lethargic-horse/">when to call the vet</a>.</p>''',
+  src=['hsvg13'], rel=['when-to-call-the-vet-for-a-lethargic-horse','signs-of-ppid-cushings','long-term-effects-of-untreated-endocrine-disease']),
+
+ dict(slug='when-to-call-the-vet-for-a-lethargic-horse', ids=['VET-QA-0290'], urgent=True,
+  q='When should I call the vet for a lethargic horse?',
+  title='When to Call the Vet for a Lethargic Horse',
+  meta='Call at once if a lethargic horse will not eat, shows colic signs, or has a fever or fast heart rate, even after hours. Check temperature and pulse first.',
+  short='Call your veterinarian immediately, even after hours, if a dull horse has no appetite, shows signs of colic, or has a resting fever or fast heart rate. Horse-Side Vet Guide gives over 101°F and over 48 beats per minute; the University of Florida gives a fever over 101.5°F for adults and lists depression as a reason to call.',
+  body='''<h2>Call immediately, even outside business hours (Horse-Side Vet Guide)</h2>
+<ul>
+<li>The horse has no appetite and is obviously depressed.</li>
+<li>Any signs of colic.</li>
+<li>A resting horse has a temperature above 101°F (38.3°C) or a heart rate above 48 beats per minute.</li>
+</ul>
+<h2>Call at first office hours</h2>
+<p>The guide lists mild or occasional dullness in a horse that seems normal otherwise. It does not spell out more criteria for this level.</p>
+<h2>University of Florida list</h2>
+<p>The University of Florida Large Animal Hospital lists fever (adult temperature above 101.5°F), loss of appetite or difficulty eating, depression or anxiety, diarrhea beyond loose manure from excitement or trailering, and difficulty breathing among reasons to call. It says to call your vet sooner rather than later.</p>
+<p>The two sources give slightly different fever thresholds; ask your veterinarian what is normal for your horse.</p>
+<h2>What to check while you call</h2>
+<ul>
+<li>Temperature, pulse and breathing rate, and whether the horse walks straight lines and circles normally.</li>
+<li>Appetite: offer a small amount of a feed the horse likes.</li>
+<li>Manure output and signs of abdominal pain such as rolling or looking at the flank.</li>
+<li>Recent feed or management changes, new horses on the property, and any cough, swelling or lameness.</li>
+</ul>
+<p>Do not give painkillers before talking to your veterinarian; the guide advises against giving flunixin on your own without knowing the cause. See <a href="/qa/metabolic/common-causes-of-lethargy-in-horses/">causes of lethargy</a> and <a href="/emergency/">emergencies</a>.</p>''',
+  src=['hsvg13','uflcall'], rel=['common-causes-of-lethargy-in-horses','signs-of-ppid-cushings','long-term-effects-of-untreated-endocrine-disease']),
 ]
