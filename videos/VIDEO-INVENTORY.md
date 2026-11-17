@@ -152,3 +152,7 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 - `z08G74nJCHQ` Blamm Media, Plants Toxic to Horses: Red Maple: red-maple-poisoning-in-horses (1 use; equestrian-center presentation).
 - Blank: oleander-poisoning-in-horses (no US equine-specific match found).
 - Excluded: `jBwDYpgSDCY` (real-estate agent channel); Mad Barn podcast `Aa_ArzCJh1c` (feed-company sponsored); `rxUy1Phv-Mc`, `pr2tF6uyb7k` (older than ~8 years); `c596dwWotSs`, `g7mG1yRElRE` (non-US guidance); oleander videos (pet-focused, news or non-equine).
+
+## Foal care (2026-11-17)
+Source-first topic; no package records. All 5 pages blank: no verifiable US equine match.
+- Excluded: `4p_8quuZras` (Your Vet Online; course-provider channel, region not verified); `5ZqyJiVAHlM` (Pet Care Partners podcast; producer and audience not verified); `fRMljRJzBFo` (Rood & Riddle NI screen; about 8 years old); `HW3hWEX1HWE` (personal stable channel, no matching page); `QOee_EFAvO4`, `TC1b1aBFv84` (UK); `LfqTv2wdCwg`, `rVI0GTVxFgY` (home-remedy or low-reliability channel); calf, lamb, kid and human videos (non-equine).

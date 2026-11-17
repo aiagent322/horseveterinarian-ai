@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -76,6 +76,10 @@ TOPICS = [
       hub_title='Poisonous Plants for Horses Questions and Answers', hub_meta='Source-checked answers on poisonous plants for horses: what to do, common toxic plants, red maple, oleander and prevention. Educational only; ask your vet.',
       call='If you think your horse ate a poisonous plant, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: what to do after plant ingestion, common toxic plants, red maple, oleander and prevention.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
+ dict(key='foal-care', name='Foal Care', url='/qa/foal-care/', mod=qa_foal, h1='Foal Care Questions &amp; Answers',
+      hub_title='Foal Care Questions and Answers', hub_meta='Source-checked answers on newborn foal care: the 1-2-3 rule, colostrum, signs of a sick foal, foal diarrhea and umbilical cord care. Ask your vet.',
+      call='A sick newborn foal can decline within hours. If a foal is not standing, not nursing, weak or has diarrhea, call your veterinarian now. This page is educational and cannot assess your foal.',
+      desc='%d questions: newborn milestones, colostrum, signs of a sick foal, foal diarrhea and umbilical cord care.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()
