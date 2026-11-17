@@ -116,3 +116,6 @@ YouTube pages cannot be fetched from this workspace, so this pass checked each r
 
 ## Lameness additions (stifle, splint prevention) — 2026-11-16
 Pages `stifle-injury-signs-and-diagnosis`, `stifle-injury-treatment-recovery-and-surgery` and `preventing-splints-in-horses` have no video attached. No video search was run for them.
+
+## GI addition (ulcer long-term effects) — 2026-11-16
+Page `long-term-effects-of-untreated-gastric-ulcers` has no video attached. No video search was run.

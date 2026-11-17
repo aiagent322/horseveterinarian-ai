@@ -127,6 +127,11 @@
    "VET-QA-0101",
    "VET-QA-0100",
    "VET-QA-0092"
+  ],
+  "long-term-effects-of-untreated-gastric-ulcers": [
+   "VET-QA-0091",
+   "VET-QA-0121",
+   "VET-QA-0122"
   ]
  },
  "held": {
@@ -144,9 +149,6 @@
   "VET-QA-0109": "eye topic",
   "VET-QA-0131": "eye topic",
   "VET-QA-0141": "eye topic (question text only)",
-  "VET-QA-0091": "long-term ulcer effects: ECEIM calls signs-disease links weakly supported; no verified source",
-  "VET-QA-0121": "same; \"acid reflux\" framing not standard EGUS terminology",
-  "VET-QA-0122": "same",
   "VET-QA-0250": "lethargy causes: no verified source gathered",
   "VET-QA-0264": "lethargy causes: no verified source gathered",
   "VET-QA-0290": "when to call for lethargy: no verified source gathered",

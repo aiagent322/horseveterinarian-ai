@@ -13,6 +13,8 @@ S.update({
  'hbmb': ('Mad Barn — Hay Belly in Horses', 'https://madbarn.com/hay-belly-in-horses/'),
  'hipar': ('Horse Illustrated — Equine University: Parasite Infestation', 'https://www.horseillustrated.com/equine-university-horse-college-horse-health-college-session-200-parasite-infestation-article/amp'),
  'avma': ('AVMA — Internal Parasites of the Horse', 'https://ebusiness.avma.org/files/productdownloads/InternalParasiteHorse_En.pdf'),
+ 'usuegus': ('Utah State University Extension — Preventing and Managing Equine Gastric Ulcer Syndrome (K. Bell, K. Hoopes DVM; Aug 2024)', 'https://extension.usu.edu/equine/research/preventing-and-managing-equine-gastric-ulcer-syndrome'),
+ 'sykesvt': ('Vet Times — Equine gastric ulcer syndrome (Ben Sykes; 24 Sept 2021)', 'https://www.vettimes.com/clinical/equine/equine-gastric-ulcer-syndrome-cpdequinegi'),
  'horseomep': ('The Horse — Omeprazole discontinuation and rebound gastric hyperacidity in horses', 'https://thehorse.com/?p=123766'),
 })
 HELD = {
@@ -26,7 +28,7 @@ HELD = {
  'VET-QA-0144':'overlaps colic/diarrhea/ulcer pages; no unique content',
  'VET-QA-0096':'pot-belly exercise: no verified source',
  'VET-QA-0099':'eye topic','VET-QA-0103':'eye topic','VET-QA-0109':'eye topic','VET-QA-0131':'eye topic','VET-QA-0141':'eye topic (question text only)',
- 'VET-QA-0091':'long-term ulcer effects: ECEIM calls signs-disease links weakly supported; no verified source','VET-QA-0121':'same; "acid reflux" framing not standard EGUS terminology','VET-QA-0122':'same',
+ 
  
 }
 PAGES = [
@@ -240,4 +242,23 @@ PAGES = [
 <h2>What the sources do not cover</h2>
 <p>The study involved 14 retired Thoroughbred racehorses over 57 days, so it may not apply to all horses or longer courses (The Horse). The article does not address long-term safety beyond eight weeks, calcium or other nutrient absorption, drug interactions beyond NSAIDs, or doses. The British Horse Society ulcer page gives no medication side effects either. Do not start, stop or combine medications without your veterinarian. Call your veterinarian for colic signs, weight loss or a horse that stops eating. See <a href="/qa/gi/gastric-ulcer-treatment-options/">ulcer treatment options</a> and <a href="/qa/gi/how-to-prevent-gastric-ulcers/">preventing ulcers</a>.</p>''',
   src=['horseomep'], rel=['gastric-ulcer-treatment-options','gastric-ulcer-treatment-time-and-recovery','how-to-prevent-gastric-ulcers']),
+
+ dict(slug='long-term-effects-of-untreated-gastric-ulcers', ids=['VET-QA-0091','VET-QA-0121','VET-QA-0122'], urgent=False,
+  q='What are the long-term effects of gastric ulcers or "acid reflux" if left untreated in horses?',
+  title='Untreated Gastric Ulcers in Horses: Long-Term Effects',
+  meta='Sources link ulcers to poor appetite, weight loss, colic and lower performance, but report no outcomes for untreated horses. Evidence on performance is limited.',
+  short='No source read reports what happens to horses whose ulcers go untreated. Utah State lists signs such as weight loss, colic and behavior change. A 2021 Vet Times review calls the evidence that ulcers lower performance limited but moderate. If your horse shows these signs, ask your veterinarian.',
+  body='''<h2>What the sources say</h2>
+<ul>
+<li>Utah State University Extension (2024) lists subtle signs of ulcers (dull coat, poor appetite, lower performance) and more serious ones (weight loss, trouble keeping body condition, behavior changes, abdominal discomfort and colic). It advises long-term management after healing to prevent recurrence.</li>
+<li>Vet Times (Dr. Ben Sykes, 2021) says squamous ulcer disease has been linked to fussy eating and poorer body condition. He suggests reduced intake could slow recovery and weight regain between races in racehorses.</li>
+<li>The same review says studies link ulcers to performance problems, but the evidence is limited and the causal link is not proven. Several findings come from conference abstracts or retrospective work, and some views are the author's opinion.</li>
+</ul>
+<h2>What the sources do not say</h2>
+<ul>
+<li>Neither source reports outcomes for untreated horses or describes complications such as perforation or chronic disease.</li>
+<li>"Acid reflux" is not the standard term in these sources. They use equine gastric ulcer syndrome, with squamous and glandular forms, so this page answers for ulcers.</li>
+</ul>
+<p>Do not wait to see what happens. Call your veterinarian about weight loss, a horse that stops eating, or repeated colic. See <a href="/qa/gi/signs-of-gastric-ulcers/">signs of gastric ulcers</a> and <a href="/qa/gi/gastric-ulcer-treatment-options/">treatment options</a>.</p>''',
+  src=['usuegus','sykesvt'], rel=['signs-of-gastric-ulcers','gastric-ulcer-treatment-options','how-to-prevent-gastric-ulcers']),
 ]
