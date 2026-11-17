@@ -25,6 +25,20 @@
   ],
   "back-pain-causes-and-signs": [
    "2JTIXdUYwXQ"
+  ],
+  "arthritis-causes-treatment-and-outlook": [
+   "xLv9KHnjafg",
+   "kxpF6MeDfqI"
+  ],
+  "ligament-injury-treatment-and-healing-time": [
+   "KxfPAYSZNgU",
+   "Xh6IORjasuo"
+  ],
+  "stifle-injury-signs-and-diagnosis": [
+   "xxmahbnzv_8"
+  ],
+  "preventing-splints-in-horses": [
+   "kyLAgcgmQo4"
   ]
  },
  "videos": [
@@ -87,6 +101,66 @@
    "status": "source_verified",
    "title": "How to Evaluate Back Pain in Horses",
    "youtube_id": "2JTIXdUYwXQ"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University veterinary school channel (OSUHorse).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "OSUHorse",
+   "status": "source_verified",
+   "title": "arthritis webinar",
+   "youtube_id": "xLv9KHnjafg"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Charity education channel (World Horse Welfare).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "World Horse Welfare Education",
+   "status": "source_verified",
+   "title": "Webinar: Managing arthritic changes in ridden horses",
+   "youtube_id": "kxpF6MeDfqI"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Charity education channel (World Horse Welfare).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "World Horse Welfare Education",
+   "status": "source_verified",
+   "title": "Webinar: Managing tendon and ligament injuries in horses",
+   "youtube_id": "KxfPAYSZNgU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Hosted on a horse-training education channel; presenter is Dr. Sue Dyson.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Train with Trust Project",
+   "status": "source_verified",
+   "title": "Live with Dr. Sue Dyson: Rehabbing Equine Ligament Injuries",
+   "youtube_id": "Xh6IORjasuo"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Educational channel of a commercial publisher (The Equine Institute); relevance judged from title and description only.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Equine Institute",
+   "status": "source_verified",
+   "title": "Upward Fixation of the Patella \"The Locking Stifle\" in Horses: Causes & Risk Factors",
+   "youtube_id": "xxmahbnzv_8"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary education platform (StreamZ Global); relevance judged from title and description only.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "StreamZ Global",
+   "status": "source_verified",
+   "title": "EQU StreamZ | Diagnosing and treating splints in horses",
+   "youtube_id": "kyLAgcgmQo4"
   }
  ]
 }

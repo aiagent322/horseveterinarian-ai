@@ -24,6 +24,13 @@
   ],
   "pot-belly-in-horses-causes-and-tests": [
    "7RuC8aaTMUA"
+  ],
+  "omeprazole-use-rebound-and-treatment-cautions": [
+   "HGDatdXR5sg"
+  ],
+  "long-term-effects-of-untreated-gastric-ulcers": [
+   "HGDatdXR5sg",
+   "F63HbUV4rp4"
   ]
  },
  "videos": [
@@ -86,6 +93,26 @@
    "clinical_review": "not_performed",
    "metadata_source": "youtube_oembed",
    "metadata_checked_on": "2026-11-16"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Charity education channel (World Horse Welfare).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "World Horse Welfare Education",
+   "status": "source_verified",
+   "title": "Managing Equine Gastric Ulcers",
+   "youtube_id": "HGDatdXR5sg"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equine veterinary practice presentation.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Starwood Equine Veterinary Services",
+   "status": "source_verified",
+   "title": "Equine Gastric Ulcer Syndrome",
+   "youtube_id": "F63HbUV4rp4"
   }
  ]
 }

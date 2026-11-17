@@ -114,8 +114,13 @@ Fourteen placements (eleven videos) were removed from `tools/qa_videos_*.json` b
 
 YouTube pages cannot be fetched from this workspace, so this pass checked each remaining placement against its oEmbed title, publisher and `commercial_note` only; video descriptions and content were not read. Ten videos were removed: Mad Barn (nbYeTmWp9DA, KfQ1yQiFBCc; feed company), v9MLQ9EMJTg (presenter employed by an ulcer-drug maker), uaNVcDBEsE8 (personal channel), QiONaR-eOa8 (title is about treating an abscess, page is about signs; subscription channel), PMNwf9L3WOk and 7QZ1DA5A9kQ (aimed at veterinarians), CPCOLtkLmzc (veterinarian lecture on a subscription platform), f-9rSPjmmYk (may mention products), and D_l_dcPW-sI (grooming-service channel, not a veterinary or farrier source). Content review by a veterinarian is still required for every remaining video.
 
-## Lameness additions (stifle, splint prevention) — 2026-11-16
-Pages `stifle-injury-signs-and-diagnosis`, `stifle-injury-treatment-recovery-and-surgery` and `preventing-splints-in-horses` have no video attached. No video search was run for them.
-
-## GI addition (ulcer long-term effects) — 2026-11-16
-Page `long-term-effects-of-untreated-gastric-ulcers` has no video attached. No video search was run.
+## Video pass on lameness and GI additions — 2026-11-16
+Judged by title, publisher and note only (YouTube watch pages cannot be opened here). All ids passed oEmbed. No clinical review.
+- arthritis-causes-treatment-and-outlook: xLv9KHnjafg (OSUHorse), kxpF6MeDfqI (World Horse Welfare Education)
+- ligament-injury-treatment-and-healing-time: KxfPAYSZNgU (World Horse Welfare Education), Xh6IORjasuo (Dr. Sue Dyson, hosted on a training education channel)
+- stifle-injury-signs-and-diagnosis: xxmahbnzv_8 (The Equine Institute, locked stifle)
+- preventing-splints-in-horses: kyLAgcgmQo4 (StreamZ Global)
+- omeprazole-use-rebound-and-treatment-cautions: HGDatdXR5sg (World Horse Welfare Education, general ulcer management)
+- long-term-effects-of-untreated-gastric-ulcers: HGDatdXR5sg, F63HbUV4rp4 (Starwood Equine)
+- stifle-injury-treatment-recovery-and-surgery: blank, no relevant non-product video found.
+- Excluded: Mad Barn (feed retailer), Arthramid and omeprazole product videos, Boehringer presentation, a personal channel on splints, NatGeo TV clip, vet-only CPD, videos older than ~8 years, Pet Food Science Podcast, CVS Equine ulcer video (already at 2 uses).
