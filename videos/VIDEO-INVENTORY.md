@@ -164,3 +164,9 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 - `bNys0H27HOc` Rutgers Equine Science Center, 2024 Horse Management Seminar, Senior Horse Care: caring-for-a-senior-horse, feeding-a-senior-horse (2 uses).
 - Blank: common-health-problems-in-older-horses (no matching video).
 - Excluded: `cywPx6ccd-Y` (tack and vet supply retailer); `3AyX5KMq6Yw` (channel not verified as independent of feed products); `_b9dBrenlB8` (personal farm channel); `_RHL_byk94s`, `8ODLR-9sksU`, `kK8lurzVdIA`, `c25bB9YWcjs` (older than about 8 years); `hSygZtLTSwA`, `6ELtRghyaAs` (feed product); `EbI-q3uqDkU`, `QqF8lINXMKc`, `IJYi6PC0D6s` (personal or case stories); `XdWfgsJh59s` (hospitalized horses, vet-audience).
+
+## Hot weather (2026-11-17)
+Source-first topic; no package records. oEmbed-verified; clinical review not performed; relevance judged from title and description.
+- `4jOb5b2RBL0` SUNUPTV (Oklahoma State University Extension), What are the Signs of Heat Stress in Horses?: signs-of-heat-stress-in-horses, heat-exhaustion-heat-cramps-and-heatstroke-in-horses (2 uses).
+- Blank: how-to-cool-an-overheated-horse, anhidrosis-in-horses-when-a-horse-stops-sweating, keeping-horses-cool-in-hot-weather, water-and-electrolytes-for-horses-in-hot-weather.
+- Excluded: `dqCrdi2N1VU` (SmartPak, retailer); `lRBQcHkjcFc` (podcast; region and audience not verified); `pcaSS90jCSY` (UF Health news clip on possible treatments); `j3byQnoLYFo` (UK); `CX-ux9u85wo`, `KLI7FuqYLPk`, `EwawWq3kER4`, `rKgWm7kY1Es` (older than about 8 years); electrolyte, supplement and beer-remedy videos (product or home remedy); personal vlogs.
