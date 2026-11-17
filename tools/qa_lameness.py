@@ -8,6 +8,9 @@ S.update({
  'merlam': ('Merck Veterinary Manual — Laminitis in Horses', 'https://www.merckvetmanual.com/musculoskeletal-system/disorders-of-the-foot-in-horses/laminitis-in-horses'),
  'umnbow': ('University of Minnesota Extension — Bowed tendons in horses', 'https://extension.umn.edu/horse-health/bowed-tendons-horses'),
  'hctend': ('Horse Canada — Tendon injuries (Dr. Judith Koenig, Ontario Veterinary College)', 'https://horse-canada.com/magazine/health/tendon-injuries/'),
+ 'merckstifle': ('Merck Veterinary Manual (Owner Version) — Disorders of the Stifle in Horses (J. C. Boswell; reviewed Apr 2019, modified Sept 2024)', 'https://merckvetmanual.com/horse-owners/bone-joint-and-muscle-disorders-in-horses/disorders-of-the-stifle-in-horses'),
+ 'merckufp': ('Merck Veterinary Manual — Intermittent Upward Fixation of the Patella (S. S. Durgam, peer reviewed; updated Sept 2025)', 'https://www.merckvetmanual.com/musculoskeletal-system/disorders-of-the-stifle-in-horses/intermittent-upward-fixation-of-the-patella-and-delayed-patella-release-locked-stifle-in-horses'),
+ 'horsedvmsplint': ('HorseDVM — Splints (no individual author or date shown)', 'https://horsedvm.com/disease/splints'),
  'umnsplint': ('University of Minnesota Extension — Splints and bucked shins in horses', 'https://extension.umn.edu/horse-health/splints-and-bucked-shins-horses'),
  'mosplint': ('University of Missouri Extension — Splints in Horses', 'https://extension.missouri.edu/g2742'),
  'acvskiss': ('American College of Veterinary Surgeons — Overriding/Impinging Dorsal Spinous Processes', 'https://www.acvs.org/?p=14789'),
@@ -31,11 +34,11 @@ HELD = {
  'VET-QA-0318':'generic rest question; no condition named','VET-QA-0319':'generic rest question; no condition named','VET-QA-0364':'generic treatment question; no condition named',
  'VET-QA-0384':'generic pain management; no condition named','VET-QA-0379':'muscle strain rest: no verified source','VET-QA-0382':'muscle strain exercises: no verified source',
  'VET-QA-0339':'neck pain: no verified source',
- 'VET-QA-0310':'stifle injury: sources found cover only locked stifle','VET-QA-0315':'stifle injury recovery: no verified source','VET-QA-0324':'stifle injury signs: no verified source',
- 'VET-QA-0342':'stifle injury tests: no verified source','VET-QA-0352':'stifle rehab: no verified source','VET-QA-0372':'stifle surgery: no verified source',
+ 'VET-QA-0310':'stifle injury prevention: sources cover only locked-stifle conditioning; package answer is about laminitis (package fix)',
  
  
- 'VET-QA-0306':'splint prevention: sources give none','VET-QA-0309':'splint prevention: sources give none','VET-QA-0299':'kissing spines prevention: source gives none',
+ 
+ 'VET-QA-0299':'kissing spines prevention: source gives none',
  'VET-QA-0321':'bowed tendon shoeing/padding: source gives none',
 }
 P = '/qa/lameness/'
@@ -507,4 +510,76 @@ PAGES = [
 <li>Other avoidable causes include poor hoof balance, incorrect shoeing or trimming, repetitive concussion and improper boot or bandage use. Falls, slips, uneven terrain and conformation are harder to control.</li>
 </ul>''',
   src=['hcligament','rameyligament'], rel=['ligament-injury-signs-and-diagnosis','arthritis-causes-treatment-and-outlook','preventing-tendon-injuries','bowed-tendon-treatment-and-recovery']),
+
+ dict(slug='stifle-injury-signs-and-diagnosis', ids=['VET-QA-0324','VET-QA-0342'], urgent=False,
+  q='What are the signs of a stifle injury in horses and how is it diagnosed?',
+  title='Horse Stifle Injury: Signs and Diagnosis',
+  meta='Stifle problems show as hind-limb lameness, a short stride or a locking leg. Vets use lameness exams, X-rays and ultrasound. Call your vet about any lameness.',
+  short='The stifle is the hind-leg knee joint of the horse. Merck lists a shortened forward stride, a toe-touching rest posture and, if ligaments or cartilage have ruptured, a grating or crackling sound. A veterinarian confirms the problem with a lameness exam, X-rays and ultrasound.',
+  body='''<h2>Signs (Merck Veterinary Manual)</h2>
+<ul>
+<li>Lameness in the swinging leg with a shortened forward stride.</li>
+<li>Resting with the fetlock bent and only the toe touching the ground.</li>
+<li>Lameness in both the supporting and swinging legs in moderately severe cases, and carrying the leg bent in severe cases.</li>
+<li>A grating or crackling sound when cartilage or ligaments have ruptured.</li>
+<li>Bone cysts, most common in young Thoroughbreds aged 1 to 2 years, can first show as lameness when training starts; swelling is common but some horses are severely lame with none.</li>
+</ul>
+<h2>Locked stifle</h2>
+<p>The patellar ligament can catch and lock the leg in extension, then release with a sudden jerk. Milder cases show delayed release when the horse starts to move or slows down, and repeated episodes can cause low-grade lameness and reluctance on deep footing or hills (Merck Veterinary Manual). Owners often mistake a true lock for a broken leg; call your veterinarian rather than guessing.</p>
+<h2>How it is diagnosed</h2>
+<ul>
+<li>The type of lameness and any audible grating guide the assessment (Merck).</li>
+<li>X-rays show bone and cartilage involvement and are used for fractures and bone cysts; ultrasound lets a veterinarian examine ligaments, cartilage and soft tissue (Merck).</li>
+<li>For locked stifle, diagnosis rests mainly on recognising the typical signs; the kneecap can sometimes be locked by backing the horse, and X-rays are advised if there is lameness and joint fluid (Merck Veterinary Manual, 2025).</li>
+</ul>
+<p>The sources do not list every test a veterinarian may use, such as nerve or joint blocks; your veterinarian chooses them. See <a href="/qa/lameness/stifle-injury-treatment-recovery-and-surgery/">treatment, recovery and surgery</a>.</p>''',
+  src=['merckstifle','merckufp'], rel=['stifle-injury-treatment-recovery-and-surgery','ligament-injury-signs-and-diagnosis','arthritis-causes-treatment-and-outlook']),
+
+ dict(slug='stifle-injury-treatment-recovery-and-surgery', ids=['VET-QA-0315','VET-QA-0352','VET-QA-0372'], urgent=False,
+  q='How is a stifle injury treated, how long is recovery, and when is surgery considered?',
+  title='Horse Stifle Injury: Treatment, Recovery, Surgery',
+  meta='Stifle care ranges from rest and joint injections to surgery for large fragments. Sources give few timelines and no rehab program. Your vet sets the plan.',
+  short='Treatment depends on the stifle problem. Merck describes prolonged rest and joint injections for inflammation, and surgery for large bone fragments, bone cysts that fail other treatment and severe locked stifle. Recovery outlook is poor for long-term or severe joint damage. No source read gives a rehab exercise program.',
+  body='''<h2>Treatment (Merck Veterinary Manual)</h2>
+<ul>
+<li>Stifle inflammation (gonitis) often needs prolonged rest and repeated joint injections; milder cases may get anti-inflammatory drugs.</li>
+<li>Small or incomplete bone cysts may respond to rest and anti-inflammatory drugs; larger ones may need injections or surgery.</li>
+<li>A locked stifle usually improves with a structured conditioning program of lunging or riding and hill work suited to the horse, adequate nutrition to build muscle, and turnout rather than stall rest. Corrective trimming or shoeing may help.</li>
+</ul>
+<h2>When surgery is considered</h2>
+<ul>
+<li>Fractures involving a large bone fragment.</li>
+<li>Persistent, severe locking that does not respond to conditioning.</li>
+<li>Bone cysts that do not respond to other treatment.</li>
+<li>For locked stifle, procedures are reserved for horses that do not respond to exercise and farriery or are lame from the condition (Merck Veterinary Manual, 2025).</li>
+</ul>
+<h2>Recovery time</h2>
+<ul>
+<li>Rest of 4 to 6 weeks after kneecap surgery, per the owner-level Merck page; the professional page gives about 2 months of stall rest after a ligament-splitting procedure.</li>
+<li>Rest of 4 to 6 months for small bone cysts (Merck).</li>
+<li>No timeline is given for fractures or gonitis. The outlook is poor if gonitis is long-term or involves severe joint-surface, ligament or cartilage injury, and ligament rupture or cartilage damage often progresses to arthritis (Merck).</li>
+</ul>
+<h2>Rehabilitation exercises</h2>
+<p>The sources read do not give a stifle rehabilitation program beyond the conditioning described for locked stifle. Rehab depends on exam findings, so follow the plan your veterinarian sets. See <a href="/qa/lameness/stifle-injury-signs-and-diagnosis/">signs and diagnosis</a>.</p>''',
+  src=['merckstifle','merckufp'], rel=['stifle-injury-signs-and-diagnosis','arthritis-causes-treatment-and-outlook','ligament-injury-treatment-and-healing-time']),
+
+ dict(slug='preventing-splints-in-horses', ids=['VET-QA-0306','VET-QA-0309'], urgent=False,
+  q='How can I prevent splints in my horse?',
+  title='How to Prevent Splints in Horses',
+  meta='Sources list correcting gait problems, protective boots or wraps and avoiding very hard ground. Splints that cause lameness or swell fast need a vet exam.',
+  short='One veterinary reference lists three prevention steps: correct gait problems that predispose a horse to splints, use protective bandages, wraps or shin boots, and avoid exercising on very hard surfaces. University of Minnesota Extension gives no prevention advice. Neither source gives a conditioning schedule.',
+  body='''<h2>Prevention steps (HorseDVM)</h2>
+<ul>
+<li>Correct any gait abnormalities that could predispose the horse to splints.</li>
+<li>Use protective bandages, wraps or shin boots over the long term.</li>
+<li>Avoid exercising horses on very hard surfaces.</li>
+</ul>
+<h2>Why these steps</h2>
+<ul>
+<li>HorseDVM attributes splints on matching legs to concussion from working on overly hard ground, and splints on one leg to a kick, interference from the opposite foot or other trauma.</li>
+<li>University of Minnesota Extension names long-term strain, such as from poor conformation, or a single injury as causes.</li>
+</ul>
+<h2>What the sources do not cover</h2>
+<p>Neither source gives a conditioning schedule, hoof-balance guidance or advice for young horses. The HorseDVM page names no individual author or review date. Ask your veterinarian or farrier about your horse. A splint that causes lameness or swells quickly should be examined; see <a href="/qa/lameness/splints-in-horses/">splints in horses</a>.</p>''',
+  src=['horsedvmsplint','umnsplint'], rel=['splints-in-horses','preventing-hoof-problems','preventing-tendon-injuries']),
 ]

@@ -163,14 +163,7 @@
   "VET-QA-0379": "muscle strain rest: no verified source",
   "VET-QA-0382": "muscle strain exercises: no verified source",
   "VET-QA-0339": "neck pain: no verified source",
-  "VET-QA-0310": "stifle injury: sources found cover only locked stifle",
-  "VET-QA-0315": "stifle injury recovery: no verified source",
-  "VET-QA-0324": "stifle injury signs: no verified source",
-  "VET-QA-0342": "stifle injury tests: no verified source",
-  "VET-QA-0352": "stifle rehab: no verified source",
-  "VET-QA-0372": "stifle surgery: no verified source",
-  "VET-QA-0306": "splint prevention: sources give none",
-  "VET-QA-0309": "splint prevention: sources give none",
+  "VET-QA-0310": "stifle injury prevention: sources cover only locked-stifle conditioning; package answer is about laminitis (package fix)",
   "VET-QA-0299": "kissing spines prevention: source gives none",
   "VET-QA-0321": "bowed tendon shoeing/padding: source gives none",
   "VET-QA-0220": "generic \"signs to watch\" with no condition named",
@@ -391,6 +384,19 @@
    "VET-QA-0362",
    "VET-QA-0314",
    "VET-QA-0327"
+  ],
+  "stifle-injury-signs-and-diagnosis": [
+   "VET-QA-0324",
+   "VET-QA-0342"
+  ],
+  "stifle-injury-treatment-recovery-and-surgery": [
+   "VET-QA-0315",
+   "VET-QA-0352",
+   "VET-QA-0372"
+  ],
+  "preventing-splints-in-horses": [
+   "VET-QA-0306",
+   "VET-QA-0309"
   ]
  },
  "infectious": {

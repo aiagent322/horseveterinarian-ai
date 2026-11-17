@@ -113,3 +113,6 @@ Fourteen placements (eleven videos) were removed from `tools/qa_videos_*.json` b
 ## Q&A video relevance cleanup, second pass, November 16, 2026
 
 YouTube pages cannot be fetched from this workspace, so this pass checked each remaining placement against its oEmbed title, publisher and `commercial_note` only; video descriptions and content were not read. Ten videos were removed: Mad Barn (nbYeTmWp9DA, KfQ1yQiFBCc; feed company), v9MLQ9EMJTg (presenter employed by an ulcer-drug maker), uaNVcDBEsE8 (personal channel), QiONaR-eOa8 (title is about treating an abscess, page is about signs; subscription channel), PMNwf9L3WOk and 7QZ1DA5A9kQ (aimed at veterinarians), CPCOLtkLmzc (veterinarian lecture on a subscription platform), f-9rSPjmmYk (may mention products), and D_l_dcPW-sI (grooming-service channel, not a veterinary or farrier source). Content review by a veterinarian is still required for every remaining video.
+
+## Lameness additions (stifle, splint prevention) — 2026-11-16
+Pages `stifle-injury-signs-and-diagnosis`, `stifle-injury-treatment-recovery-and-surgery` and `preventing-splints-in-horses` have no video attached. No video search was run for them.
