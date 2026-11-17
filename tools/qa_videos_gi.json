@@ -1,19 +1,15 @@
 {
  "pages": {
   "signs-of-gastric-ulcers": [
-   "543KN5u3ijo",
-   "v9MLQ9EMJTg"
+   "543KN5u3ijo"
   ],
   "how-to-prevent-gastric-ulcers": [
-   "uaNVcDBEsE8",
    "543KN5u3ijo"
   ],
   "gastric-ulcer-treatment-options": [
-   "nbYeTmWp9DA",
    "QzQPhh3s2sY"
   ],
   "gastric-ulcer-treatment-time-and-recovery": [
-   "KfQ1yQiFBCc",
    "QzQPhh3s2sY"
   ],
   "causes-of-diarrhea-in-horses": [
@@ -35,46 +31,6 @@
    "youtube_id": "543KN5u3ijo",
    "title": "Gastric Ulcers: How to Tell if Your Horse Has One, and What to Do if it Does",
    "publisher": "MyHorseUniversity",
-   "commercial_note": "",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "v9MLQ9EMJTg",
-   "title": "Equine Gastric Ulcer Syndrome: A Pain in the Gut?",
-   "publisher": "MyHorseUniversity",
-   "commercial_note": "",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "nbYeTmWp9DA",
-   "title": "Part 1 - Equine Gastric Ulcer Syndrome: Squamous vs. Glandular Ulcers - Mad Barn - Vet Talk",
-   "publisher": "Mad Barn",
-   "commercial_note": "feed company channel",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "KfQ1yQiFBCc",
-   "title": "Part 2 - Equine Gastric Ulcer Syndrome: Diagnosis and Treatment - Mad Barn - Vet Talk",
-   "publisher": "Mad Barn",
-   "commercial_note": "feed company channel",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "uaNVcDBEsE8",
-   "title": "Should You Feed Your Horse Hay Before Riding? New Gastric Ulcer Research",
-   "publisher": "TheScholarlyEquestrian",
    "commercial_note": "",
    "status": "source_verified",
    "clinical_review": "not_performed",

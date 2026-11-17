@@ -25,15 +25,6 @@
   ],
   "back-pain-causes-and-signs": [
    "2JTIXdUYwXQ"
-  ],
-  "hoof-abscess-signs-and-treatment": [
-   "QiONaR-eOa8"
-  ],
-  "signs-of-cellulitis-and-lymphangitis": [
-   "PMNwf9L3WOk"
-  ],
-  "ligament-injury-signs-and-diagnosis": [
-   "7QZ1DA5A9kQ"
   ]
  },
  "videos": [
@@ -96,36 +87,6 @@
    "status": "source_verified",
    "title": "How to Evaluate Back Pain in Horses",
    "youtube_id": "2JTIXdUYwXQ"
-  },
-  {
-   "clinical_review": "not_performed",
-   "commercial_note": "farrier training-subscription channel",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "Horse Pro Hub",
-   "status": "source_verified",
-   "title": "Treating a Hoof Abscess",
-   "youtube_id": "QiONaR-eOa8"
-  },
-  {
-   "clinical_review": "not_performed",
-   "commercial_note": "aimed at veterinarians",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "The Equine Practice Company",
-   "status": "source_verified",
-   "title": "Equine Cellulitis in Horses: Early Signs Every Vet Should Know",
-   "youtube_id": "PMNwf9L3WOk"
-  },
-  {
-   "clinical_review": "not_performed",
-   "commercial_note": "aimed at veterinarians",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "The Equine Practice Company",
-   "status": "source_verified",
-   "title": "Signs of Suspensory Ligament Injury in a Horse’s Hind Leg",
-   "youtube_id": "7QZ1DA5A9kQ"
   }
  ]
 }

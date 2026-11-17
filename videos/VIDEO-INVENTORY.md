@@ -108,3 +108,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A video relevance cleanup, November 16, 2026
 
 Fourteen placements (eleven videos) were removed from `tools/qa_videos_*.json` because they did not match the question they were attached to, or conflicted with the exclusion rules (feed, supplement or retailer channels; vet-audience; case stories). Removed: IU4K3EyE8GY, Ac6qnVrUNjQ, IYugRveVek4, u4cU6jg67u8 (feed companies); vrrxQ8RFAMI (supplement company); 5whQPnmlEoA (retailer); oFzztNZKMcI (aimed at veterinarians); tcJF19u7FxM and wMigaFwVTY0 (case stories); FtIf8PIuu90 (floating check, not risks or aftercare); gf75JVj63nM (heart pulse, not digital pulse); and Ghv4rFutUCA from the GI diarrhea page (dehydration check, not diarrhea). Affected pages now have fewer or no videos.
+
+
+## Q&A video relevance cleanup, second pass, November 16, 2026
+
+YouTube pages cannot be fetched from this workspace, so this pass checked each remaining placement against its oEmbed title, publisher and `commercial_note` only; video descriptions and content were not read. Ten videos were removed: Mad Barn (nbYeTmWp9DA, KfQ1yQiFBCc; feed company), v9MLQ9EMJTg (presenter employed by an ulcer-drug maker), uaNVcDBEsE8 (personal channel), QiONaR-eOa8 (title is about treating an abscess, page is about signs; subscription channel), PMNwf9L3WOk and 7QZ1DA5A9kQ (aimed at veterinarians), CPCOLtkLmzc (veterinarian lecture on a subscription platform), f-9rSPjmmYk (may mention products), and D_l_dcPW-sI (grooming-service channel, not a veterinary or farrier source). Content review by a veterinarian is still required for every remaining video.
