@@ -10,7 +10,8 @@
    "F3wQItUTmrs"
   ],
   "scratches-treatment-and-recovery-time": [
-   "7GYBpxWCS2M"
+   "7GYBpxWCS2M",
+   "Zy0oKksngmg"
   ],
   "causes-of-scratches-in-horses": [
    "_7FpCsLBiGM"
@@ -26,6 +27,9 @@
   ],
   "signs-of-ringworm-and-fungal-skin-infections": [
    "SKt-84osWJo"
+  ],
+  "preventing-scratches": [
+   "Zy0oKksngmg"
   ]
  },
  "videos": [
@@ -118,6 +122,16 @@
    "status": "source_verified",
    "title": "Understanding Horse Allergies",
    "youtube_id": "gEtlZ_HFTb8"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University extension program channel (OSU Small Farms Program); presenter Dr. Dawn Sherwood, OSU Extension.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "OSU Small Farms Program",
+   "status": "source_verified",
+   "title": "Scratches (Mud Fever): Treatment and Prevention",
+   "youtube_id": "Zy0oKksngmg"
   }
  ]
 }

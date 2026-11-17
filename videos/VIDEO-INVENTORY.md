@@ -127,3 +127,6 @@ Judged by title, publisher and note only (YouTube watch pages cannot be opened h
 
 ## Scratches / cracked heels merge — 2026-11-16
 Records 0163, 0179 added to `preventing-scratches` and 0191 to `scratches-treatment-and-recovery-time` (UC Davis lists cracked heels as another name for scratches). `preventing-scratches` stays blank: the only matching prevention videos came from Professional Equine Grooms, an affiliate retail channel, so they were excluded.
+
+## Scratches video added — 2026-11-16
+Zy0oKksngmg (OSU Small Farms Program, Dr. Dawn Sherwood) added to `preventing-scratches` and `scratches-treatment-and-recovery-time`. Second search for `stifle-injury-treatment-recovery-and-surgery` found only product (Ice Horse, Arthramid), TV (NatGeo) and clinic case-tracking videos, so it stays blank. Professional Equine Grooms videos remain excluded (affiliate retail channel).
