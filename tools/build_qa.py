@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -48,6 +48,10 @@ TOPICS = [
       hub_title='Horse Eye, Uveitis and Corneal Ulcer Questions', hub_meta='Source-checked answers on watery eyes, cloudy eyes, uveitis, corneal ulcers and eye injury prevention. Educational only; call your veterinarian.',
       call='If your horse is squinting, holding an eye shut, or has a cloudy eye, swelling or thick or bloody discharge, call your veterinarian right away. Eye problems are nearly always emergencies. This page is educational and cannot assess your horse.',
       desc='%d questions: watery eyes, cloudy eyes, uveitis, corneal ulcers and preventing eye injuries.', overview=('/emergency/lacerations/','Lacerations Emergency Guide'), emerg=('/emergency/eye-injury/','Eye Injury Emergency Guide')),
+ dict(key='wounds', name='Wounds and Trauma', url='/qa/wounds/', mod=qa_wounds, h1='Wounds, Proud Flesh &amp; Shock Questions &amp; Answers',
+      hub_title='Horse Wound, Proud Flesh and Shock Questions', hub_meta='Source-checked answers on wound care, infection signs, proud flesh and shock in horses. Educational only; call your veterinarian right away for emergencies.',
+      call='If your horse has heavy or spurting bleeding, a wound near a joint or tendon, a puncture, or signs of shock such as a weak pulse and cold limbs, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: wound care, infection signs, proud flesh and shock.', overview=('/emergency/lacerations/','Lacerations Emergency Guide'), emerg=('/emergency/wound-care/','Wound Care Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

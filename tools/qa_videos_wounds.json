@@ -1,0 +1,71 @@
+{
+ "pages": {
+  "when-to-call-the-vet-for-a-horse-wound": [
+   "Ji7K2-5tXEs"
+  ],
+  "wound-care-and-infection-prevention": [
+   "n1NA3J6u214"
+  ],
+  "proud-flesh-causes-and-prevention": [
+   "DVTFlgyXA2M"
+  ],
+  "proud-flesh-treatment-and-products": [
+   "z066Y-OO0MA"
+  ],
+  "shock-complications-and-recovery": [
+   "hw6pfSGIScQ"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Individual veterinarian channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "In The Vet Truck",
+   "status": "source_verified",
+   "title": "WOUND MANAGEMENT IN HORSES Part 1 - Different types of wounds and what to do before the vet arrives!",
+   "youtube_id": "Ji7K2-5tXEs"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Wound Care for Horses (what to do before the vet arrives!)",
+   "youtube_id": "n1NA3J6u214"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Individual veterinarian channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "In The Vet Truck",
+   "status": "source_verified",
+   "title": "WOUND MANAGEMENT IN HORSES Part 2 - Healing, Treatment, Bandaging, and prevention of wounds",
+   "youtube_id": "DVTFlgyXA2M"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel; the \"vet-approved\" wording is the publisher's own.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Exclusively Equine Veterinary Services",
+   "status": "source_verified",
+   "title": "How to Treat Proud Flesh on a Horse — Vet-Approved Wound Care Guide",
+   "youtube_id": "z066Y-OO0MA"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Senior-horse information site; veterinarian demonstration.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "My Senior Horse",
+   "status": "source_verified",
+   "title": "Capillary Refill Time Demo",
+   "youtube_id": "hw6pfSGIScQ"
+  }
+ ]
+}

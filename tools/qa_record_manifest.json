@@ -780,5 +780,35 @@
    "VET-QA-0070",
    "VET-QA-0109"
   ]
+ },
+ "wounds": {
+  "when-to-call-the-vet-for-a-horse-wound": [
+   "VET-QA-0492"
+  ],
+  "wound-care-and-infection-prevention": [
+   "VET-QA-0486",
+   "VET-QA-0484"
+  ],
+  "signs-of-wound-infection": [
+   "VET-QA-0485"
+  ],
+  "proud-flesh-causes-and-prevention": [
+   "VET-QA-0481",
+   "VET-QA-0482"
+  ],
+  "proud-flesh-treatment-and-products": [
+   "VET-QA-0487",
+   "VET-QA-0479"
+  ],
+  "shock-causes-signs-and-first-aid": [
+   "VET-QA-0488",
+   "VET-QA-0489",
+   "VET-QA-0483"
+  ],
+  "shock-complications-and-recovery": [
+   "VET-QA-0490",
+   "VET-QA-0491",
+   "VET-QA-0480"
+  ]
  }
 }
