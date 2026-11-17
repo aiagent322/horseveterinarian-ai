@@ -1,0 +1,50 @@
+{
+ "pages": {
+  "caring-for-a-senior-horse": [
+   "j4nxhRngiaE",
+   "bNys0H27HOc"
+  ],
+  "feeding-a-senior-horse": [
+   "uzGJJOD0lqo",
+   "bNys0H27HOc"
+  ],
+  "why-is-my-older-horse-losing-weight": [
+   "uzGJJOD0lqo"
+  ],
+  "exercise-and-saddle-fit-for-older-horses": [
+   "j4nxhRngiaE"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Extension equine education channel (Michigan State University Extension specialist presenting); relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "MyHorseUniversity",
+   "status": "source_verified",
+   "title": "Feeding the Senior Horse",
+   "youtube_id": "uzGJJOD0lqo"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Keeping Senior Horses Super",
+   "youtube_id": "j4nxhRngiaE"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University center webinar; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Rutgers Equine Science Center",
+   "status": "source_verified",
+   "title": "2024 Horse Management Seminar - Senior Horse Care",
+   "youtube_id": "bNys0H27HOc"
+  }
+ ]
+}

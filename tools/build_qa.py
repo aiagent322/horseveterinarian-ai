@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -80,6 +80,10 @@ TOPICS = [
       hub_title='Foal Care Questions and Answers', hub_meta='Source-checked answers on newborn foal care: the 1-2-3 rule, colostrum, signs of a sick foal, foal diarrhea and umbilical cord care. Ask your vet.',
       call='A sick newborn foal can decline within hours. If a foal is not standing, not nursing, weak or has diarrhea, call your veterinarian now. This page is educational and cannot assess your foal.',
       desc='%d questions: newborn milestones, colostrum, signs of a sick foal, foal diarrhea and umbilical cord care.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
+ dict(key='senior-care', name='Senior Horse Care', url='/qa/senior-care/', mod=qa_senior, h1='Senior Horse Care Questions &amp; Answers',
+      hub_title='Senior Horse Care Questions and Answers', hub_meta='Source-checked answers on caring for older horses: checkups, feeding, weight loss, common health problems, exercise and saddle fit. Ask your vet.',
+      call='If an older horse is colicky, choking, suddenly lame or losing weight, call your veterinarian. This page is educational and cannot assess your horse.',
+      desc='%d questions: checkups, feeding, weight loss, common health problems, exercise and saddle fit.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

@@ -156,3 +156,11 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 ## Foal care (2026-11-17)
 Source-first topic; no package records. All 5 pages blank: no verifiable US equine match.
 - Excluded: `4p_8quuZras` (Your Vet Online; course-provider channel, region not verified); `5ZqyJiVAHlM` (Pet Care Partners podcast; producer and audience not verified); `fRMljRJzBFo` (Rood & Riddle NI screen; about 8 years old); `HW3hWEX1HWE` (personal stable channel, no matching page); `QOee_EFAvO4`, `TC1b1aBFv84` (UK); `LfqTv2wdCwg`, `rVI0GTVxFgY` (home-remedy or low-reliability channel); calf, lamb, kid and human videos (non-equine).
+
+## Senior horse care (2026-11-17)
+Source-first topic; no package records. oEmbed-verified; clinical review not performed; relevance judged from title and description.
+- `uzGJJOD0lqo` MyHorseUniversity, Feeding the Senior Horse (Michigan State University Extension specialist): feeding-a-senior-horse, why-is-my-older-horse-losing-weight (2 uses).
+- `j4nxhRngiaE` Springhill Equine Veterinary Clinic, Keeping Senior Horses Super: caring-for-a-senior-horse, exercise-and-saddle-fit-for-older-horses (2 uses; vet practice).
+- `bNys0H27HOc` Rutgers Equine Science Center, 2024 Horse Management Seminar, Senior Horse Care: caring-for-a-senior-horse, feeding-a-senior-horse (2 uses).
+- Blank: common-health-problems-in-older-horses (no matching video).
+- Excluded: `cywPx6ccd-Y` (tack and vet supply retailer); `3AyX5KMq6Yw` (channel not verified as independent of feed products); `_b9dBrenlB8` (personal farm channel); `_RHL_byk94s`, `8ODLR-9sksU`, `kK8lurzVdIA`, `c25bB9YWcjs` (older than about 8 years); `hSygZtLTSwA`, `6ELtRghyaAs` (feed product); `EbI-q3uqDkU`, `QqF8lINXMKc`, `IJYi6PC0D6s` (personal or case stories); `XdWfgsJh59s` (hospitalized horses, vet-audience).
