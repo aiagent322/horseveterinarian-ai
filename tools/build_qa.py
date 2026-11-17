@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -72,6 +72,10 @@ TOPICS = [
       hub_title='Horse Vaccination Questions and Answers', hub_meta='Source-checked answers on horse vaccines: core vs risk-based, how often, show horses, foals and broodmares, and reactions. Educational only; ask your vet.',
       call='If your horse has trouble breathing, hives, colic, collapse or a fast-growing hot swelling after a vaccine, call your veterinarian now. This page is educational and cannot assess your horse.',
       desc='%d questions: core and risk-based vaccines, schedules, show horses, foals and vaccine reactions.', overview=('/conditions/strangles/','Strangles Overview'), emerg=('/emergency/fever/','Fever Emergency Guide')),
+ dict(key='toxic-plants', name='Toxic Plants', url='/qa/toxic-plants/', mod=qa_plants, h1='Poisonous Plants for Horses Questions &amp; Answers',
+      hub_title='Poisonous Plants for Horses Questions and Answers', hub_meta='Source-checked answers on poisonous plants for horses: what to do, common toxic plants, red maple, oleander and prevention. Educational only; ask your vet.',
+      call='If you think your horse ate a poisonous plant, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: what to do after plant ingestion, common toxic plants, red maple, oleander and prevention.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

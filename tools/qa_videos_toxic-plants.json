@@ -1,0 +1,60 @@
+{
+ "pages": {
+  "most-common-poisonous-plants-for-horses": [
+   "lrIDWRJXnkQ",
+   "99mcRBkR1us",
+   "oEgjv95QJm0"
+  ],
+  "what-to-do-if-a-horse-eats-a-poisonous-plant": [
+   "99mcRBkR1us"
+  ],
+  "preventing-plant-poisoning-in-horses": [
+   "lrIDWRJXnkQ"
+  ],
+  "red-maple-poisoning-in-horses": [
+   "z08G74nJCHQ"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University extension video; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Purdue Extension",
+   "status": "source_verified",
+   "title": "Poisonous Plants in Horse Pastures with Purdue Extension",
+   "youtube_id": "lrIDWRJXnkQ"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University extension video; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "UConn Extension",
+   "status": "source_verified",
+   "title": "Poison In Your Pasture – Your Horse vs Toxic Plants: Symptoms, Treatment & Better Yet… Prevention",
+   "youtube_id": "99mcRBkR1us"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinarian-hosted podcast episode; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Horse's Advocate",
+   "status": "source_verified",
+   "title": "Plant and Tree Toxins That Are Dangerous For Your Horse, By Geoff Tucker DVM.",
+   "youtube_id": "oEgjv95QJm0"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equestrian center presentation produced by a media company; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Blamm Media",
+   "status": "source_verified",
+   "title": "Part 5 - Plants Toxic to Horses: Red Maple",
+   "youtube_id": "z08G74nJCHQ"
+  }
+ ]
+}

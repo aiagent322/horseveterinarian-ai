@@ -143,3 +143,12 @@ monitoring-insulin-in-horses-with-ems: blank. The Cornell Vet EMS seminar (FnMZ1
 
 ## Vaccination topic — 2026-11-17
 All 5 pages in `/qa/vaccination/` are blank. Candidates and why they were excluded: Zoetis presentations and ads (vaccine manufacturer), Valley Vet Supply (retailer), Spalding Labs (product company), KXII (news clip), Just One More Story Farm (personal channel), videos older than ~8 years, non-equine videos. World Horse Welfare Education's essential vaccinations webinar (U-4P5Ad2COI) is UK-based and UK vaccine programs differ from the AAEP guidance these pages follow, so it was not attached. CVS Equine's "Caring for your Foal" covers vaccination only as one of many topics, so it was not attached.
+
+## Toxic plants (2026-11-17)
+Source-first topic; no package records. oEmbed-verified; clinical review not performed; relevance judged from title and description.
+- `lrIDWRJXnkQ` Purdue Extension, Poisonous Plants in Horse Pastures: most-common-poisonous-plants-for-horses, preventing-plant-poisoning-in-horses (2 uses).
+- `99mcRBkR1us` UConn Extension, Poison In Your Pasture: most-common-poisonous-plants-for-horses, what-to-do-if-a-horse-eats-a-poisonous-plant (2 uses).
+- `oEgjv95QJm0` The Horse's Advocate (veterinarian-hosted podcast): most-common-poisonous-plants-for-horses (1 use).
+- `z08G74nJCHQ` Blamm Media, Plants Toxic to Horses: Red Maple: red-maple-poisoning-in-horses (1 use; equestrian-center presentation).
+- Blank: oleander-poisoning-in-horses (no US equine-specific match found).
+- Excluded: `jBwDYpgSDCY` (real-estate agent channel); Mad Barn podcast `Aa_ArzCJh1c` (feed-company sponsored); `rxUy1Phv-Mc`, `pr2tF6uyb7k` (older than ~8 years); `c596dwWotSs`, `g7mG1yRElRE` (non-US guidance); oleander videos (pet-focused, news or non-equine).
