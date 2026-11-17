@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -60,6 +60,14 @@ TOPICS = [
       hub_title='Horse Tying-Up, Dehydration and Urgent Care Questions', hub_meta='Source-checked answers on tying-up, dehydration, urinary stones, ulcer routines and urgent signs in horses. Educational only; call your vet for emergencies.',
       call='If your horse is stiff, sweating heavily, reluctant to move, passing dark urine or showing other urgent signs, stop work and call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: tying-up, dehydration, urgent signs, urinary stones and ulcer routine.', overview=('/conditions/ulcers/','Ulcers'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
+ dict(key='parasites', name='Parasites and Deworming', url='/qa/parasites/', mod=qa_parasites, h1='Worms &amp; Deworming Questions &amp; Answers',
+      hub_title='Horse Worms and Deworming Questions', hub_meta='Source-checked answers on worm signs, fecal egg counts, deworming frequency, dewormer types and resistance in horses. Educational only; ask your vet.',
+      call='If your horse has colic, severe diarrhea, rapid weight loss or other worrying signs, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: worm signs, fecal egg counts, deworming schedules, dewormer types and resistance.', overview=('/conditions/colic/','Colic'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
+ dict(key='equipment', name='Tack and Equipment', url='/qa/equipment/', mod=qa_equipment, h1='Saddle &amp; Tack Fit Questions &amp; Answers',
+      hub_title='Horse Saddle and Tack Fit Questions', hub_meta='Source-checked answer on checking saddle and tack fit for horses. Educational only; ask your vet if your horse shows pain or behavior changes.',
+      call='If your horse shows sudden pain, sores, lameness or behavior change, call your veterinarian. This page is educational and cannot assess your horse.',
+      desc='%d question: how to check saddle and tack fit.', overview=('/conditions/kissing-spine/','Kissing Spine'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

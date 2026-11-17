@@ -862,5 +862,30 @@
   "exercise-and-routine-for-horses-with-ulcers": [
    "VET-QA-0145"
   ]
+ },
+ "parasites": {
+  "fecal-egg-counts-and-signs-of-worms": [
+   "VET-QA-0397",
+   "VET-QA-0401"
+  ],
+  "deworming-frequency-and-schedule": [
+   "VET-QA-0398",
+   "VET-QA-0402"
+  ],
+  "dewormer-types-and-choosing-one": [
+   "VET-QA-0399",
+   "VET-QA-0395"
+  ],
+  "over-deworming-and-resistance": [
+   "VET-QA-0400"
+  ],
+  "preventing-worm-infestations": [
+   "VET-QA-0396"
+  ]
+ },
+ "equipment": {
+  "checking-saddle-and-tack-fit": [
+   "VET-QA-0064"
+  ]
  }
 }
