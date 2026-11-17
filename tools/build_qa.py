@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat, qa_winter
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat, qa_winter, qa_mare
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -92,6 +92,10 @@ TOPICS = [
       hub_title='Horse Winter Care Questions and Answers', hub_meta='Source-checked answers on caring for horses in cold weather: blankets, water and impaction colic, feeding, shelter, hooves and signs of cold. Ask your vet.',
       call='If a horse is colicky, shivering, weak or not eating or drinking in cold weather, call your veterinarian. This page is educational and cannot assess your horse.',
       desc='%d questions: blankets, water and impaction colic, feeding, shelter, hoof care and signs of cold.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
+ dict(key='mare-foaling', name='Mare and Foaling', url='/qa/mare-foaling/', mod=qa_mare, h1='Mare, Foaling and Weaning Questions &amp; Answers',
+      hub_title='Mare, Foaling and Weaning Questions and Answers', hub_meta='Source-checked answers on mare care: preparing to foal, signs of foaling, red bag and slow labor, retained placenta, pregnancy checks, feeding and weaning.',
+      call='If a mare is straining without progress, a red membrane appears, or the placenta is not passed within about 3 hours, call your veterinarian immediately. This page is educational and cannot assess your horse.',
+      desc='%d questions: preparing to foal, foaling signs, red bag, retained placenta, pregnancy checks, feeding, weaning.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

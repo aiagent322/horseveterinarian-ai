@@ -178,3 +178,7 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 - `FFC3X4GnZIY` NDSUExtension, Feeding Hay During Winter Months: feeding-horses-in-cold-weather (1 use).
 - Blank: water-in-winter-and-impaction-colic-risk, winter-shelter-hoof-care-and-exercise-for-horses.
 - Excluded: `7JxR5LYYvM4`, `3gbrBl5TOsk` (Canadian, -40C conditions); `T9WJLb15IoQ`, `4-rig1l7Q5A`, `p8okCEhGNno`, `ArhcKpROhBY`, `nMR1NZ8n6fs` (blanket retailer or product links); `8RO1BsIJd-s` (older than about 8 years); `Ac6qnVrUNjQ` (Mad Barn, feed-company sponsored); `61FyMtA5zsY` (treatment case story); `47LapGrhLmE`, `xdWqc7muYko`, `avoEVPIcI-o` (personal barn channels); `-JYZNG2v02Y` (grain and supplements); `A1l8ftJZIq8`, `A_-F6VXORIQ` (product demos).
+
+## Mare and foaling (2026-11-17)
+Source-first topic; no package records. No videos attached; all seven pages are blank.
+- Excluded: `ItJR2Xt9Rt4` (CVS Equine, UK practice; non-US guidance); `5E9b-fT2akw` (personal channel); `mAwChfXM1Ws` (publisher not verified); `KEoPpoqg_hc` (Spalding Labs, product company channel); `JVtFLLRHdXo` (HorseTV Global re-upload; original publisher not verified); `VieXmNT40rY` (short advising owners to tear the membrane before calling, which conflicts with the page); `xCaXaT1ZgYQ`, `0nmVfqNRXO4` (owner case stories); `DX-VfBNRzmI`, `X7EypFkTnOY` (veterinary-audience lectures); `PtFxzY4QLCU`, `1fbyMFDZGxg`, `1OXSJT3N1_w`, `WeJNZ8532mc`, `faU8gRdSroU` (older than about 8 years); weaning, foaling and pregnancy vlogs from personal or farm channels.
