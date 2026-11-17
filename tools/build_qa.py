@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat, qa_winter, qa_mare
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat, qa_winter, qa_mare, qa_feed
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -96,6 +96,10 @@ TOPICS = [
       hub_title='Mare, Foaling and Weaning Questions and Answers', hub_meta='Source-checked answers on mare care: preparing to foal, signs of foaling, red bag and slow labor, retained placenta, pregnancy checks, feeding and weaning.',
       call='If a mare is straining without progress, a red membrane appears, or the placenta is not passed within about 3 hours, call your veterinarian immediately. This page is educational and cannot assess your horse.',
       desc='%d questions: preparing to foal, foaling signs, red bag, retained placenta, pregnancy checks, feeding, weaning.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
+ dict(key='feeding', name='Hay and Feeding', url='/qa/feeding/', mod=qa_feed, h1='Horse Hay, Water and Feeding Questions &amp; Answers',
+      hub_title='Horse Hay, Water and Feeding Questions and Answers', hub_meta='Source-checked answers on feeding horses: how much hay, grass or alfalfa, reading a hay analysis, unsafe hay, ration balancers, water, salt and weight.',
+      call='If a horse stops eating or drinking, shows colic signs, or has trouble breathing after a feed change, call your veterinarian. This page is educational and cannot assess your horse.',
+      desc='%d questions: how much hay, grass or alfalfa, hay analysis, unsafe hay, ration balancers, water and salt, weight.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

@@ -182,3 +182,13 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 ## Mare and foaling (2026-11-17)
 Source-first topic; no package records. No videos attached; all seven pages are blank.
 - Excluded: `ItJR2Xt9Rt4` (CVS Equine, UK practice; non-US guidance); `5E9b-fT2akw` (personal channel); `mAwChfXM1Ws` (publisher not verified); `KEoPpoqg_hc` (Spalding Labs, product company channel); `JVtFLLRHdXo` (HorseTV Global re-upload; original publisher not verified); `VieXmNT40rY` (short advising owners to tear the membrane before calling, which conflicts with the page); `xCaXaT1ZgYQ`, `0nmVfqNRXO4` (owner case stories); `DX-VfBNRzmI`, `X7EypFkTnOY` (veterinary-audience lectures); `PtFxzY4QLCU`, `1fbyMFDZGxg`, `1OXSJT3N1_w`, `WeJNZ8532mc`, `faU8gRdSroU` (older than about 8 years); weaning, foaling and pregnancy vlogs from personal or farm channels.
+
+## Hay and feeding (2026-11-17)
+Source-first topic; no package records. oEmbed-verified; clinical review not performed; relevance judged from title and description.
+- `lInbyvl2ffI` UK Martin-Gatton CAFE, How to Sample and Analyze Hay for Optimal Horse Nutrition: how-to-read-a-hay-analysis (1 use).
+- `bXU7Ekfg10A` LSU AgCenter Livestock, How to Collect a Hay Sample: how-to-read-a-hay-analysis (1 use; general hay, fills the sampling gap the page names).
+- `wxdUmoQiiJA` Ohio State University South Centers, Assessing Horse Hay: how-to-tell-if-hay-is-unsafe-to-feed (1 use).
+- `Wid5eW_0VlA` University of Maryland Horse Extension, How to Evaluate Hay Quality: how-to-tell-if-hay-is-unsafe-to-feed (1 use).
+- `lJM4iRDVvIs`, `Awa8b3RD6hM` Equine Guelph (University of Guelph, Canada), body condition scoring and weight calculation: how-to-estimate-your-horses-weight-and-body-condition (1 use each).
+- Blank: how-much-hay-should-a-horse-eat-each-day, grass-hay-or-alfalfa-for-horses, ration-balancers-and-supplements-for-horses, how-much-water-and-salt-does-a-horse-need.
+- Excluded: `9HKJ5hBiudk` (Stance Equitec, equipment company); `qocKDZy6mYE` (Western Horseman, forage-brand sponsored); `Ad24I9d-j38` (media channel); `3z03SoDIEIQ` (grooms service channel); `v4E4QymH7qo`, `Er6Ib8BVnbE`, `GZqlsvUTEZY` (Mad Barn, feed-company sponsored); `T355FW9TVZw` (general forage, not horse); `fGlAJUDs3Gc` (regional alfalfa risk beyond page scope); `c9zhFGlNGQY` (retailer, older than about 8 years); `2GF5jpOb574`, `JnzpEZHo8mI`, `LY3yVC4l8K4`, `QVL1sb7OUR0` (older than about 8 years); `ThO-tZ9MEWY` (older than about 8 years); salt, electrolyte and block videos from product or personal channels; grain-amount videos (outside page scope).

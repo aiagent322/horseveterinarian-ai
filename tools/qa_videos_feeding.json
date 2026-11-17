@@ -1,0 +1,78 @@
+{
+ "pages": {
+  "how-to-read-a-hay-analysis": [
+   "lInbyvl2ffI",
+   "bXU7Ekfg10A"
+  ],
+  "how-to-tell-if-hay-is-unsafe-to-feed": [
+   "wxdUmoQiiJA",
+   "Wid5eW_0VlA"
+  ],
+  "how-to-estimate-your-horses-weight-and-body-condition": [
+   "lJM4iRDVvIs",
+   "Awa8b3RD6hM"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University of Kentucky college extension channel; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "UK Martin-Gatton CAFE",
+   "status": "source_verified",
+   "title": "How to Sample and Analyze Hay for Optimal Horse Nutrition",
+   "youtube_id": "lInbyvl2ffI"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "LSU AgCenter livestock extension channel; general hay sampling, not horse-specific; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "LSU AgCenter- Livestock",
+   "status": "source_verified",
+   "title": "How to Collect a Hay Sample",
+   "youtube_id": "bXU7Ekfg10A"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Ohio State University Extension South Centers channel; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Ohio State University South Centers",
+   "status": "source_verified",
+   "title": "Assessing Horse Hay",
+   "youtube_id": "wxdUmoQiiJA"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University of Maryland Extension equine program channel; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "University of Maryland Horse Extension",
+   "status": "source_verified",
+   "title": "How to Evaluate Hay Quality",
+   "youtube_id": "Wid5eW_0VlA"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University of Guelph (Canada) equine education program channel; body condition scoring method is not region-specific; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "EQUINE GUELPH- RESEARCH | EDUCATION | CAREERS",
+   "status": "source_verified",
+   "title": "Body Condition Scoring a Horse",
+   "youtube_id": "lJM4iRDVvIs"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University of Guelph (Canada) equine education program channel; weight estimation method is not region-specific; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "EQUINE GUELPH- RESEARCH | EDUCATION | CAREERS",
+   "status": "source_verified",
+   "title": "Calculating a horse's body weight",
+   "youtube_id": "Awa8b3RD6hM"
+  }
+ ]
+}
