@@ -167,13 +167,6 @@
   "VET-QA-0342": "stifle injury tests: no verified source",
   "VET-QA-0352": "stifle rehab: no verified source",
   "VET-QA-0372": "stifle surgery: no verified source",
-  "VET-QA-0383": "arthritis pain: no verified source gathered",
-  "VET-QA-0389": "arthritis causes: no verified source gathered",
-  "VET-QA-0390": "arthritis treatment: no verified source gathered",
-  "VET-QA-0391": "arthritis long-term: no verified source gathered",
-  "VET-QA-0314": "ligament healing time: source gives no timeline",
-  "VET-QA-0327": "ligament prevention: source gives none",
-  "VET-QA-0362": "ligament treatment: source gives none",
   "VET-QA-0306": "splint prevention: sources give none",
   "VET-QA-0309": "splint prevention: sources give none",
   "VET-QA-0299": "kissing spines prevention: source gives none",
@@ -385,6 +378,17 @@
   "joint-supplements-for-arthritis": [
    "VET-QA-0381",
    "VET-QA-0388"
+  ],
+  "arthritis-causes-treatment-and-outlook": [
+   "VET-QA-0383",
+   "VET-QA-0389",
+   "VET-QA-0390",
+   "VET-QA-0391"
+  ],
+  "ligament-injury-treatment-and-healing-time": [
+   "VET-QA-0362",
+   "VET-QA-0314",
+   "VET-QA-0327"
   ]
  },
  "infectious": {

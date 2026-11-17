@@ -20,6 +20,10 @@ S.update({
  'hcswell': ('Horse Canada — Swollen legs: causes and cures', 'https://horse-canada.com/magazine/health/swollen-legs-causes-cures/'),
  'horselymph': ('The Horse — Lymphangitis: A Frustrating Condition in Horses', 'https://thehorse.com/?p=48795'),
  'horsesupp': ('The Horse — Oral Joint Supplements: Do They Work? (AAEP Convention)', 'https://thehorse.com/124636/oral-joint-supplements-do-they-work/'),
+ 'tamuoa': ('Texas A&M Veterinary Medicine — What to Know About Equine Osteoarthritis', 'https://vetmed.tamu.edu/news/pet-talk/what-to-know-about-equine-osteoarthritis/'),
+ 'aaepjoint': ('AAEP — Joint Medications for Lameness (Espy and Harper, reviewed 2016)', 'https://old.aaep.org/horsehealth/lameness-joint-medications'),
+ 'hcligament': ('Horse Canada — A long road to recovery: tendon and ligament injuries', 'https://horse-canada.com/magazine/health/a-long-road-to-recovery-tendon-and-ligament-injuries/'),
+ 'rameyligament': ('Horse Network — Rehabilitating tendon and ligament injuries (David Ramey, DVM, March 2019)', 'https://horsenetwork.com/?p=28150'),
  'kersupp': ('Kentucky Equine Research — Research Update: Joint Supplements for Horses', 'https://ker.com/?p=13515'),
 })
 HELD = {
@@ -29,8 +33,8 @@ HELD = {
  'VET-QA-0339':'neck pain: no verified source',
  'VET-QA-0310':'stifle injury: sources found cover only locked stifle','VET-QA-0315':'stifle injury recovery: no verified source','VET-QA-0324':'stifle injury signs: no verified source',
  'VET-QA-0342':'stifle injury tests: no verified source','VET-QA-0352':'stifle rehab: no verified source','VET-QA-0372':'stifle surgery: no verified source',
- 'VET-QA-0383':'arthritis pain: no verified source gathered','VET-QA-0389':'arthritis causes: no verified source gathered','VET-QA-0390':'arthritis treatment: no verified source gathered','VET-QA-0391':'arthritis long-term: no verified source gathered',
- 'VET-QA-0314':'ligament healing time: source gives no timeline','VET-QA-0327':'ligament prevention: source gives none','VET-QA-0362':'ligament treatment: source gives none',
+ 
+ 
  'VET-QA-0306':'splint prevention: sources give none','VET-QA-0309':'splint prevention: sources give none','VET-QA-0299':'kissing spines prevention: source gives none',
  'VET-QA-0321':'bowed tendon shoeing/padding: source gives none',
 }
@@ -454,4 +458,53 @@ PAGES = [
 </ul>
 <p>These are older and industry-linked sources; they do not cover other arthritis treatments. Have your veterinarian diagnose the cause of the lameness and advise on any supplement.</p>''',
   src=['horsesupp','kersupp'], rel=['back-pain-causes-and-signs','ligament-injury-signs-and-diagnosis','bowed-tendon-treatment-and-recovery']),
+ dict(slug='arthritis-causes-treatment-and-outlook', ids=['VET-QA-0383','VET-QA-0389','VET-QA-0390','VET-QA-0391'], urgent=False,
+  q='What causes arthritis in horses, how is it treated and managed, and what are the long-term effects?',
+  title='Horse Arthritis: Causes, Treatment and Outlook',
+  meta='Osteoarthritis is a progressive joint disease from wear or past injury. Management combines activity, weight and hoof care with vet-directed medical care.',
+  short='Osteoarthritis is a progressive breakdown of joint cartilage, from everyday wear or from an earlier joint injury. Management is multifaceted: activity level, body weight, hoof care and medical or surgical therapy chosen by your veterinarian. The sources reviewed give no long-term prognosis and name no home pain treatment.',
+  body='''<h2>What it is and what causes it</h2>
+<ul>
+<li>Osteoarthritis is a progressive disease that gradually breaks down a joint's cartilage; the inflammation causes pain and swelling (Texas A&amp;M).</li>
+<li><strong>Primary:</strong> slow breakdown from everyday wear and tear; performance horses are at particular risk.</li>
+<li><strong>Secondary:</strong> follows an injury severe enough to start cartilage breakdown; risk factors include joint infections, joint fractures, ligament and tendon injuries and existing joint defects (Texas A&amp;M).</li>
+<li>Early signs are often subtle, such as behavior changes or reduced willingness to work (Texas A&amp;M).</li>
+</ul>
+<h2>Treatment and management</h2>
+<ul>
+<li>Texas A&amp;M describes a multifaceted approach: adjusting activity, managing body weight and condition, appropriate hoof care, and medical and surgical therapy. It advises working with your veterinarian on an individualized plan.</li>
+<li>AAEP (an article reviewed in 2016) lists categories of joint treatment: joint-injected lubricants, injectable cartilage products, corticosteroids, oral supplements and anti-inflammatory drugs. It says owners should rely on their veterinarian to decide when joint injections are appropriate, and that X-ray changes often mean damage is already irreversible.</li>
+<li>AAEP notes anti-inflammatory drugs can cause stomach ulcers and reduced kidney blood flow. Do not give pain medication without veterinary direction.</li>
+<li>The article's evidence claims for supplements are mixed and some trials were industry-funded; see <a href="/qa/lameness/joint-supplements-for-arthritis/">joint supplements</a>.</li>
+</ul>
+<h2>Long-term effects and home pain management</h2>
+<p>Texas A&amp;M gives no prognosis and says research is ongoing. The sources reviewed name no specific home pain treatments and no doses, so none are listed. Ask your veterinarian what is safe at home. Prompt treatment of the original injury matters most for secondary arthritis (Texas A&amp;M). Call your veterinarian for lameness, swelling or a change in willingness to work. See <a href="/qa/lameness/ligament-injury-treatment-and-healing-time/">ligament injury treatment</a>.</p>''',
+  src=['tamuoa','aaepjoint'], rel=['joint-supplements-for-arthritis','ligament-injury-signs-and-diagnosis','preventing-tendon-injuries']),
+
+ dict(slug='ligament-injury-treatment-and-healing-time', ids=['VET-QA-0362','VET-QA-0314','VET-QA-0327'], urgent=False,
+  q='How are ligament injuries treated, how long do they take to heal and how can they be prevented?',
+  title='Horse Ligament Injury: Treatment, Healing, Prevention',
+  meta='Controlled rest and slow rehab are the core of ligament injury care. Timelines run from months to a year; your vet guides ultrasound checks and return to work.',
+  short='Ligament injuries need a veterinary exam, then controlled rest and a slow, graded rehabilitation program. Sources describe pain-free horses within weeks but full recovery taking about 8 to 9 months, and sometimes six months to a year or more. Returning to work too early raises re-injury risk.',
+  body='''<h2>Treatment</h2>
+<ul>
+<li>In the first 24 hours, cold therapy, stable bandages and stall rest are used and a veterinarian should assess the injury; anti-inflammatory drugs may be prescribed, with stall rest until heat and swelling subside, which can take up to two weeks (Horse Canada).</li>
+<li>Once the leg is no longer sore, a slow controlled program begins with hand-walking, gradually increasing duration and intensity before riding (Horse Canada).</li>
+<li>Ultrasound is the main diagnostic tool and repeat scans can track healing (Horse Canada). Dr. David Ramey notes serial scans can be costly.</li>
+<li>Regenerative and other options such as stem cells, platelet-rich plasma and shockwave exist, but some are unproven (Horse Canada). Dr. Ramey argues that no treatment has been shown to beat controlled rest and rehabilitation.</li>
+</ul>
+<h2>Healing time</h2>
+<ul>
+<li>Horse Canada says the full process can last six months to a year or more.</li>
+<li>Dr. Ramey says less severe injuries often look pain-free within about three to eight weeks but the horse is not ready for work; full recovery often takes eight to nine months.</li>
+<li>Re-injury risk is high because tendon and ligament tissue has limited blood supply, and the junction between scar tissue and normal tissue is a common site of re-injury (Horse Canada).</li>
+</ul>
+<p>Timelines depend on the injury; ask your veterinarian for yours. See <a href="/qa/lameness/ligament-injury-signs-and-diagnosis/">signs and diagnosis</a>.</p>
+<h2>Prevention (Horse Canada)</h2>
+<ul>
+<li>Learn what your horse's legs normally feel and look like and check regularly for heat, pain and swelling.</li>
+<li>Overwork from poor conditioning, intense training or riding a tired horse is the most common cause; keep horses fit and rest them when tired.</li>
+<li>Other avoidable causes include poor hoof balance, incorrect shoeing or trimming, repetitive concussion and improper boot or bandage use. Falls, slips, uneven terrain and conformation are harder to control.</li>
+</ul>''',
+  src=['hcligament','rameyligament'], rel=['ligament-injury-signs-and-diagnosis','arthritis-causes-treatment-and-outlook','preventing-tendon-injuries','bowed-tendon-treatment-and-recovery']),
 ]
