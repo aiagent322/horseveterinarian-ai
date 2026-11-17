@@ -111,12 +111,13 @@ PAGES = [
 <p>UC Davis calls pastern dermatitis an umbrella term for several triggers, including allergies, drug reactions, fungi, bacteria, parasites and sun-related changes in white legs. In draft horses, chronic progressive lymphedema is an underlying condition that gets worse with repeated flare-ups and has no permanent cure. Horses with repeated or stubborn scratches need a veterinary workup. See <a href="/qa/skin/preventing-scratches/">prevention</a>.</p>''',
   src=['umnscr','ucdscr','equusscr'], rel=['signs-of-scratches-in-horses','preventing-scratches','scratches-treatment-and-recovery-time']),
 
- dict(slug='scratches-treatment-and-recovery-time', ids=['VET-QA-0447','VET-QA-0460'], urgent=False,
+ dict(slug='scratches-treatment-and-recovery-time', ids=['VET-QA-0447','VET-QA-0460','VET-QA-0191'], urgent=False,
   q='How is scratches treated, are there recommended products, and how long until it improves?',
   title='Scratches Treatment and How Long It Takes',
   meta='Clip the hair, wash gently once, dry well and soften scabs rather than picking them. Severe cases need a vet. EQUUS says most cases heal within two weeks.',
   short='Clip the hair, wash gently, pat dry and soften scabs rather than picking. Severe cases need veterinary treatment. EQUUS says most cases heal within two weeks, and UC Davis says to reassess if there is no improvement after one week.',
-  body='''<h2>Home care for mild cases (University of Minnesota Extension)</h2>
+  body='''<p>UC Davis lists cracked heels, greasy heel, mud fever, mud rash and dew poisoning as other names for scratches (pastern dermatitis), so this page also answers cracked-heels treatment.</p>
+<h2>Home care for mild cases (University of Minnesota Extension)</h2>
 <ul>
 <li>Clip the long hair over the affected skin so it stays cleaner and drier.</li>
 <li>Clean once with an antibacterial soap, wash gently, and avoid repeated harsh cleansers or disinfectants.</li>
@@ -130,7 +131,7 @@ PAGES = [
 <p>EQUUS says most cases heal within two weeks when cleaned and treated every two to three days. The Minnesota page gives no timeline. UC Davis says starting with antibiotics, clipping and gentle cleansing is acceptable, and if there is no improvement after one week a topical corticosteroid may be added by your vet. See <a href="/qa/skin/preventing-scratches/">preventing recurrence</a>.</p>''',
   src=['umnscr','equusscr','ucdscr'], rel=['signs-of-scratches-in-horses','causes-of-scratches-in-horses','preventing-scratches']),
 
- dict(slug='preventing-scratches', ids=['VET-QA-0459'], urgent=False,
+ dict(slug='preventing-scratches', ids=['VET-QA-0459','VET-QA-0163','VET-QA-0179'], urgent=False,
   q='How can I prevent scratches from recurring?',
   title='Preventing Scratches From Coming Back',
   meta='Limit turnout in wet grass and mud, keep bedding clean and dry, keep lower legs clipped, dry pasterns after bathing and avoid wraps or boots that trap moisture.',
@@ -143,7 +144,7 @@ PAGES = [
 <li>Avoid long-term use of boots and wraps that trap moisture, and clean them before reuse.</li>
 <li>Maintain clean, dry bedding.</li>
 </ul>
-<p>UC Davis also notes that unpigmented skin is prone to sunburn and that avoiding sun may help pastern dermatitis. If scratches keeps returning, ask your veterinarian to look for an underlying cause. See <a href="/qa/skin/causes-of-scratches-in-horses/">causes</a>.</p>''',
+<p>UC Davis lists cracked heels, greasy heel, mud fever, mud rash and dew poisoning as other names for scratches (pastern dermatitis), so this page also answers cracked-heels prevention. UC Davis also notes that unpigmented skin is prone to sunburn and that avoiding sun may help pastern dermatitis. If scratches keeps returning, ask your veterinarian to look for an underlying cause. See <a href="/qa/skin/causes-of-scratches-in-horses/">causes</a>.</p>''',
   src=['ucdscr','umnscr','ucdskin'], rel=['causes-of-scratches-in-horses','scratches-treatment-and-recovery-time','preventing-skin-problems-in-horses']),
 
  dict(slug='common-causes-of-hives-in-horses', ids=['VET-QA-0467'], urgent=False,

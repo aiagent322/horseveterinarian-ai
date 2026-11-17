@@ -124,3 +124,6 @@ Judged by title, publisher and note only (YouTube watch pages cannot be opened h
 - long-term-effects-of-untreated-gastric-ulcers: HGDatdXR5sg, F63HbUV4rp4 (Starwood Equine)
 - stifle-injury-treatment-recovery-and-surgery: blank, no relevant non-product video found.
 - Excluded: Mad Barn (feed retailer), Arthramid and omeprazole product videos, Boehringer presentation, a personal channel on splints, NatGeo TV clip, vet-only CPD, videos older than ~8 years, Pet Food Science Podcast, CVS Equine ulcer video (already at 2 uses).
+
+## Scratches / cracked heels merge — 2026-11-16
+Records 0163, 0179 added to `preventing-scratches` and 0191 to `scratches-treatment-and-recovery-time` (UC Davis lists cracked heels as another name for scratches). `preventing-scratches` stays blank: the only matching prevention videos came from Professional Equine Grooms, an affiliate retail channel, so they were excluded.

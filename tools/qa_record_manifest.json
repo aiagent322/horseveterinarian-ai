@@ -144,11 +144,6 @@
   "VET-QA-0125": "malnutrition; nutrition topic",
   "VET-QA-0144": "overlaps colic/diarrhea/ulcer pages; no unique content",
   "VET-QA-0096": "pot-belly exercise: no verified source",
-  "VET-QA-0099": "eye topic",
-  "VET-QA-0103": "eye topic",
-  "VET-QA-0109": "eye topic",
-  "VET-QA-0131": "eye topic",
-  "VET-QA-0141": "eye topic (question text only)",
   "VET-QA-0250": "lethargy causes: no verified source gathered",
   "VET-QA-0264": "lethargy causes: no verified source gathered",
   "VET-QA-0290": "when to call for lethargy: no verified source gathered",
@@ -178,9 +173,6 @@
   "VET-QA-0435": "generic \"what tests diagnose the cause\" with no condition named",
   "VET-QA-0159": "\"specific hoof care products\" question; no source reviewed recommends products",
   "VET-QA-0173": "\"specific treatment plan\" with no condition named in the record",
-  "VET-QA-0163": "cracked heels = scratches/pastern dermatitis; covered at /qa/skin/ scratches pages (avoids near-duplicate)",
-  "VET-QA-0179": "cracked heels = scratches; see /qa/skin/preventing-scratches/",
-  "VET-QA-0191": "cracked heels = scratches; see /qa/skin/scratches-treatment-and-recovery-time/",
   "VET-QA-0038": "generic feeding-routine question; not dental, no dental source",
   "VET-QA-0039": "insect irritation around the head; not dental, no source reviewed",
   "VET-QA-0041": "travel stress; not dental, no source reviewed",
@@ -499,10 +491,13 @@
   ],
   "scratches-treatment-and-recovery-time": [
    "VET-QA-0447",
-   "VET-QA-0460"
+   "VET-QA-0460",
+   "VET-QA-0191"
   ],
   "preventing-scratches": [
-   "VET-QA-0459"
+   "VET-QA-0459",
+   "VET-QA-0163",
+   "VET-QA-0179"
   ],
   "common-causes-of-hives-in-horses": [
    "VET-QA-0467"
