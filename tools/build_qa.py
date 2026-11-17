@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -52,6 +52,10 @@ TOPICS = [
       hub_title='Horse Wound, Proud Flesh and Shock Questions', hub_meta='Source-checked answers on wound care, infection signs, proud flesh and shock in horses. Educational only; call your veterinarian right away for emergencies.',
       call='If your horse has heavy or spurting bleeding, a wound near a joint or tendon, a puncture, or signs of shock such as a weak pulse and cold limbs, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: wound care, infection signs, proud flesh and shock.', overview=('/emergency/lacerations/','Lacerations Emergency Guide'), emerg=('/emergency/wound-care/','Wound Care Emergency Guide')),
+ dict(key='neurologic', name='Neurologic and Behavior', url='/qa/neurologic/', mod=qa_neuro, h1='Neurologic Signs, Anxiety &amp; Behavior Questions &amp; Answers',
+      hub_title='Horse Neurologic, Anxiety and Behavior Questions', hub_meta='Source-checked answers on neurologic signs, stumbling, rehab, anxiety, behavior and travel stress in horses. Educational only; call your vet for emergencies.',
+      call='If your horse is stumbling, weak, falling, cannot get up, or shows sudden behavior or head changes, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: neurologic signs, rehab, anxiety, behavior and travel stress.', overview=('/conditions/epm/','EPM'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

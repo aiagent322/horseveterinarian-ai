@@ -88,3 +88,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — wounds and trauma, November 16, 2026
 
 `tools/qa_videos_wounds.json` (5 videos, 5 placements on 5 pages) records videos attached to `/qa/wounds/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Practice, individual-veterinarian and information-site channels are flagged in `commercial_note`. Product-review, owner-case, insurer-promotion, non-equine and research-lab videos, and candidates older than about eight years, were not used. Two pages were left blank for lack of a topic-matched video.
+
+
+## Q&A page videos — neurologic and behavior, November 16, 2026
+
+`tools/qa_videos_neurologic.json` (4 videos, 4 placements on 2 pages) records videos attached to `/qa/neurologic/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Practice, university and magazine channels are flagged in `commercial_note`. Trainer, product-program, non-equine, vet-audience and general fitness videos were not used. Four pages (rehabilitation, anxiety signs, anxiety management, behavior) were left blank for lack of a topic-matched veterinary video.

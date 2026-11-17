@@ -1,0 +1,54 @@
+{
+ "pages": {
+  "neurologic-signs-stumbling-and-worsening": [
+   "moQAMo0u9i4",
+   "h_GJpJTLOI4"
+  ],
+  "travel-comfort-and-stress-reduction": [
+   "NCDDo0r5oOI",
+   "ehQqPKR_zE8"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University veterinary college presentation.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "UMN College of Veterinary Medicine",
+   "status": "source_verified",
+   "title": "Unstable Ground: Equine Spinal Cord Disease and Ataxia Explained",
+   "youtube_id": "moQAMo0u9i4"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equine magazine channel; veterinarian interviewee.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Horse",
+   "status": "source_verified",
+   "title": "Clinical Signs of EPM in Horses",
+   "youtube_id": "h_GJpJTLOI4"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "A Few Things About Trailering",
+   "youtube_id": "NCDDo0r5oOI"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "How to Load a Horse on a Trailer",
+   "youtube_id": "ehQqPKR_zE8"
+  }
+ ]
+}

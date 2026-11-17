@@ -810,5 +810,32 @@
    "VET-QA-0491",
    "VET-QA-0480"
   ]
+ },
+ "neurologic": {
+  "neurologic-signs-stumbling-and-worsening": [
+   "VET-QA-0374",
+   "VET-QA-0373",
+   "VET-QA-0375"
+  ],
+  "rehabilitation-exercises-for-neurologic-horses": [
+   "VET-QA-0378"
+  ],
+  "anxiety-signs-and-diagnosis": [
+   "VET-QA-0241",
+   "VET-QA-0244",
+   "VET-QA-0240"
+  ],
+  "anxiety-causes-and-management": [
+   "VET-QA-0243",
+   "VET-QA-0239",
+   "VET-QA-0242"
+  ],
+  "behavior-techniques-and-common-behavior-issues": [
+   "VET-QA-0376",
+   "VET-QA-0377"
+  ],
+  "travel-comfort-and-stress-reduction": [
+   "VET-QA-0238"
+  ]
  }
 }
