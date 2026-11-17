@@ -103,3 +103,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — parasites and equipment, November 16, 2026
 
 `tools/qa_videos_parasites.json` (1 video, 1 placement) records the video attached to `/qa/parasites/` pages, resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. It carries `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and it may not be labeled medically reviewed or `clinical_approved`. Product-sponsored, extension-agent technique, podcast, kit-review and older-than-eight-year candidates were not used. The other four parasite pages and the equipment page were left blank; saddle-fit candidates were saddle-business or retailer videos.
+
+
+## Q&A video relevance cleanup, November 16, 2026
+
+Twelve placements (eleven videos) were removed from `tools/qa_videos_*.json` because they did not match the question they were attached to, or conflicted with the exclusion rules (feed, supplement or retailer channels; vet-audience; case stories). Removed: IU4K3EyE8GY, Ac6qnVrUNjQ, IYugRveVek4, u4cU6jg67u8 (feed companies); vrrxQ8RFAMI (supplement company); 5whQPnmlEoA (retailer); oFzztNZKMcI (aimed at veterinarians); tcJF19u7FxM and wMigaFwVTY0 (case stories); FtIf8PIuu90 (floating check, not risks or aftercare); gf75JVj63nM (heart pulse, not digital pulse); and Ghv4rFutUCA from the GI diarrhea page (dehydration check, not diarrhea). Affected pages now have fewer or no videos.

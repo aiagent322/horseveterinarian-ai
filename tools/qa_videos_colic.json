@@ -28,25 +28,15 @@
    "DF24L-Y_hUo",
    "FupMZqwhLH0"
   ],
-  "how-to-prevent-sand-colic": [
-   "IU4K3EyE8GY"
-  ],
   "impaction-colic-treatment": [
    "atepTgzPjRg",
    "SrmiTzag4cM"
-  ],
-  "diet-and-manure-impaction-in-horses": [
-   "Ac6qnVrUNjQ"
   ],
   "signs-a-horse-may-need-colic-surgery": [
    "j_Es9eUKOmk"
   ],
   "colic-hospital-stay": [
-   "j_Es9eUKOmk",
-   "tcJF19u7FxM"
-  ],
-  "colic-surgery-recovery-and-aftercare": [
-   "wMigaFwVTY0"
+   "j_Es9eUKOmk"
   ]
  },
  "videos": [
@@ -141,30 +131,10 @@
    "metadata_checked_on": "2026-11-16"
   },
   {
-   "youtube_id": "IU4K3EyE8GY",
-   "title": "Dry weather, low grass growth and how to help prevent sand colic",
-   "publisher": "Simple System Horse Feeds",
-   "commercial_note": "feed company channel",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
    "youtube_id": "FupMZqwhLH0",
    "title": "Sand Colic in Horses",
    "publisher": "Brazos Valley Equine Hospitals",
    "commercial_note": "",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "Ac6qnVrUNjQ",
-   "title": "Large Colon Impactions in Horses: A Wintertime Concern - Mad Barn - Vet Talk",
-   "publisher": "Mad Barn",
-   "commercial_note": "feed company channel",
    "status": "source_verified",
    "clinical_review": "not_performed",
    "metadata_source": "youtube_oembed",
@@ -185,26 +155,6 @@
    "title": "Coping with Colic in Horses: Symptoms, Treatment & Recovery",
    "publisher": "CSU College of Veterinary Medicine and Biomedical Sciences",
    "commercial_note": "",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "wMigaFwVTY0",
-   "title": "Equine Health Stories: Colic... Sal's Story",
-   "publisher": "Loomis Basin Equine Medical Group",
-   "commercial_note": "",
-   "status": "source_verified",
-   "clinical_review": "not_performed",
-   "metadata_source": "youtube_oembed",
-   "metadata_checked_on": "2026-11-16"
-  },
-  {
-   "youtube_id": "tcJF19u7FxM",
-   "title": "Critical Colic cases at B&W Equine Vets",
-   "publisher": "CVS Equine",
-   "commercial_note": "hospital group channel",
    "status": "source_verified",
    "clinical_review": "not_performed",
    "metadata_source": "youtube_oembed",

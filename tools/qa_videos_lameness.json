@@ -14,8 +14,7 @@
    "TUkaK3vPbVo"
   ],
   "kissing-spines-signs-and-diagnosis": [
-   "gE50AY5DqG8",
-   "vrrxQ8RFAMI"
+   "gE50AY5DqG8"
   ],
   "kissing-spines-treatment-and-outlook": [
    "gE50AY5DqG8",
@@ -33,12 +32,8 @@
   "signs-of-cellulitis-and-lymphangitis": [
    "PMNwf9L3WOk"
   ],
-  "cellulitis-treatment-and-immediate-steps": [
-   "5whQPnmlEoA"
-  ],
   "ligament-injury-signs-and-diagnosis": [
-   "7QZ1DA5A9kQ",
-   "oFzztNZKMcI"
+   "7QZ1DA5A9kQ"
   ]
  },
  "videos": [
@@ -84,16 +79,6 @@
   },
   {
    "clinical_review": "not_performed",
-   "commercial_note": "supplement company channel",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "Platinum Performance, Inc.",
-   "status": "source_verified",
-   "title": "Advancements in the diagnosis and treatment of Kissing Spines - PLATINUM PERFORMANCE",
-   "youtube_id": "vrrxQ8RFAMI"
-  },
-  {
-   "clinical_review": "not_performed",
    "commercial_note": "",
    "metadata_checked_on": "2026-11-16",
    "metadata_source": "youtube_oembed",
@@ -134,16 +119,6 @@
   },
   {
    "clinical_review": "not_performed",
-   "commercial_note": "supplement retailer channel",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "SmartPak",
-   "status": "source_verified",
-   "title": "Ask the Vet - Cellulitis in horses",
-   "youtube_id": "5whQPnmlEoA"
-  },
-  {
-   "clinical_review": "not_performed",
    "commercial_note": "aimed at veterinarians",
    "metadata_checked_on": "2026-11-16",
    "metadata_source": "youtube_oembed",
@@ -151,16 +126,6 @@
    "status": "source_verified",
    "title": "Signs of Suspensory Ligament Injury in a Horse’s Hind Leg",
    "youtube_id": "7QZ1DA5A9kQ"
-  },
-  {
-   "clinical_review": "not_performed",
-   "commercial_note": "aimed at veterinarians",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "The Equine Practice Company",
-   "status": "source_verified",
-   "title": "Diagnosing Proximal Suspensory Injuries in Horses: What Vets Must Know",
-   "youtube_id": "oFzztNZKMcI"
   }
  ]
 }

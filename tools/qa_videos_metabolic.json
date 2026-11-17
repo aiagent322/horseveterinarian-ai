@@ -11,14 +11,10 @@
   "ppid-treatment-options": [
    "MeHWiF-xNng"
   ],
-  "ppid-diet": [
-   "u4cU6jg67u8"
-  ],
   "signs-of-ems-and-insulin-resistance": [
    "FnMZ1WEGQWM"
   ],
   "diet-for-ems-and-insulin-resistance": [
-   "u4cU6jg67u8",
    "DPMo9cSJ20U"
   ],
   "exercise-for-insulin-resistant-horses": [
@@ -65,16 +61,6 @@
    "status": "source_verified",
    "title": "Cushings (PPID) and Metabolic Syndrome in Horses",
    "youtube_id": "MeHWiF-xNng"
-  },
-  {
-   "clinical_review": "not_performed",
-   "commercial_note": "podcast channel; feed company guests",
-   "metadata_checked_on": "2026-11-16",
-   "metadata_source": "youtube_oembed",
-   "publisher": "Countryside Vets",
-   "status": "source_verified",
-   "title": "Ep. 81 - Feeding Metabolic Horses w/ Hallway Feeds: Insulin Resistance, PPID, & Low-NSC Diets",
-   "youtube_id": "u4cU6jg67u8"
   },
   {
    "clinical_review": "not_performed",
