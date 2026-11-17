@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise, qa_parasites, qa_equipment, qa_vaccination, qa_plants, qa_foal, qa_senior, qa_heat, qa_winter
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -88,6 +88,10 @@ TOPICS = [
       hub_title='Horse Heat Stress and Hot Weather Questions and Answers', hub_meta='Source-checked answers on heat stress in horses: signs, cooling, heatstroke, anhidrosis, water, electrolytes and prevention. Educational only; ask your vet.',
       call='If a horse stops sweating, breathes heavily, collapses or becomes uncoordinated in the heat, call your veterinarian immediately. This page is educational and cannot assess your horse.',
       desc='%d questions: heat stress signs, cooling, heatstroke, anhidrosis, water and electrolytes, prevention.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/fever/','Fever Emergency Guide')),
+ dict(key='winter-care', name='Winter Care', url='/qa/winter-care/', mod=qa_winter, h1='Horse Winter Care Questions &amp; Answers',
+      hub_title='Horse Winter Care Questions and Answers', hub_meta='Source-checked answers on caring for horses in cold weather: blankets, water and impaction colic, feeding, shelter, hooves and signs of cold. Ask your vet.',
+      call='If a horse is colicky, shivering, weak or not eating or drinking in cold weather, call your veterinarian. This page is educational and cannot assess your horse.',
+      desc='%d questions: blankets, water and impaction colic, feeding, shelter, hoof care and signs of cold.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

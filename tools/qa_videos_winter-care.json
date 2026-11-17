@@ -1,0 +1,46 @@
+{
+ "pages": {
+  "do-horses-need-blankets-in-winter": [
+   "51T_XNwJNwE",
+   "i6JiW5YWhZY"
+  ],
+  "signs-a-horse-is-too-cold": [
+   "51T_XNwJNwE"
+  ],
+  "feeding-horses-in-cold-weather": [
+   "FFC3X4GnZIY"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Oklahoma State University Extension television program (Sunup); relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "SUNUPTV",
+   "status": "source_verified",
+   "title": "Are You Blanketing Your Horse Too Soon? Kris Hiney Explains",
+   "youtube_id": "51T_XNwJNwE"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "County Extension agents channel (Kentucky); relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Warren County Agriculture",
+   "status": "source_verified",
+   "title": "Blanketing a Horse",
+   "youtube_id": "i6JiW5YWhZY"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "North Dakota State University Extension webinar; relevance judged from title and description; no clinical review performed.",
+   "metadata_checked_on": "2026-11-17",
+   "metadata_source": "youtube_oembed",
+   "publisher": "NDSUExtension",
+   "status": "source_verified",
+   "title": "Feeding Hay During Winter Months - Winter Horse Management Webinar Series #1",
+   "youtube_id": "FFC3X4GnZIY"
+  }
+ ]
+}

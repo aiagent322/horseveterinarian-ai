@@ -170,3 +170,11 @@ Source-first topic; no package records. oEmbed-verified; clinical review not per
 - `4jOb5b2RBL0` SUNUPTV (Oklahoma State University Extension), What are the Signs of Heat Stress in Horses?: signs-of-heat-stress-in-horses, heat-exhaustion-heat-cramps-and-heatstroke-in-horses (2 uses).
 - Blank: how-to-cool-an-overheated-horse, anhidrosis-in-horses-when-a-horse-stops-sweating, keeping-horses-cool-in-hot-weather, water-and-electrolytes-for-horses-in-hot-weather.
 - Excluded: `dqCrdi2N1VU` (SmartPak, retailer); `lRBQcHkjcFc` (podcast; region and audience not verified); `pcaSS90jCSY` (UF Health news clip on possible treatments); `j3byQnoLYFo` (UK); `CX-ux9u85wo`, `KLI7FuqYLPk`, `EwawWq3kER4`, `rKgWm7kY1Es` (older than about 8 years); electrolyte, supplement and beer-remedy videos (product or home remedy); personal vlogs.
+
+## Winter care (2026-11-17)
+Source-first topic; no package records. oEmbed-verified; clinical review not performed; relevance judged from title and description.
+- `51T_XNwJNwE` SUNUPTV (Oklahoma State University Extension), Are You Blanketing Your Horse Too Soon?: do-horses-need-blankets-in-winter, signs-a-horse-is-too-cold (2 uses).
+- `i6JiW5YWhZY` Warren County Agriculture (Kentucky Extension agents), Blanketing a Horse: do-horses-need-blankets-in-winter (1 use).
+- `FFC3X4GnZIY` NDSUExtension, Feeding Hay During Winter Months: feeding-horses-in-cold-weather (1 use).
+- Blank: water-in-winter-and-impaction-colic-risk, winter-shelter-hoof-care-and-exercise-for-horses.
+- Excluded: `7JxR5LYYvM4`, `3gbrBl5TOsk` (Canadian, -40C conditions); `T9WJLb15IoQ`, `4-rig1l7Q5A`, `p8okCEhGNno`, `ArhcKpROhBY`, `nMR1NZ8n6fs` (blanket retailer or product links); `8RO1BsIJd-s` (older than about 8 years); `Ac6qnVrUNjQ` (Mad Barn, feed-company sponsored); `61FyMtA5zsY` (treatment case story); `47LapGrhLmE`, `xdWqc7muYko`, `avoEVPIcI-o` (personal barn channels); `-JYZNG2v02Y` (grain and supplements); `A1l8ftJZIq8`, `A_-F6VXORIQ` (product demos).
