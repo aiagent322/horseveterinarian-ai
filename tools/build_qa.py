@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -44,6 +44,10 @@ TOPICS = [
       hub_title='Horse Dental, Teeth Floating and Wolf Teeth Questions', hub_meta='Source-checked answers on dental exams, teeth floating, wolf teeth, missing teeth and eating problems. Educational only; call your veterinarian.',
       call='If your horse is choking, drooling without chewing, has sudden mouth pain, or facial swelling or one-sided nasal discharge, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: dental exams, teeth floating, wolf teeth, missing teeth and eating problems.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
+ dict(key='eye', name='Eye', url='/qa/eye/', mod=qa_eye, h1='Eye, Uveitis &amp; Corneal Ulcer Questions &amp; Answers',
+      hub_title='Horse Eye, Uveitis and Corneal Ulcer Questions', hub_meta='Source-checked answers on watery eyes, cloudy eyes, uveitis, corneal ulcers and eye injury prevention. Educational only; call your veterinarian.',
+      call='If your horse is squinting, holding an eye shut, or has a cloudy eye, swelling or thick or bloody discharge, call your veterinarian right away. Eye problems are nearly always emergencies. This page is educational and cannot assess your horse.',
+      desc='%d questions: watery eyes, cloudy eyes, uveitis, corneal ulcers and preventing eye injuries.', overview=('/emergency/lacerations/','Lacerations Emergency Guide'), emerg=('/emergency/eye-injury/','Eye Injury Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

@@ -124,7 +124,7 @@
   ]
  },
  "held": {
-  "VET-QA-0089": "answer is about eye tearing, not diet — mismatched; eye topic",
+  "VET-QA-0089": "answer is about eye tearing, not diet — mismatched question",
   "VET-QA-0090": "generic diet question; no topic",
   "VET-QA-0093": "generic care-instructions question; no topic",
   "VET-QA-0107": "generic monitoring question; no topic",
@@ -724,6 +724,61 @@
   ],
   "when-to-call-the-vet-for-eating-problems": [
    "VET-QA-0063"
+  ]
+ },
+ "eye": {
+  "uveitis-symptoms-and-causes": [
+   "VET-QA-0080",
+   "VET-QA-0081"
+  ],
+  "uveitis-treatment-and-monitoring": [
+   "VET-QA-0086",
+   "VET-QA-0085"
+  ],
+  "uveitis-long-term-effects-and-recurrence": [
+   "VET-QA-0066",
+   "VET-QA-0079",
+   "VET-QA-0071"
+  ],
+  "cloudy-eye-causes-and-vision": [
+   "VET-QA-0076",
+   "VET-QA-0082",
+   "VET-QA-0067",
+   "VET-QA-0068"
+  ],
+  "watery-eye-causes-and-home-care": [
+   "VET-QA-0083",
+   "VET-QA-0065"
+  ],
+  "watery-eye-vet-exam-and-treatment": [
+   "VET-QA-0074",
+   "VET-QA-0075",
+   "VET-QA-0088",
+   "VET-QA-0072"
+  ],
+  "corneal-ulcer-causes-and-treatment": [
+   "VET-QA-0131",
+   "VET-QA-0103",
+   "VET-QA-0141"
+  ],
+  "can-corneal-ulcers-cause-blindness": [
+   "VET-QA-0099"
+  ],
+  "signs-of-serious-eye-problems": [
+   "VET-QA-0078"
+  ],
+  "how-long-eye-problems-take-to-heal-and-if-worse": [
+   "VET-QA-0073",
+   "VET-QA-0084"
+  ],
+  "common-treatments-for-eye-problems": [
+   "VET-QA-0077",
+   "VET-QA-0087"
+  ],
+  "preventing-eye-injuries-and-eye-problems": [
+   "VET-QA-0069",
+   "VET-QA-0070",
+   "VET-QA-0109"
   ]
  }
 }

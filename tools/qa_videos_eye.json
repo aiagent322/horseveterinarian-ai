@@ -1,0 +1,71 @@
+{
+ "pages": {
+  "signs-of-serious-eye-problems": [
+   "rifxXEgdVQU"
+  ],
+  "corneal-ulcer-causes-and-treatment": [
+   "p5a7IMujRKo"
+  ],
+  "can-corneal-ulcers-cause-blindness": [
+   "OwkJx338WcI"
+  ],
+  "uveitis-symptoms-and-causes": [
+   "Mv1j8a2rbEU"
+  ],
+  "uveitis-long-term-effects-and-recurrence": [
+   "ILUHKL4vdjM"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Eye Ulcers: How to spot the warning signs",
+   "youtube_id": "rifxXEgdVQU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Equine hospital channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Rood & Riddle",
+   "status": "source_verified",
+   "title": "Corneal Ulceration in Horses   Causes Diagnosis and Treatment with Dr Kimberly Lam",
+   "youtube_id": "p5a7IMujRKo"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary education company; veterinary ophthalmologist segment.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "The Equine Practice Company",
+   "status": "source_verified",
+   "title": "Recognizing Vision-Threatening Corneal Ulcers in Horses",
+   "youtube_id": "OwkJx338WcI"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Individual veterinarian channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Marc Smith DVM",
+   "status": "source_verified",
+   "title": "What is Moon Blindness in Horses? By Marc Smith, DVM, MS",
+   "youtube_id": "Mv1j8a2rbEU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Podcast episode; veterinary ophthalmologist guest.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Horse Radio Network",
+   "status": "source_verified",
+   "title": "Ep. 133: Equine Recurrent Uveitis with Dr. Nicole Scherrer",
+   "youtube_id": "ILUHKL4vdjM"
+  }
+ ]
+}
