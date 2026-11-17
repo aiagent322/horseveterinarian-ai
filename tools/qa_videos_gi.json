@@ -31,6 +31,10 @@
   "long-term-effects-of-untreated-gastric-ulcers": [
    "HGDatdXR5sg",
    "F63HbUV4rp4"
+  ],
+  "signs-of-malnutrition-in-horses": [
+   "6DwaWTAhWn0",
+   "_o1gH9poeHM"
   ]
  },
  "videos": [
@@ -113,6 +117,26 @@
    "status": "source_verified",
    "title": "Equine Gastric Ulcer Syndrome",
    "youtube_id": "F63HbUV4rp4"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University extension video channel (Texas A&M AgriLife Extension).",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "RanchTV at Texas A&M AgriLife Extension",
+   "status": "source_verified",
+   "title": "How to Assign a Body Condition Score for a Horse",
+   "youtube_id": "6DwaWTAhWn0"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Animal-welfare nonprofit video featuring a veterinarian (Dr. Tom Judd); shows scoring used for starved, underweight horses.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Maine State Society for the Protection of Animals",
+   "status": "source_verified",
+   "title": "'word from the herd' - Henneke body score condition with Veterinarian Tom Judd",
+   "youtube_id": "_o1gH9poeHM"
   }
  ]
 }

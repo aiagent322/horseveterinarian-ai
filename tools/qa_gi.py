@@ -15,6 +15,8 @@ S.update({
  'avma': ('AVMA — Internal Parasites of the Horse', 'https://ebusiness.avma.org/files/productdownloads/InternalParasiteHorse_En.pdf'),
  'usuegus': ('Utah State University Extension — Preventing and Managing Equine Gastric Ulcer Syndrome (K. Bell, K. Hoopes DVM; Aug 2024)', 'https://extension.usu.edu/equine/research/preventing-and-managing-equine-gastric-ulcer-syndrome'),
  'sykesvt': ('Vet Times — Equine gastric ulcer syndrome (Ben Sykes; 24 Sept 2021)', 'https://www.vettimes.com/clinical/equine/equine-gastric-ulcer-syndrome-cpdequinegi'),
+ 'osurefeed': ('Oklahoma State University Extension — Refeeding the Poorly Conditioned Horse (K. Hiney; L. Gilliam, DVM, DACVIM; no date shown)', 'https://extension.okstate.edu/fact-sheets/refeeding-the-poorly-conditioned-horse.html'),
+ 'lsumal': ('LSU AgCenter — Feeding Malnourished Horses, Pub. 3598 (N. Walker, PhD; April 2017)', 'https://www.lsuagcenter.com/~/media/system/2/a/6/5/2a65d9775f4bd9409b88faed610a6725/pub3598%20feeding%20malnourished%20horsepdf.pdf'),
  'horseomep': ('The Horse — Omeprazole discontinuation and rebound gastric hyperacidity in horses', 'https://thehorse.com/?p=123766'),
 })
 HELD = {
@@ -24,7 +26,7 @@ HELD = {
  'VET-QA-0107':'generic monitoring question; no topic',
  'VET-QA-0138':'generic weight/health question; nutrition topic',
  'VET-QA-0097':'answer repeats diet text, does not answer the medication question',
- 'VET-QA-0125':'malnutrition; nutrition topic',
+ 
  'VET-QA-0144':'overlaps colic/diarrhea/ulcer pages; no unique content',
  'VET-QA-0096':'pot-belly exercise: no verified source',
  'VET-QA-0099':'eye topic','VET-QA-0103':'eye topic','VET-QA-0109':'eye topic','VET-QA-0131':'eye topic','VET-QA-0141':'eye topic (question text only)',
@@ -261,4 +263,28 @@ PAGES = [
 </ul>
 <p>Do not wait to see what happens. Call your veterinarian about weight loss, a horse that stops eating, or repeated colic. See <a href="/qa/gi/signs-of-gastric-ulcers/">signs of gastric ulcers</a> and <a href="/qa/gi/gastric-ulcer-treatment-options/">treatment options</a>.</p>''',
   src=['usuegus','sykesvt'], rel=['signs-of-gastric-ulcers','gastric-ulcer-treatment-options','how-to-prevent-gastric-ulcers']),
+
+ dict(slug='signs-of-malnutrition-in-horses', ids=['VET-QA-0125'], urgent=False,
+  q='What are the signs of malnutrition in horses?',
+  title='Signs of Malnutrition in Horses',
+  meta='Extension sources judge malnutrition by body condition score: prominent spine, ribs, tailhead and hip bones. A vet should find the cause before refeeding.',
+  short='Sources judge malnutrition by body condition score on a 1 to 9 scale. At a score of 1 or 2 the spine, ribs, tailhead and pelvis stand out and little or no fat covers them. Weight loss has many causes, so a veterinarian should examine the horse, and refeeding must be done slowly.',
+  body='''<h2>How malnutrition is recognized</h2>
+<ul>
+<li>Oklahoma State University Extension scores body condition from 1 to 9 by visible and palpable fat. At 1, the spine, ribs, tailhead and pelvic bones stand out and no fat can be felt. At 2, a small amount of fat remains over parts of the spine and the ribs, shoulders and neck are only faintly visible.</li>
+<li>LSU AgCenter describes a score of 3 as thin: fat covers only about halfway along the spine, the ribs are easy to see, the tailhead stands out, and the pelvis, hip and withers bones look prominent. A score of 5 is moderate: a level back, ribs felt easily but not seen, and a rounded withers.</li>
+<li>LSU says a horse may be considered starved if it loses more than 15 percent of its body weight in 60 days or less.</li>
+<li>OSU notes some athletic horses are lean yet healthy, so no universal cutoff exists.</li>
+</ul>
+<h2>Causes</h2>
+<p>OSU lists inadequate energy or protein intake as the most common nutritional cause, along with malabsorption, parasites, old age and disease. Illnesses that reduce appetite can also cause it, and some elderly horses struggle to keep condition even with good care.</p>
+<h2>Why a veterinarian is needed</h2>
+<ul>
+<li>OSU says a vet should examine the horse, including the mouth, and run diagnostics before and during refeeding because the cause shapes the plan.</li>
+<li>LSU warns of refeeding syndrome when a malnourished horse is fed too quickly. It can appear 3 to 10 days after calories increase, and complications include organ failure and death.</li>
+<li>OSU describes refeeding as difficult even with expert oversight and advises watching for laminitis signs such as tender walking or reluctance to move; contact a vet immediately if they appear.</li>
+</ul>
+<h2>What the sources do not cover</h2>
+<p>This page gives no feed amounts or schedules, and the sources do not diagnose a specific horse. OSU shows no publication date. Weight loss can also come from dental disease, parasites or endocrine disease; see <a href="/qa/gi/pot-belly-in-horses-causes-and-tests/">pot belly causes and tests</a> and <a href="/qa/metabolic/signs-of-ppid-cushings/">signs of PPID</a>.</p>''',
+  src=['osurefeed','lsumal'], rel=['pot-belly-in-horses-causes-and-tests','signs-of-gastric-ulcers','pot-belly-in-horses-diet']),
 ]

@@ -132,6 +132,9 @@
    "VET-QA-0091",
    "VET-QA-0121",
    "VET-QA-0122"
+  ],
+  "signs-of-malnutrition-in-horses": [
+   "VET-QA-0125"
   ]
  },
  "held": {
@@ -141,7 +144,6 @@
   "VET-QA-0107": "generic monitoring question; no topic",
   "VET-QA-0138": "generic weight/health question; nutrition topic",
   "VET-QA-0097": "answer repeats diet text, does not answer the medication question",
-  "VET-QA-0125": "malnutrition; nutrition topic",
   "VET-QA-0144": "overlaps colic/diarrhea/ulcer pages; no unique content",
   "VET-QA-0096": "pot-belly exercise: no verified source",
   "VET-QA-0260": "generic metabolic-monitoring question; no verified interval",

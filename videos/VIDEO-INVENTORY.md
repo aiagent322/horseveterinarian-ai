@@ -134,3 +134,6 @@ Zy0oKksngmg (OSU Small Farms Program, Dr. Dawn Sherwood) added to `preventing-sc
 ## Lethargy pages — 2026-11-16
 - when-to-call-the-vet-for-a-lethargic-horse: 2u-LmAxc9JE (Starwood Equine Veterinary Services, TPR how-to), wbGapOskTVE (Troy Equine Services, TPR how-to). Matches the page's check-vitals step; neither is about lethargy itself. Judged by title and publisher only.
 - common-causes-of-lethargy-in-horses: blank. Search found a news clip on equine depression, general illness-sign videos from unnamed channels and vet-audience content; none matched.
+
+## Malnutrition signs — 2026-11-16
+signs-of-malnutrition-in-horses: 6DwaWTAhWn0 (RanchTV at Texas A&M AgriLife Extension, body condition scoring), _o1gH9poeHM (Maine State Society for the Protection of Animals with Dr. Tom Judd, scoring starved horses). Excluded: DengieHorseFeeds (feed brand), videos older than ~8 years, a #ad rib-check video. Judged by title and publisher only.
