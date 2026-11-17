@@ -190,7 +190,10 @@
   "VET-QA-0173": "\"specific treatment plan\" with no condition named in the record",
   "VET-QA-0163": "cracked heels = scratches/pastern dermatitis; covered at /qa/skin/ scratches pages (avoids near-duplicate)",
   "VET-QA-0179": "cracked heels = scratches; see /qa/skin/preventing-scratches/",
-  "VET-QA-0191": "cracked heels = scratches; see /qa/skin/scratches-treatment-and-recovery-time/"
+  "VET-QA-0191": "cracked heels = scratches; see /qa/skin/scratches-treatment-and-recovery-time/",
+  "VET-QA-0038": "generic feeding-routine question; not dental, no dental source",
+  "VET-QA-0039": "insect irritation around the head; not dental, no source reviewed",
+  "VET-QA-0041": "travel stress; not dental, no source reviewed"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -668,6 +671,59 @@
    "VET-QA-0166",
    "VET-QA-0158",
    "VET-QA-0189"
+  ]
+ },
+ "dental": {
+  "how-often-to-have-a-horses-teeth-checked": [
+   "VET-QA-0043",
+   "VET-QA-0044",
+   "VET-QA-0046",
+   "VET-QA-0048"
+  ],
+  "signs-of-dental-problems-in-horses": [
+   "VET-QA-0032",
+   "VET-QA-0051",
+   "VET-QA-0052",
+   "VET-QA-0057",
+   "VET-QA-0061"
+  ],
+  "common-dental-problems-and-treatment": [
+   "VET-QA-0050",
+   "VET-QA-0062",
+   "VET-QA-0040"
+  ],
+  "what-teeth-floating-is-and-how-it-helps": [
+   "VET-QA-0042",
+   "VET-QA-0058",
+   "VET-QA-0033"
+  ],
+  "teeth-floating-risks-and-aftercare": [
+   "VET-QA-0031",
+   "VET-QA-0054"
+  ],
+  "wolf-teeth-and-bit-problems": [
+   "VET-QA-0034",
+   "VET-QA-0049",
+   "VET-QA-0055",
+   "VET-QA-0053"
+  ],
+  "wolf-tooth-removal-and-recovery": [
+   "VET-QA-0036",
+   "VET-QA-0045",
+   "VET-QA-0059",
+   "VET-QA-0060"
+  ],
+  "missing-teeth-causes-and-diet-changes": [
+   "VET-QA-0056",
+   "VET-QA-0047",
+   "VET-QA-0030"
+  ],
+  "head-tossing-and-bit-comfort-with-dental-problems": [
+   "VET-QA-0035",
+   "VET-QA-0037"
+  ],
+  "when-to-call-the-vet-for-eating-problems": [
+   "VET-QA-0063"
   ]
  }
 }

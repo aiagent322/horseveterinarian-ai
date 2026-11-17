@@ -73,3 +73,8 @@ The user supplied 11 links representing 10 unique videos; `629VEcIemsU` was subm
 ## Q&A page videos — hoof care and farrier, November 16, 2026
 
 `tools/qa_videos_hoof.json` (3 videos, 3 placements on 3 pages) records videos attached to `/qa/hoof/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Grooming-service and media channels are flagged in `commercial_note`. Product-sponsored, supplement-promotion, general-channel how-to, barefoot-trimming and non-equine videos, a laminitis video contradicting veterinary sources, and candidates older than about eight years were not used. Six pages were left blank for lack of a topic-matched video.
+
+
+## Q&A page videos — dental and oral, November 16, 2026
+
+`tools/qa_videos_dental.json` (5 videos, 5 placements on 5 pages) records videos attached to `/qa/dental/` pages. Each was resolved through YouTube oEmbed (title and publisher) and chosen for topic fit; no video is used on more than two pages site-wide. All carry `status: source_verified` and `clinical_review: not_performed`: content has not been watched or reviewed by a veterinarian, and none may be labeled medically reviewed or `clinical_approved`. Practice, education-platform and equestrian-centre channels are flagged in `commercial_note`. Feed-company-presented, media-blog, non-English, non-equine and surgical-extraction videos, and candidates older than about eight years, were not used. Five pages were left blank for lack of a topic-matched video.

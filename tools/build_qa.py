@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -40,6 +40,10 @@ TOPICS = [
       hub_title='Horse Hoof Care and Farrier Questions and Answers', hub_meta='Source-checked answers on trimming and shoeing intervals, hoof abscesses, hoof imbalance, supplements and rotated coffin bone. Educational only; call your vet.',
       call='If your horse is suddenly lame, will not bear weight, or has a hot hoof with a bounding pulse, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: farrier schedules, hoof abscesses, hoof balance, supplements and coffin bone rotation.', overview=('/conditions/laminitis/','Laminitis Overview'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
+ dict(key='dental', name='Dental and Oral', url='/qa/dental/', mod=qa_dental, h1='Dental, Teeth Floating &amp; Wolf Teeth Questions &amp; Answers',
+      hub_title='Horse Dental, Teeth Floating and Wolf Teeth Questions', hub_meta='Source-checked answers on dental exams, teeth floating, wolf teeth, missing teeth and eating problems. Educational only; call your veterinarian.',
+      call='If your horse is choking, drooling without chewing, has sudden mouth pain, or facial swelling or one-sided nasal discharge, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: dental exams, teeth floating, wolf teeth, missing teeth and eating problems.', overview=('/conditions/colic/','Colic Overview'), emerg=('/emergency/not-eating/','Not Eating Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()
