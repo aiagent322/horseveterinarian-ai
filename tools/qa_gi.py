@@ -227,7 +227,7 @@ PAGES = [
  dict(slug='omeprazole-use-rebound-and-treatment-cautions', ids=['VET-QA-0123','VET-QA-0101','VET-QA-0100','VET-QA-0092'], urgent=False,
   q='What are the side effects and cautions of ulcer treatment with omeprazole, including long-term use and combining it with other medications?',
   title='Omeprazole for Horse Ulcers: Rebound and Cautions',
-  meta='Omeprazole lowers stomach acid. Some horses relapse after stopping, and NSAIDs promote ulcers. Long-term safety and drug interactions are not covered by sources.',
+  meta='Omeprazole lowers stomach acid. Some horses relapse after stopping, and NSAIDs promote ulcers. Sources do not cover long-term safety or interactions.',
   short='Omeprazole lowers stomach acid to treat ulcers. A reviewed study found some horses relapse quickly after stopping because of rebound acid, and tapering did not help for courses of eight weeks or less. Vets advise limiting anti-inflammatory painkillers, which promote ulcers. The sources do not cover long-term safety or most drug combinations.',
   body='''<h2>What the sources say</h2>
 <ul>
