@@ -185,7 +185,12 @@
   "VET-QA-0446": "natural remedies for mange; no source reviewed supports any",
   "VET-QA-0404": "laminitis-signs question filed under respiratory; duplicate of /qa/lameness/signs-of-laminitis-and-founder/",
   "VET-QA-0415": "vet-check frequency; no source reviewed gives a schedule",
-  "VET-QA-0435": "generic \"what tests diagnose the cause\" with no condition named"
+  "VET-QA-0435": "generic \"what tests diagnose the cause\" with no condition named",
+  "VET-QA-0159": "\"specific hoof care products\" question; no source reviewed recommends products",
+  "VET-QA-0173": "\"specific treatment plan\" with no condition named in the record",
+  "VET-QA-0163": "cracked heels = scratches/pastern dermatitis; covered at /qa/skin/ scratches pages (avoids near-duplicate)",
+  "VET-QA-0179": "cracked heels = scratches; see /qa/skin/preventing-scratches/",
+  "VET-QA-0191": "cracked heels = scratches; see /qa/skin/scratches-treatment-and-recovery-time/"
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -612,6 +617,57 @@
    "VET-QA-0428",
    "VET-QA-0431",
    "VET-QA-0429"
+  ]
+ },
+ "hoof": {
+  "how-often-to-trim-or-shoe-a-horse": [
+   "VET-QA-0167",
+   "VET-QA-0168",
+   "VET-QA-0169",
+   "VET-QA-0170",
+   "VET-QA-0171"
+  ],
+  "signs-of-hoof-problems-and-when-to-call": [
+   "VET-QA-0177",
+   "VET-QA-0178"
+  ],
+  "hoof-abscess-causes-and-prevention": [
+   "VET-QA-0176",
+   "VET-QA-0164",
+   "VET-QA-0165"
+  ],
+  "hoof-abscess-complications-and-monitoring": [
+   "VET-QA-0160",
+   "VET-QA-0182",
+   "VET-QA-0172",
+   "VET-QA-0185"
+  ],
+  "improving-hoof-health-and-strength": [
+   "VET-QA-0156",
+   "VET-QA-0157",
+   "VET-QA-0161",
+   "VET-QA-0174",
+   "VET-QA-0188"
+  ],
+  "hoof-supplements-and-biotin": [
+   "VET-QA-0175",
+   "VET-QA-0190"
+  ],
+  "rotated-coffin-bone-treatment-and-outlook": [
+   "VET-QA-0180",
+   "VET-QA-0186",
+   "VET-QA-0184",
+   "VET-QA-0162"
+  ],
+  "hoof-imbalance-signs-and-effects": [
+   "VET-QA-0183",
+   "VET-QA-0181"
+  ],
+  "hoof-imbalance-correction-and-prevention": [
+   "VET-QA-0187",
+   "VET-QA-0166",
+   "VET-QA-0158",
+   "VET-QA-0189"
   ]
  }
 }

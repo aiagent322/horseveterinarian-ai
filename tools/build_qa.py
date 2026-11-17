@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -36,6 +36,10 @@ TOPICS = [
       hub_title='Horse Respiratory, Cough and Nasal Discharge Questions', hub_meta='Source-checked answers on pneumonia, cough, nasal discharge, breathing rate, equine asthma and the digital pulse. Educational only; call your vet.',
       call='If your horse is struggling to breathe, has flared nostrils, a cough after trailering, a fever with cough or discharge, or food coming from the nose, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: pneumonia, cough, nasal discharge, breathing rate and digital pulse.', overview=('/conditions/heaves/','Heaves Overview'), emerg=('/emergency/fever/','Fever Emergency Guide')),
+ dict(key='hoof', name='Hoof Care and Farrier', url='/qa/hoof/', mod=qa_hoof, h1='Hoof Care, Farrier &amp; Hoof Balance Questions &amp; Answers',
+      hub_title='Horse Hoof Care and Farrier Questions and Answers', hub_meta='Source-checked answers on trimming and shoeing intervals, hoof abscesses, hoof imbalance, supplements and rotated coffin bone. Educational only; call your vet.',
+      call='If your horse is suddenly lame, will not bear weight, or has a hot hoof with a bounding pulse, call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: farrier schedules, hoof abscesses, hoof balance, supplements and coffin bone rotation.', overview=('/conditions/laminitis/','Laminitis Overview'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()
