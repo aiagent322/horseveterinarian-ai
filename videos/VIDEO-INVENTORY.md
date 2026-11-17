@@ -137,3 +137,6 @@ Zy0oKksngmg (OSU Small Farms Program, Dr. Dawn Sherwood) added to `preventing-sc
 
 ## Malnutrition signs — 2026-11-16
 signs-of-malnutrition-in-horses: 6DwaWTAhWn0 (RanchTV at Texas A&M AgriLife Extension, body condition scoring), _o1gH9poeHM (Maine State Society for the Protection of Animals with Dr. Tom Judd, scoring starved horses). Excluded: DengieHorseFeeds (feed brand), videos older than ~8 years, a #ad rib-check video. Judged by title and publisher only.
+
+## Insulin monitoring — 2026-11-16
+monitoring-insulin-in-horses-with-ems: blank. The Cornell Vet EMS seminar (FnMZ1WEGQWM) is already at 2 uses; "My Senior Horse" (d0Rtn_V1WXU) has unclear commercial ties; others were vet-audience, older than ~8 years or drug-trial talks.

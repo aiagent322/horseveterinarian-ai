@@ -5,6 +5,7 @@ S = dict(C.S)
 S.update({
  'hsvg13': ('Horse-Side Vet Guide — Depressed, dull or lethargic horse (Doug Thal, DVM, Dipl. ABVP; last modified Dec 2024)', 'https://horsesidevetguide.com/drv/Observation/13'),
  'uflcall': ('University of Florida Large Animal Hospital — When It\'s Time to Call the Vet (Sept 2025)', 'https://largeanimal.vethospitals.ufl.edu/2025/09/10/when-its-time-to-call-the-vet/'),
+ 'horseems': ('The Horse — Can My Horse Have EMS Without Being Overweight? (Shannon Pratt-Phillips, PhD, North Carolina State University; published Apr 23, 2026)', 'https://thehorse.com/?p=143992'),
  'wcvm': ('University of Saskatchewan WCVM — Pituitary Pars Intermedia Dysfunction (PPID)', 'https://vmc.usask.ca/care/equine-health/resources/ppid.php'),
  'ucdems': ('UC Davis Center for Equine Health — Equine Metabolic Syndrome', 'https://ceh.vetmed.ucdavis.edu/node/3021'),
  'umnems': ('University of Minnesota Equine Center — Equine Metabolic Syndrome: Management', 'https://vetmed.umn.edu/equine/research/equine-genetics-and-genomics-laboratory/projects/equine-metabolic-syndrome/management'),
@@ -17,7 +18,7 @@ S.update({
 })
 HELD = {
  
- 'VET-QA-0260':'generic metabolic-monitoring question; no verified interval','VET-QA-0262':'insulin monitoring interval: no verified source','VET-QA-0289':'generic treatment question for unnamed condition',
+ 'VET-QA-0289':'generic treatment question for unnamed condition',
 }
 PAGES = [
  dict(slug='signs-of-ppid-cushings', ids=['VET-QA-0266','VET-QA-0275','VET-QA-0277'], urgent=False,
@@ -332,4 +333,22 @@ PAGES = [
 </ul>
 <p>Do not give painkillers before talking to your veterinarian; the guide advises against giving flunixin on your own without knowing the cause. See <a href="/qa/metabolic/common-causes-of-lethargy-in-horses/">causes of lethargy</a> and <a href="/emergency/">emergencies</a>.</p>''',
   src=['hsvg13','uflcall'], rel=['common-causes-of-lethargy-in-horses','signs-of-ppid-cushings','long-term-effects-of-untreated-endocrine-disease']),
+
+ dict(slug='monitoring-insulin-in-horses-with-ems', ids=['VET-QA-0262','VET-QA-0260'], urgent=False,
+  q='How often should a horse with a metabolic condition be monitored for insulin?',
+  title='Monitoring Insulin in Horses With EMS',
+  meta='No source gives a fixed retest interval for insulin. A veterinarian chooses the test and schedule: resting sample, oral sugar test or a post-meal blood draw.',
+  short='The source read gives no fixed schedule for rechecking insulin. It says to monitor regularly with your veterinarian, who can choose a resting blood sample, a dynamic test such as an oral sugar test, or a sample 60 to 90 minutes after a meal. Ask your veterinarian how often your horse should be tested.',
+  body='''<h2>How often</h2>
+<p>Dr. Shannon Pratt-Phillips of North Carolina State University, writing in The Horse (April 2026), gives no specific recheck schedule. She says to monitor regularly and to work with your veterinarian. Neither this source nor the other sources reviewed for this site give an interval, so none is stated here.</p>
+<h2>What is measured and how (The Horse)</h2>
+<ul>
+<li>Insulin concentration, because hyperinsulinemia-associated laminitis accounts for up to 90 percent of laminitis cases according to the article.</li>
+<li>A resting (basal) blood sample, ideally after the horse has had only hay for the previous six hours, is a common screening tool.</li>
+<li>A dynamic test such as an oral sugar test shows how high insulin rises after a sugar challenge; your veterinarian may suggest it.</li>
+<li>Blood drawn about 60 to 90 minutes after a regular meal, or in the late afternoon for pasture-grazing horses, measures post-meal insulin; the article says this best reflects real-world laminitis risk.</li>
+</ul>
+<h2>What to do</h2>
+<p>Ask your veterinarian which test fits your horse and when to repeat it, and call if laminitis signs appear. Horses can have EMS at a healthy body condition, so a normal weight does not remove the need to monitor. See <a href="/qa/metabolic/long-term-management-of-ems/">long-term EMS management</a> and <a href="/qa/metabolic/is-endocrine-treatment-working-or-worsening/">is treatment working</a>.</p>''',
+  src=['horseems'], rel=['long-term-management-of-ems','how-ems-is-diagnosed','is-endocrine-treatment-working-or-worsening']),
 ]

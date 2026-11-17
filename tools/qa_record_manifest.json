@@ -146,8 +146,6 @@
   "VET-QA-0097": "answer repeats diet text, does not answer the medication question",
   "VET-QA-0144": "overlaps colic/diarrhea/ulcer pages; no unique content",
   "VET-QA-0096": "pot-belly exercise: no verified source",
-  "VET-QA-0260": "generic metabolic-monitoring question; no verified interval",
-  "VET-QA-0262": "insulin monitoring interval: no verified source",
   "VET-QA-0289": "generic treatment question for unnamed condition",
   "VET-QA-0293": "generic diet question with no condition named",
   "VET-QA-0302": "generic home pain management; no condition named",
@@ -160,7 +158,7 @@
   "VET-QA-0382": "muscle strain exercises: no verified source",
   "VET-QA-0339": "neck pain: no verified source",
   "VET-QA-0310": "stifle injury prevention: sources cover only locked-stifle conditioning; package answer is about laminitis (package fix)",
-  "VET-QA-0299": "kissing spines prevention: source gives none",
+  "VET-QA-0299": "kissing spines prevention: Merck Vet Manual (Durgam, June 2025) does not cover prevention, conformation or saddle fit; no other verified source",
   "VET-QA-0321": "bowed tendon shoeing/padding: source gives none",
   "VET-QA-0220": "generic \"signs to watch\" with no condition named",
   "VET-QA-0440": "respiratory-complications record filed under skin; belongs to the Respiratory batch and carries unsourced numbers",
@@ -256,6 +254,10 @@
   ],
   "when-to-call-the-vet-for-a-lethargic-horse": [
    "VET-QA-0290"
+  ],
+  "monitoring-insulin-in-horses-with-ems": [
+   "VET-QA-0262",
+   "VET-QA-0260"
   ]
  },
  "lameness": {
