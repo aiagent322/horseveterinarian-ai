@@ -13,6 +13,7 @@ S.update({
  'hbmb': ('Mad Barn — Hay Belly in Horses', 'https://madbarn.com/hay-belly-in-horses/'),
  'hipar': ('Horse Illustrated — Equine University: Parasite Infestation', 'https://www.horseillustrated.com/equine-university-horse-college-horse-health-college-session-200-parasite-infestation-article/amp'),
  'avma': ('AVMA — Internal Parasites of the Horse', 'https://ebusiness.avma.org/files/productdownloads/InternalParasiteHorse_En.pdf'),
+ 'horseomep': ('The Horse — Omeprazole discontinuation and rebound gastric hyperacidity in horses', 'https://thehorse.com/?p=123766'),
 })
 HELD = {
  'VET-QA-0089':'answer is about eye tearing, not diet — mismatched; eye topic',
@@ -26,7 +27,7 @@ HELD = {
  'VET-QA-0096':'pot-belly exercise: no verified source',
  'VET-QA-0099':'eye topic','VET-QA-0103':'eye topic','VET-QA-0109':'eye topic','VET-QA-0131':'eye topic','VET-QA-0141':'eye topic (question text only)',
  'VET-QA-0091':'long-term ulcer effects: ECEIM calls signs-disease links weakly supported; no verified source','VET-QA-0121':'same; "acid reflux" framing not standard EGUS terminology','VET-QA-0122':'same',
- 'VET-QA-0100':'PPI combinations: no verified source','VET-QA-0101':'long-term PPI use: ECEIM does not address','VET-QA-0123':'PPI side effects: ECEIM does not address','VET-QA-0092':'ulcer-treatment side effects: no verified source',
+ 
 }
 PAGES = [
  dict(slug='signs-of-gastric-ulcers', ids=['VET-QA-0126','VET-QA-0127','VET-QA-0129','VET-QA-0130'], urgent=False,
@@ -222,4 +223,21 @@ PAGES = [
 </ul>
 <p>Low water intake is linked to large-intestine impaction (Merck). A horse that stops drinking, has tacky gums or shows colic signs needs a call to your vet — see <a href="/qa/colic/signs-of-colic/">signs of colic</a> and <a href="/qa/colic/diet-and-manure-impaction-in-horses/">diet and manure impaction</a>.</p>''',
   src=['aaep','penn','ucd','merck'], rel=['how-to-prevent-diarrhea-in-horses','pot-belly-in-horses-diet','when-to-call-the-vet-for-horse-diarrhea']),
+
+ dict(slug='omeprazole-use-rebound-and-treatment-cautions', ids=['VET-QA-0123','VET-QA-0101','VET-QA-0100','VET-QA-0092'], urgent=False,
+  q='What are the side effects and cautions of ulcer treatment with omeprazole, including long-term use and combining it with other medications?',
+  title='Omeprazole for Horse Ulcers: Rebound and Cautions',
+  meta='Omeprazole lowers stomach acid. Some horses relapse after stopping, and NSAIDs promote ulcers. Long-term safety and drug interactions are not covered by sources.',
+  short='Omeprazole lowers stomach acid to treat ulcers. A reviewed study found some horses relapse quickly after stopping because of rebound acid, and tapering did not help for courses of eight weeks or less. Vets advise limiting anti-inflammatory painkillers, which promote ulcers. The sources do not cover long-term safety or most drug combinations.',
+  body='''<h2>What the sources say</h2>
+<ul>
+<li>Omeprazole is a proton-pump inhibitor that lowers stomach acid and helps treat both squamous and glandular ulcers (The Horse).</li>
+<li><strong>Rebound acid:</strong> some horses relapse quickly after stopping, attributed to "rebound gastric hyperacidity" in which gastrin levels spike and stimulate excess acid. In the study, gastrin returned to normal within two days of stopping (The Horse).</li>
+<li><strong>Tapering:</strong> the researchers found tapering did not reduce rebound acidity, and concluded it is not justified for courses of eight weeks or less. Owners should focus on management in the 48 hours after the last dose.</li>
+<li><strong>After treatment:</strong> plenty of roughage, reduced exercise, turnout and avoiding prolonged fasting are recommended (The Horse).</li>
+<li><strong>Combining with other medications:</strong> the one caution given is that veterinarians advise limiting anti-inflammatory painkillers, using them only when necessary, because they are known to promote ulcers; this matters most if the horse is also fasting (The Horse).</li>
+</ul>
+<h2>What the sources do not cover</h2>
+<p>The study involved 14 retired Thoroughbred racehorses over 57 days, so it may not apply to all horses or longer courses (The Horse). The article does not address long-term safety beyond eight weeks, calcium or other nutrient absorption, drug interactions beyond NSAIDs, or doses. The British Horse Society ulcer page gives no medication side effects either. Do not start, stop or combine medications without your veterinarian. Call your veterinarian for colic signs, weight loss or a horse that stops eating. See <a href="/qa/gi/gastric-ulcer-treatment-options/">ulcer treatment options</a> and <a href="/qa/gi/how-to-prevent-gastric-ulcers/">preventing ulcers</a>.</p>''',
+  src=['horseomep'], rel=['gastric-ulcer-treatment-options','gastric-ulcer-treatment-time-and-recovery','how-to-prevent-gastric-ulcers']),
 ]
