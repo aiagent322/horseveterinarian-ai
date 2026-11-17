@@ -193,7 +193,8 @@
   "VET-QA-0191": "cracked heels = scratches; see /qa/skin/scratches-treatment-and-recovery-time/",
   "VET-QA-0038": "generic feeding-routine question; not dental, no dental source",
   "VET-QA-0039": "insect irritation around the head; not dental, no source reviewed",
-  "VET-QA-0041": "travel stress; not dental, no source reviewed"
+  "VET-QA-0041": "travel stress; not dental, no source reviewed",
+  "VET-QA-0155": "No verifiable source found for kidney-specific diet changes; the veterinary manual reviewed gives no water or kidney diet recommendations."
  },
  "metabolic": {
   "signs-of-ppid-cushings": [
@@ -836,6 +837,30 @@
   ],
   "travel-comfort-and-stress-reduction": [
    "VET-QA-0238"
+  ]
+ },
+ "exercise": {
+  "tying-up-immediate-steps-and-recovery": [
+   "VET-QA-0152",
+   "VET-QA-0151"
+  ],
+  "preventing-tying-up-exercise-and-diet": [
+   "VET-QA-0147",
+   "VET-QA-0146",
+   "VET-QA-0148",
+   "VET-QA-0150"
+  ],
+  "signs-a-horse-needs-urgent-veterinary-care": [
+   "VET-QA-0149"
+  ],
+  "signs-of-dehydration-in-horses": [
+   "VET-QA-0154"
+  ],
+  "preventing-urinary-problems-in-horses": [
+   "VET-QA-0153"
+  ],
+  "exercise-and-routine-for-horses-with-ulcers": [
+   "VET-QA-0145"
   ]
  }
 }

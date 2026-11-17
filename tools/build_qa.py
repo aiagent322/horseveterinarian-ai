@@ -2,7 +2,7 @@
 """Build /qa/ pages from tools/qa_<topic>.py. Run from repo root: python3 -I tools/build_qa.py"""
 import re, sys, json, os, html
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__))))
-import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro
+import qa_colic, qa_gi, qa_metabolic, qa_lameness, qa_infectious, qa_skin, qa_respiratory, qa_hoof, qa_dental, qa_eye, qa_wounds, qa_neuro, qa_exercise
 T = qa_colic
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://horseveterinarian.ai'
@@ -56,6 +56,10 @@ TOPICS = [
       hub_title='Horse Neurologic, Anxiety and Behavior Questions', hub_meta='Source-checked answers on neurologic signs, stumbling, rehab, anxiety, behavior and travel stress in horses. Educational only; call your vet for emergencies.',
       call='If your horse is stumbling, weak, falling, cannot get up, or shows sudden behavior or head changes, call your veterinarian right away. This page is educational and cannot assess your horse.',
       desc='%d questions: neurologic signs, rehab, anxiety, behavior and travel stress.', overview=('/conditions/epm/','EPM'), emerg=('/emergency/lameness/','Lameness Emergency Guide')),
+ dict(key='exercise', name='Exercise, Hydration and Urinary Health', url='/qa/exercise/', mod=qa_exercise, h1='Tying-Up, Dehydration &amp; Urgent Signs Questions &amp; Answers',
+      hub_title='Horse Tying-Up, Dehydration and Urgent Care Questions', hub_meta='Source-checked answers on tying-up, dehydration, urinary stones, ulcer routines and urgent signs in horses. Educational only; call your vet for emergencies.',
+      call='If your horse is stiff, sweating heavily, reluctant to move, passing dark urine or showing other urgent signs, stop work and call your veterinarian right away. This page is educational and cannot assess your horse.',
+      desc='%d questions: tying-up, dehydration, urgent signs, urinary stones and ulcer routine.', overview=('/conditions/ulcers/','Ulcers'), emerg=('/emergency/colic-emergency/','Colic Emergency Guide')),
 ]
 TOPIC = TOPICS[0]
 tpl = open(os.path.join(ROOT, 'conditions/colic/index.html'), encoding='utf-8').read()

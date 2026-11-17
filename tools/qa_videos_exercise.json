@@ -1,0 +1,56 @@
+{
+ "pages": {
+  "tying-up-immediate-steps-and-recovery": [
+   "_KyaU4cgmxk"
+  ],
+  "preventing-tying-up-exercise-and-diet": [
+   "g5JgOtWwmLU"
+  ],
+  "signs-of-dehydration-in-horses": [
+   "uMA01m4mKas",
+   "Ghv4rFutUCA"
+  ]
+ },
+ "videos": [
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University veterinary college seminar.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Cornell University College of Veterinary Medicine",
+   "status": "source_verified",
+   "title": "Rhabdomyolysis: Tying Up in Horses – What To Do (Cornell Equine Seminar Series, September 2022)",
+   "youtube_id": "_KyaU4cgmxk"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "Veterinary practice channel.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "Springhill Equine Veterinary Clinic",
+   "status": "source_verified",
+   "title": "Equine Muscle Disorders 101",
+   "youtube_id": "g5JgOtWwmLU"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University-affiliated equine education centre.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "EQUINE GUELPH- RESEARCH | EDUCATION | CAREERS",
+   "status": "source_verified",
+   "title": "2 Ways to check your horse for dehydration",
+   "youtube_id": "uMA01m4mKas"
+  },
+  {
+   "clinical_review": "not_performed",
+   "commercial_note": "University extension channel; veterinarian presenter.",
+   "metadata_checked_on": "2026-11-16",
+   "metadata_source": "youtube_oembed",
+   "publisher": "ExtensionHorses",
+   "status": "source_verified",
+   "title": "Horse Dehydration Check",
+   "youtube_id": "Ghv4rFutUCA"
+  }
+ ]
+}
