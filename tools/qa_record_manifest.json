@@ -904,5 +904,12 @@
   "checking-saddle-and-tack-fit": [
    "VET-QA-0064"
   ]
+ },
+ "vaccination": {
+  "which-vaccines-do-horses-need": [],
+  "how-often-do-horses-need-vaccines": [],
+  "vaccines-for-show-and-traveling-horses": [],
+  "vaccinating-foals-and-broodmares": [],
+  "vaccine-reactions-in-horses": []
  }
 }

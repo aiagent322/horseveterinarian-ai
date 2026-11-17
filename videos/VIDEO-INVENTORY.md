@@ -140,3 +140,6 @@ signs-of-malnutrition-in-horses: 6DwaWTAhWn0 (RanchTV at Texas A&M AgriLife Exte
 
 ## Insulin monitoring — 2026-11-16
 monitoring-insulin-in-horses-with-ems: blank. The Cornell Vet EMS seminar (FnMZ1WEGQWM) is already at 2 uses; "My Senior Horse" (d0Rtn_V1WXU) has unclear commercial ties; others were vet-audience, older than ~8 years or drug-trial talks.
+
+## Vaccination topic — 2026-11-17
+All 5 pages in `/qa/vaccination/` are blank. Candidates and why they were excluded: Zoetis presentations and ads (vaccine manufacturer), Valley Vet Supply (retailer), Spalding Labs (product company), KXII (news clip), Just One More Story Farm (personal channel), videos older than ~8 years, non-equine videos. World Horse Welfare Education's essential vaccinations webinar (U-4P5Ad2COI) is UK-based and UK vaccine programs differ from the AAEP guidance these pages follow, so it was not attached. CVS Equine's "Caring for your Foal" covers vaccination only as one of many topics, so it was not attached.
